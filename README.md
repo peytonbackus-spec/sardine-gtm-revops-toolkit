@@ -31,7 +31,7 @@ Four things about Sardine's business decide what RevOps has to build. Each is so
 | 🟩 **Green** | [`gtm_strategy_ops/`](gtm_strategy_ops/) | opportunity → stage gates → deal risk → forecast → close → **consumption** → renewal |
 | 🟪 **Purple** | [`shared_core/`](shared_core/) | Salesforce data model, data quality, AI governance, metric definitions, Sardine context |
 
-**Start here:** [`ROLE_MAP.md`](ROLE_MAP.md) maps every line of the posting to the artifact that answers it. Then read the [first 90 days](FIRST_90_DAYS.md).
+**Start here:** the [wiki](https://github.com/peytonbackus-spec/sardine-gtm-revops-toolkit/wiki) for the narrative, then [`ROLE_MAP.md`](ROLE_MAP.md), which maps every line of the posting to the artifact that answers it, and the [first 90 days](FIRST_90_DAYS.md).
 
 ```mermaid
 flowchart LR
@@ -125,4 +125,5 @@ sample_data/ scripts/ tests/    synthetic data + generator, unit tests + prompt 
 - [Stack evaluation](shared_core/context/gtm-stack-evaluation.md): how I'd evaluate the GTM stack for an AI-first world
 - [Lead-to-cash](gtm_strategy_ops/consumption/lead-to-cash.md): the consumption revenue lifecycle, step by step, with the automation for each
 - [`VARIABLES.md`](VARIABLES.md): how the generic toolkit was filled in for Sardine, with sources
+- [Wiki](https://github.com/peytonbackus-spec/sardine-gtm-revops-toolkit/wiki) (source in [`docs/wiki/`](docs/wiki/Home.md), published with `scripts/publish_wiki.sh`)
 - [`docs/overview/`](docs/overview/README.md): architecture, decision log, glossary, roadmap

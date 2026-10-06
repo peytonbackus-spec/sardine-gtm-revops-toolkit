@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 (2026-10-06)
+- Wiki: 15 pages in `docs/wiki/`, published with `scripts/publish_wiki.sh`.
+- `scripts/set_repo_about.sh` sets the GitHub About panel (description, topics, wiki link).
+- Docs: running guide names the right webhook target (`make webhook`).
+
 ## 0.1.0 (2026-10-06)
 - Generated from the GTM & RevOps toolkit template (v0.4.2) and filled in for Sardine.
 - Config: 11 segments from Sardine's named customers and sales roles; two product lines (Onboarding & AML Compliance; Fraud, Device & Cyber); Sardine's posted stack (Salesforce, HubSpot, Unify, Clay, n8n, ZoomInfo); five regions.

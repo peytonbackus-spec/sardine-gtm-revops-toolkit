@@ -24,7 +24,7 @@ No API keys needed. The AI workflows use a deterministic mock model by default. 
 | `python -m gtm_engineer.ai_research.account_research` | 🟦 | AI briefs → review queue + audit log |
 | `python -m gtm_engineer.funnel_analytics.funnel_report` | 🟦 | Cohort funnel, velocity, penetration, outlook, narrative |
 | `python -m gtm_engineer.sdr_capacity.capacity_model` | 🟦 | Headcount math with sensitivity |
-| `make run-webhook` | 🟦 | Enrichment waterfall API on port 8000 |
+| `make webhook` | 🟦 | Enrichment waterfall API on port 8000 |
 | `python -m gtm_strategy_ops.pipeline_analytics.pipeline_report` | 🟩 | Coverage, segmentation, win rates, aging, narrative |
 | `python -m gtm_strategy_ops.forecasting.forecast_accuracy` | 🟩 | Accuracy and bias by region |
 | `python -m gtm_strategy_ops.ai_deal_risk.deal_risk` | 🟩 | Risk queue + AI region commentary |
