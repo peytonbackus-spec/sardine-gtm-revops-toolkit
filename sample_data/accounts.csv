@@ -1,0 +1,451 @@
+account_id,account_name,segment,region,employees,is_customer,products_owned
+ACC-1000,Harborview Commerce,marketplace_commerce,NA,2386,False,
+ACC-1001,Meridian Market,marketplace_commerce,NA,620,True,fraud
+ACC-1002,Maple Leaf Wallet,fintech_neobank,NA,1668,False,
+ACC-1003,Copper State HR,b2b_saas_payroll,NA,4757,False,
+ACC-1004,Union Square Bank,tier1_bank,EMEA,97194,True,compliance;fraud
+ACC-1005,Sterling Card,fintech_neobank,NA,3152,True,fraud
+ACC-1006,Westfield Department,public_sector,NA,3847,False,
+ACC-1007,Arbor Custody,crypto,NA,1250,False,
+ACC-1008,Falcon Commerce,marketplace_commerce,NA,11643,True,fraud
+ACC-1009,Sterling Commerce,marketplace_commerce,MENA,14113,False,
+ACC-1010,Riverbend Federal CU,regional_bank_cu,NA,3138,True,compliance
+ACC-1011,Crescent Card,fintech_neobank,EMEA,624,False,
+ACC-1012,Redwood Bank & Trust,sponsor_bank_baas,NA,1654,True,fraud
+ACC-1013,Highland Agency,other,EMEA,436,False,
+ACC-1014,Summit Ridge HR,b2b_saas_payroll,LATAM,5368,False,
+ACC-1015,Arbor Savings Bank,regional_bank_cu,NA,1891,False,
+ACC-1016,Arbor Issuing,payments_issuing,NA,4775,True,compliance
+ACC-1017,Riverbend Custody,crypto,LATAM,1685,True,compliance
+ACC-1018,Northgate Collective,other,NA,29,False,
+ACC-1019,Northgate Authority,public_sector,NA,11484,False,
+ACC-1020,Cedar Valley Issuing,payments_issuing,NA,15537,False,
+ACC-1021,Falcon Consulting,other,EMEA,63,False,
+ACC-1022,Tidewater Commerce,marketplace_commerce,EMEA,5673,True,fraud
+ACC-1023,Evergreen Payments,payments_issuing,MENA,8830,False,
+ACC-1024,Maple Leaf Payroll,b2b_saas_payroll,LATAM,5089,False,
+ACC-1025,Lakeshore Digital Assets,crypto,NA,711,False,
+ACC-1026,Westfield Books,b2b_saas_payroll,NA,2032,False,
+ACC-1027,Clearwater Studio,other,NA,128,False,
+ACC-1028,Cedar Valley Consulting,other,EMEA,422,False,
+ACC-1029,Sterling Credit Union,regional_bank_cu,NA,1201,False,
+ACC-1030,Ironwood Studio,other,NA,315,False,
+ACC-1031,Lakeshore Processing,payments_issuing,EMEA,13274,False,
+ACC-1032,Evergreen Shop,marketplace_commerce,NA,3781,True,fraud
+ACC-1033,Tidewater Bank,tier1_bank,NA,9885,True,compliance
+ACC-1034,Granite Peak Market,marketplace_commerce,LATAM,14184,False,
+ACC-1035,Redwood Custody,crypto,NA,1987,False,
+ACC-1036,Blue Mesa BaaS,sponsor_bank_baas,NA,1834,True,fraud
+ACC-1037,Summit Ridge Authority,public_sector,NA,43824,False,
+ACC-1038,Bayfront Savings Bank,regional_bank_cu,NA,1045,True,compliance
+ACC-1039,Evergreen Bank & Trust,sponsor_bank_baas,NA,1240,False,
+ACC-1040,Cedar Valley Department,public_sector,NA,37066,True,fraud
+ACC-1041,Tidewater Market,marketplace_commerce,MENA,12446,False,
+ACC-1042,Keystone National Bank,sponsor_bank_baas,NA,1742,False,
+ACC-1043,Harborview National Bank,sponsor_bank_baas,NA,1963,True,fraud
+ACC-1044,Redwood Cloud,b2b_saas_payroll,NA,5061,False,
+ACC-1045,Redwood Community Bank,regional_bank_cu,NA,2719,True,fraud
+ACC-1046,Maple Leaf Tickets,marketplace_commerce,NA,8420,True,fraud
+ACC-1047,Westfield Bank & Trust,sponsor_bank_baas,EMEA,1063,True,fraud
+ACC-1048,Stonebridge Agency,other,NA,25,False,
+ACC-1049,Copper State Commerce,marketplace_commerce,APAC,3446,False,
+ACC-1050,Riverbend Neo,fintech_neobank,NA,2497,False,
+ACC-1051,Arbor Consulting,other,NA,323,False,
+ACC-1052,Blue Mesa Consulting,other,NA,264,False,
+ACC-1053,Arbor Card,fintech_neobank,LATAM,2041,True,fraud
+ACC-1054,Clearwater BaaS,sponsor_bank_baas,EMEA,2605,False,
+ACC-1055,Maple Leaf Games,gaming_prediction,EMEA,1185,False,
+ACC-1056,Meridian Tickets,marketplace_commerce,NA,14677,True,fraud
+ACC-1057,Riverbend Chain,crypto,NA,2989,True,fraud
+ACC-1058,Maple Leaf Shop,marketplace_commerce,NA,14979,False,
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,511,True,compliance;fraud
+ACC-1060,Pinecrest Books,b2b_saas_payroll,NA,7439,False,
+ACC-1061,Harborview Payments,payments_issuing,NA,5084,False,
+ACC-1062,Stonebridge Predict,gaming_prediction,NA,135,False,
+ACC-1063,Union Square Consulting,other,LATAM,112,False,
+ACC-1064,Crescent Market,marketplace_commerce,NA,9273,False,
+ACC-1065,Westfield Processing,payments_issuing,APAC,7957,False,
+ACC-1066,Union Square Agency,other,LATAM,17,False,
+ACC-1067,Arbor National Bank,sponsor_bank_baas,EMEA,1786,False,
+ACC-1068,Riverbend Agency,public_sector,NA,46958,True,fraud
+ACC-1069,Falcon Department,public_sector,NA,15577,False,
+ACC-1070,Prairie First Studio,other,LATAM,451,False,
+ACC-1071,Harborview Money,fintech_neobank,NA,2322,False,
+ACC-1072,Riverbend Studio,other,EMEA,209,False,
+ACC-1073,Clearwater Commerce,marketplace_commerce,APAC,1989,False,
+ACC-1074,Stonebridge Card,fintech_neobank,NA,4927,True,compliance;fraud
+ACC-1075,Oakmont Cloud,b2b_saas_payroll,NA,8579,True,fraud
+ACC-1076,Lakeshore Studio,other,NA,228,False,
+ACC-1077,Arbor Financial Group,tier1_bank,EMEA,183801,True,fraud
+ACC-1078,Crescent Merchant Services,payments_issuing,EMEA,4283,False,
+ACC-1079,Silverline Neo,fintech_neobank,NA,2462,False,
+ACC-1080,Crescent National Bank,sponsor_bank_baas,EMEA,812,False,
+ACC-1081,Tidewater Pay,fintech_neobank,NA,1761,True,compliance;fraud
+ACC-1082,Pinecrest Commerce,marketplace_commerce,NA,7344,False,
+ACC-1083,Union Square Digital Assets,crypto,EMEA,1212,False,
+ACC-1084,Oakmont Market,marketplace_commerce,EMEA,12406,False,
+ACC-1085,Union Square Money,fintech_neobank,NA,418,True,fraud
+ACC-1086,Falcon Exchange,crypto,NA,3679,False,
+ACC-1087,Highland National Bank,sponsor_bank_baas,NA,1099,True,fraud
+ACC-1088,Meridian Payroll,b2b_saas_payroll,EMEA,3785,False,
+ACC-1089,Maple Leaf Collective,other,NA,132,False,
+ACC-1090,Blue Mesa Collective,other,NA,242,False,
+ACC-1091,Sterling Shop,marketplace_commerce,NA,11884,False,
+ACC-1092,Meridian Processing,payments_issuing,EMEA,15754,False,
+ACC-1093,Clearwater Books,b2b_saas_payroll,EMEA,8740,False,
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,1960,True,compliance;fraud
+ACC-1095,Northgate Money,fintech_neobank,NA,1291,False,
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,3556,True,compliance;fraud
+ACC-1097,Bayfront Games,gaming_prediction,LATAM,1617,False,
+ACC-1098,Prairie First Chain,crypto,EMEA,3545,False,
+ACC-1099,Tidewater Predict,gaming_prediction,NA,608,False,
+ACC-1100,Oakmont Financial Group,tier1_bank,EMEA,113989,False,
+ACC-1101,Arbor Predict,gaming_prediction,MENA,1143,True,fraud
+ACC-1102,Stonebridge Payments,payments_issuing,NA,14244,True,compliance
+ACC-1103,Summit Ridge Merchant Services,payments_issuing,NA,7135,False,
+ACC-1104,Meridian Neo,fintech_neobank,NA,3493,True,fraud
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,3016,True,compliance;fraud
+ACC-1106,Pinecrest Community Bank,regional_bank_cu,NA,404,False,
+ACC-1107,Harborview Wallet,fintech_neobank,NA,1074,False,
+ACC-1108,Lakeshore Federal CU,regional_bank_cu,NA,2249,False,
+ACC-1109,Westfield BaaS,sponsor_bank_baas,EMEA,770,False,
+ACC-1110,Harborview Savings Bank,regional_bank_cu,NA,4866,False,
+ACC-1111,Bayfront Agency,other,NA,358,False,
+ACC-1112,Granite Peak Games,gaming_prediction,EMEA,667,False,
+ACC-1113,Blue Mesa Market,marketplace_commerce,NA,7118,False,
+ACC-1114,Pinecrest Savings Bank,regional_bank_cu,NA,253,False,
+ACC-1115,Blue Mesa Sports,gaming_prediction,MENA,1351,False,
+ACC-1116,Northgate Issuing,payments_issuing,NA,17296,False,
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,3848,True,compliance;fraud
+ACC-1118,Riverbend Books,b2b_saas_payroll,LATAM,1619,False,
+ACC-1119,Sterling Issuing,payments_issuing,NA,12618,True,compliance;fraud
+ACC-1120,Oakmont Digital Assets,crypto,NA,1503,False,
+ACC-1121,Meridian Wallet,fintech_neobank,EMEA,2303,False,
+ACC-1122,Lakeshore Exchange,crypto,NA,1714,False,
+ACC-1123,Highland Cloud,b2b_saas_payroll,EMEA,8241,False,
+ACC-1124,Silverline Bank,tier1_bank,NA,71780,True,compliance
+ACC-1125,Keystone Commerce,marketplace_commerce,NA,12321,False,
+ACC-1126,Evergreen Card,fintech_neobank,NA,1928,True,fraud
+ACC-1127,Tidewater BaaS,sponsor_bank_baas,NA,986,False,
+ACC-1128,Stonebridge Wallet,fintech_neobank,NA,863,False,
+ACC-1129,Prairie First Money,fintech_neobank,NA,4415,True,fraud
+ACC-1130,Summit Ridge Savings Bank,regional_bank_cu,NA,1184,False,
+ACC-1131,Blue Mesa Payroll,b2b_saas_payroll,NA,7890,False,
+ACC-1132,Summit Ridge Card,fintech_neobank,APAC,3953,True,fraud
+ACC-1133,Keystone Community Bank,regional_bank_cu,NA,4876,False,
+ACC-1134,Northgate Savings Bank,regional_bank_cu,NA,847,False,
+ACC-1135,Sterling Federal CU,regional_bank_cu,NA,1998,False,
+ACC-1136,Arbor Neo,fintech_neobank,NA,4861,False,
+ACC-1137,Westfield Pay,fintech_neobank,NA,852,False,
+ACC-1138,Lakeshore Card,fintech_neobank,EMEA,1326,True,compliance
+ACC-1139,Ironwood Exchange,crypto,NA,2873,False,
+ACC-1140,Granite Peak Card,fintech_neobank,EMEA,3759,True,compliance
+ACC-1141,Riverbend Wallet,fintech_neobank,EMEA,1660,True,fraud
+ACC-1142,Pinecrest Digital Assets,crypto,LATAM,3435,True,fraud
+ACC-1143,Union Square Savings Bank,regional_bank_cu,NA,4812,False,
+ACC-1144,Evergreen Merchant Services,payments_issuing,EMEA,9120,False,
+ACC-1145,Cedar Valley Exchange,crypto,LATAM,3058,True,fraud
+ACC-1146,Cedar Valley Money,fintech_neobank,MENA,4752,False,
+ACC-1147,Sterling Financial Group,tier1_bank,LATAM,159059,True,fraud
+ACC-1148,Keystone Cloud,b2b_saas_payroll,APAC,3173,False,
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,15601,True,compliance;fraud
+ACC-1150,Crescent Pay,fintech_neobank,LATAM,2741,True,compliance
+ACC-1151,Crescent Custody,crypto,EMEA,2303,True,fraud
+ACC-1152,Riverbend Savings Bank,regional_bank_cu,NA,1099,False,
+ACC-1153,Maple Leaf Payments,payments_issuing,EMEA,17979,False,
+ACC-1154,Maple Leaf Savings Bank,regional_bank_cu,NA,4233,False,
+ACC-1155,Lakeshore Books,b2b_saas_payroll,NA,4919,False,
+ACC-1156,Pinecrest HR,b2b_saas_payroll,EMEA,5291,False,
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,3789,True,compliance;fraud
+ACC-1158,Pinecrest Agency,other,NA,371,False,
+ACC-1159,Highland Card,fintech_neobank,NA,3992,False,
+ACC-1160,Tidewater Money,fintech_neobank,NA,4950,False,
+ACC-1161,Riverbend Collective,other,NA,408,False,
+ACC-1162,Clearwater Exchange,crypto,NA,1272,False,
+ACC-1163,Crescent Shop,marketplace_commerce,LATAM,7416,False,
+ACC-1164,Tidewater Wallet,fintech_neobank,NA,2676,False,
+ACC-1165,Granite Peak Collective,other,NA,402,False,
+ACC-1166,Oakmont Issuing,payments_issuing,EMEA,12692,True,fraud
+ACC-1167,Clearwater Tickets,marketplace_commerce,NA,706,True,fraud
+ACC-1168,Oakmont Consulting,other,LATAM,230,False,
+ACC-1169,Arbor Federal CU,regional_bank_cu,NA,275,False,
+ACC-1170,Pinecrest Processing,payments_issuing,NA,8884,True,compliance;fraud
+ACC-1171,Pinecrest Payroll,b2b_saas_payroll,LATAM,11248,False,
+ACC-1172,Oakmont Neo,fintech_neobank,LATAM,334,False,
+ACC-1173,Granite Peak Pay,fintech_neobank,NA,846,False,
+ACC-1174,Blue Mesa Cloud,b2b_saas_payroll,NA,5106,False,
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,2553,True,compliance;fraud
+ACC-1176,Granite Peak Issuing,payments_issuing,NA,6100,True,compliance
+ACC-1177,Falcon Federal CU,regional_bank_cu,NA,2122,False,
+ACC-1178,Granite Peak Shop,marketplace_commerce,EMEA,7629,False,
+ACC-1179,Union Square Bancorp,tier1_bank,LATAM,185631,False,
+ACC-1180,Prairie First Savings Bank,regional_bank_cu,NA,3625,False,
+ACC-1181,Silverline Processing,payments_issuing,MENA,16033,True,fraud
+ACC-1182,Prairie First Wallet,fintech_neobank,NA,2458,True,fraud
+ACC-1183,Bayfront Play,gaming_prediction,NA,1821,False,
+ACC-1184,Summit Ridge Cloud,b2b_saas_payroll,LATAM,4889,False,
+ACC-1185,Union Square Card,fintech_neobank,NA,1597,False,
+ACC-1186,Redwood Tickets,marketplace_commerce,EMEA,14901,False,
+ACC-1187,Union Square Federal CU,regional_bank_cu,NA,423,False,
+ACC-1188,Cedar Valley Books,b2b_saas_payroll,NA,7007,False,
+ACC-1189,Tidewater Savings Bank,regional_bank_cu,NA,4498,False,
+ACC-1190,Ironwood Card,fintech_neobank,APAC,3987,False,
+ACC-1191,Falcon Card,fintech_neobank,EMEA,3876,False,
+ACC-1192,Granite Peak BaaS,sponsor_bank_baas,EMEA,1727,False,
+ACC-1193,Prairie First Games,gaming_prediction,EMEA,78,False,
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,3193,True,compliance;fraud
+ACC-1195,Oakmont Wallet,fintech_neobank,NA,557,False,
+ACC-1196,Highland Merchant Services,payments_issuing,EMEA,4023,True,fraud
+ACC-1197,Silverline Collective,other,NA,125,False,
+ACC-1198,Evergreen Studio,other,EMEA,385,False,
+ACC-1199,Tidewater Cloud,b2b_saas_payroll,NA,2731,False,
+ACC-1200,Clearwater Shop,marketplace_commerce,NA,4683,True,fraud
+ACC-1201,Evergreen Neo,fintech_neobank,MENA,3011,True,fraud
+ACC-1202,Summit Ridge Shop,marketplace_commerce,NA,2101,False,
+ACC-1203,Cedar Valley Predict,gaming_prediction,EMEA,1272,False,
+ACC-1204,Oakmont Credit Union,regional_bank_cu,NA,1181,False,
+ACC-1205,Clearwater Wallet,fintech_neobank,NA,1809,False,
+ACC-1206,Sterling Money,fintech_neobank,EMEA,4922,True,compliance
+ACC-1207,Northgate Agency,public_sector,NA,36403,False,
+ACC-1208,Crescent Bank & Trust,sponsor_bank_baas,NA,1567,False,
+ACC-1209,Oakmont Pay,fintech_neobank,NA,469,True,fraud
+ACC-1210,Blue Mesa Payments,payments_issuing,NA,12063,False,
+ACC-1211,Maple Leaf Credit Union,regional_bank_cu,NA,505,False,
+ACC-1212,Crescent Studio,other,NA,498,False,
+ACC-1213,Keystone Bancorp,tier1_bank,NA,36301,False,
+ACC-1214,Oakmont Agency,other,NA,145,False,
+ACC-1215,Stonebridge Commerce,marketplace_commerce,NA,9887,False,
+ACC-1216,Westfield Issuing,payments_issuing,NA,3949,False,
+ACC-1217,Sterling Tickets,marketplace_commerce,NA,14650,False,
+ACC-1218,Copper State Pay,fintech_neobank,NA,2600,False,
+ACC-1219,Northgate Neo,fintech_neobank,NA,739,True,fraud
+ACC-1220,Redwood Savings Bank,regional_bank_cu,NA,1215,False,
+ACC-1221,Falcon Shop,marketplace_commerce,LATAM,11913,True,fraud
+ACC-1222,Silverline Card,fintech_neobank,NA,4196,True,compliance
+ACC-1223,Prairie First Commerce,marketplace_commerce,NA,4664,False,
+ACC-1224,Falcon Games,gaming_prediction,NA,1397,False,
+ACC-1225,Prairie First Pay,fintech_neobank,NA,1213,False,
+ACC-1226,Northgate Payments,payments_issuing,NA,17582,True,fraud
+ACC-1227,Oakmont Processing,payments_issuing,NA,10829,False,
+ACC-1228,Cedar Valley Market,marketplace_commerce,NA,12460,False,
+ACC-1229,Riverbend Shop,marketplace_commerce,EMEA,8057,False,
+ACC-1230,Lakeshore Payments,payments_issuing,NA,3833,True,fraud
+ACC-1231,Summit Ridge Tickets,marketplace_commerce,NA,9919,True,fraud
+ACC-1232,Lakeshore Money,fintech_neobank,EMEA,2411,True,compliance
+ACC-1233,Redwood Bancorp,tier1_bank,NA,107669,False,
+ACC-1234,Tidewater Card,fintech_neobank,NA,386,True,fraud
+ACC-1235,Cedar Valley Merchant Services,payments_issuing,NA,18989,True,fraud
+ACC-1236,Silverline Market,marketplace_commerce,NA,5421,False,
+ACC-1237,Cedar Valley Collective,other,LATAM,129,False,
+ACC-1238,Bayfront Payments,payments_issuing,NA,10367,False,
+ACC-1239,Cedar Valley Wallet,fintech_neobank,EMEA,4386,False,
+ACC-1240,Redwood Agency,other,NA,79,False,
+ACC-1241,Ironwood Wallet,fintech_neobank,NA,657,True,fraud
+ACC-1242,Sterling Cloud,b2b_saas_payroll,EMEA,9448,False,
+ACC-1243,Oakmont Studio,other,NA,39,False,
+ACC-1244,Pinecrest Chain,crypto,EMEA,2472,True,compliance;fraud
+ACC-1245,Silverline Custody,crypto,NA,283,True,compliance;fraud
+ACC-1246,Pinecrest Pay,fintech_neobank,NA,4193,True,fraud
+ACC-1247,Union Square Market,marketplace_commerce,NA,13368,False,
+ACC-1248,Westfield National Bank,sponsor_bank_baas,NA,353,False,
+ACC-1249,Clearwater Play,gaming_prediction,MENA,222,False,
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,2597,True,compliance;fraud
+ACC-1251,Copper State Card,fintech_neobank,EMEA,468,False,
+ACC-1252,Cedar Valley Commerce,marketplace_commerce,NA,11214,False,
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,2770,True,compliance;fraud
+ACC-1254,Arbor Commerce,marketplace_commerce,NA,10848,False,
+ACC-1255,Westfield Payments,payments_issuing,NA,12543,False,
+ACC-1256,Northgate Wallet,fintech_neobank,NA,3508,False,
+ACC-1257,Lakeshore Bancorp,tier1_bank,APAC,135473,True,fraud
+ACC-1258,Northgate Consulting,other,NA,408,False,
+ACC-1259,Sterling Community Bank,regional_bank_cu,NA,2908,False,
+ACC-1260,Westfield Shop,marketplace_commerce,NA,3062,False,
+ACC-1261,Union Square HR,b2b_saas_payroll,EMEA,915,False,
+ACC-1262,Westfield Commerce,marketplace_commerce,EMEA,12941,False,
+ACC-1263,Meridian Digital Assets,crypto,NA,3929,False,
+ACC-1264,Sterling Merchant Services,payments_issuing,EMEA,16679,False,
+ACC-1265,Clearwater Agency,other,EMEA,75,False,
+ACC-1266,Keystone Department,public_sector,NA,37342,False,
+ACC-1267,Silverline Payroll,b2b_saas_payroll,EMEA,4669,False,
+ACC-1268,Clearwater Custody,crypto,NA,3779,True,compliance;fraud
+ACC-1269,Prairie First Payments,payments_issuing,NA,13191,False,
+ACC-1270,Cedar Valley Card,fintech_neobank,NA,2650,False,
+ACC-1271,Pinecrest Play,gaming_prediction,EMEA,331,True,fraud
+ACC-1272,Keystone Agency,other,EMEA,245,False,
+ACC-1273,Harborview Merchant Services,payments_issuing,NA,5099,False,
+ACC-1274,Maple Leaf Cloud,b2b_saas_payroll,NA,4920,False,
+ACC-1275,Granite Peak Federal CU,regional_bank_cu,NA,3894,True,fraud
+ACC-1276,Keystone Games,gaming_prediction,EMEA,1227,False,
+ACC-1277,Copper State Bank & Trust,sponsor_bank_baas,NA,1085,False,
+ACC-1278,Maple Leaf National Bank,sponsor_bank_baas,NA,2254,False,
+ACC-1279,Bayfront Cloud,b2b_saas_payroll,NA,6538,False,
+ACC-1280,Harborview Card,fintech_neobank,EMEA,2864,True,fraud
+ACC-1281,Blue Mesa Commerce,marketplace_commerce,NA,5872,False,
+ACC-1282,Ironwood Sports,gaming_prediction,MENA,1030,False,
+ACC-1283,Cedar Valley Sports,gaming_prediction,NA,462,True,fraud
+ACC-1284,Maple Leaf Neo,fintech_neobank,MENA,4488,False,
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,2493,True,compliance;fraud
+ACC-1286,Falcon Books,b2b_saas_payroll,NA,6229,False,
+ACC-1287,Evergreen Issuing,payments_issuing,NA,6321,False,
+ACC-1288,Arbor Chain,crypto,EMEA,3028,True,fraud
+ACC-1289,Clearwater Processing,payments_issuing,NA,10725,True,fraud
+ACC-1290,Evergreen Wallet,fintech_neobank,EMEA,1405,False,
+ACC-1291,Westfield Neo,fintech_neobank,NA,509,True,fraud
+ACC-1292,Prairie First Tickets,marketplace_commerce,MENA,2439,False,
+ACC-1293,Evergreen Market,marketplace_commerce,NA,3966,False,
+ACC-1294,Bayfront Wallet,fintech_neobank,NA,1296,False,
+ACC-1295,Prairie First Collective,other,EMEA,298,False,
+ACC-1296,Prairie First National Bank,sponsor_bank_baas,NA,1241,True,fraud
+ACC-1297,Redwood Credit Union,regional_bank_cu,NA,4238,False,
+ACC-1298,Blue Mesa Studio,other,EMEA,365,False,
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,16295,True,compliance;fraud
+ACC-1300,Cedar Valley National Bank,sponsor_bank_baas,NA,1923,False,
+ACC-1301,Falcon Play,gaming_prediction,EMEA,1503,True,fraud
+ACC-1302,Meridian Chain,crypto,LATAM,2965,False,
+ACC-1303,Ironwood Books,b2b_saas_payroll,NA,2188,False,
+ACC-1304,Granite Peak Sports,gaming_prediction,NA,1184,False,
+ACC-1305,Tidewater Processing,payments_issuing,NA,3025,True,compliance
+ACC-1306,Highland Issuing,payments_issuing,NA,13616,False,
+ACC-1307,Oakmont Community Bank,regional_bank_cu,NA,3836,False,
+ACC-1308,Northgate Digital Assets,crypto,EMEA,578,True,fraud
+ACC-1309,Summit Ridge Consulting,other,NA,160,False,
+ACC-1310,Oakmont BaaS,sponsor_bank_baas,NA,2225,False,
+ACC-1311,Pinecrest Authority,public_sector,NA,18986,True,fraud
+ACC-1312,Maple Leaf Money,fintech_neobank,NA,4796,True,compliance
+ACC-1313,Redwood Commerce,marketplace_commerce,LATAM,9334,True,fraud
+ACC-1314,Cedar Valley Agency,public_sector,NA,43038,False,
+ACC-1315,Lakeshore Wallet,fintech_neobank,NA,288,False,
+ACC-1316,Silverline Commerce,marketplace_commerce,NA,13284,False,
+ACC-1317,Highland Payments,payments_issuing,NA,13819,False,
+ACC-1318,Westfield Money,fintech_neobank,NA,2655,False,
+ACC-1319,Sterling Department,public_sector,NA,34749,False,
+ACC-1320,Granite Peak Money,fintech_neobank,NA,2417,False,
+ACC-1321,Copper State Agency,public_sector,NA,11466,False,
+ACC-1322,Redwood Studio,other,NA,86,False,
+ACC-1323,Maple Leaf Custody,crypto,NA,1313,False,
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,2122,True,compliance;fraud
+ACC-1325,Keystone Wallet,fintech_neobank,LATAM,3895,True,fraud
+ACC-1326,Blue Mesa Bancorp,tier1_bank,NA,77329,False,
+ACC-1327,Prairie First Payroll,b2b_saas_payroll,NA,9543,False,
+ACC-1328,Silverline Pay,fintech_neobank,NA,3729,False,
+ACC-1329,Westfield Wallet,fintech_neobank,NA,832,True,fraud
+ACC-1330,Oakmont Play,gaming_prediction,EMEA,457,False,
+ACC-1331,Summit Ridge Payments,payments_issuing,NA,11113,False,
+ACC-1332,Oakmont Chain,crypto,NA,2575,False,
+ACC-1333,Tidewater Neo,fintech_neobank,EMEA,2495,False,
+ACC-1334,Stonebridge Bancorp,tier1_bank,EMEA,198139,False,
+ACC-1335,Riverbend Tickets,marketplace_commerce,EMEA,9660,False,
+ACC-1336,Summit Ridge Exchange,crypto,NA,1856,True,compliance;fraud
+ACC-1337,Highland Bank & Trust,sponsor_bank_baas,NA,2604,False,
+ACC-1338,Redwood Authority,public_sector,NA,5081,False,
+ACC-1339,Tidewater Chain,crypto,MENA,2009,False,
+ACC-1340,Ironwood Neo,fintech_neobank,APAC,2844,False,
+ACC-1341,Lakeshore Tickets,marketplace_commerce,NA,4990,False,
+ACC-1342,Silverline Studio,other,EMEA,358,False,
+ACC-1343,Prairie First Books,b2b_saas_payroll,NA,9595,False,
+ACC-1344,Bayfront Card,fintech_neobank,MENA,1239,True,compliance;fraud
+ACC-1345,Highland Pay,fintech_neobank,NA,3663,False,
+ACC-1346,Lakeshore HR,b2b_saas_payroll,LATAM,4642,False,
+ACC-1347,Northgate Payroll,b2b_saas_payroll,NA,9814,False,
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,2057,True,compliance;fraud
+ACC-1349,Blue Mesa Processing,payments_issuing,NA,18233,False,
+ACC-1350,Pinecrest National Bank,sponsor_bank_baas,NA,916,False,
+ACC-1351,Arbor Pay,fintech_neobank,EMEA,1942,False,
+ACC-1352,Arbor Payroll,b2b_saas_payroll,APAC,3068,False,
+ACC-1353,Arbor Games,gaming_prediction,MENA,863,False,
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,137,True,compliance;fraud
+ACC-1355,Silverline Shop,marketplace_commerce,MENA,9001,False,
+ACC-1356,Redwood Collective,other,EMEA,372,False,
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,891,True,compliance;fraud
+ACC-1358,Meridian Department,public_sector,NA,29029,False,
+ACC-1359,Crescent Community Bank,regional_bank_cu,NA,1663,False,
+ACC-1360,Arbor Digital Assets,crypto,NA,1621,True,compliance;fraud
+ACC-1361,Oakmont Books,b2b_saas_payroll,NA,9586,True,fraud
+ACC-1362,Highland Tickets,marketplace_commerce,NA,2036,False,
+ACC-1363,Crescent BaaS,sponsor_bank_baas,APAC,2981,False,
+ACC-1364,Prairie First HR,b2b_saas_payroll,NA,2388,False,
+ACC-1365,Copper State Issuing,payments_issuing,EMEA,7356,False,
+ACC-1366,Westfield Market,marketplace_commerce,NA,8753,False,
+ACC-1367,Stonebridge Community Bank,regional_bank_cu,NA,655,False,
+ACC-1368,Lakeshore Agency,other,NA,442,False,
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,2052,True,compliance;fraud
+ACC-1370,Union Square Exchange,crypto,NA,2152,True,fraud
+ACC-1371,Tidewater Shop,marketplace_commerce,EMEA,5149,False,
+ACC-1372,Clearwater Payments,payments_issuing,EMEA,19150,True,compliance
+ACC-1373,Tidewater Payments,payments_issuing,APAC,2461,False,
+ACC-1374,Ironwood Digital Assets,crypto,EMEA,3037,False,
+ACC-1375,Meridian Issuing,payments_issuing,NA,12569,True,compliance
+ACC-1376,Crescent Tickets,marketplace_commerce,EMEA,5797,True,fraud
+ACC-1377,Clearwater Consulting,other,EMEA,157,False,
+ACC-1378,Redwood Issuing,payments_issuing,NA,7725,True,fraud
+ACC-1379,Riverbend Money,fintech_neobank,APAC,964,True,fraud
+ACC-1380,Granite Peak Tickets,marketplace_commerce,NA,9831,True,fraud
+ACC-1381,Highland Market,marketplace_commerce,NA,824,False,
+ACC-1382,Lakeshore Pay,fintech_neobank,NA,2409,True,compliance
+ACC-1383,Stonebridge Studio,other,NA,400,False,
+ACC-1384,Oakmont Tickets,marketplace_commerce,NA,2447,False,
+ACC-1385,Copper State Chain,crypto,NA,2330,False,
+ACC-1386,Arbor Agency,other,EMEA,223,False,
+ACC-1387,Summit Ridge Chain,crypto,APAC,2799,True,fraud
+ACC-1388,Highland Custody,crypto,NA,1278,True,fraud
+ACC-1389,Keystone HR,b2b_saas_payroll,LATAM,5127,False,
+ACC-1390,Tidewater National Bank,sponsor_bank_baas,MENA,2382,False,
+ACC-1391,Riverbend Processing,payments_issuing,NA,2790,False,
+ACC-1392,Cedar Valley Authority,public_sector,NA,48486,False,
+ACC-1393,Bayfront Community Bank,regional_bank_cu,NA,746,True,fraud
+ACC-1394,Redwood HR,b2b_saas_payroll,NA,5655,False,
+ACC-1395,Redwood Consulting,other,EMEA,391,False,
+ACC-1396,Granite Peak Digital Assets,crypto,NA,1030,False,
+ACC-1397,Tidewater Books,b2b_saas_payroll,NA,6092,False,
+ACC-1398,Blue Mesa Custody,crypto,EMEA,1361,False,
+ACC-1399,Stonebridge Money,fintech_neobank,EMEA,172,True,fraud
+ACC-1400,Stonebridge Collective,other,NA,105,False,
+ACC-1401,Clearwater Money,fintech_neobank,NA,2805,True,compliance;fraud
+ACC-1402,Redwood Sports,gaming_prediction,NA,1550,False,
+ACC-1403,Redwood BaaS,sponsor_bank_baas,NA,2320,False,
+ACC-1404,Maple Leaf Consulting,other,LATAM,43,False,
+ACC-1405,Crescent Consulting,other,EMEA,216,False,
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,718,True,compliance;fraud
+ACC-1407,Prairie First Exchange,crypto,NA,2781,False,
+ACC-1408,Crescent Collective,other,NA,277,False,
+ACC-1409,Harborview Exchange,crypto,NA,1175,False,
+ACC-1410,Blue Mesa Pay,fintech_neobank,NA,2014,True,compliance
+ACC-1411,Clearwater Chain,crypto,NA,1675,True,compliance
+ACC-1412,Evergreen Agency,other,MENA,120,False,
+ACC-1413,Clearwater Pay,fintech_neobank,EMEA,299,True,fraud
+ACC-1414,Summit Ridge Pay,fintech_neobank,EMEA,717,False,
+ACC-1415,Union Square Merchant Services,payments_issuing,NA,3324,False,
+ACC-1416,Granite Peak Agency,other,LATAM,359,False,
+ACC-1417,Keystone Studio,other,NA,43,False,
+ACC-1418,Riverbend Market,marketplace_commerce,NA,14033,False,
+ACC-1419,Sterling Collective,other,APAC,158,False,
+ACC-1420,Clearwater National Bank,sponsor_bank_baas,EMEA,2314,True,fraud
+ACC-1421,Maple Leaf Books,b2b_saas_payroll,NA,7361,False,
+ACC-1422,Westfield Federal CU,regional_bank_cu,NA,2823,True,compliance
+ACC-1423,Copper State Money,fintech_neobank,EMEA,3153,True,compliance;fraud
+ACC-1424,Union Square Tickets,marketplace_commerce,EMEA,1444,False,
+ACC-1425,Redwood Neo,fintech_neobank,NA,912,True,fraud
+ACC-1426,Sterling Studio,other,NA,49,False,
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,1771,True,compliance;fraud
+ACC-1428,Tidewater Community Bank,regional_bank_cu,NA,2807,False,
+ACC-1429,Copper State Bancorp,tier1_bank,EMEA,198013,False,
+ACC-1430,Ironwood Agency,other,NA,142,False,
+ACC-1431,Keystone Exchange,crypto,NA,3917,True,compliance
+ACC-1432,Westfield Tickets,marketplace_commerce,NA,2319,False,
+ACC-1433,Oakmont Collective,other,EMEA,173,False,
+ACC-1434,Copper State Processing,payments_issuing,NA,19966,False,
+ACC-1435,Oakmont Money,fintech_neobank,MENA,2654,True,fraud
+ACC-1436,Riverbend Cloud,b2b_saas_payroll,NA,9438,False,
+ACC-1437,Ironwood Consulting,other,MENA,241,False,
+ACC-1438,Lakeshore Collective,other,EMEA,430,False,
+ACC-1439,Clearwater Cloud,b2b_saas_payroll,EMEA,2480,False,
+ACC-1440,Crescent Money,fintech_neobank,EMEA,3128,True,fraud
+ACC-1441,Keystone Collective,other,NA,477,False,
+ACC-1442,Highland Collective,other,NA,409,False,
+ACC-1443,Highland Consulting,other,NA,132,False,
+ACC-1444,Pinecrest Market,marketplace_commerce,NA,10668,False,
+ACC-1445,Union Square Issuing,payments_issuing,NA,3431,True,compliance
+ACC-1446,Maple Leaf Digital Assets,crypto,NA,1652,False,
+ACC-1447,Prairie First Market,marketplace_commerce,NA,4940,False,
+ACC-1448,Blue Mesa Agency,other,NA,180,False,
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,3398,True,compliance;fraud

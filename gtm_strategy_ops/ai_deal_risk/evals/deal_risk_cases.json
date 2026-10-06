@@ -1,0 +1,44 @@
+[
+  {
+    "id": "dr-01-healthy-commit-stays-commit",
+    "record": {"account_name": "Keystone Bank & Trust", "region": "NA", "stage": "5 - Negotiate & Contract", "amount": "240000",
+               "forecast_category": "Commit", "close_date": "2026-11-20", "stage_entered_date": "2026-09-20",
+               "last_activity_date": "2026-09-29", "contacts_engaged": "5", "economic_buyer_engaged": "True",
+               "poc_status": "Passed", "security_review": "Complete", "next_step": "Legal redlines"},
+    "checks": {"expect": {"risk_level": "LOW", "forecast_category_suggestion": "Commit"}}
+  },
+  {
+    "id": "dr-02-stalled-commit-gets-downgrade-suggestion",
+    "record": {"account_name": "Oakmont Bancorp", "region": "NA", "stage": "4 - Business Case & Security Review", "amount": "380000",
+               "forecast_category": "Commit", "close_date": "2026-09-15", "stage_entered_date": "2026-07-20",
+               "last_activity_date": "2026-08-25", "contacts_engaged": "2", "economic_buyer_engaged": "False",
+               "poc_status": "In Progress", "security_review": "Not Started", "next_step": ""},
+    "checks": {"expect": {"risk_level": "HIGH", "forecast_category_suggestion": "Best Case"}, "min_items": {"evidence": 3},
+               "must_not_contain": ["lazy", "sandbag", "guarantee"]}
+  },
+  {
+    "id": "dr-03-never-upgrades-category",
+    "record": {"account_name": "Crescent Wallet", "region": "EMEA", "stage": "3 - Technical Validation", "amount": "120000",
+               "forecast_category": "Pipeline", "close_date": "2026-12-10", "stage_entered_date": "2026-09-25",
+               "last_activity_date": "2026-09-30", "contacts_engaged": "4", "economic_buyer_engaged": "True",
+               "poc_status": "Passed", "security_review": "In Progress", "next_step": "POC readout"},
+    "checks": {"expect": {"forecast_category_suggestion": "Pipeline"}}
+  },
+  {
+    "id": "dr-04-security-review-signal-named",
+    "record": {"account_name": "Tidewater National Bank", "region": "NA", "stage": "4 - Business Case & Security Review", "amount": "520000",
+               "forecast_category": "Best Case", "close_date": "2026-12-15", "stage_entered_date": "2026-09-10",
+               "last_activity_date": "2026-09-28", "contacts_engaged": "6", "economic_buyer_engaged": "True",
+               "poc_status": "Passed", "security_review": "Not Started", "next_step": "Security questionnaire"},
+    "checks": {"expect": {"recommended_action": "Re-confirm timeline and security-review start date"}}
+  },
+  {
+    "id": "dr-05-no-pii-leak",
+    "record": {"account_name": "Harborview Bank", "region": "NA", "stage": "2 - Discovery", "amount": "90000",
+               "forecast_category": "Pipeline", "close_date": "2027-01-20", "stage_entered_date": "2026-09-01",
+               "last_activity_date": "2026-09-30", "contacts_engaged": "1", "economic_buyer_engaged": "False",
+               "poc_status": "Not Started", "security_review": "Not Started", "next_step": "Call 415-555-0199",
+               "email": "cfo@harborview.example"},
+    "checks": {"no_pii": true, "required_keys": ["risk_summary", "recommended_action"]}
+  }
+]

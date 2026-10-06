@@ -1,0 +1,940 @@
+account_id,account_name,segment,region,product_line,month,contract_start,monthly_commit,usage_billed,overage,owner
+ACC-1001,Meridian Market,marketplace_commerce,NA,fraud,2026-04,2025-12-05,3300,3820,520,AE - Iris Bell
+ACC-1001,Meridian Market,marketplace_commerce,NA,fraud,2026-05,2025-12-05,3300,3760,460,AE - Iris Bell
+ACC-1001,Meridian Market,marketplace_commerce,NA,fraud,2026-06,2025-12-05,3300,4070,770,AE - Iris Bell
+ACC-1001,Meridian Market,marketplace_commerce,NA,fraud,2026-07,2025-12-05,3300,3580,280,AE - Iris Bell
+ACC-1001,Meridian Market,marketplace_commerce,NA,fraud,2026-08,2025-12-05,3300,3920,620,AE - Iris Bell
+ACC-1001,Meridian Market,marketplace_commerce,NA,fraud,2026-09,2025-12-05,3300,3800,500,AE - Iris Bell
+ACC-1004,Union Square Bank,tier1_bank,EMEA,compliance,2026-04,2025-09-11,69800,29090,0,AE - Liam Byrne
+ACC-1004,Union Square Bank,tier1_bank,EMEA,compliance,2026-05,2025-09-11,69800,30460,0,AE - Liam Byrne
+ACC-1004,Union Square Bank,tier1_bank,EMEA,compliance,2026-06,2025-09-11,69800,36600,0,AE - Liam Byrne
+ACC-1004,Union Square Bank,tier1_bank,EMEA,compliance,2026-07,2025-09-11,69800,36770,0,AE - Liam Byrne
+ACC-1004,Union Square Bank,tier1_bank,EMEA,compliance,2026-08,2025-09-11,69800,41130,0,AE - Liam Byrne
+ACC-1004,Union Square Bank,tier1_bank,EMEA,compliance,2026-09,2025-09-11,69800,42190,0,AE - Liam Byrne
+ACC-1004,Union Square Bank,tier1_bank,EMEA,fraud,2026-04,2026-02-07,34300,1170,0,AE - Klara Weiss
+ACC-1004,Union Square Bank,tier1_bank,EMEA,fraud,2026-05,2026-02-07,34300,1620,0,AE - Klara Weiss
+ACC-1004,Union Square Bank,tier1_bank,EMEA,fraud,2026-06,2026-02-07,34300,1830,0,AE - Klara Weiss
+ACC-1004,Union Square Bank,tier1_bank,EMEA,fraud,2026-07,2026-02-07,34300,1750,0,AE - Klara Weiss
+ACC-1004,Union Square Bank,tier1_bank,EMEA,fraud,2026-08,2026-02-07,34300,1810,0,AE - Klara Weiss
+ACC-1004,Union Square Bank,tier1_bank,EMEA,fraud,2026-09,2026-02-07,34300,1720,0,AE - Klara Weiss
+ACC-1005,Sterling Card,fintech_neobank,NA,fraud,2026-06,2026-06-30,9800,1310,0,AE - Grace Tan
+ACC-1005,Sterling Card,fintech_neobank,NA,fraud,2026-07,2026-06-30,9800,2660,0,AE - Grace Tan
+ACC-1005,Sterling Card,fintech_neobank,NA,fraud,2026-08,2026-06-30,9800,3930,0,AE - Grace Tan
+ACC-1005,Sterling Card,fintech_neobank,NA,fraud,2026-09,2026-06-30,9800,5230,0,AE - Grace Tan
+ACC-1008,Falcon Commerce,marketplace_commerce,NA,fraud,2026-04,2025-10-28,2800,3350,550,AE - Jon Reyes
+ACC-1008,Falcon Commerce,marketplace_commerce,NA,fraud,2026-05,2025-10-28,2800,3250,450,AE - Jon Reyes
+ACC-1008,Falcon Commerce,marketplace_commerce,NA,fraud,2026-06,2025-10-28,2800,3190,390,AE - Jon Reyes
+ACC-1008,Falcon Commerce,marketplace_commerce,NA,fraud,2026-07,2025-10-28,2800,3470,670,AE - Jon Reyes
+ACC-1008,Falcon Commerce,marketplace_commerce,NA,fraud,2026-08,2025-10-28,2800,3550,750,AE - Jon Reyes
+ACC-1008,Falcon Commerce,marketplace_commerce,NA,fraud,2026-09,2025-10-28,2800,3330,530,AE - Jon Reyes
+ACC-1010,Riverbend Federal CU,regional_bank_cu,NA,compliance,2026-05,2026-05-02,5200,690,0,AE - Grace Tan
+ACC-1010,Riverbend Federal CU,regional_bank_cu,NA,compliance,2026-06,2026-05-02,5200,1250,0,AE - Grace Tan
+ACC-1010,Riverbend Federal CU,regional_bank_cu,NA,compliance,2026-07,2026-05-02,5200,1840,0,AE - Grace Tan
+ACC-1010,Riverbend Federal CU,regional_bank_cu,NA,compliance,2026-08,2026-05-02,5200,2810,0,AE - Grace Tan
+ACC-1010,Riverbend Federal CU,regional_bank_cu,NA,compliance,2026-09,2026-05-02,5200,2930,0,AE - Grace Tan
+ACC-1012,Redwood Bank & Trust,sponsor_bank_baas,NA,fraud,2026-06,2026-06-15,11200,1740,0,AE - Jon Reyes
+ACC-1012,Redwood Bank & Trust,sponsor_bank_baas,NA,fraud,2026-07,2026-06-15,11200,3700,0,AE - Jon Reyes
+ACC-1012,Redwood Bank & Trust,sponsor_bank_baas,NA,fraud,2026-08,2026-06-15,11200,5050,0,AE - Jon Reyes
+ACC-1012,Redwood Bank & Trust,sponsor_bank_baas,NA,fraud,2026-09,2026-06-15,11200,6720,0,AE - Jon Reyes
+ACC-1016,Arbor Issuing,payments_issuing,NA,compliance,2026-04,2026-01-21,19500,16940,0,AE - Iris Bell
+ACC-1016,Arbor Issuing,payments_issuing,NA,compliance,2026-05,2026-01-21,19500,16610,0,AE - Iris Bell
+ACC-1016,Arbor Issuing,payments_issuing,NA,compliance,2026-06,2026-01-21,19500,15750,0,AE - Iris Bell
+ACC-1016,Arbor Issuing,payments_issuing,NA,compliance,2026-07,2026-01-21,19500,18200,0,AE - Iris Bell
+ACC-1016,Arbor Issuing,payments_issuing,NA,compliance,2026-08,2026-01-21,19500,17810,0,AE - Iris Bell
+ACC-1016,Arbor Issuing,payments_issuing,NA,compliance,2026-09,2026-01-21,19500,18210,0,AE - Iris Bell
+ACC-1017,Riverbend Custody,crypto,LATAM,compliance,2026-04,2026-01-16,15300,19820,4520,AE - Nico Duarte
+ACC-1017,Riverbend Custody,crypto,LATAM,compliance,2026-05,2026-01-16,15300,20350,5050,AE - Nico Duarte
+ACC-1017,Riverbend Custody,crypto,LATAM,compliance,2026-06,2026-01-16,15300,16520,1220,AE - Nico Duarte
+ACC-1017,Riverbend Custody,crypto,LATAM,compliance,2026-07,2026-01-16,15300,18350,3050,AE - Nico Duarte
+ACC-1017,Riverbend Custody,crypto,LATAM,compliance,2026-08,2026-01-16,15300,18350,3050,AE - Nico Duarte
+ACC-1017,Riverbend Custody,crypto,LATAM,compliance,2026-09,2026-01-16,15300,15580,280,AE - Nico Duarte
+ACC-1022,Tidewater Commerce,marketplace_commerce,EMEA,fraud,2026-04,2025-10-24,9100,12540,3440,AE - Klara Weiss
+ACC-1022,Tidewater Commerce,marketplace_commerce,EMEA,fraud,2026-05,2025-10-24,9100,11510,2410,AE - Klara Weiss
+ACC-1022,Tidewater Commerce,marketplace_commerce,EMEA,fraud,2026-06,2025-10-24,9100,10070,970,AE - Klara Weiss
+ACC-1022,Tidewater Commerce,marketplace_commerce,EMEA,fraud,2026-07,2025-10-24,9100,10530,1430,AE - Klara Weiss
+ACC-1022,Tidewater Commerce,marketplace_commerce,EMEA,fraud,2026-08,2025-10-24,9100,11470,2370,AE - Klara Weiss
+ACC-1022,Tidewater Commerce,marketplace_commerce,EMEA,fraud,2026-09,2025-10-24,9100,10980,1880,AE - Klara Weiss
+ACC-1032,Evergreen Shop,marketplace_commerce,NA,fraud,2026-04,2026-02-16,12000,7710,0,AE - Grace Tan
+ACC-1032,Evergreen Shop,marketplace_commerce,NA,fraud,2026-05,2026-02-16,12000,9500,0,AE - Grace Tan
+ACC-1032,Evergreen Shop,marketplace_commerce,NA,fraud,2026-06,2026-02-16,12000,10290,0,AE - Grace Tan
+ACC-1032,Evergreen Shop,marketplace_commerce,NA,fraud,2026-07,2026-02-16,12000,9910,0,AE - Grace Tan
+ACC-1032,Evergreen Shop,marketplace_commerce,NA,fraud,2026-08,2026-02-16,12000,10880,0,AE - Grace Tan
+ACC-1032,Evergreen Shop,marketplace_commerce,NA,fraud,2026-09,2026-02-16,12000,11360,0,AE - Grace Tan
+ACC-1033,Tidewater Bank,tier1_bank,NA,compliance,2026-04,2026-02-23,40500,18540,0,AE - Iris Bell
+ACC-1033,Tidewater Bank,tier1_bank,NA,compliance,2026-05,2026-02-23,40500,22770,0,AE - Iris Bell
+ACC-1033,Tidewater Bank,tier1_bank,NA,compliance,2026-06,2026-02-23,40500,24310,0,AE - Iris Bell
+ACC-1033,Tidewater Bank,tier1_bank,NA,compliance,2026-07,2026-02-23,40500,26360,0,AE - Iris Bell
+ACC-1033,Tidewater Bank,tier1_bank,NA,compliance,2026-08,2026-02-23,40500,24310,0,AE - Iris Bell
+ACC-1033,Tidewater Bank,tier1_bank,NA,compliance,2026-09,2026-02-23,40500,28950,0,AE - Iris Bell
+ACC-1036,Blue Mesa BaaS,sponsor_bank_baas,NA,fraud,2026-04,2026-01-28,9500,5320,0,AE - Hugo Park
+ACC-1036,Blue Mesa BaaS,sponsor_bank_baas,NA,fraud,2026-05,2026-01-28,9500,6210,0,AE - Hugo Park
+ACC-1036,Blue Mesa BaaS,sponsor_bank_baas,NA,fraud,2026-06,2026-01-28,9500,6130,0,AE - Hugo Park
+ACC-1036,Blue Mesa BaaS,sponsor_bank_baas,NA,fraud,2026-07,2026-01-28,9500,5690,0,AE - Hugo Park
+ACC-1036,Blue Mesa BaaS,sponsor_bank_baas,NA,fraud,2026-08,2026-01-28,9500,6410,0,AE - Hugo Park
+ACC-1036,Blue Mesa BaaS,sponsor_bank_baas,NA,fraud,2026-09,2026-01-28,9500,6560,0,AE - Hugo Park
+ACC-1038,Bayfront Savings Bank,regional_bank_cu,NA,compliance,2026-04,2025-09-19,5800,2630,0,AE - Hugo Park
+ACC-1038,Bayfront Savings Bank,regional_bank_cu,NA,compliance,2026-05,2025-09-19,5800,2740,0,AE - Hugo Park
+ACC-1038,Bayfront Savings Bank,regional_bank_cu,NA,compliance,2026-06,2025-09-19,5800,2760,0,AE - Hugo Park
+ACC-1038,Bayfront Savings Bank,regional_bank_cu,NA,compliance,2026-07,2025-09-19,5800,2890,0,AE - Hugo Park
+ACC-1038,Bayfront Savings Bank,regional_bank_cu,NA,compliance,2026-08,2025-09-19,5800,2540,0,AE - Hugo Park
+ACC-1038,Bayfront Savings Bank,regional_bank_cu,NA,compliance,2026-09,2025-09-19,5800,2970,0,AE - Hugo Park
+ACC-1040,Cedar Valley Department,public_sector,NA,fraud,2026-05,2026-05-31,30100,8610,0,AE - Jon Reyes
+ACC-1040,Cedar Valley Department,public_sector,NA,fraud,2026-06,2026-05-31,30100,17810,0,AE - Jon Reyes
+ACC-1040,Cedar Valley Department,public_sector,NA,fraud,2026-07,2026-05-31,30100,27590,0,AE - Jon Reyes
+ACC-1040,Cedar Valley Department,public_sector,NA,fraud,2026-08,2026-05-31,30100,29570,0,AE - Jon Reyes
+ACC-1040,Cedar Valley Department,public_sector,NA,fraud,2026-09,2026-05-31,30100,32140,2040,AE - Jon Reyes
+ACC-1043,Harborview National Bank,sponsor_bank_baas,NA,fraud,2026-06,2026-06-09,7200,2710,0,AE - Jon Reyes
+ACC-1043,Harborview National Bank,sponsor_bank_baas,NA,fraud,2026-07,2026-06-09,7200,4630,0,AE - Jon Reyes
+ACC-1043,Harborview National Bank,sponsor_bank_baas,NA,fraud,2026-08,2026-06-09,7200,6700,0,AE - Jon Reyes
+ACC-1043,Harborview National Bank,sponsor_bank_baas,NA,fraud,2026-09,2026-06-09,7200,8500,1300,AE - Jon Reyes
+ACC-1045,Redwood Community Bank,regional_bank_cu,NA,fraud,2026-04,2026-03-13,5400,2210,0,AE - Jon Reyes
+ACC-1045,Redwood Community Bank,regional_bank_cu,NA,fraud,2026-05,2026-03-13,5400,3070,0,AE - Jon Reyes
+ACC-1045,Redwood Community Bank,regional_bank_cu,NA,fraud,2026-06,2026-03-13,5400,4330,0,AE - Jon Reyes
+ACC-1045,Redwood Community Bank,regional_bank_cu,NA,fraud,2026-07,2026-03-13,5400,4210,0,AE - Jon Reyes
+ACC-1045,Redwood Community Bank,regional_bank_cu,NA,fraud,2026-08,2026-03-13,5400,4310,0,AE - Jon Reyes
+ACC-1045,Redwood Community Bank,regional_bank_cu,NA,fraud,2026-09,2026-03-13,5400,3630,0,AE - Jon Reyes
+ACC-1046,Maple Leaf Tickets,marketplace_commerce,NA,fraud,2026-04,2026-02-08,2800,1900,0,AE - Iris Bell
+ACC-1046,Maple Leaf Tickets,marketplace_commerce,NA,fraud,2026-05,2026-02-08,2800,2420,0,AE - Iris Bell
+ACC-1046,Maple Leaf Tickets,marketplace_commerce,NA,fraud,2026-06,2026-02-08,2800,2770,0,AE - Iris Bell
+ACC-1046,Maple Leaf Tickets,marketplace_commerce,NA,fraud,2026-07,2026-02-08,2800,2940,140,AE - Iris Bell
+ACC-1046,Maple Leaf Tickets,marketplace_commerce,NA,fraud,2026-08,2026-02-08,2800,2890,90,AE - Iris Bell
+ACC-1046,Maple Leaf Tickets,marketplace_commerce,NA,fraud,2026-09,2026-02-08,2800,3120,320,AE - Iris Bell
+ACC-1047,Westfield Bank & Trust,sponsor_bank_baas,EMEA,fraud,2026-04,2025-11-09,6700,2350,0,AE - Liam Byrne
+ACC-1047,Westfield Bank & Trust,sponsor_bank_baas,EMEA,fraud,2026-05,2025-11-09,6700,2060,0,AE - Liam Byrne
+ACC-1047,Westfield Bank & Trust,sponsor_bank_baas,EMEA,fraud,2026-06,2025-11-09,6700,1980,0,AE - Liam Byrne
+ACC-1047,Westfield Bank & Trust,sponsor_bank_baas,EMEA,fraud,2026-07,2025-11-09,6700,2350,0,AE - Liam Byrne
+ACC-1047,Westfield Bank & Trust,sponsor_bank_baas,EMEA,fraud,2026-08,2025-11-09,6700,2230,0,AE - Liam Byrne
+ACC-1047,Westfield Bank & Trust,sponsor_bank_baas,EMEA,fraud,2026-09,2025-11-09,6700,1920,0,AE - Liam Byrne
+ACC-1053,Arbor Card,fintech_neobank,LATAM,fraud,2026-04,2026-02-04,10500,3120,0,AE - Nico Duarte
+ACC-1053,Arbor Card,fintech_neobank,LATAM,fraud,2026-05,2026-02-04,10500,4570,0,AE - Nico Duarte
+ACC-1053,Arbor Card,fintech_neobank,LATAM,fraud,2026-06,2026-02-04,10500,4080,0,AE - Nico Duarte
+ACC-1053,Arbor Card,fintech_neobank,LATAM,fraud,2026-07,2026-02-04,10500,4400,0,AE - Nico Duarte
+ACC-1053,Arbor Card,fintech_neobank,LATAM,fraud,2026-08,2026-02-04,10500,3810,0,AE - Nico Duarte
+ACC-1053,Arbor Card,fintech_neobank,LATAM,fraud,2026-09,2026-02-04,10500,4410,0,AE - Nico Duarte
+ACC-1056,Meridian Tickets,marketplace_commerce,NA,fraud,2026-04,2026-01-24,5200,4320,0,AE - Jon Reyes
+ACC-1056,Meridian Tickets,marketplace_commerce,NA,fraud,2026-05,2026-01-24,5200,4590,0,AE - Jon Reyes
+ACC-1056,Meridian Tickets,marketplace_commerce,NA,fraud,2026-06,2026-01-24,5200,4600,0,AE - Jon Reyes
+ACC-1056,Meridian Tickets,marketplace_commerce,NA,fraud,2026-07,2026-01-24,5200,4570,0,AE - Jon Reyes
+ACC-1056,Meridian Tickets,marketplace_commerce,NA,fraud,2026-08,2026-01-24,5200,4900,0,AE - Jon Reyes
+ACC-1056,Meridian Tickets,marketplace_commerce,NA,fraud,2026-09,2026-01-24,5200,4940,0,AE - Jon Reyes
+ACC-1057,Riverbend Chain,crypto,NA,fraud,2026-04,2025-10-26,4800,1980,0,AE - Jon Reyes
+ACC-1057,Riverbend Chain,crypto,NA,fraud,2026-05,2025-10-26,4800,2010,0,AE - Jon Reyes
+ACC-1057,Riverbend Chain,crypto,NA,fraud,2026-06,2025-10-26,4800,1990,0,AE - Jon Reyes
+ACC-1057,Riverbend Chain,crypto,NA,fraud,2026-07,2025-10-26,4800,1990,0,AE - Jon Reyes
+ACC-1057,Riverbend Chain,crypto,NA,fraud,2026-08,2025-10-26,4800,2310,0,AE - Jon Reyes
+ACC-1057,Riverbend Chain,crypto,NA,fraud,2026-09,2025-10-26,4800,2130,0,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,compliance,2026-04,2025-10-26,4000,3830,0,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,compliance,2026-05,2025-10-26,4000,4070,70,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,compliance,2026-06,2025-10-26,4000,4280,280,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,compliance,2026-07,2025-10-26,4000,4440,440,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,compliance,2026-08,2025-10-26,4000,4150,150,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,compliance,2026-09,2025-10-26,4000,4840,840,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,fraud,2026-04,2026-04-21,10100,1730,0,AE - Iris Bell
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,fraud,2026-05,2026-04-21,10100,3040,0,AE - Iris Bell
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,fraud,2026-06,2026-04-21,10100,4690,0,AE - Iris Bell
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,fraud,2026-07,2026-04-21,10100,6750,0,AE - Iris Bell
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,fraud,2026-08,2026-04-21,10100,6860,0,AE - Iris Bell
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,fraud,2026-09,2026-04-21,10100,6550,0,AE - Iris Bell
+ACC-1068,Riverbend Agency,public_sector,NA,fraud,2026-04,2025-10-04,18800,13780,0,AE - Hugo Park
+ACC-1068,Riverbend Agency,public_sector,NA,fraud,2026-05,2025-10-04,18800,14320,0,AE - Hugo Park
+ACC-1068,Riverbend Agency,public_sector,NA,fraud,2026-06,2025-10-04,18800,14160,0,AE - Hugo Park
+ACC-1068,Riverbend Agency,public_sector,NA,fraud,2026-07,2025-10-04,18800,13920,0,AE - Hugo Park
+ACC-1068,Riverbend Agency,public_sector,NA,fraud,2026-08,2025-10-04,18800,13640,0,AE - Hugo Park
+ACC-1068,Riverbend Agency,public_sector,NA,fraud,2026-09,2025-10-04,18800,15350,0,AE - Hugo Park
+ACC-1074,Stonebridge Card,fintech_neobank,NA,compliance,2026-04,2026-02-11,14600,16460,1860,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,compliance,2026-05,2026-02-11,14600,22000,7400,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,compliance,2026-06,2026-02-11,14600,19280,4680,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,compliance,2026-07,2026-02-11,14600,20620,6020,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,compliance,2026-08,2026-02-11,14600,21060,6460,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,compliance,2026-09,2026-02-11,14600,20180,5580,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,fraud,2026-07,2026-07-28,9600,1530,0,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,fraud,2026-08,2026-07-28,9600,3490,0,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,fraud,2026-09,2026-07-28,9600,5490,0,AE - Iris Bell
+ACC-1075,Oakmont Cloud,b2b_saas_payroll,NA,fraud,2026-04,2026-04-14,11800,2150,0,AE - Grace Tan
+ACC-1075,Oakmont Cloud,b2b_saas_payroll,NA,fraud,2026-05,2026-04-14,11800,4860,0,AE - Grace Tan
+ACC-1075,Oakmont Cloud,b2b_saas_payroll,NA,fraud,2026-06,2026-04-14,11800,8300,0,AE - Grace Tan
+ACC-1075,Oakmont Cloud,b2b_saas_payroll,NA,fraud,2026-07,2026-04-14,11800,11880,80,AE - Grace Tan
+ACC-1075,Oakmont Cloud,b2b_saas_payroll,NA,fraud,2026-08,2026-04-14,11800,14720,2920,AE - Grace Tan
+ACC-1075,Oakmont Cloud,b2b_saas_payroll,NA,fraud,2026-09,2026-04-14,11800,15440,3640,AE - Grace Tan
+ACC-1077,Arbor Financial Group,tier1_bank,EMEA,fraud,2026-04,2025-11-14,61400,29900,0,AE - Liam Byrne
+ACC-1077,Arbor Financial Group,tier1_bank,EMEA,fraud,2026-05,2025-11-14,61400,31480,0,AE - Liam Byrne
+ACC-1077,Arbor Financial Group,tier1_bank,EMEA,fraud,2026-06,2025-11-14,61400,33220,0,AE - Liam Byrne
+ACC-1077,Arbor Financial Group,tier1_bank,EMEA,fraud,2026-07,2025-11-14,61400,30310,0,AE - Liam Byrne
+ACC-1077,Arbor Financial Group,tier1_bank,EMEA,fraud,2026-08,2025-11-14,61400,32450,0,AE - Liam Byrne
+ACC-1077,Arbor Financial Group,tier1_bank,EMEA,fraud,2026-09,2025-11-14,61400,34370,0,AE - Liam Byrne
+ACC-1081,Tidewater Pay,fintech_neobank,NA,compliance,2026-04,2026-03-28,14500,3050,0,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,compliance,2026-05,2026-03-28,14500,4890,0,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,compliance,2026-06,2026-03-28,14500,7880,0,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,compliance,2026-07,2026-03-28,14500,7760,0,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,compliance,2026-08,2026-03-28,14500,8720,0,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,compliance,2026-09,2026-03-28,14500,9250,0,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,fraud,2026-07,2026-07-26,16400,1800,0,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,fraud,2026-08,2026-07-26,16400,3890,0,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,fraud,2026-09,2026-07-26,16400,6410,0,AE - Iris Bell
+ACC-1085,Union Square Money,fintech_neobank,NA,fraud,2026-04,2026-02-08,13700,11510,0,AE - Iris Bell
+ACC-1085,Union Square Money,fintech_neobank,NA,fraud,2026-05,2026-02-08,13700,13400,0,AE - Iris Bell
+ACC-1085,Union Square Money,fintech_neobank,NA,fraud,2026-06,2026-02-08,13700,13410,0,AE - Iris Bell
+ACC-1085,Union Square Money,fintech_neobank,NA,fraud,2026-07,2026-02-08,13700,14450,750,AE - Iris Bell
+ACC-1085,Union Square Money,fintech_neobank,NA,fraud,2026-08,2026-02-08,13700,12730,0,AE - Iris Bell
+ACC-1085,Union Square Money,fintech_neobank,NA,fraud,2026-09,2026-02-08,13700,13150,0,AE - Iris Bell
+ACC-1087,Highland National Bank,sponsor_bank_baas,NA,fraud,2026-04,2026-04-10,5200,1040,0,AE - Iris Bell
+ACC-1087,Highland National Bank,sponsor_bank_baas,NA,fraud,2026-05,2026-04-10,5200,1970,0,AE - Iris Bell
+ACC-1087,Highland National Bank,sponsor_bank_baas,NA,fraud,2026-06,2026-04-10,5200,3210,0,AE - Iris Bell
+ACC-1087,Highland National Bank,sponsor_bank_baas,NA,fraud,2026-07,2026-04-10,5200,4100,0,AE - Iris Bell
+ACC-1087,Highland National Bank,sponsor_bank_baas,NA,fraud,2026-08,2026-04-10,5200,4180,0,AE - Iris Bell
+ACC-1087,Highland National Bank,sponsor_bank_baas,NA,fraud,2026-09,2026-04-10,5200,3900,0,AE - Iris Bell
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,compliance,2026-04,2025-11-14,16300,18920,2620,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,compliance,2026-05,2025-11-14,16300,22670,6370,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,compliance,2026-06,2025-11-14,16300,23100,6800,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,compliance,2026-07,2025-11-14,16300,21270,4970,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,compliance,2026-08,2025-11-14,16300,20630,4330,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,compliance,2026-09,2025-11-14,16300,20610,4310,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,fraud,2026-04,2026-03-23,14900,6820,0,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,fraud,2026-05,2026-03-23,14900,9190,0,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,fraud,2026-06,2026-03-23,14900,11340,0,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,fraud,2026-07,2026-03-23,14900,11730,0,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,fraud,2026-08,2026-03-23,14900,10940,0,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,fraud,2026-09,2026-03-23,14900,9480,0,AE - Liam Byrne
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,compliance,2026-04,2026-03-12,8900,4000,0,AE - Iris Bell
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,compliance,2026-05,2026-03-12,8900,6590,0,AE - Iris Bell
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,compliance,2026-06,2026-03-12,8900,7660,0,AE - Iris Bell
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,compliance,2026-07,2026-03-12,8900,9400,500,AE - Iris Bell
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,compliance,2026-08,2026-03-12,8900,8470,0,AE - Iris Bell
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,compliance,2026-09,2026-03-12,8900,8770,0,AE - Iris Bell
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,fraud,2026-04,2025-10-26,10700,7230,0,AE - Grace Tan
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,fraud,2026-05,2025-10-26,10700,8240,0,AE - Grace Tan
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,fraud,2026-06,2025-10-26,10700,8150,0,AE - Grace Tan
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,fraud,2026-07,2025-10-26,10700,7150,0,AE - Grace Tan
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,fraud,2026-08,2025-10-26,10700,7670,0,AE - Grace Tan
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,fraud,2026-09,2025-10-26,10700,8230,0,AE - Grace Tan
+ACC-1101,Arbor Predict,gaming_prediction,MENA,fraud,2026-05,2026-05-06,6200,2030,0,AE - Omar Haddad
+ACC-1101,Arbor Predict,gaming_prediction,MENA,fraud,2026-06,2026-05-06,6200,4130,0,AE - Omar Haddad
+ACC-1101,Arbor Predict,gaming_prediction,MENA,fraud,2026-07,2026-05-06,6200,5680,0,AE - Omar Haddad
+ACC-1101,Arbor Predict,gaming_prediction,MENA,fraud,2026-08,2026-05-06,6200,8350,2150,AE - Omar Haddad
+ACC-1101,Arbor Predict,gaming_prediction,MENA,fraud,2026-09,2026-05-06,6200,8210,2010,AE - Omar Haddad
+ACC-1102,Stonebridge Payments,payments_issuing,NA,compliance,2026-05,2026-05-26,20000,2090,0,AE - Grace Tan
+ACC-1102,Stonebridge Payments,payments_issuing,NA,compliance,2026-06,2026-05-26,20000,4790,0,AE - Grace Tan
+ACC-1102,Stonebridge Payments,payments_issuing,NA,compliance,2026-07,2026-05-26,20000,6990,0,AE - Grace Tan
+ACC-1102,Stonebridge Payments,payments_issuing,NA,compliance,2026-08,2026-05-26,20000,10070,0,AE - Grace Tan
+ACC-1102,Stonebridge Payments,payments_issuing,NA,compliance,2026-09,2026-05-26,20000,10100,0,AE - Grace Tan
+ACC-1104,Meridian Neo,fintech_neobank,NA,fraud,2026-04,2026-04-06,16600,5680,0,AE - Grace Tan
+ACC-1104,Meridian Neo,fintech_neobank,NA,fraud,2026-05,2026-04-06,16600,10170,0,AE - Grace Tan
+ACC-1104,Meridian Neo,fintech_neobank,NA,fraud,2026-06,2026-04-06,16600,17180,580,AE - Grace Tan
+ACC-1104,Meridian Neo,fintech_neobank,NA,fraud,2026-07,2026-04-06,16600,21330,4730,AE - Grace Tan
+ACC-1104,Meridian Neo,fintech_neobank,NA,fraud,2026-08,2026-04-06,16600,19760,3160,AE - Grace Tan
+ACC-1104,Meridian Neo,fintech_neobank,NA,fraud,2026-09,2026-04-06,16600,20620,4020,AE - Grace Tan
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,compliance,2026-04,2025-12-02,5000,3000,0,AE - Hugo Park
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,compliance,2026-05,2025-12-02,5000,2900,0,AE - Hugo Park
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,compliance,2026-06,2025-12-02,5000,2990,0,AE - Hugo Park
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,compliance,2026-07,2025-12-02,5000,3050,0,AE - Hugo Park
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,compliance,2026-08,2025-12-02,5000,2960,0,AE - Hugo Park
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,compliance,2026-09,2025-12-02,5000,3280,0,AE - Hugo Park
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,fraud,2026-04,2025-09-26,5600,5080,0,AE - Grace Tan
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,fraud,2026-05,2025-09-26,5600,5800,200,AE - Grace Tan
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,fraud,2026-06,2025-09-26,5600,5880,280,AE - Grace Tan
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,fraud,2026-07,2025-09-26,5600,5200,0,AE - Grace Tan
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,fraud,2026-08,2025-09-26,5600,5090,0,AE - Grace Tan
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,fraud,2026-09,2025-09-26,5600,5600,0,AE - Grace Tan
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,compliance,2026-04,2026-01-11,14200,12120,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,compliance,2026-05,2026-01-11,14200,12850,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,compliance,2026-06,2026-01-11,14200,13300,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,compliance,2026-07,2026-01-11,14200,11900,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,compliance,2026-08,2026-01-11,14200,12300,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,compliance,2026-09,2026-01-11,14200,11180,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,fraud,2026-04,2025-10-12,5300,4180,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,fraud,2026-05,2025-10-12,5300,4250,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,fraud,2026-06,2025-10-12,5300,4260,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,fraud,2026-07,2025-10-12,5300,4710,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,fraud,2026-08,2025-10-12,5300,4770,0,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,fraud,2026-09,2025-10-12,5300,4870,0,AE - Klara Weiss
+ACC-1119,Sterling Issuing,payments_issuing,NA,compliance,2026-04,2026-01-30,8800,6590,0,AE - Hugo Park
+ACC-1119,Sterling Issuing,payments_issuing,NA,compliance,2026-05,2026-01-30,8800,6560,0,AE - Hugo Park
+ACC-1119,Sterling Issuing,payments_issuing,NA,compliance,2026-06,2026-01-30,8800,6940,0,AE - Hugo Park
+ACC-1119,Sterling Issuing,payments_issuing,NA,compliance,2026-07,2026-01-30,8800,7540,0,AE - Hugo Park
+ACC-1119,Sterling Issuing,payments_issuing,NA,compliance,2026-08,2026-01-30,8800,7310,0,AE - Hugo Park
+ACC-1119,Sterling Issuing,payments_issuing,NA,compliance,2026-09,2026-01-30,8800,7060,0,AE - Hugo Park
+ACC-1119,Sterling Issuing,payments_issuing,NA,fraud,2026-05,2026-05-23,9500,1210,0,AE - Grace Tan
+ACC-1119,Sterling Issuing,payments_issuing,NA,fraud,2026-06,2026-05-23,9500,2520,0,AE - Grace Tan
+ACC-1119,Sterling Issuing,payments_issuing,NA,fraud,2026-07,2026-05-23,9500,3330,0,AE - Grace Tan
+ACC-1119,Sterling Issuing,payments_issuing,NA,fraud,2026-08,2026-05-23,9500,4850,0,AE - Grace Tan
+ACC-1119,Sterling Issuing,payments_issuing,NA,fraud,2026-09,2026-05-23,9500,4520,0,AE - Grace Tan
+ACC-1124,Silverline Bank,tier1_bank,NA,compliance,2026-04,2026-03-28,68800,23200,0,AE - Grace Tan
+ACC-1124,Silverline Bank,tier1_bank,NA,compliance,2026-05,2026-03-28,68800,38930,0,AE - Grace Tan
+ACC-1124,Silverline Bank,tier1_bank,NA,compliance,2026-06,2026-03-28,68800,49550,0,AE - Grace Tan
+ACC-1124,Silverline Bank,tier1_bank,NA,compliance,2026-07,2026-03-28,68800,46480,0,AE - Grace Tan
+ACC-1124,Silverline Bank,tier1_bank,NA,compliance,2026-08,2026-03-28,68800,54620,0,AE - Grace Tan
+ACC-1124,Silverline Bank,tier1_bank,NA,compliance,2026-09,2026-03-28,68800,50330,0,AE - Grace Tan
+ACC-1126,Evergreen Card,fintech_neobank,NA,fraud,2026-04,2026-01-21,12800,12710,0,AE - Iris Bell
+ACC-1126,Evergreen Card,fintech_neobank,NA,fraud,2026-05,2026-01-21,12800,12960,160,AE - Iris Bell
+ACC-1126,Evergreen Card,fintech_neobank,NA,fraud,2026-06,2026-01-21,12800,13490,690,AE - Iris Bell
+ACC-1126,Evergreen Card,fintech_neobank,NA,fraud,2026-07,2026-01-21,12800,13180,380,AE - Iris Bell
+ACC-1126,Evergreen Card,fintech_neobank,NA,fraud,2026-08,2026-01-21,12800,12260,0,AE - Iris Bell
+ACC-1126,Evergreen Card,fintech_neobank,NA,fraud,2026-09,2026-01-21,12800,14690,1890,AE - Iris Bell
+ACC-1129,Prairie First Money,fintech_neobank,NA,fraud,2026-04,2025-09-15,14800,12070,0,AE - Hugo Park
+ACC-1129,Prairie First Money,fintech_neobank,NA,fraud,2026-05,2025-09-15,14800,12830,0,AE - Hugo Park
+ACC-1129,Prairie First Money,fintech_neobank,NA,fraud,2026-06,2025-09-15,14800,11820,0,AE - Hugo Park
+ACC-1129,Prairie First Money,fintech_neobank,NA,fraud,2026-07,2025-09-15,14800,10990,0,AE - Hugo Park
+ACC-1129,Prairie First Money,fintech_neobank,NA,fraud,2026-08,2025-09-15,14800,12180,0,AE - Hugo Park
+ACC-1129,Prairie First Money,fintech_neobank,NA,fraud,2026-09,2025-09-15,14800,12090,0,AE - Hugo Park
+ACC-1132,Summit Ridge Card,fintech_neobank,APAC,fraud,2026-04,2025-09-22,12500,12520,20,AE - Mei Lin
+ACC-1132,Summit Ridge Card,fintech_neobank,APAC,fraud,2026-05,2025-09-22,12500,11300,0,AE - Mei Lin
+ACC-1132,Summit Ridge Card,fintech_neobank,APAC,fraud,2026-06,2025-09-22,12500,11440,0,AE - Mei Lin
+ACC-1132,Summit Ridge Card,fintech_neobank,APAC,fraud,2026-07,2025-09-22,12500,11740,0,AE - Mei Lin
+ACC-1132,Summit Ridge Card,fintech_neobank,APAC,fraud,2026-08,2025-09-22,12500,11020,0,AE - Mei Lin
+ACC-1132,Summit Ridge Card,fintech_neobank,APAC,fraud,2026-09,2025-09-22,12500,10310,0,AE - Mei Lin
+ACC-1138,Lakeshore Card,fintech_neobank,EMEA,compliance,2026-05,2026-05-08,9200,1980,0,AE - Liam Byrne
+ACC-1138,Lakeshore Card,fintech_neobank,EMEA,compliance,2026-06,2026-05-08,9200,3610,0,AE - Liam Byrne
+ACC-1138,Lakeshore Card,fintech_neobank,EMEA,compliance,2026-07,2026-05-08,9200,5280,0,AE - Liam Byrne
+ACC-1138,Lakeshore Card,fintech_neobank,EMEA,compliance,2026-08,2026-05-08,9200,6970,0,AE - Liam Byrne
+ACC-1138,Lakeshore Card,fintech_neobank,EMEA,compliance,2026-09,2026-05-08,9200,7400,0,AE - Liam Byrne
+ACC-1140,Granite Peak Card,fintech_neobank,EMEA,compliance,2026-05,2026-05-31,2900,610,0,AE - Liam Byrne
+ACC-1140,Granite Peak Card,fintech_neobank,EMEA,compliance,2026-06,2026-05-31,2900,1520,0,AE - Liam Byrne
+ACC-1140,Granite Peak Card,fintech_neobank,EMEA,compliance,2026-07,2026-05-31,2900,2310,0,AE - Liam Byrne
+ACC-1140,Granite Peak Card,fintech_neobank,EMEA,compliance,2026-08,2026-05-31,2900,3240,340,AE - Liam Byrne
+ACC-1140,Granite Peak Card,fintech_neobank,EMEA,compliance,2026-09,2026-05-31,2900,3300,400,AE - Liam Byrne
+ACC-1141,Riverbend Wallet,fintech_neobank,EMEA,fraud,2026-05,2026-05-20,6100,740,0,AE - Liam Byrne
+ACC-1141,Riverbend Wallet,fintech_neobank,EMEA,fraud,2026-06,2026-05-20,6100,1520,0,AE - Liam Byrne
+ACC-1141,Riverbend Wallet,fintech_neobank,EMEA,fraud,2026-07,2026-05-20,6100,2450,0,AE - Liam Byrne
+ACC-1141,Riverbend Wallet,fintech_neobank,EMEA,fraud,2026-08,2026-05-20,6100,3070,0,AE - Liam Byrne
+ACC-1141,Riverbend Wallet,fintech_neobank,EMEA,fraud,2026-09,2026-05-20,6100,3470,0,AE - Liam Byrne
+ACC-1142,Pinecrest Digital Assets,crypto,LATAM,fraud,2026-04,2025-11-04,13200,9850,0,AE - Nico Duarte
+ACC-1142,Pinecrest Digital Assets,crypto,LATAM,fraud,2026-05,2025-11-04,13200,11850,0,AE - Nico Duarte
+ACC-1142,Pinecrest Digital Assets,crypto,LATAM,fraud,2026-06,2025-11-04,13200,10620,0,AE - Nico Duarte
+ACC-1142,Pinecrest Digital Assets,crypto,LATAM,fraud,2026-07,2025-11-04,13200,9850,0,AE - Nico Duarte
+ACC-1142,Pinecrest Digital Assets,crypto,LATAM,fraud,2026-08,2025-11-04,13200,11780,0,AE - Nico Duarte
+ACC-1142,Pinecrest Digital Assets,crypto,LATAM,fraud,2026-09,2025-11-04,13200,10490,0,AE - Nico Duarte
+ACC-1145,Cedar Valley Exchange,crypto,LATAM,fraud,2026-05,2026-05-07,17100,2250,0,AE - Nico Duarte
+ACC-1145,Cedar Valley Exchange,crypto,LATAM,fraud,2026-06,2026-05-07,17100,5550,0,AE - Nico Duarte
+ACC-1145,Cedar Valley Exchange,crypto,LATAM,fraud,2026-07,2026-05-07,17100,8060,0,AE - Nico Duarte
+ACC-1145,Cedar Valley Exchange,crypto,LATAM,fraud,2026-08,2026-05-07,17100,11460,0,AE - Nico Duarte
+ACC-1145,Cedar Valley Exchange,crypto,LATAM,fraud,2026-09,2026-05-07,17100,10010,0,AE - Nico Duarte
+ACC-1147,Sterling Financial Group,tier1_bank,LATAM,fraud,2026-04,2025-11-19,31300,33690,2390,AE - Nico Duarte
+ACC-1147,Sterling Financial Group,tier1_bank,LATAM,fraud,2026-05,2025-11-19,31300,34800,3500,AE - Nico Duarte
+ACC-1147,Sterling Financial Group,tier1_bank,LATAM,fraud,2026-06,2025-11-19,31300,30510,0,AE - Nico Duarte
+ACC-1147,Sterling Financial Group,tier1_bank,LATAM,fraud,2026-07,2025-11-19,31300,35610,4310,AE - Nico Duarte
+ACC-1147,Sterling Financial Group,tier1_bank,LATAM,fraud,2026-08,2025-11-19,31300,35510,4210,AE - Nico Duarte
+ACC-1147,Sterling Financial Group,tier1_bank,LATAM,fraud,2026-09,2025-11-19,31300,35220,3920,AE - Nico Duarte
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,compliance,2026-04,2026-03-26,27800,9970,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,compliance,2026-05,2026-03-26,27800,14690,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,compliance,2026-06,2026-03-26,27800,18670,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,compliance,2026-07,2026-03-26,27800,17680,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,compliance,2026-08,2026-03-26,27800,16110,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,compliance,2026-09,2026-03-26,27800,15410,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,fraud,2026-04,2026-04-25,7200,1120,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,fraud,2026-05,2026-04-25,7200,2520,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,fraud,2026-06,2026-04-25,7200,3530,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,fraud,2026-07,2026-04-25,7200,4350,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,fraud,2026-08,2026-04-25,7200,4770,0,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,fraud,2026-09,2026-04-25,7200,4650,0,AE - Omar Haddad
+ACC-1150,Crescent Pay,fintech_neobank,LATAM,compliance,2026-04,2025-11-22,12300,9380,0,AE - Nico Duarte
+ACC-1150,Crescent Pay,fintech_neobank,LATAM,compliance,2026-05,2025-11-22,12300,10480,0,AE - Nico Duarte
+ACC-1150,Crescent Pay,fintech_neobank,LATAM,compliance,2026-06,2025-11-22,12300,10540,0,AE - Nico Duarte
+ACC-1150,Crescent Pay,fintech_neobank,LATAM,compliance,2026-07,2025-11-22,12300,10930,0,AE - Nico Duarte
+ACC-1150,Crescent Pay,fintech_neobank,LATAM,compliance,2026-08,2025-11-22,12300,11500,0,AE - Nico Duarte
+ACC-1150,Crescent Pay,fintech_neobank,LATAM,compliance,2026-09,2025-11-22,12300,10690,0,AE - Nico Duarte
+ACC-1151,Crescent Custody,crypto,EMEA,fraud,2026-04,2025-09-13,10200,8140,0,AE - Liam Byrne
+ACC-1151,Crescent Custody,crypto,EMEA,fraud,2026-05,2025-09-13,10200,9220,0,AE - Liam Byrne
+ACC-1151,Crescent Custody,crypto,EMEA,fraud,2026-06,2025-09-13,10200,9480,0,AE - Liam Byrne
+ACC-1151,Crescent Custody,crypto,EMEA,fraud,2026-07,2025-09-13,10200,8060,0,AE - Liam Byrne
+ACC-1151,Crescent Custody,crypto,EMEA,fraud,2026-08,2025-09-13,10200,9390,0,AE - Liam Byrne
+ACC-1151,Crescent Custody,crypto,EMEA,fraud,2026-09,2025-09-13,10200,8370,0,AE - Liam Byrne
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,compliance,2026-04,2025-11-30,18900,20540,1640,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,compliance,2026-05,2025-11-30,18900,19440,540,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,compliance,2026-06,2025-11-30,18900,17290,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,compliance,2026-07,2025-11-30,18900,17870,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,compliance,2026-08,2025-11-30,18900,18550,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,compliance,2026-09,2025-11-30,18900,18250,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,fraud,2026-04,2026-02-05,13400,8850,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,fraud,2026-05,2026-02-05,13400,11420,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,fraud,2026-06,2026-02-05,13400,11110,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,fraud,2026-07,2026-02-05,13400,11330,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,fraud,2026-08,2026-02-05,13400,11560,0,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,fraud,2026-09,2026-02-05,13400,10980,0,AE - Omar Haddad
+ACC-1166,Oakmont Issuing,payments_issuing,EMEA,fraud,2026-07,2026-07-15,26300,4710,0,AE - Klara Weiss
+ACC-1166,Oakmont Issuing,payments_issuing,EMEA,fraud,2026-08,2026-07-15,26300,10750,0,AE - Klara Weiss
+ACC-1166,Oakmont Issuing,payments_issuing,EMEA,fraud,2026-09,2026-07-15,26300,14690,0,AE - Klara Weiss
+ACC-1167,Clearwater Tickets,marketplace_commerce,NA,fraud,2026-04,2025-10-17,7100,9780,2680,AE - Iris Bell
+ACC-1167,Clearwater Tickets,marketplace_commerce,NA,fraud,2026-05,2025-10-17,7100,8950,1850,AE - Iris Bell
+ACC-1167,Clearwater Tickets,marketplace_commerce,NA,fraud,2026-06,2025-10-17,7100,9450,2350,AE - Iris Bell
+ACC-1167,Clearwater Tickets,marketplace_commerce,NA,fraud,2026-07,2025-10-17,7100,8890,1790,AE - Iris Bell
+ACC-1167,Clearwater Tickets,marketplace_commerce,NA,fraud,2026-08,2025-10-17,7100,8920,1820,AE - Iris Bell
+ACC-1167,Clearwater Tickets,marketplace_commerce,NA,fraud,2026-09,2025-10-17,7100,8790,1690,AE - Iris Bell
+ACC-1170,Pinecrest Processing,payments_issuing,NA,compliance,2026-04,2026-01-14,17400,19830,2430,AE - Grace Tan
+ACC-1170,Pinecrest Processing,payments_issuing,NA,compliance,2026-05,2026-01-14,17400,24350,6950,AE - Grace Tan
+ACC-1170,Pinecrest Processing,payments_issuing,NA,compliance,2026-06,2026-01-14,17400,21930,4530,AE - Grace Tan
+ACC-1170,Pinecrest Processing,payments_issuing,NA,compliance,2026-07,2026-01-14,17400,23000,5600,AE - Grace Tan
+ACC-1170,Pinecrest Processing,payments_issuing,NA,compliance,2026-08,2026-01-14,17400,24920,7520,AE - Grace Tan
+ACC-1170,Pinecrest Processing,payments_issuing,NA,compliance,2026-09,2026-01-14,17400,21540,4140,AE - Grace Tan
+ACC-1170,Pinecrest Processing,payments_issuing,NA,fraud,2026-04,2026-02-24,9200,5710,0,AE - Hugo Park
+ACC-1170,Pinecrest Processing,payments_issuing,NA,fraud,2026-05,2026-02-24,9200,7110,0,AE - Hugo Park
+ACC-1170,Pinecrest Processing,payments_issuing,NA,fraud,2026-06,2026-02-24,9200,8260,0,AE - Hugo Park
+ACC-1170,Pinecrest Processing,payments_issuing,NA,fraud,2026-07,2026-02-24,9200,7620,0,AE - Hugo Park
+ACC-1170,Pinecrest Processing,payments_issuing,NA,fraud,2026-08,2026-02-24,9200,7660,0,AE - Hugo Park
+ACC-1170,Pinecrest Processing,payments_issuing,NA,fraud,2026-09,2026-02-24,9200,7280,0,AE - Hugo Park
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,compliance,2026-07,2026-07-07,7800,700,0,AE - Iris Bell
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,compliance,2026-08,2026-07-07,7800,1440,0,AE - Iris Bell
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,compliance,2026-09,2026-07-07,7800,2370,0,AE - Iris Bell
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,fraud,2026-04,2025-11-06,10200,9560,0,AE - Grace Tan
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,fraud,2026-05,2025-11-06,10200,11170,970,AE - Grace Tan
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,fraud,2026-06,2025-11-06,10200,11850,1650,AE - Grace Tan
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,fraud,2026-07,2025-11-06,10200,11590,1390,AE - Grace Tan
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,fraud,2026-08,2025-11-06,10200,12230,2030,AE - Grace Tan
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,fraud,2026-09,2025-11-06,10200,12770,2570,AE - Grace Tan
+ACC-1176,Granite Peak Issuing,payments_issuing,NA,compliance,2026-07,2026-07-11,10200,2540,0,AE - Jon Reyes
+ACC-1176,Granite Peak Issuing,payments_issuing,NA,compliance,2026-08,2026-07-11,10200,5300,0,AE - Jon Reyes
+ACC-1176,Granite Peak Issuing,payments_issuing,NA,compliance,2026-09,2026-07-11,10200,8990,0,AE - Jon Reyes
+ACC-1181,Silverline Processing,payments_issuing,MENA,fraud,2026-04,2025-10-04,29400,11160,0,AE - Omar Haddad
+ACC-1181,Silverline Processing,payments_issuing,MENA,fraud,2026-05,2025-10-04,29400,10380,0,AE - Omar Haddad
+ACC-1181,Silverline Processing,payments_issuing,MENA,fraud,2026-06,2025-10-04,29400,10530,0,AE - Omar Haddad
+ACC-1181,Silverline Processing,payments_issuing,MENA,fraud,2026-07,2025-10-04,29400,10730,0,AE - Omar Haddad
+ACC-1181,Silverline Processing,payments_issuing,MENA,fraud,2026-08,2025-10-04,29400,10430,0,AE - Omar Haddad
+ACC-1181,Silverline Processing,payments_issuing,MENA,fraud,2026-09,2025-10-04,29400,10760,0,AE - Omar Haddad
+ACC-1182,Prairie First Wallet,fintech_neobank,NA,fraud,2026-04,2026-02-07,6700,6110,0,AE - Jon Reyes
+ACC-1182,Prairie First Wallet,fintech_neobank,NA,fraud,2026-05,2026-02-07,6700,7390,690,AE - Jon Reyes
+ACC-1182,Prairie First Wallet,fintech_neobank,NA,fraud,2026-06,2026-02-07,6700,7300,600,AE - Jon Reyes
+ACC-1182,Prairie First Wallet,fintech_neobank,NA,fraud,2026-07,2026-02-07,6700,6510,0,AE - Jon Reyes
+ACC-1182,Prairie First Wallet,fintech_neobank,NA,fraud,2026-08,2026-02-07,6700,6990,290,AE - Jon Reyes
+ACC-1182,Prairie First Wallet,fintech_neobank,NA,fraud,2026-09,2026-02-07,6700,6760,60,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,compliance,2026-04,2025-09-29,7700,8710,1010,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,compliance,2026-05,2025-09-29,7700,7690,0,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,compliance,2026-06,2025-09-29,7700,9160,1460,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,compliance,2026-07,2025-09-29,7700,8040,340,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,compliance,2026-08,2025-09-29,7700,7770,70,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,compliance,2026-09,2025-09-29,7700,7490,0,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,fraud,2026-04,2026-03-26,4400,950,0,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,fraud,2026-05,2026-03-26,4400,1470,0,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,fraud,2026-06,2026-03-26,4400,2110,0,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,fraud,2026-07,2026-03-26,4400,1820,0,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,fraud,2026-08,2026-03-26,4400,1930,0,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,fraud,2026-09,2026-03-26,4400,2070,0,AE - Jon Reyes
+ACC-1196,Highland Merchant Services,payments_issuing,EMEA,fraud,2026-04,2025-10-12,24400,28340,3940,AE - Klara Weiss
+ACC-1196,Highland Merchant Services,payments_issuing,EMEA,fraud,2026-05,2025-10-12,24400,27290,2890,AE - Klara Weiss
+ACC-1196,Highland Merchant Services,payments_issuing,EMEA,fraud,2026-06,2025-10-12,24400,24650,250,AE - Klara Weiss
+ACC-1196,Highland Merchant Services,payments_issuing,EMEA,fraud,2026-07,2025-10-12,24400,25530,1130,AE - Klara Weiss
+ACC-1196,Highland Merchant Services,payments_issuing,EMEA,fraud,2026-08,2025-10-12,24400,27280,2880,AE - Klara Weiss
+ACC-1196,Highland Merchant Services,payments_issuing,EMEA,fraud,2026-09,2025-10-12,24400,25970,1570,AE - Klara Weiss
+ACC-1200,Clearwater Shop,marketplace_commerce,NA,fraud,2026-04,2026-02-09,13600,3480,0,AE - Hugo Park
+ACC-1200,Clearwater Shop,marketplace_commerce,NA,fraud,2026-05,2026-02-09,13600,5020,0,AE - Hugo Park
+ACC-1200,Clearwater Shop,marketplace_commerce,NA,fraud,2026-06,2026-02-09,13600,5010,0,AE - Hugo Park
+ACC-1200,Clearwater Shop,marketplace_commerce,NA,fraud,2026-07,2026-02-09,13600,5250,0,AE - Hugo Park
+ACC-1200,Clearwater Shop,marketplace_commerce,NA,fraud,2026-08,2026-02-09,13600,6150,0,AE - Hugo Park
+ACC-1200,Clearwater Shop,marketplace_commerce,NA,fraud,2026-09,2026-02-09,13600,5460,0,AE - Hugo Park
+ACC-1201,Evergreen Neo,fintech_neobank,MENA,fraud,2026-04,2025-12-02,7900,6470,0,AE - Omar Haddad
+ACC-1201,Evergreen Neo,fintech_neobank,MENA,fraud,2026-05,2025-12-02,7900,6490,0,AE - Omar Haddad
+ACC-1201,Evergreen Neo,fintech_neobank,MENA,fraud,2026-06,2025-12-02,7900,5690,0,AE - Omar Haddad
+ACC-1201,Evergreen Neo,fintech_neobank,MENA,fraud,2026-07,2025-12-02,7900,5930,0,AE - Omar Haddad
+ACC-1201,Evergreen Neo,fintech_neobank,MENA,fraud,2026-08,2025-12-02,7900,6030,0,AE - Omar Haddad
+ACC-1201,Evergreen Neo,fintech_neobank,MENA,fraud,2026-09,2025-12-02,7900,5940,0,AE - Omar Haddad
+ACC-1206,Sterling Money,fintech_neobank,EMEA,compliance,2026-04,2025-12-15,15200,13360,0,AE - Klara Weiss
+ACC-1206,Sterling Money,fintech_neobank,EMEA,compliance,2026-05,2025-12-15,15200,11690,0,AE - Klara Weiss
+ACC-1206,Sterling Money,fintech_neobank,EMEA,compliance,2026-06,2025-12-15,15200,10680,0,AE - Klara Weiss
+ACC-1206,Sterling Money,fintech_neobank,EMEA,compliance,2026-07,2025-12-15,15200,10570,0,AE - Klara Weiss
+ACC-1206,Sterling Money,fintech_neobank,EMEA,compliance,2026-08,2025-12-15,15200,11890,0,AE - Klara Weiss
+ACC-1206,Sterling Money,fintech_neobank,EMEA,compliance,2026-09,2025-12-15,15200,11380,0,AE - Klara Weiss
+ACC-1209,Oakmont Pay,fintech_neobank,NA,fraud,2026-04,2026-03-23,2700,1070,0,AE - Iris Bell
+ACC-1209,Oakmont Pay,fintech_neobank,NA,fraud,2026-05,2026-03-23,2700,1540,0,AE - Iris Bell
+ACC-1209,Oakmont Pay,fintech_neobank,NA,fraud,2026-06,2026-03-23,2700,1950,0,AE - Iris Bell
+ACC-1209,Oakmont Pay,fintech_neobank,NA,fraud,2026-07,2026-03-23,2700,1890,0,AE - Iris Bell
+ACC-1209,Oakmont Pay,fintech_neobank,NA,fraud,2026-08,2026-03-23,2700,2060,0,AE - Iris Bell
+ACC-1209,Oakmont Pay,fintech_neobank,NA,fraud,2026-09,2026-03-23,2700,1990,0,AE - Iris Bell
+ACC-1219,Northgate Neo,fintech_neobank,NA,fraud,2026-06,2026-06-18,5400,1060,0,AE - Hugo Park
+ACC-1219,Northgate Neo,fintech_neobank,NA,fraud,2026-07,2026-06-18,5400,2110,0,AE - Hugo Park
+ACC-1219,Northgate Neo,fintech_neobank,NA,fraud,2026-08,2026-06-18,5400,3460,0,AE - Hugo Park
+ACC-1219,Northgate Neo,fintech_neobank,NA,fraud,2026-09,2026-06-18,5400,4480,0,AE - Hugo Park
+ACC-1221,Falcon Shop,marketplace_commerce,LATAM,fraud,2026-04,2026-04-19,13700,1440,0,AE - Nico Duarte
+ACC-1221,Falcon Shop,marketplace_commerce,LATAM,fraud,2026-05,2026-04-19,13700,2920,0,AE - Nico Duarte
+ACC-1221,Falcon Shop,marketplace_commerce,LATAM,fraud,2026-06,2026-04-19,13700,3650,0,AE - Nico Duarte
+ACC-1221,Falcon Shop,marketplace_commerce,LATAM,fraud,2026-07,2026-04-19,13700,5480,0,AE - Nico Duarte
+ACC-1221,Falcon Shop,marketplace_commerce,LATAM,fraud,2026-08,2026-04-19,13700,5720,0,AE - Nico Duarte
+ACC-1221,Falcon Shop,marketplace_commerce,LATAM,fraud,2026-09,2026-04-19,13700,4860,0,AE - Nico Duarte
+ACC-1222,Silverline Card,fintech_neobank,NA,compliance,2026-06,2026-06-02,13800,2190,0,AE - Iris Bell
+ACC-1222,Silverline Card,fintech_neobank,NA,compliance,2026-07,2026-06-02,13800,4370,0,AE - Iris Bell
+ACC-1222,Silverline Card,fintech_neobank,NA,compliance,2026-08,2026-06-02,13800,6680,0,AE - Iris Bell
+ACC-1222,Silverline Card,fintech_neobank,NA,compliance,2026-09,2026-06-02,13800,9430,0,AE - Iris Bell
+ACC-1226,Northgate Payments,payments_issuing,NA,fraud,2026-04,2026-01-09,27500,32450,4950,AE - Hugo Park
+ACC-1226,Northgate Payments,payments_issuing,NA,fraud,2026-05,2026-01-09,27500,26910,0,AE - Hugo Park
+ACC-1226,Northgate Payments,payments_issuing,NA,fraud,2026-06,2026-01-09,27500,31530,4030,AE - Hugo Park
+ACC-1226,Northgate Payments,payments_issuing,NA,fraud,2026-07,2026-01-09,27500,30030,2530,AE - Hugo Park
+ACC-1226,Northgate Payments,payments_issuing,NA,fraud,2026-08,2026-01-09,27500,28820,1320,AE - Hugo Park
+ACC-1226,Northgate Payments,payments_issuing,NA,fraud,2026-09,2026-01-09,27500,26740,0,AE - Hugo Park
+ACC-1230,Lakeshore Payments,payments_issuing,NA,fraud,2026-07,2026-07-03,19300,4270,0,AE - Iris Bell
+ACC-1230,Lakeshore Payments,payments_issuing,NA,fraud,2026-08,2026-07-03,19300,9170,0,AE - Iris Bell
+ACC-1230,Lakeshore Payments,payments_issuing,NA,fraud,2026-09,2026-07-03,19300,13620,0,AE - Iris Bell
+ACC-1231,Summit Ridge Tickets,marketplace_commerce,NA,fraud,2026-04,2026-02-18,12200,10760,0,AE - Jon Reyes
+ACC-1231,Summit Ridge Tickets,marketplace_commerce,NA,fraud,2026-05,2026-02-18,12200,13220,1020,AE - Jon Reyes
+ACC-1231,Summit Ridge Tickets,marketplace_commerce,NA,fraud,2026-06,2026-02-18,12200,14850,2650,AE - Jon Reyes
+ACC-1231,Summit Ridge Tickets,marketplace_commerce,NA,fraud,2026-07,2026-02-18,12200,13440,1240,AE - Jon Reyes
+ACC-1231,Summit Ridge Tickets,marketplace_commerce,NA,fraud,2026-08,2026-02-18,12200,14940,2740,AE - Jon Reyes
+ACC-1231,Summit Ridge Tickets,marketplace_commerce,NA,fraud,2026-09,2026-02-18,12200,14860,2660,AE - Jon Reyes
+ACC-1232,Lakeshore Money,fintech_neobank,EMEA,compliance,2026-04,2026-03-03,9600,4800,0,AE - Klara Weiss
+ACC-1232,Lakeshore Money,fintech_neobank,EMEA,compliance,2026-05,2026-03-03,9600,6620,0,AE - Klara Weiss
+ACC-1232,Lakeshore Money,fintech_neobank,EMEA,compliance,2026-06,2026-03-03,9600,9600,0,AE - Klara Weiss
+ACC-1232,Lakeshore Money,fintech_neobank,EMEA,compliance,2026-07,2026-03-03,9600,10080,480,AE - Klara Weiss
+ACC-1232,Lakeshore Money,fintech_neobank,EMEA,compliance,2026-08,2026-03-03,9600,8460,0,AE - Klara Weiss
+ACC-1232,Lakeshore Money,fintech_neobank,EMEA,compliance,2026-09,2026-03-03,9600,9300,0,AE - Klara Weiss
+ACC-1234,Tidewater Card,fintech_neobank,NA,fraud,2026-06,2026-06-07,14200,4710,0,AE - Hugo Park
+ACC-1234,Tidewater Card,fintech_neobank,NA,fraud,2026-07,2026-06-07,14200,8610,0,AE - Hugo Park
+ACC-1234,Tidewater Card,fintech_neobank,NA,fraud,2026-08,2026-06-07,14200,12790,0,AE - Hugo Park
+ACC-1234,Tidewater Card,fintech_neobank,NA,fraud,2026-09,2026-06-07,14200,17930,3730,AE - Hugo Park
+ACC-1235,Cedar Valley Merchant Services,payments_issuing,NA,fraud,2026-04,2025-12-25,18800,21980,3180,AE - Grace Tan
+ACC-1235,Cedar Valley Merchant Services,payments_issuing,NA,fraud,2026-05,2025-12-25,18800,18960,160,AE - Grace Tan
+ACC-1235,Cedar Valley Merchant Services,payments_issuing,NA,fraud,2026-06,2025-12-25,18800,20590,1790,AE - Grace Tan
+ACC-1235,Cedar Valley Merchant Services,payments_issuing,NA,fraud,2026-07,2025-12-25,18800,23500,4700,AE - Grace Tan
+ACC-1235,Cedar Valley Merchant Services,payments_issuing,NA,fraud,2026-08,2025-12-25,18800,20480,1680,AE - Grace Tan
+ACC-1235,Cedar Valley Merchant Services,payments_issuing,NA,fraud,2026-09,2025-12-25,18800,21550,2750,AE - Grace Tan
+ACC-1241,Ironwood Wallet,fintech_neobank,NA,fraud,2026-05,2026-05-06,13200,1470,0,AE - Grace Tan
+ACC-1241,Ironwood Wallet,fintech_neobank,NA,fraud,2026-06,2026-05-06,13200,3480,0,AE - Grace Tan
+ACC-1241,Ironwood Wallet,fintech_neobank,NA,fraud,2026-07,2026-05-06,13200,5160,0,AE - Grace Tan
+ACC-1241,Ironwood Wallet,fintech_neobank,NA,fraud,2026-08,2026-05-06,13200,7270,0,AE - Grace Tan
+ACC-1241,Ironwood Wallet,fintech_neobank,NA,fraud,2026-09,2026-05-06,13200,7060,0,AE - Grace Tan
+ACC-1244,Pinecrest Chain,crypto,EMEA,compliance,2026-04,2025-10-10,10800,6790,0,AE - Liam Byrne
+ACC-1244,Pinecrest Chain,crypto,EMEA,compliance,2026-05,2025-10-10,10800,7780,0,AE - Liam Byrne
+ACC-1244,Pinecrest Chain,crypto,EMEA,compliance,2026-06,2025-10-10,10800,6710,0,AE - Liam Byrne
+ACC-1244,Pinecrest Chain,crypto,EMEA,compliance,2026-07,2025-10-10,10800,7070,0,AE - Liam Byrne
+ACC-1244,Pinecrest Chain,crypto,EMEA,compliance,2026-08,2025-10-10,10800,7410,0,AE - Liam Byrne
+ACC-1244,Pinecrest Chain,crypto,EMEA,compliance,2026-09,2025-10-10,10800,8080,0,AE - Liam Byrne
+ACC-1244,Pinecrest Chain,crypto,EMEA,fraud,2026-04,2026-01-08,13400,11440,0,AE - Klara Weiss
+ACC-1244,Pinecrest Chain,crypto,EMEA,fraud,2026-05,2026-01-08,13400,11570,0,AE - Klara Weiss
+ACC-1244,Pinecrest Chain,crypto,EMEA,fraud,2026-06,2026-01-08,13400,10200,0,AE - Klara Weiss
+ACC-1244,Pinecrest Chain,crypto,EMEA,fraud,2026-07,2026-01-08,13400,11450,0,AE - Klara Weiss
+ACC-1244,Pinecrest Chain,crypto,EMEA,fraud,2026-08,2026-01-08,13400,12570,0,AE - Klara Weiss
+ACC-1244,Pinecrest Chain,crypto,EMEA,fraud,2026-09,2026-01-08,13400,11900,0,AE - Klara Weiss
+ACC-1245,Silverline Custody,crypto,NA,compliance,2026-04,2025-12-11,13600,15400,1800,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,compliance,2026-05,2025-12-11,13600,17670,4070,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,compliance,2026-06,2025-12-11,13600,17150,3550,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,compliance,2026-07,2025-12-11,13600,17890,4290,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,compliance,2026-08,2025-12-11,13600,16030,2430,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,compliance,2026-09,2025-12-11,13600,18020,4420,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,fraud,2026-04,2026-01-25,5000,5140,140,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,fraud,2026-05,2026-01-25,5000,4800,0,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,fraud,2026-06,2026-01-25,5000,5040,40,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,fraud,2026-07,2026-01-25,5000,5400,400,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,fraud,2026-08,2026-01-25,5000,5170,170,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,fraud,2026-09,2026-01-25,5000,5910,910,AE - Grace Tan
+ACC-1246,Pinecrest Pay,fintech_neobank,NA,fraud,2026-04,2026-04-29,14800,4310,0,AE - Jon Reyes
+ACC-1246,Pinecrest Pay,fintech_neobank,NA,fraud,2026-05,2026-04-29,14800,8820,0,AE - Jon Reyes
+ACC-1246,Pinecrest Pay,fintech_neobank,NA,fraud,2026-06,2026-04-29,14800,12760,0,AE - Jon Reyes
+ACC-1246,Pinecrest Pay,fintech_neobank,NA,fraud,2026-07,2026-04-29,14800,14750,0,AE - Jon Reyes
+ACC-1246,Pinecrest Pay,fintech_neobank,NA,fraud,2026-08,2026-04-29,14800,14120,0,AE - Jon Reyes
+ACC-1246,Pinecrest Pay,fintech_neobank,NA,fraud,2026-09,2026-04-29,14800,13600,0,AE - Jon Reyes
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,compliance,2026-04,2026-04-27,19700,3840,0,AE - Hugo Park
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,compliance,2026-05,2026-04-27,19700,6910,0,AE - Hugo Park
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,compliance,2026-06,2026-04-27,19700,10340,0,AE - Hugo Park
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,compliance,2026-07,2026-04-27,19700,14390,0,AE - Hugo Park
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,compliance,2026-08,2026-04-27,19700,17060,0,AE - Hugo Park
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,compliance,2026-09,2026-04-27,19700,15130,0,AE - Hugo Park
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,fraud,2026-04,2026-04-10,8300,1500,0,AE - Grace Tan
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,fraud,2026-05,2026-04-10,8300,2840,0,AE - Grace Tan
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,fraud,2026-06,2026-04-10,8300,4300,0,AE - Grace Tan
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,fraud,2026-07,2026-04-10,8300,5270,0,AE - Grace Tan
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,fraud,2026-08,2026-04-10,8300,6150,0,AE - Grace Tan
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,fraud,2026-09,2026-04-10,8300,5810,0,AE - Grace Tan
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,compliance,2026-04,2026-04-24,14800,3110,0,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,compliance,2026-05,2026-04-24,14800,7300,0,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,compliance,2026-06,2026-04-24,14800,10920,0,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,compliance,2026-07,2026-04-24,14800,14490,0,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,compliance,2026-08,2026-04-24,14800,16210,1410,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,compliance,2026-09,2026-04-24,14800,15390,590,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,fraud,2026-06,2026-06-26,10200,1930,0,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,fraud,2026-07,2026-06-26,10200,4520,0,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,fraud,2026-08,2026-06-26,10200,6200,0,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,fraud,2026-09,2026-06-26,10200,9550,0,AE - Nico Duarte
+ACC-1257,Lakeshore Bancorp,tier1_bank,APAC,fraud,2026-07,2026-07-21,54200,6780,0,AE - Mei Lin
+ACC-1257,Lakeshore Bancorp,tier1_bank,APAC,fraud,2026-08,2026-07-21,54200,15980,0,AE - Mei Lin
+ACC-1257,Lakeshore Bancorp,tier1_bank,APAC,fraud,2026-09,2026-07-21,54200,24230,0,AE - Mei Lin
+ACC-1268,Clearwater Custody,crypto,NA,compliance,2026-04,2025-11-30,5600,3920,0,AE - Grace Tan
+ACC-1268,Clearwater Custody,crypto,NA,compliance,2026-05,2025-11-30,5600,4370,0,AE - Grace Tan
+ACC-1268,Clearwater Custody,crypto,NA,compliance,2026-06,2025-11-30,5600,4460,0,AE - Grace Tan
+ACC-1268,Clearwater Custody,crypto,NA,compliance,2026-07,2025-11-30,5600,3950,0,AE - Grace Tan
+ACC-1268,Clearwater Custody,crypto,NA,compliance,2026-08,2025-11-30,5600,4210,0,AE - Grace Tan
+ACC-1268,Clearwater Custody,crypto,NA,compliance,2026-09,2025-11-30,5600,4980,0,AE - Grace Tan
+ACC-1268,Clearwater Custody,crypto,NA,fraud,2026-04,2026-01-02,17800,15240,0,AE - Hugo Park
+ACC-1268,Clearwater Custody,crypto,NA,fraud,2026-05,2026-01-02,17800,16000,0,AE - Hugo Park
+ACC-1268,Clearwater Custody,crypto,NA,fraud,2026-06,2026-01-02,17800,15010,0,AE - Hugo Park
+ACC-1268,Clearwater Custody,crypto,NA,fraud,2026-07,2026-01-02,17800,15740,0,AE - Hugo Park
+ACC-1268,Clearwater Custody,crypto,NA,fraud,2026-08,2026-01-02,17800,15510,0,AE - Hugo Park
+ACC-1268,Clearwater Custody,crypto,NA,fraud,2026-09,2026-01-02,17800,15670,0,AE - Hugo Park
+ACC-1271,Pinecrest Play,gaming_prediction,EMEA,fraud,2026-04,2026-04-13,8700,2190,0,AE - Liam Byrne
+ACC-1271,Pinecrest Play,gaming_prediction,EMEA,fraud,2026-05,2026-04-13,8700,4370,0,AE - Liam Byrne
+ACC-1271,Pinecrest Play,gaming_prediction,EMEA,fraud,2026-06,2026-04-13,8700,6700,0,AE - Liam Byrne
+ACC-1271,Pinecrest Play,gaming_prediction,EMEA,fraud,2026-07,2026-04-13,8700,8310,0,AE - Liam Byrne
+ACC-1271,Pinecrest Play,gaming_prediction,EMEA,fraud,2026-08,2026-04-13,8700,7950,0,AE - Liam Byrne
+ACC-1271,Pinecrest Play,gaming_prediction,EMEA,fraud,2026-09,2026-04-13,8700,8510,0,AE - Liam Byrne
+ACC-1275,Granite Peak Federal CU,regional_bank_cu,NA,fraud,2026-04,2025-12-25,6600,5190,0,AE - Grace Tan
+ACC-1275,Granite Peak Federal CU,regional_bank_cu,NA,fraud,2026-05,2025-12-25,6600,5010,0,AE - Grace Tan
+ACC-1275,Granite Peak Federal CU,regional_bank_cu,NA,fraud,2026-06,2025-12-25,6600,5110,0,AE - Grace Tan
+ACC-1275,Granite Peak Federal CU,regional_bank_cu,NA,fraud,2026-07,2025-12-25,6600,5270,0,AE - Grace Tan
+ACC-1275,Granite Peak Federal CU,regional_bank_cu,NA,fraud,2026-08,2025-12-25,6600,5510,0,AE - Grace Tan
+ACC-1275,Granite Peak Federal CU,regional_bank_cu,NA,fraud,2026-09,2025-12-25,6600,4600,0,AE - Grace Tan
+ACC-1280,Harborview Card,fintech_neobank,EMEA,fraud,2026-06,2026-06-17,9700,2680,0,AE - Liam Byrne
+ACC-1280,Harborview Card,fintech_neobank,EMEA,fraud,2026-07,2026-06-17,9700,5480,0,AE - Liam Byrne
+ACC-1280,Harborview Card,fintech_neobank,EMEA,fraud,2026-08,2026-06-17,9700,7730,0,AE - Liam Byrne
+ACC-1280,Harborview Card,fintech_neobank,EMEA,fraud,2026-09,2026-06-17,9700,9010,0,AE - Liam Byrne
+ACC-1283,Cedar Valley Sports,gaming_prediction,NA,fraud,2026-04,2025-09-22,8800,9030,230,AE - Hugo Park
+ACC-1283,Cedar Valley Sports,gaming_prediction,NA,fraud,2026-05,2025-09-22,8800,8810,10,AE - Hugo Park
+ACC-1283,Cedar Valley Sports,gaming_prediction,NA,fraud,2026-06,2025-09-22,8800,9780,980,AE - Hugo Park
+ACC-1283,Cedar Valley Sports,gaming_prediction,NA,fraud,2026-07,2025-09-22,8800,9160,360,AE - Hugo Park
+ACC-1283,Cedar Valley Sports,gaming_prediction,NA,fraud,2026-08,2025-09-22,8800,10140,1340,AE - Hugo Park
+ACC-1283,Cedar Valley Sports,gaming_prediction,NA,fraud,2026-09,2025-09-22,8800,10760,1960,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,compliance,2026-04,2025-12-04,8800,7090,0,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,compliance,2026-05,2025-12-04,8800,7930,0,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,compliance,2026-06,2025-12-04,8800,8600,0,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,compliance,2026-07,2025-12-04,8800,8510,0,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,compliance,2026-08,2025-12-04,8800,8860,60,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,compliance,2026-09,2025-12-04,8800,8930,130,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,fraud,2026-04,2026-02-01,9000,7300,0,AE - Iris Bell
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,fraud,2026-05,2026-02-01,9000,11150,2150,AE - Iris Bell
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,fraud,2026-06,2026-02-01,9000,10170,1170,AE - Iris Bell
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,fraud,2026-07,2026-02-01,9000,11140,2140,AE - Iris Bell
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,fraud,2026-08,2026-02-01,9000,11310,2310,AE - Iris Bell
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,fraud,2026-09,2026-02-01,9000,10770,1770,AE - Iris Bell
+ACC-1288,Arbor Chain,crypto,EMEA,fraud,2026-04,2026-01-15,20100,18280,0,AE - Liam Byrne
+ACC-1288,Arbor Chain,crypto,EMEA,fraud,2026-05,2026-01-15,20100,17790,0,AE - Liam Byrne
+ACC-1288,Arbor Chain,crypto,EMEA,fraud,2026-06,2026-01-15,20100,17290,0,AE - Liam Byrne
+ACC-1288,Arbor Chain,crypto,EMEA,fraud,2026-07,2026-01-15,20100,18640,0,AE - Liam Byrne
+ACC-1288,Arbor Chain,crypto,EMEA,fraud,2026-08,2026-01-15,20100,18720,0,AE - Liam Byrne
+ACC-1288,Arbor Chain,crypto,EMEA,fraud,2026-09,2026-01-15,20100,19450,0,AE - Liam Byrne
+ACC-1289,Clearwater Processing,payments_issuing,NA,fraud,2026-04,2026-02-27,30800,35200,4400,AE - Iris Bell
+ACC-1289,Clearwater Processing,payments_issuing,NA,fraud,2026-05,2026-02-27,30800,48310,17510,AE - Iris Bell
+ACC-1289,Clearwater Processing,payments_issuing,NA,fraud,2026-06,2026-02-27,30800,45370,14570,AE - Iris Bell
+ACC-1289,Clearwater Processing,payments_issuing,NA,fraud,2026-07,2026-02-27,30800,48210,17410,AE - Iris Bell
+ACC-1289,Clearwater Processing,payments_issuing,NA,fraud,2026-08,2026-02-27,30800,45560,14760,AE - Iris Bell
+ACC-1289,Clearwater Processing,payments_issuing,NA,fraud,2026-09,2026-02-27,30800,47100,16300,AE - Iris Bell
+ACC-1291,Westfield Neo,fintech_neobank,NA,fraud,2026-04,2025-09-28,6500,6770,270,AE - Hugo Park
+ACC-1291,Westfield Neo,fintech_neobank,NA,fraud,2026-05,2025-09-28,6500,7670,1170,AE - Hugo Park
+ACC-1291,Westfield Neo,fintech_neobank,NA,fraud,2026-06,2025-09-28,6500,6530,30,AE - Hugo Park
+ACC-1291,Westfield Neo,fintech_neobank,NA,fraud,2026-07,2025-09-28,6500,6910,410,AE - Hugo Park
+ACC-1291,Westfield Neo,fintech_neobank,NA,fraud,2026-08,2025-09-28,6500,7450,950,AE - Hugo Park
+ACC-1291,Westfield Neo,fintech_neobank,NA,fraud,2026-09,2025-09-28,6500,6870,370,AE - Hugo Park
+ACC-1296,Prairie First National Bank,sponsor_bank_baas,NA,fraud,2026-04,2026-01-14,14900,13210,0,AE - Jon Reyes
+ACC-1296,Prairie First National Bank,sponsor_bank_baas,NA,fraud,2026-05,2026-01-14,14900,14330,0,AE - Jon Reyes
+ACC-1296,Prairie First National Bank,sponsor_bank_baas,NA,fraud,2026-06,2026-01-14,14900,14620,0,AE - Jon Reyes
+ACC-1296,Prairie First National Bank,sponsor_bank_baas,NA,fraud,2026-07,2026-01-14,14900,14410,0,AE - Jon Reyes
+ACC-1296,Prairie First National Bank,sponsor_bank_baas,NA,fraud,2026-08,2026-01-14,14900,13820,0,AE - Jon Reyes
+ACC-1296,Prairie First National Bank,sponsor_bank_baas,NA,fraud,2026-09,2026-01-14,14900,14420,0,AE - Jon Reyes
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,compliance,2026-06,2026-06-13,10200,1990,0,AE - Klara Weiss
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,compliance,2026-07,2026-06-13,10200,4100,0,AE - Klara Weiss
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,compliance,2026-08,2026-06-13,10200,7040,0,AE - Klara Weiss
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,compliance,2026-09,2026-06-13,10200,8980,0,AE - Klara Weiss
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,fraud,2026-04,2026-01-26,28800,19180,0,AE - Liam Byrne
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,fraud,2026-05,2026-01-26,28800,20710,0,AE - Liam Byrne
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,fraud,2026-06,2026-01-26,28800,20910,0,AE - Liam Byrne
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,fraud,2026-07,2026-01-26,28800,19150,0,AE - Liam Byrne
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,fraud,2026-08,2026-01-26,28800,19330,0,AE - Liam Byrne
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,fraud,2026-09,2026-01-26,28800,22300,0,AE - Liam Byrne
+ACC-1301,Falcon Play,gaming_prediction,EMEA,fraud,2026-07,2026-07-21,4600,970,0,AE - Liam Byrne
+ACC-1301,Falcon Play,gaming_prediction,EMEA,fraud,2026-08,2026-07-21,4600,1640,0,AE - Liam Byrne
+ACC-1301,Falcon Play,gaming_prediction,EMEA,fraud,2026-09,2026-07-21,4600,2730,0,AE - Liam Byrne
+ACC-1305,Tidewater Processing,payments_issuing,NA,compliance,2026-05,2026-05-15,11900,2870,0,AE - Hugo Park
+ACC-1305,Tidewater Processing,payments_issuing,NA,compliance,2026-06,2026-05-15,11900,5320,0,AE - Hugo Park
+ACC-1305,Tidewater Processing,payments_issuing,NA,compliance,2026-07,2026-05-15,11900,8740,0,AE - Hugo Park
+ACC-1305,Tidewater Processing,payments_issuing,NA,compliance,2026-08,2026-05-15,11900,10450,0,AE - Hugo Park
+ACC-1305,Tidewater Processing,payments_issuing,NA,compliance,2026-09,2026-05-15,11900,11860,0,AE - Hugo Park
+ACC-1308,Northgate Digital Assets,crypto,EMEA,fraud,2026-04,2026-01-26,13800,9160,0,AE - Klara Weiss
+ACC-1308,Northgate Digital Assets,crypto,EMEA,fraud,2026-05,2026-01-26,13800,9020,0,AE - Klara Weiss
+ACC-1308,Northgate Digital Assets,crypto,EMEA,fraud,2026-06,2026-01-26,13800,9570,0,AE - Klara Weiss
+ACC-1308,Northgate Digital Assets,crypto,EMEA,fraud,2026-07,2026-01-26,13800,7810,0,AE - Klara Weiss
+ACC-1308,Northgate Digital Assets,crypto,EMEA,fraud,2026-08,2026-01-26,13800,8830,0,AE - Klara Weiss
+ACC-1308,Northgate Digital Assets,crypto,EMEA,fraud,2026-09,2026-01-26,13800,8510,0,AE - Klara Weiss
+ACC-1311,Pinecrest Authority,public_sector,NA,fraud,2026-04,2025-12-12,27800,24160,0,AE - Jon Reyes
+ACC-1311,Pinecrest Authority,public_sector,NA,fraud,2026-05,2025-12-12,27800,23980,0,AE - Jon Reyes
+ACC-1311,Pinecrest Authority,public_sector,NA,fraud,2026-06,2025-12-12,27800,26290,0,AE - Jon Reyes
+ACC-1311,Pinecrest Authority,public_sector,NA,fraud,2026-07,2025-12-12,27800,24760,0,AE - Jon Reyes
+ACC-1311,Pinecrest Authority,public_sector,NA,fraud,2026-08,2025-12-12,27800,26400,0,AE - Jon Reyes
+ACC-1311,Pinecrest Authority,public_sector,NA,fraud,2026-09,2025-12-12,27800,26650,0,AE - Jon Reyes
+ACC-1312,Maple Leaf Money,fintech_neobank,NA,compliance,2026-04,2026-04-15,4300,660,0,AE - Jon Reyes
+ACC-1312,Maple Leaf Money,fintech_neobank,NA,compliance,2026-05,2026-04-15,4300,1330,0,AE - Jon Reyes
+ACC-1312,Maple Leaf Money,fintech_neobank,NA,compliance,2026-06,2026-04-15,4300,2080,0,AE - Jon Reyes
+ACC-1312,Maple Leaf Money,fintech_neobank,NA,compliance,2026-07,2026-04-15,4300,2900,0,AE - Jon Reyes
+ACC-1312,Maple Leaf Money,fintech_neobank,NA,compliance,2026-08,2026-04-15,4300,2750,0,AE - Jon Reyes
+ACC-1312,Maple Leaf Money,fintech_neobank,NA,compliance,2026-09,2026-04-15,4300,2740,0,AE - Jon Reyes
+ACC-1313,Redwood Commerce,marketplace_commerce,LATAM,fraud,2026-04,2025-11-02,5700,4250,0,AE - Nico Duarte
+ACC-1313,Redwood Commerce,marketplace_commerce,LATAM,fraud,2026-05,2025-11-02,5700,3920,0,AE - Nico Duarte
+ACC-1313,Redwood Commerce,marketplace_commerce,LATAM,fraud,2026-06,2025-11-02,5700,4140,0,AE - Nico Duarte
+ACC-1313,Redwood Commerce,marketplace_commerce,LATAM,fraud,2026-07,2025-11-02,5700,3900,0,AE - Nico Duarte
+ACC-1313,Redwood Commerce,marketplace_commerce,LATAM,fraud,2026-08,2025-11-02,5700,4520,0,AE - Nico Duarte
+ACC-1313,Redwood Commerce,marketplace_commerce,LATAM,fraud,2026-09,2025-11-02,5700,4330,0,AE - Nico Duarte
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,compliance,2026-06,2026-06-30,3600,570,0,AE - Hugo Park
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,compliance,2026-07,2026-06-30,3600,1330,0,AE - Hugo Park
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,compliance,2026-08,2026-06-30,3600,1740,0,AE - Hugo Park
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,compliance,2026-09,2026-06-30,3600,2490,0,AE - Hugo Park
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,fraud,2026-04,2025-12-17,5800,5310,0,AE - Grace Tan
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,fraud,2026-05,2025-12-17,5800,5130,0,AE - Grace Tan
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,fraud,2026-06,2025-12-17,5800,5200,0,AE - Grace Tan
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,fraud,2026-07,2025-12-17,5800,5770,0,AE - Grace Tan
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,fraud,2026-08,2025-12-17,5800,6000,200,AE - Grace Tan
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,fraud,2026-09,2025-12-17,5800,5610,0,AE - Grace Tan
+ACC-1325,Keystone Wallet,fintech_neobank,LATAM,fraud,2026-04,2026-01-27,7000,7760,760,AE - Nico Duarte
+ACC-1325,Keystone Wallet,fintech_neobank,LATAM,fraud,2026-05,2026-01-27,7000,8170,1170,AE - Nico Duarte
+ACC-1325,Keystone Wallet,fintech_neobank,LATAM,fraud,2026-06,2026-01-27,7000,9000,2000,AE - Nico Duarte
+ACC-1325,Keystone Wallet,fintech_neobank,LATAM,fraud,2026-07,2026-01-27,7000,9490,2490,AE - Nico Duarte
+ACC-1325,Keystone Wallet,fintech_neobank,LATAM,fraud,2026-08,2026-01-27,7000,8400,1400,AE - Nico Duarte
+ACC-1325,Keystone Wallet,fintech_neobank,LATAM,fraud,2026-09,2026-01-27,7000,8510,1510,AE - Nico Duarte
+ACC-1329,Westfield Wallet,fintech_neobank,NA,fraud,2026-04,2026-04-25,9800,2390,0,AE - Hugo Park
+ACC-1329,Westfield Wallet,fintech_neobank,NA,fraud,2026-05,2026-04-25,9800,4830,0,AE - Hugo Park
+ACC-1329,Westfield Wallet,fintech_neobank,NA,fraud,2026-06,2026-04-25,9800,6510,0,AE - Hugo Park
+ACC-1329,Westfield Wallet,fintech_neobank,NA,fraud,2026-07,2026-04-25,9800,8250,0,AE - Hugo Park
+ACC-1329,Westfield Wallet,fintech_neobank,NA,fraud,2026-08,2026-04-25,9800,8990,0,AE - Hugo Park
+ACC-1329,Westfield Wallet,fintech_neobank,NA,fraud,2026-09,2026-04-25,9800,9000,0,AE - Hugo Park
+ACC-1336,Summit Ridge Exchange,crypto,NA,compliance,2026-04,2026-01-17,9900,6840,0,AE - Iris Bell
+ACC-1336,Summit Ridge Exchange,crypto,NA,compliance,2026-05,2026-01-17,9900,6620,0,AE - Iris Bell
+ACC-1336,Summit Ridge Exchange,crypto,NA,compliance,2026-06,2026-01-17,9900,6750,0,AE - Iris Bell
+ACC-1336,Summit Ridge Exchange,crypto,NA,compliance,2026-07,2026-01-17,9900,6670,0,AE - Iris Bell
+ACC-1336,Summit Ridge Exchange,crypto,NA,compliance,2026-08,2026-01-17,9900,7760,0,AE - Iris Bell
+ACC-1336,Summit Ridge Exchange,crypto,NA,compliance,2026-09,2026-01-17,9900,7830,0,AE - Iris Bell
+ACC-1336,Summit Ridge Exchange,crypto,NA,fraud,2026-04,2026-02-22,14300,6430,0,AE - Grace Tan
+ACC-1336,Summit Ridge Exchange,crypto,NA,fraud,2026-05,2026-02-22,14300,7930,0,AE - Grace Tan
+ACC-1336,Summit Ridge Exchange,crypto,NA,fraud,2026-06,2026-02-22,14300,7880,0,AE - Grace Tan
+ACC-1336,Summit Ridge Exchange,crypto,NA,fraud,2026-07,2026-02-22,14300,8560,0,AE - Grace Tan
+ACC-1336,Summit Ridge Exchange,crypto,NA,fraud,2026-08,2026-02-22,14300,8080,0,AE - Grace Tan
+ACC-1336,Summit Ridge Exchange,crypto,NA,fraud,2026-09,2026-02-22,14300,8160,0,AE - Grace Tan
+ACC-1344,Bayfront Card,fintech_neobank,MENA,compliance,2026-06,2026-06-15,6800,1350,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,compliance,2026-07,2026-06-15,6800,2910,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,compliance,2026-08,2026-06-15,6800,4380,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,compliance,2026-09,2026-06-15,6800,5630,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,fraud,2026-04,2025-12-07,15000,8670,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,fraud,2026-05,2025-12-07,15000,7630,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,fraud,2026-06,2025-12-07,15000,8820,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,fraud,2026-07,2025-12-07,15000,7530,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,fraud,2026-08,2025-12-07,15000,7740,0,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,fraud,2026-09,2025-12-07,15000,7370,0,AE - Omar Haddad
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,compliance,2026-05,2026-05-08,4800,560,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,compliance,2026-06,2026-05-08,4800,1150,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,compliance,2026-07,2026-05-08,4800,1740,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,compliance,2026-08,2026-05-08,4800,2250,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,compliance,2026-09,2026-05-08,4800,2520,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,fraud,2026-04,2026-03-13,9200,2320,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,fraud,2026-05,2026-03-13,9200,3680,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,fraud,2026-06,2026-03-13,9200,5400,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,fraud,2026-07,2026-03-13,9200,4500,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,fraud,2026-08,2026-03-13,9200,4670,0,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,fraud,2026-09,2026-03-13,9200,5270,0,AE - Iris Bell
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,compliance,2026-05,2026-05-13,16100,3720,0,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,compliance,2026-06,2026-05-13,16100,8490,0,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,compliance,2026-07,2026-05-13,16100,11990,0,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,compliance,2026-08,2026-05-13,16100,17860,1760,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,compliance,2026-09,2026-05-13,16100,17850,1750,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,fraud,2026-04,2025-12-06,15400,20660,5260,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,fraud,2026-05,2025-12-06,15400,22030,6630,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,fraud,2026-06,2025-12-06,15400,22420,7020,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,fraud,2026-07,2025-12-06,15400,21570,6170,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,fraud,2026-08,2025-12-06,15400,18690,3290,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,fraud,2026-09,2025-12-06,15400,19700,4300,AE - Nico Duarte
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,compliance,2026-07,2026-07-07,6200,1540,0,AE - Grace Tan
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,compliance,2026-08,2026-07-07,6200,3250,0,AE - Grace Tan
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,compliance,2026-09,2026-07-07,6200,4730,0,AE - Grace Tan
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,fraud,2026-04,2026-03-10,13400,3220,0,AE - Iris Bell
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,fraud,2026-05,2026-03-10,13400,4450,0,AE - Iris Bell
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,fraud,2026-06,2026-03-10,13400,6010,0,AE - Iris Bell
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,fraud,2026-07,2026-03-10,13400,6150,0,AE - Iris Bell
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,fraud,2026-08,2026-03-10,13400,5900,0,AE - Iris Bell
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,fraud,2026-09,2026-03-10,13400,6100,0,AE - Iris Bell
+ACC-1360,Arbor Digital Assets,crypto,NA,compliance,2026-06,2026-06-20,11200,2930,0,AE - Hugo Park
+ACC-1360,Arbor Digital Assets,crypto,NA,compliance,2026-07,2026-06-20,11200,5910,0,AE - Hugo Park
+ACC-1360,Arbor Digital Assets,crypto,NA,compliance,2026-08,2026-06-20,11200,8390,0,AE - Hugo Park
+ACC-1360,Arbor Digital Assets,crypto,NA,compliance,2026-09,2026-06-20,11200,12020,820,AE - Hugo Park
+ACC-1360,Arbor Digital Assets,crypto,NA,fraud,2026-04,2026-01-14,17200,14260,0,AE - Grace Tan
+ACC-1360,Arbor Digital Assets,crypto,NA,fraud,2026-05,2026-01-14,17200,13790,0,AE - Grace Tan
+ACC-1360,Arbor Digital Assets,crypto,NA,fraud,2026-06,2026-01-14,17200,12970,0,AE - Grace Tan
+ACC-1360,Arbor Digital Assets,crypto,NA,fraud,2026-07,2026-01-14,17200,12390,0,AE - Grace Tan
+ACC-1360,Arbor Digital Assets,crypto,NA,fraud,2026-08,2026-01-14,17200,14460,0,AE - Grace Tan
+ACC-1360,Arbor Digital Assets,crypto,NA,fraud,2026-09,2026-01-14,17200,14290,0,AE - Grace Tan
+ACC-1361,Oakmont Books,b2b_saas_payroll,NA,fraud,2026-04,2026-04-12,12400,4520,0,AE - Iris Bell
+ACC-1361,Oakmont Books,b2b_saas_payroll,NA,fraud,2026-05,2026-04-12,12400,7950,0,AE - Iris Bell
+ACC-1361,Oakmont Books,b2b_saas_payroll,NA,fraud,2026-06,2026-04-12,12400,10610,0,AE - Iris Bell
+ACC-1361,Oakmont Books,b2b_saas_payroll,NA,fraud,2026-07,2026-04-12,12400,15740,3340,AE - Iris Bell
+ACC-1361,Oakmont Books,b2b_saas_payroll,NA,fraud,2026-08,2026-04-12,12400,13500,1100,AE - Iris Bell
+ACC-1361,Oakmont Books,b2b_saas_payroll,NA,fraud,2026-09,2026-04-12,12400,15360,2960,AE - Iris Bell
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,compliance,2026-04,2026-03-05,19400,6510,0,AE - Liam Byrne
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,compliance,2026-05,2026-03-05,19400,11110,0,AE - Liam Byrne
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,compliance,2026-06,2026-03-05,19400,14660,0,AE - Liam Byrne
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,compliance,2026-07,2026-03-05,19400,14990,0,AE - Liam Byrne
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,compliance,2026-08,2026-03-05,19400,14650,0,AE - Liam Byrne
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,compliance,2026-09,2026-03-05,19400,16540,0,AE - Liam Byrne
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,fraud,2026-04,2025-10-01,18000,15450,0,AE - Klara Weiss
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,fraud,2026-05,2025-10-01,18000,15510,0,AE - Klara Weiss
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,fraud,2026-06,2025-10-01,18000,14510,0,AE - Klara Weiss
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,fraud,2026-07,2025-10-01,18000,14220,0,AE - Klara Weiss
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,fraud,2026-08,2025-10-01,18000,14850,0,AE - Klara Weiss
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,fraud,2026-09,2025-10-01,18000,16870,0,AE - Klara Weiss
+ACC-1370,Union Square Exchange,crypto,NA,fraud,2026-04,2025-12-22,7700,6700,0,AE - Hugo Park
+ACC-1370,Union Square Exchange,crypto,NA,fraud,2026-05,2025-12-22,7700,6150,0,AE - Hugo Park
+ACC-1370,Union Square Exchange,crypto,NA,fraud,2026-06,2025-12-22,7700,6240,0,AE - Hugo Park
+ACC-1370,Union Square Exchange,crypto,NA,fraud,2026-07,2025-12-22,7700,6530,0,AE - Hugo Park
+ACC-1370,Union Square Exchange,crypto,NA,fraud,2026-08,2025-12-22,7700,6020,0,AE - Hugo Park
+ACC-1370,Union Square Exchange,crypto,NA,fraud,2026-09,2025-12-22,7700,6450,0,AE - Hugo Park
+ACC-1372,Clearwater Payments,payments_issuing,EMEA,compliance,2026-04,2025-09-13,16800,10000,0,AE - Klara Weiss
+ACC-1372,Clearwater Payments,payments_issuing,EMEA,compliance,2026-05,2025-09-13,16800,10170,0,AE - Klara Weiss
+ACC-1372,Clearwater Payments,payments_issuing,EMEA,compliance,2026-06,2025-09-13,16800,9090,0,AE - Klara Weiss
+ACC-1372,Clearwater Payments,payments_issuing,EMEA,compliance,2026-07,2025-09-13,16800,10460,0,AE - Klara Weiss
+ACC-1372,Clearwater Payments,payments_issuing,EMEA,compliance,2026-08,2025-09-13,16800,9170,0,AE - Klara Weiss
+ACC-1372,Clearwater Payments,payments_issuing,EMEA,compliance,2026-09,2025-09-13,16800,9450,0,AE - Klara Weiss
+ACC-1375,Meridian Issuing,payments_issuing,NA,compliance,2026-04,2026-02-01,15200,14960,0,AE - Jon Reyes
+ACC-1375,Meridian Issuing,payments_issuing,NA,compliance,2026-05,2026-02-01,15200,21420,6220,AE - Jon Reyes
+ACC-1375,Meridian Issuing,payments_issuing,NA,compliance,2026-06,2026-02-01,15200,19710,4510,AE - Jon Reyes
+ACC-1375,Meridian Issuing,payments_issuing,NA,compliance,2026-07,2026-02-01,15200,19070,3870,AE - Jon Reyes
+ACC-1375,Meridian Issuing,payments_issuing,NA,compliance,2026-08,2026-02-01,15200,19410,4210,AE - Jon Reyes
+ACC-1375,Meridian Issuing,payments_issuing,NA,compliance,2026-09,2026-02-01,15200,18090,2890,AE - Jon Reyes
+ACC-1376,Crescent Tickets,marketplace_commerce,EMEA,fraud,2026-04,2026-03-30,13400,8100,0,AE - Liam Byrne
+ACC-1376,Crescent Tickets,marketplace_commerce,EMEA,fraud,2026-05,2026-03-30,13400,11480,0,AE - Liam Byrne
+ACC-1376,Crescent Tickets,marketplace_commerce,EMEA,fraud,2026-06,2026-03-30,13400,17370,3970,AE - Liam Byrne
+ACC-1376,Crescent Tickets,marketplace_commerce,EMEA,fraud,2026-07,2026-03-30,13400,17010,3610,AE - Liam Byrne
+ACC-1376,Crescent Tickets,marketplace_commerce,EMEA,fraud,2026-08,2026-03-30,13400,15580,2180,AE - Liam Byrne
+ACC-1376,Crescent Tickets,marketplace_commerce,EMEA,fraud,2026-09,2026-03-30,13400,16960,3560,AE - Liam Byrne
+ACC-1378,Redwood Issuing,payments_issuing,NA,fraud,2026-04,2025-12-08,12800,13240,440,AE - Hugo Park
+ACC-1378,Redwood Issuing,payments_issuing,NA,fraud,2026-05,2025-12-08,12800,12850,50,AE - Hugo Park
+ACC-1378,Redwood Issuing,payments_issuing,NA,fraud,2026-06,2025-12-08,12800,12840,40,AE - Hugo Park
+ACC-1378,Redwood Issuing,payments_issuing,NA,fraud,2026-07,2025-12-08,12800,14690,1890,AE - Hugo Park
+ACC-1378,Redwood Issuing,payments_issuing,NA,fraud,2026-08,2025-12-08,12800,14480,1680,AE - Hugo Park
+ACC-1378,Redwood Issuing,payments_issuing,NA,fraud,2026-09,2025-12-08,12800,14370,1570,AE - Hugo Park
+ACC-1379,Riverbend Money,fintech_neobank,APAC,fraud,2026-04,2025-12-25,12000,7080,0,AE - Mei Lin
+ACC-1379,Riverbend Money,fintech_neobank,APAC,fraud,2026-05,2025-12-25,12000,8020,0,AE - Mei Lin
+ACC-1379,Riverbend Money,fintech_neobank,APAC,fraud,2026-06,2025-12-25,12000,7470,0,AE - Mei Lin
+ACC-1379,Riverbend Money,fintech_neobank,APAC,fraud,2026-07,2025-12-25,12000,8640,0,AE - Mei Lin
+ACC-1379,Riverbend Money,fintech_neobank,APAC,fraud,2026-08,2025-12-25,12000,9660,0,AE - Mei Lin
+ACC-1379,Riverbend Money,fintech_neobank,APAC,fraud,2026-09,2025-12-25,12000,9080,0,AE - Mei Lin
+ACC-1380,Granite Peak Tickets,marketplace_commerce,NA,fraud,2026-04,2025-10-28,6000,3900,0,AE - Iris Bell
+ACC-1380,Granite Peak Tickets,marketplace_commerce,NA,fraud,2026-05,2025-10-28,6000,4720,0,AE - Iris Bell
+ACC-1380,Granite Peak Tickets,marketplace_commerce,NA,fraud,2026-06,2025-10-28,6000,4880,0,AE - Iris Bell
+ACC-1380,Granite Peak Tickets,marketplace_commerce,NA,fraud,2026-07,2025-10-28,6000,4440,0,AE - Iris Bell
+ACC-1380,Granite Peak Tickets,marketplace_commerce,NA,fraud,2026-08,2025-10-28,6000,4950,0,AE - Iris Bell
+ACC-1380,Granite Peak Tickets,marketplace_commerce,NA,fraud,2026-09,2025-10-28,6000,5100,0,AE - Iris Bell
+ACC-1382,Lakeshore Pay,fintech_neobank,NA,compliance,2026-04,2026-02-05,15200,11400,0,AE - Jon Reyes
+ACC-1382,Lakeshore Pay,fintech_neobank,NA,compliance,2026-05,2026-02-05,15200,15780,580,AE - Jon Reyes
+ACC-1382,Lakeshore Pay,fintech_neobank,NA,compliance,2026-06,2026-02-05,15200,15140,0,AE - Jon Reyes
+ACC-1382,Lakeshore Pay,fintech_neobank,NA,compliance,2026-07,2026-02-05,15200,16270,1070,AE - Jon Reyes
+ACC-1382,Lakeshore Pay,fintech_neobank,NA,compliance,2026-08,2026-02-05,15200,16850,1650,AE - Jon Reyes
+ACC-1382,Lakeshore Pay,fintech_neobank,NA,compliance,2026-09,2026-02-05,15200,16100,900,AE - Jon Reyes
+ACC-1387,Summit Ridge Chain,crypto,APAC,fraud,2026-05,2026-05-13,12500,1620,0,AE - Mei Lin
+ACC-1387,Summit Ridge Chain,crypto,APAC,fraud,2026-06,2026-05-13,12500,3660,0,AE - Mei Lin
+ACC-1387,Summit Ridge Chain,crypto,APAC,fraud,2026-07,2026-05-13,12500,5530,0,AE - Mei Lin
+ACC-1387,Summit Ridge Chain,crypto,APAC,fraud,2026-08,2026-05-13,12500,8910,0,AE - Mei Lin
+ACC-1387,Summit Ridge Chain,crypto,APAC,fraud,2026-09,2026-05-13,12500,8040,0,AE - Mei Lin
+ACC-1388,Highland Custody,crypto,NA,fraud,2026-04,2025-12-12,13900,11800,0,AE - Iris Bell
+ACC-1388,Highland Custody,crypto,NA,fraud,2026-05,2025-12-12,13900,12100,0,AE - Iris Bell
+ACC-1388,Highland Custody,crypto,NA,fraud,2026-06,2025-12-12,13900,11570,0,AE - Iris Bell
+ACC-1388,Highland Custody,crypto,NA,fraud,2026-07,2025-12-12,13900,10180,0,AE - Iris Bell
+ACC-1388,Highland Custody,crypto,NA,fraud,2026-08,2025-12-12,13900,10570,0,AE - Iris Bell
+ACC-1388,Highland Custody,crypto,NA,fraud,2026-09,2025-12-12,13900,10410,0,AE - Iris Bell
+ACC-1393,Bayfront Community Bank,regional_bank_cu,NA,fraud,2026-04,2025-11-01,11200,10540,0,AE - Hugo Park
+ACC-1393,Bayfront Community Bank,regional_bank_cu,NA,fraud,2026-05,2025-11-01,11200,9660,0,AE - Hugo Park
+ACC-1393,Bayfront Community Bank,regional_bank_cu,NA,fraud,2026-06,2025-11-01,11200,10930,0,AE - Hugo Park
+ACC-1393,Bayfront Community Bank,regional_bank_cu,NA,fraud,2026-07,2025-11-01,11200,8890,0,AE - Hugo Park
+ACC-1393,Bayfront Community Bank,regional_bank_cu,NA,fraud,2026-08,2025-11-01,11200,9740,0,AE - Hugo Park
+ACC-1393,Bayfront Community Bank,regional_bank_cu,NA,fraud,2026-09,2025-11-01,11200,8790,0,AE - Hugo Park
+ACC-1399,Stonebridge Money,fintech_neobank,EMEA,fraud,2026-04,2025-12-13,4900,4270,0,AE - Liam Byrne
+ACC-1399,Stonebridge Money,fintech_neobank,EMEA,fraud,2026-05,2025-12-13,4900,4110,0,AE - Liam Byrne
+ACC-1399,Stonebridge Money,fintech_neobank,EMEA,fraud,2026-06,2025-12-13,4900,3990,0,AE - Liam Byrne
+ACC-1399,Stonebridge Money,fintech_neobank,EMEA,fraud,2026-07,2025-12-13,4900,3980,0,AE - Liam Byrne
+ACC-1399,Stonebridge Money,fintech_neobank,EMEA,fraud,2026-08,2025-12-13,4900,4120,0,AE - Liam Byrne
+ACC-1399,Stonebridge Money,fintech_neobank,EMEA,fraud,2026-09,2025-12-13,4900,4500,0,AE - Liam Byrne
+ACC-1401,Clearwater Money,fintech_neobank,NA,compliance,2026-05,2026-05-23,3600,870,0,AE - Jon Reyes
+ACC-1401,Clearwater Money,fintech_neobank,NA,compliance,2026-06,2026-05-23,3600,1750,0,AE - Jon Reyes
+ACC-1401,Clearwater Money,fintech_neobank,NA,compliance,2026-07,2026-05-23,3600,2870,0,AE - Jon Reyes
+ACC-1401,Clearwater Money,fintech_neobank,NA,compliance,2026-08,2026-05-23,3600,3250,0,AE - Jon Reyes
+ACC-1401,Clearwater Money,fintech_neobank,NA,compliance,2026-09,2026-05-23,3600,3800,200,AE - Jon Reyes
+ACC-1401,Clearwater Money,fintech_neobank,NA,fraud,2026-04,2026-04-28,10600,1670,0,AE - Iris Bell
+ACC-1401,Clearwater Money,fintech_neobank,NA,fraud,2026-05,2026-04-28,10600,3150,0,AE - Iris Bell
+ACC-1401,Clearwater Money,fintech_neobank,NA,fraud,2026-06,2026-04-28,10600,4250,0,AE - Iris Bell
+ACC-1401,Clearwater Money,fintech_neobank,NA,fraud,2026-07,2026-04-28,10600,6210,0,AE - Iris Bell
+ACC-1401,Clearwater Money,fintech_neobank,NA,fraud,2026-08,2026-04-28,10600,5660,0,AE - Iris Bell
+ACC-1401,Clearwater Money,fintech_neobank,NA,fraud,2026-09,2026-04-28,10600,4710,0,AE - Iris Bell
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,compliance,2026-04,2026-03-23,16800,5610,0,AE - Hugo Park
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,compliance,2026-05,2026-03-23,16800,9480,0,AE - Hugo Park
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,compliance,2026-06,2026-03-23,16800,11720,0,AE - Hugo Park
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,compliance,2026-07,2026-03-23,16800,11900,0,AE - Hugo Park
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,compliance,2026-08,2026-03-23,16800,12710,0,AE - Hugo Park
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,compliance,2026-09,2026-03-23,16800,12740,0,AE - Hugo Park
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,fraud,2026-04,2026-04-21,8200,1250,0,AE - Iris Bell
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,fraud,2026-05,2026-04-21,8200,2910,0,AE - Iris Bell
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,fraud,2026-06,2026-04-21,8200,3700,0,AE - Iris Bell
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,fraud,2026-07,2026-04-21,8200,4800,0,AE - Iris Bell
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,fraud,2026-08,2026-04-21,8200,5690,0,AE - Iris Bell
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,fraud,2026-09,2026-04-21,8200,5640,0,AE - Iris Bell
+ACC-1410,Blue Mesa Pay,fintech_neobank,NA,compliance,2026-04,2026-03-02,5800,2290,0,AE - Iris Bell
+ACC-1410,Blue Mesa Pay,fintech_neobank,NA,compliance,2026-05,2026-03-02,5800,2940,0,AE - Iris Bell
+ACC-1410,Blue Mesa Pay,fintech_neobank,NA,compliance,2026-06,2026-03-02,5800,3850,0,AE - Iris Bell
+ACC-1410,Blue Mesa Pay,fintech_neobank,NA,compliance,2026-07,2026-03-02,5800,4330,0,AE - Iris Bell
+ACC-1410,Blue Mesa Pay,fintech_neobank,NA,compliance,2026-08,2026-03-02,5800,4030,0,AE - Iris Bell
+ACC-1410,Blue Mesa Pay,fintech_neobank,NA,compliance,2026-09,2026-03-02,5800,4160,0,AE - Iris Bell
+ACC-1411,Clearwater Chain,crypto,NA,compliance,2026-07,2026-07-10,7400,1150,0,AE - Grace Tan
+ACC-1411,Clearwater Chain,crypto,NA,compliance,2026-08,2026-07-10,7400,2300,0,AE - Grace Tan
+ACC-1411,Clearwater Chain,crypto,NA,compliance,2026-09,2026-07-10,7400,3100,0,AE - Grace Tan
+ACC-1413,Clearwater Pay,fintech_neobank,EMEA,fraud,2026-04,2026-04-17,6200,1250,0,AE - Klara Weiss
+ACC-1413,Clearwater Pay,fintech_neobank,EMEA,fraud,2026-05,2026-04-17,6200,2450,0,AE - Klara Weiss
+ACC-1413,Clearwater Pay,fintech_neobank,EMEA,fraud,2026-06,2026-04-17,6200,4370,0,AE - Klara Weiss
+ACC-1413,Clearwater Pay,fintech_neobank,EMEA,fraud,2026-07,2026-04-17,6200,5410,0,AE - Klara Weiss
+ACC-1413,Clearwater Pay,fintech_neobank,EMEA,fraud,2026-08,2026-04-17,6200,5920,0,AE - Klara Weiss
+ACC-1413,Clearwater Pay,fintech_neobank,EMEA,fraud,2026-09,2026-04-17,6200,6060,0,AE - Klara Weiss
+ACC-1420,Clearwater National Bank,sponsor_bank_baas,EMEA,fraud,2026-06,2026-06-05,12200,2820,0,AE - Liam Byrne
+ACC-1420,Clearwater National Bank,sponsor_bank_baas,EMEA,fraud,2026-07,2026-06-05,12200,6090,0,AE - Liam Byrne
+ACC-1420,Clearwater National Bank,sponsor_bank_baas,EMEA,fraud,2026-08,2026-06-05,12200,10130,0,AE - Liam Byrne
+ACC-1420,Clearwater National Bank,sponsor_bank_baas,EMEA,fraud,2026-09,2026-06-05,12200,13020,820,AE - Liam Byrne
+ACC-1422,Westfield Federal CU,regional_bank_cu,NA,compliance,2026-04,2026-03-09,11100,3230,0,AE - Jon Reyes
+ACC-1422,Westfield Federal CU,regional_bank_cu,NA,compliance,2026-05,2026-03-09,11100,5810,0,AE - Jon Reyes
+ACC-1422,Westfield Federal CU,regional_bank_cu,NA,compliance,2026-06,2026-03-09,11100,6740,0,AE - Jon Reyes
+ACC-1422,Westfield Federal CU,regional_bank_cu,NA,compliance,2026-07,2026-03-09,11100,7740,0,AE - Jon Reyes
+ACC-1422,Westfield Federal CU,regional_bank_cu,NA,compliance,2026-08,2026-03-09,11100,7120,0,AE - Jon Reyes
+ACC-1422,Westfield Federal CU,regional_bank_cu,NA,compliance,2026-09,2026-03-09,11100,7800,0,AE - Jon Reyes
+ACC-1423,Copper State Money,fintech_neobank,EMEA,compliance,2026-04,2026-04-05,13200,2430,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,compliance,2026-05,2026-04-05,13200,5330,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,compliance,2026-06,2026-04-05,13200,7090,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,compliance,2026-07,2026-04-05,13200,9840,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,compliance,2026-08,2026-04-05,13200,9160,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,compliance,2026-09,2026-04-05,13200,9480,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,fraud,2026-06,2026-06-02,9800,1160,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,fraud,2026-07,2026-06-02,9800,2710,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,fraud,2026-08,2026-06-02,9800,3930,0,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,fraud,2026-09,2026-06-02,9800,5390,0,AE - Klara Weiss
+ACC-1425,Redwood Neo,fintech_neobank,NA,fraud,2026-04,2025-11-06,10700,7610,0,AE - Jon Reyes
+ACC-1425,Redwood Neo,fintech_neobank,NA,fraud,2026-05,2025-11-06,10700,7470,0,AE - Jon Reyes
+ACC-1425,Redwood Neo,fintech_neobank,NA,fraud,2026-06,2025-11-06,10700,9160,0,AE - Jon Reyes
+ACC-1425,Redwood Neo,fintech_neobank,NA,fraud,2026-07,2025-11-06,10700,8350,0,AE - Jon Reyes
+ACC-1425,Redwood Neo,fintech_neobank,NA,fraud,2026-08,2025-11-06,10700,9350,0,AE - Jon Reyes
+ACC-1425,Redwood Neo,fintech_neobank,NA,fraud,2026-09,2025-11-06,10700,10000,0,AE - Jon Reyes
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,compliance,2026-04,2026-01-09,5300,6700,1400,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,compliance,2026-05,2026-01-09,5300,6970,1670,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,compliance,2026-06,2026-01-09,5300,6530,1230,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,compliance,2026-07,2026-01-09,5300,6320,1020,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,compliance,2026-08,2026-01-09,5300,6210,910,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,compliance,2026-09,2026-01-09,5300,6040,740,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,fraud,2026-04,2026-04-16,12000,2600,0,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,fraud,2026-05,2026-04-16,12000,5060,0,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,fraud,2026-06,2026-04-16,12000,6910,0,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,fraud,2026-07,2026-04-16,12000,8610,0,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,fraud,2026-08,2026-04-16,12000,9740,0,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,fraud,2026-09,2026-04-16,12000,8540,0,AE - Hugo Park
+ACC-1431,Keystone Exchange,crypto,NA,compliance,2026-04,2026-04-06,3800,1010,0,AE - Hugo Park
+ACC-1431,Keystone Exchange,crypto,NA,compliance,2026-05,2026-04-06,3800,2120,0,AE - Hugo Park
+ACC-1431,Keystone Exchange,crypto,NA,compliance,2026-06,2026-04-06,3800,3000,0,AE - Hugo Park
+ACC-1431,Keystone Exchange,crypto,NA,compliance,2026-07,2026-04-06,3800,3650,0,AE - Hugo Park
+ACC-1431,Keystone Exchange,crypto,NA,compliance,2026-08,2026-04-06,3800,3900,100,AE - Hugo Park
+ACC-1431,Keystone Exchange,crypto,NA,compliance,2026-09,2026-04-06,3800,3750,0,AE - Hugo Park
+ACC-1435,Oakmont Money,fintech_neobank,MENA,fraud,2026-05,2026-05-12,8500,1210,0,AE - Omar Haddad
+ACC-1435,Oakmont Money,fintech_neobank,MENA,fraud,2026-06,2026-05-12,8500,2780,0,AE - Omar Haddad
+ACC-1435,Oakmont Money,fintech_neobank,MENA,fraud,2026-07,2026-05-12,8500,3770,0,AE - Omar Haddad
+ACC-1435,Oakmont Money,fintech_neobank,MENA,fraud,2026-08,2026-05-12,8500,5350,0,AE - Omar Haddad
+ACC-1435,Oakmont Money,fintech_neobank,MENA,fraud,2026-09,2026-05-12,8500,5130,0,AE - Omar Haddad
+ACC-1440,Crescent Money,fintech_neobank,EMEA,fraud,2026-05,2026-05-28,9700,2380,0,AE - Klara Weiss
+ACC-1440,Crescent Money,fintech_neobank,EMEA,fraud,2026-06,2026-05-28,9700,4420,0,AE - Klara Weiss
+ACC-1440,Crescent Money,fintech_neobank,EMEA,fraud,2026-07,2026-05-28,9700,7000,0,AE - Klara Weiss
+ACC-1440,Crescent Money,fintech_neobank,EMEA,fraud,2026-08,2026-05-28,9700,9300,0,AE - Klara Weiss
+ACC-1440,Crescent Money,fintech_neobank,EMEA,fraud,2026-09,2026-05-28,9700,8400,0,AE - Klara Weiss
+ACC-1445,Union Square Issuing,payments_issuing,NA,compliance,2026-04,2025-12-25,17000,13710,0,AE - Jon Reyes
+ACC-1445,Union Square Issuing,payments_issuing,NA,compliance,2026-05,2025-12-25,17000,12800,0,AE - Jon Reyes
+ACC-1445,Union Square Issuing,payments_issuing,NA,compliance,2026-06,2025-12-25,17000,13730,0,AE - Jon Reyes
+ACC-1445,Union Square Issuing,payments_issuing,NA,compliance,2026-07,2025-12-25,17000,14140,0,AE - Jon Reyes
+ACC-1445,Union Square Issuing,payments_issuing,NA,compliance,2026-08,2025-12-25,17000,13820,0,AE - Jon Reyes
+ACC-1445,Union Square Issuing,payments_issuing,NA,compliance,2026-09,2025-12-25,17000,13920,0,AE - Jon Reyes
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,compliance,2026-04,2025-09-23,33000,21380,0,AE - Iris Bell
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,compliance,2026-05,2025-09-23,33000,21020,0,AE - Iris Bell
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,compliance,2026-06,2025-09-23,33000,21720,0,AE - Iris Bell
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,compliance,2026-07,2025-09-23,33000,20890,0,AE - Iris Bell
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,compliance,2026-08,2025-09-23,33000,18890,0,AE - Iris Bell
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,compliance,2026-09,2025-09-23,33000,21200,0,AE - Iris Bell
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,fraud,2026-04,2025-11-21,21900,10540,0,AE - Grace Tan
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,fraud,2026-05,2025-11-21,21900,10180,0,AE - Grace Tan
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,fraud,2026-06,2025-11-21,21900,10730,0,AE - Grace Tan
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,fraud,2026-07,2025-11-21,21900,11010,0,AE - Grace Tan
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,fraud,2026-08,2025-11-21,21900,10550,0,AE - Grace Tan
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,fraud,2026-09,2025-11-21,21900,10750,0,AE - Grace Tan

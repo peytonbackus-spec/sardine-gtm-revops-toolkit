@@ -1,0 +1,213 @@
+# =============================================================================
+# Sardine GTM RevOps Toolkit: company config
+# -----------------------------------------------------------------------------
+# Every script reads this file; nothing Sardine-specific is hardcoded in code.
+# Sources for every [PUBLIC] / [POSTING] value: shared_core/context/sardine-company-brief.md
+#
+# Provenance tags, so a reader can tell fact from guess:
+#   [PUBLIC]   Sardine's site, press releases, funding coverage, analyst reports
+#   [POSTING]  Sardine job postings (Revenue Operations Manager, GTM Engineer, Marketing Ops)
+#   [ASSUME]   a reasoned working assumption, to validate in the first 30 days
+#   [VERIFY]   from a third-party estimate; check before using
+# All numbers below that size the business (ACV, quota, headcount) are [ASSUME]
+# illustrations sized to the synthetic data, not Sardine figures.
+# =============================================================================
+
+company:
+  name: Sardine
+  tagline: "The agentic risk platform for fighting financial crime"            # [PUBLIC]
+  segment_note: "Fraud + AML compliance platform sold to banks, fintechs, payments companies and digital businesses; consumption pricing with a monthly minimum commit"  # [PUBLIC] + [VERIFY] pricing
+
+# Fiscal calendar. [ASSUME] calendar year; Sardine does not publish its fiscal year.
+fiscal:
+  year_start_month: 1
+  as_of_date: 2026-10-01          # fixed so reports reproduce against the synthetic data
+current_fiscal_quarter: FY26-Q4
+
+# Two product lines, grouped the way Sardine's own nav groups them. [PUBLIC]
+# `compliance` is listed first: it is the line sold mainly into regulated financial institutions
+# (segments with core_segment: true); `fraud` is sold into every segment.
+product_lines:
+  compliance:
+    label: Onboarding & AML Compliance
+    products: [Global KYC, Global KYB, Transaction Monitoring, Sanctions Screening, Customer Risk Rating, Case Management, Agentic AML Ops]
+    primary_buyers: [bsa_aml_officer, chief_risk_officer]
+  fraud:
+    label: Fraud, Device & Cyber
+    products: [Device Intelligence, Behavior Biometrics, Payment Fraud, Card Issuing Fraud, Account Takeover, Agentic Fraud Ops]
+    primary_buyers: [head_of_fraud, head_of_payments_product, ciso_security, risk_data_science]
+  cross_sell: {compliance: fraud, fraud: compliance}   # the "one platform, fraud + AML" convergence play [PUBLIC positioning]
+
+# Market segments. icp_points feed fit scoring; motion drives routing and plays.
+# Segment list is built from Sardine's named customers and open sales roles. [PUBLIC] [POSTING]
+# icp_points are [ASSUME] starting weights; calibrate_scoring.py tests them against outcomes.
+segments:
+  tier1_bank:           {label: "Tier-1 & large banks",                    icp_points: 30, motion: enterprise_abm, core_segment: true,  use_case: "Real-time fraud and AML on instant payments without adding friction for good customers; consolidate point vendors"}
+  regional_bank_cu:     {label: "Regional & community banks, credit unions", icp_points: 24, motion: enterprise_abm, core_segment: true,  use_case: "Examiner-ready AML automation and faster fraud rule changes with a lean team"}
+  sponsor_bank_baas:    {label: "Sponsor banks & BaaS platforms",          icp_points: 28, motion: partner_led,    core_segment: true,  use_case: "Program-level fraud and BSA/AML oversight across fintech partners and payment rails"}
+  fintech_neobank:      {label: "Fintechs & neobanks",                     icp_points: 28, motion: velocity,       core_segment: true,  use_case: "Onboarding conversion with KYC/KYB plus fraud controls that scale with growth"}
+  payments_issuing:     {label: "Payments, card issuers & acquirers",      icp_points: 28, motion: enterprise_abm, core_segment: true,  use_case: "Card and payment fraud at authorization speed; merchant monitoring"}
+  crypto:               {label: "Crypto & digital assets",                 icp_points: 24, motion: velocity,       core_segment: true,  use_case: "On/off-ramp fraud, sanctions exposure and Travel Rule-ready compliance"}
+  marketplace_commerce: {label: "Marketplaces, commerce & ticketing",      icp_points: 22, motion: velocity,       core_segment: false, use_case: "Payment fraud, refund and policy abuse, bot and account-takeover defense"}
+  b2b_saas_payroll:     {label: "Payroll, HR & B2B SaaS platforms",        icp_points: 22, motion: velocity,       core_segment: false, use_case: "KYB on new customers, payout fraud and job-applicant fraud"}
+  gaming_prediction:    {label: "Gaming & prediction markets",             icp_points: 18, motion: velocity,       core_segment: false, use_case: "Identity, bonus abuse and payment fraud at signup and withdrawal"}
+  public_sector:        {label: "Federal & public sector",                 icp_points: 16, motion: enterprise_abm, core_segment: false, use_case: "Benefits and payments fraud detection with an auditable decision trail"}
+  other:                {label: "Non-ICP",                                 icp_points: 0,  motion: nurture,        core_segment: false, use_case: ""}
+
+# Buyer personas: who signs, who influences, who blocks. angle = default messaging hook. [ASSUME]
+personas:
+  head_of_fraud:            {label: "Head of Fraud / Fraud Strategy",              role: economic_buyer, points: 25, angle: "Lower fraud losses without raising false positives; one platform instead of five point tools"}
+  bsa_aml_officer:          {label: "BSA/AML Officer / Chief Compliance Officer",  role: economic_buyer, points: 24, angle: "Clear the alert backlog with agents a regulator can audit; examiner-ready SAR narratives"}
+  chief_risk_officer:       {label: "Chief Risk Officer",                          role: economic_buyer, points: 22, angle: "One view of fraud and financial-crime risk; fewer vendors, one model-governance story"}
+  head_of_payments_product: {label: "VP Payments / Product (onboarding, cards, money movement)", role: champion, points: 18, angle: "Launch new rails and products faster without opening fraud holes; protect onboarding conversion"}
+  risk_data_science:        {label: "Head of Risk Analytics / Data Science",       role: influencer,     points: 16, angle: "Consortium data and device signals your models can't see; rules shipped in hours, not sprints"}
+  ciso_security:            {label: "CISO / Security (ATO, bots)",                  role: influencer,     points: 15, angle: "Account-takeover and bot defense that shares signals with fraud ops"}
+  fraud_ops_manager:        {label: "Fraud / Compliance Ops Manager or Analyst",   role: champion,       points: 12, angle: "Fewer manual reviews per analyst; agents that pre-work every case"}
+  blocker_procurement:      {label: "Procurement / Vendor Risk / Model Risk Mgmt", role: blocker,        points: 5,  angle: "Complete third-party risk and model-governance package up front"}
+  unknown:                  {label: "Unknown / Non-buyer",                         role: none,           points: 0,  angle: "Confirm role and whether they own fraud or compliance outcomes"}
+
+# Regions follow Sardine's open sales roles: NA, EU/UK, MENA (Dubai), Mexico/Brazil, Australia. [POSTING]
+regions: [NA, EMEA, LATAM, APAC, MENA]
+
+# GTM stack. [POSTING] where a Sardine posting names the tool; [ASSUME] otherwise.
+stack:
+  crm: Salesforce                                  # [POSTING] RevOps Manager, GTM Engineer
+  marketing_automation: HubSpot                    # [POSTING]
+  signals_platform: Unify                          # [POSTING]
+  enrichment_orchestration: Clay                   # [POSTING]
+  workflow_automation: n8n                         # [POSTING] (also Zapier / Workato / Tray.io named as middleware)
+  data_provider: ZoomInfo                          # [POSTING] Marketing Ops role
+  paid_ads: Influ2                                 # [POSTING] Marketing Ops role
+  web_analytics: Google Analytics                  # [POSTING] Marketing Ops role
+  ai_build_tools: "Cursor, Claude, v0"             # [POSTING]
+  forecasting: Salesforce Forecasts                # [ASSUME] no forecasting tool named in any posting
+  conversation_intelligence: Gong                  # [ASSUME]
+  sales_engagement: Unify Plays + HubSpot Sequences # [ASSUME] Unify includes sequencing
+  dialer: none dedicated                           # [ASSUME]
+  conversational_marketing: HubSpot Chat           # [ASSUME]
+  social_selling: LinkedIn Sales Navigator         # [ASSUME]
+  cpq_billing: Salesforce CPQ + usage billing      # [ASSUME] GTM Engineer posting names CPQ; consumption billing implied by pricing model
+
+# Partners. Helix by Q2 and Modulr are announced partnerships [PUBLIC]; types and the referral
+# motion are [ASSUME]. The consortium is Sardine's Sonar network [PUBLIC].
+partners:
+  - {name: Helix by Q2, type: technology_partner}
+  - {name: Modulr, type: technology_partner}
+  - {name: Sponsor bank referral, type: referral}
+  - {name: SI partner, type: reseller}
+
+# Variables that resolve the [BRACKET] tokens in docs/specs (see VARIABLES.md).
+variables:
+  COMPANY_NAME: Sardine
+  CRM: Salesforce
+  FORECAST_TOOL: Salesforce Forecasts (assumed)
+  CONVERSATION_INTELLIGENCE: Gong (assumed)
+  SEQUENCER: Unify / HubSpot Sequences (assumed)
+  DIALER: dialer (none confirmed)
+  DATA_PROVIDER: ZoomInfo
+  ENRICHMENT_ORCHESTRATION: Clay
+  WEBSITE_CHAT: HubSpot Chat (assumed)
+  SOCIAL_SELLING: LinkedIn Sales Navigator (assumed)
+  MARKETING_AUTOMATION: HubSpot
+  SIGNALS_PLATFORM: Unify
+  WORKFLOW_AUTOMATION: n8n
+
+# ---------------------------------------------------------------------------
+# GTM ENGINEER track: lead lifecycle, scoring and routing
+# ---------------------------------------------------------------------------
+lead_lifecycle:
+  statuses: [New, Enriching, MQL, SAL, Working, SQL, Converted, Recycled, Disqualified]
+  sla_hours:                                           # [ASSUME] targets to agree with Marketing + Sales leadership
+    mql_to_sal: 4
+    sal_to_first_touch: 1
+    sal_to_sql_days: 14
+  disqualify_reasons: [Not ICP, Competitor, Student/Job Seeker, Existing Open Opp, No Use Case, Bad Data, Duplicate]
+  recycle_after_days: 90
+
+lead_scoring:
+  # Two independent axes, combined into a grade like "A1". [ASSUME] starting weights; calibrate_scoring.py tunes them
+  fit_bands:    {A: 85, B: 70, C: 50}
+  intent_bands: {1: 60, 2: 35, 3: 15}
+  mql_grades: [A1, A2, B1, A3, B2]
+  region_points: {NA: 15, EMEA: 12, LATAM: 9, MENA: 9, APAC: 7}
+  size_bands:
+    - {min_employees: 5000, points: 20}
+    - {min_employees: 1000, points: 14}
+    - {min_employees: 150,  points: 8}
+  size_default_points: 2
+  alignment:
+    - {product_interest: compliance, segments: core_segments, points: 10}  # AML/KYC lands where it's regulated
+    - {product_interest: fraud,      segments: all_icp,       points: 10}
+  intent_signals:                        # points + half-life (days); hand_raiser = explicit buying action
+    demo_request:              {points: 40, half_life_days: 14, hand_raiser: true}
+    chat_engaged:              {points: 30, half_life_days: 7,  hand_raiser: true}
+    pricing_page_visit:        {points: 20, half_life_days: 10}
+    unify_website_visit:       {points: 14, half_life_days: 7}    # de-anonymized visit from the signals platform
+    webinar_attended:          {points: 15, half_life_days: 21}   # e.g. Fraud Forward sessions
+    sardinecon_attended:       {points: 22, half_life_days: 45}   # flagship event
+    content_download:          {points: 12, half_life_days: 21}   # whitepapers, analyst reports
+    regulatory_action:         {points: 30, half_life_days: 120}  # consent order / enforcement action: strongest compliance trigger
+    new_product_launch:        {points: 18, half_life_days: 60}   # new card program, instant-payments launch, new market
+    fraud_team_hiring:         {points: 12, half_life_days: 45}   # fraud/AML analyst job posts
+    champion_job_change:       {points: 18, half_life_days: 60}
+    competitor_renewal_window: {points: 20, half_life_days: 90}
+    email_reply_positive:      {points: 25, half_life_days: 14}
+
+lead_routing:
+  # Ordered pods; first match wins. [ASSUME] pod structure and roster (all names fictional)
+  pods:
+    enterprise_fi_na:   {segments: [tier1_bank, payments_issuing, public_sector], regions: [NA]}
+    banking_na:         {segments: [regional_bank_cu, sponsor_bank_baas], regions: [NA]}
+    fintech_crypto_na:  {segments: [fintech_neobank, crypto], regions: [NA]}
+    digital_na:         {segments: [marketplace_commerce, b2b_saas_payroll, gaming_prediction], regions: [NA]}
+    emea_all:           {segments: ["*"], regions: [EMEA]}
+    latam_all:          {segments: ["*"], regions: [LATAM]}
+    apac_mena:          {segments: ["*"], regions: [APAC, MENA]}
+  pod_sdrs:
+    enterprise_fi_na:  ["SDR - Alex Rivera", "SDR - Bri Okafor"]
+    banking_na:        ["SDR - Chen Wu"]
+    fintech_crypto_na: ["SDR - Dana Lopes", "SDR - Eli Novak"]
+    digital_na:        ["SDR - Eli Novak"]
+    emea_all:          ["SDR - Fran Moretti"]
+    latam_all:         ["SDR - Gabi Souza"]
+    apac_mena:         ["SDR - Fran Moretti"]
+  partner_manager: "Partner Mgr - Olu Adeyemi"
+  max_open_leads_per_sdr: 60
+
+# ---------------------------------------------------------------------------
+# GTM STRATEGY & OPS track: opportunity, forecast and renewal settings
+# ---------------------------------------------------------------------------
+opportunity:
+  types: [New Logo, Expansion, Renewal]
+  stages:                                              # [ASSUME] stage design; see stage-definitions.md
+    - {name: "1 - Qualify",                          probability: 0.10, max_days: 21}
+    - {name: "2 - Discovery",                        probability: 0.20, max_days: 30}
+    - {name: "3 - Technical Validation",             probability: 0.40, max_days: 45}   # sandbox + backtest on the prospect's own data
+    - {name: "4 - Business Case & Security Review",  probability: 0.60, max_days: 45}   # TPRM + model risk review at banks
+    - {name: "5 - Negotiate & Contract",             probability: 0.80, max_days: 30}   # minimum commit + rate card
+    - {name: "Closed Won",                           probability: 1.00, max_days: null}
+    - {name: "Closed Lost",                          probability: 0.00, max_days: null}
+  forecast_categories: [Pipeline, Best Case, Commit, Closed, Omitted]
+  closed_lost_reasons: [Price, Lost to Competitor, No Decision / Status Quo, Build In-House, Security / Compliance Blocker, Integration Effort, Timing / Budget, Champion Left]
+  coverage_target: 3.0                                 # [ASSUME]
+
+renewals:
+  lookahead_days: 180
+  health_weights:                                      # [ASSUME]; must sum to 1.0
+    volume_trend: 0.30        # API call / transaction volume trend
+    utilization: 0.20         # consumption vs minimum commit
+    support: 0.15
+    sponsor: 0.20
+    competitive: 0.15
+
+# Consumption pricing: a minimum monthly commit drawn down by usage, overages billed monthly.
+# [VERIFY] model from a third-party pricing aggregator; thresholds [ASSUME].
+consumption:
+  overage_alert_pct: 100      # month-to-date consumption above commit -> expansion conversation
+  shelfware_alert_pct: 60     # trailing-90-day consumption below this share of commit -> churn risk
+  ramp_months: 3              # new logos are excused from shelfware alerts while integrating
+
+# New-business + expansion quota by fiscal quarter and region. [ASSUME] illustrative only,
+# sized to the synthetic data so coverage math has something to show.
+quota:
+  FY26-Q4: {NA: 1800000, EMEA: 500000, LATAM: 220000, APAC: 120000, MENA: 150000}

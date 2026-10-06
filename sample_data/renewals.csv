@@ -1,0 +1,170 @@
+account_id,account_name,segment,region,product_line,arr,renewal_date,volume_trend_90d_pct,utilization_pct,sev1_tickets_90d,exec_sponsor_active,competitor_signal,products_owned,owner
+ACC-1001,Meridian Market,marketplace_commerce,NA,fraud,40000,2026-12-05,8.1,123,0,True,False,fraud,AE - Iris Bell
+ACC-1004,Union Square Bank,tier1_bank,EMEA,compliance,837000,2026-09-11,22.1,56,0,True,False,compliance;fraud,AE - Liam Byrne
+ACC-1004,Union Square Bank,tier1_bank,EMEA,fraud,412000,2027-02-07,-0.8,5,0,True,False,compliance;fraud,AE - Klara Weiss
+ACC-1005,Sterling Card,fintech_neobank,NA,fraud,118000,2027-06-30,3.1,53,0,True,False,fraud,AE - Grace Tan
+ACC-1008,Falcon Commerce,marketplace_commerce,NA,fraud,33000,2026-10-28,-16.5,113,0,False,True,fraud,AE - Jon Reyes
+ACC-1010,Riverbend Federal CU,regional_bank_cu,NA,compliance,62000,2027-05-02,4.1,52,0,False,False,compliance,AE - Grace Tan
+ACC-1012,Redwood Bank & Trust,sponsor_bank_baas,NA,fraud,134000,2027-06-15,4.6,63,0,False,True,fraud,AE - Jon Reyes
+ACC-1016,Arbor Issuing,payments_issuing,NA,compliance,234000,2027-01-21,1.9,90,0,True,False,compliance,AE - Iris Bell
+ACC-1017,Riverbend Custody,crypto,LATAM,compliance,184000,2027-01-16,-22.0,106,1,True,False,compliance,AE - Nico Duarte
+ACC-1022,Tidewater Commerce,marketplace_commerce,EMEA,fraud,109000,2026-10-24,-7.6,118,0,True,False,fraud,AE - Klara Weiss
+ACC-1032,Evergreen Shop,marketplace_commerce,NA,fraud,144000,2027-02-16,2.6,89,0,False,False,fraud,AE - Grace Tan
+ACC-1033,Tidewater Bank,tier1_bank,NA,compliance,486000,2027-02-23,5.9,65,0,True,False,compliance,AE - Iris Bell
+ACC-1036,Blue Mesa BaaS,sponsor_bank_baas,NA,fraud,114000,2027-01-28,10.7,65,0,True,True,fraud,AE - Hugo Park
+ACC-1038,Bayfront Savings Bank,regional_bank_cu,NA,compliance,69000,2026-09-19,13.1,49,0,True,False,compliance,AE - Hugo Park
+ACC-1040,Cedar Valley Department,public_sector,NA,fraud,361000,2027-05-31,-28.9,104,0,True,False,fraud,AE - Jon Reyes
+ACC-1043,Harborview National Bank,sponsor_bank_baas,NA,fraud,87000,2027-06-09,-15.7,128,0,True,False,fraud,AE - Jon Reyes
+ACC-1045,Redwood Community Bank,regional_bank_cu,NA,fraud,65000,2027-03-13,-5.0,73,0,False,False,fraud,AE - Jon Reyes
+ACC-1046,Maple Leaf Tickets,marketplace_commerce,NA,fraud,33000,2027-02-08,17.6,103,3,True,True,fraud,AE - Iris Bell
+ACC-1047,Westfield Bank & Trust,sponsor_bank_baas,EMEA,fraud,80000,2026-11-09,-11.8,31,0,False,False,fraud,AE - Liam Byrne
+ACC-1053,Arbor Card,fintech_neobank,LATAM,fraud,126000,2027-02-04,-14.0,39,0,True,False,fraud,AE - Nico Duarte
+ACC-1056,Meridian Tickets,marketplace_commerce,NA,fraud,63000,2027-01-24,-1.7,87,0,True,False,fraud,AE - Jon Reyes
+ACC-1057,Riverbend Chain,crypto,NA,fraud,58000,2026-10-26,-2.9,44,0,False,True,fraud,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,compliance,48000,2026-10-26,19.4,111,0,True,False,compliance;fraud,AE - Jon Reyes
+ACC-1059,Copper State Savings Bank,regional_bank_cu,NA,fraud,121000,2027-04-21,1.1,67,1,False,False,compliance;fraud,AE - Iris Bell
+ACC-1068,Riverbend Agency,public_sector,NA,fraud,225000,2026-10-04,12.8,81,0,True,False,fraud,AE - Hugo Park
+ACC-1074,Stonebridge Card,fintech_neobank,NA,compliance,175000,2027-02-11,-22.0,129,0,True,False,compliance;fraud,AE - Iris Bell
+ACC-1074,Stonebridge Card,fintech_neobank,NA,fraud,115000,2027-07-28,36.9,78,0,False,False,compliance;fraud,AE - Iris Bell
+ACC-1075,Oakmont Cloud,b2b_saas_payroll,NA,fraud,141000,2027-04-14,46.7,132,0,True,False,fraud,AE - Grace Tan
+ACC-1077,Arbor Financial Group,tier1_bank,EMEA,fraud,737000,2026-11-14,10.6,52,0,True,True,fraud,AE - Liam Byrne
+ACC-1081,Tidewater Pay,fintech_neobank,NA,compliance,174000,2027-03-28,34.8,62,1,False,False,compliance;fraud,AE - Iris Bell
+ACC-1081,Tidewater Pay,fintech_neobank,NA,fraud,197000,2027-07-26,22.1,49,0,True,False,compliance;fraud,AE - Iris Bell
+ACC-1085,Union Square Money,fintech_neobank,NA,fraud,164000,2027-02-08,-25.0,93,0,True,False,fraud,AE - Iris Bell
+ACC-1087,Highland National Bank,sponsor_bank_baas,NA,fraud,63000,2027-04-10,7.6,83,0,True,False,fraud,AE - Iris Bell
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,compliance,196000,2026-11-14,7.6,135,1,True,False,compliance;fraud,AE - Liam Byrne
+ACC-1094,Evergreen Pay,fintech_neobank,EMEA,fraud,179000,2027-03-23,-31.5,67,0,True,False,compliance;fraud,AE - Liam Byrne
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,compliance,107000,2027-03-12,10.6,101,1,True,False,compliance;fraud,AE - Iris Bell
+ACC-1096,Tidewater Federal CU,regional_bank_cu,NA,fraud,128000,2026-10-26,1.7,74,1,True,False,compliance;fraud,AE - Grace Tan
+ACC-1101,Arbor Predict,gaming_prediction,MENA,fraud,75000,2027-05-06,1.2,134,0,True,False,fraud,AE - Omar Haddad
+ACC-1102,Stonebridge Payments,payments_issuing,NA,compliance,240000,2027-05-26,12.8,47,0,True,False,compliance,AE - Grace Tan
+ACC-1104,Meridian Neo,fintech_neobank,NA,fraud,199000,2027-04-06,-0.5,128,0,True,True,fraud,AE - Grace Tan
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,compliance,60000,2026-12-02,10.4,63,0,True,True,compliance;fraud,AE - Hugo Park
+ACC-1105,Harborview Community Bank,regional_bank_cu,NA,fraud,67000,2026-09-26,11.4,102,0,True,False,compliance;fraud,AE - Grace Tan
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,compliance,170000,2027-01-11,-1.4,85,1,False,False,compliance;fraud,AE - Klara Weiss
+ACC-1117,Union Square Wallet,fintech_neobank,EMEA,fraud,64000,2026-10-12,10.4,85,0,True,False,compliance;fraud,AE - Klara Weiss
+ACC-1119,Sterling Issuing,payments_issuing,NA,compliance,106000,2027-01-30,7.2,86,0,False,False,compliance;fraud,AE - Hugo Park
+ACC-1119,Sterling Issuing,payments_issuing,NA,fraud,114000,2027-05-23,0.7,52,0,True,False,compliance;fraud,AE - Grace Tan
+ACC-1124,Silverline Bank,tier1_bank,NA,compliance,825000,2027-03-28,11.1,75,3,True,False,compliance,AE - Grace Tan
+ACC-1126,Evergreen Card,fintech_neobank,NA,fraud,153000,2027-01-21,17.5,106,1,True,False,fraud,AE - Iris Bell
+ACC-1129,Prairie First Money,fintech_neobank,NA,fraud,177000,2026-09-15,-2.9,78,2,True,False,fraud,AE - Hugo Park
+ACC-1132,Summit Ridge Card,fintech_neobank,APAC,fraud,150000,2026-09-22,-7.3,88,0,False,False,fraud,AE - Mei Lin
+ACC-1138,Lakeshore Card,fintech_neobank,EMEA,compliance,110000,2027-05-08,1.1,80,0,True,False,compliance,AE - Liam Byrne
+ACC-1140,Granite Peak Card,fintech_neobank,EMEA,compliance,35000,2027-05-31,19.8,107,3,True,False,compliance,AE - Liam Byrne
+ACC-1141,Riverbend Wallet,fintech_neobank,EMEA,fraud,73000,2027-05-20,3.7,54,0,False,True,fraud,AE - Liam Byrne
+ACC-1142,Pinecrest Digital Assets,crypto,LATAM,fraud,158000,2026-11-04,2.3,83,1,True,False,fraud,AE - Nico Duarte
+ACC-1145,Cedar Valley Exchange,crypto,LATAM,fraud,205000,2027-05-07,12.1,63,0,True,False,fraud,AE - Nico Duarte
+ACC-1147,Sterling Financial Group,tier1_bank,LATAM,fraud,376000,2026-11-19,4.2,109,0,False,True,fraud,AE - Nico Duarte
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,compliance,333000,2027-03-26,-14.0,60,0,False,False,compliance;fraud,AE - Omar Haddad
+ACC-1149,Clearwater Issuing,payments_issuing,MENA,fraud,86000,2027-04-25,-4.4,64,0,True,False,compliance;fraud,AE - Omar Haddad
+ACC-1150,Crescent Pay,fintech_neobank,LATAM,compliance,148000,2026-11-22,9.0,89,0,True,False,compliance,AE - Nico Duarte
+ACC-1151,Crescent Custody,crypto,EMEA,fraud,122000,2026-09-13,-0.9,85,0,True,False,fraud,AE - Liam Byrne
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,compliance,227000,2026-11-30,3.1,102,1,True,False,compliance;fraud,AE - Omar Haddad
+ACC-1157,Cedar Valley Digital Assets,crypto,MENA,fraud,161000,2027-02-05,-10.3,80,0,True,False,compliance;fraud,AE - Omar Haddad
+ACC-1166,Oakmont Issuing,payments_issuing,EMEA,fraud,316000,2027-07-15,3.0,76,0,False,True,fraud,AE - Klara Weiss
+ACC-1167,Clearwater Tickets,marketplace_commerce,NA,fraud,85000,2026-10-17,-15.0,113,1,True,False,fraud,AE - Iris Bell
+ACC-1170,Pinecrest Processing,payments_issuing,NA,compliance,209000,2027-01-14,8.3,135,0,True,False,compliance;fraud,AE - Grace Tan
+ACC-1170,Pinecrest Processing,payments_issuing,NA,fraud,110000,2027-02-24,8.0,86,1,False,False,compliance;fraud,AE - Hugo Park
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,compliance,94000,2027-07-07,11.4,37,0,True,False,compliance;fraud,AE - Iris Bell
+ACC-1175,Union Square Community Bank,regional_bank_cu,NA,fraud,122000,2026-11-06,16.7,117,2,False,False,compliance;fraud,AE - Grace Tan
+ACC-1176,Granite Peak Issuing,payments_issuing,NA,compliance,123000,2027-07-11,-7.5,108,0,True,False,compliance,AE - Jon Reyes
+ACC-1181,Silverline Processing,payments_issuing,MENA,fraud,353000,2026-10-04,3.0,39,0,True,False,fraud,AE - Omar Haddad
+ACC-1182,Prairie First Wallet,fintech_neobank,NA,fraud,80000,2027-02-07,-20.0,101,3,False,False,fraud,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,compliance,92000,2026-09-29,-4.5,106,0,True,False,compliance;fraud,AE - Jon Reyes
+ACC-1194,Stonebridge Federal CU,regional_bank_cu,NA,fraud,53000,2027-03-26,9.0,46,0,False,False,compliance;fraud,AE - Jon Reyes
+ACC-1196,Highland Merchant Services,payments_issuing,EMEA,fraud,293000,2026-10-12,4.4,113,0,True,True,fraud,AE - Klara Weiss
+ACC-1200,Clearwater Shop,marketplace_commerce,NA,fraud,163000,2027-02-09,12.6,42,0,True,False,fraud,AE - Hugo Park
+ACC-1201,Evergreen Neo,fintech_neobank,MENA,fraud,95000,2026-12-02,-10.6,76,1,True,False,fraud,AE - Omar Haddad
+ACC-1206,Sterling Money,fintech_neobank,EMEA,compliance,182000,2026-12-15,-20.0,69,3,True,False,compliance,AE - Klara Weiss
+ACC-1209,Oakmont Pay,fintech_neobank,NA,fraud,32000,2027-03-23,-2.2,72,2,False,False,fraud,AE - Iris Bell
+ACC-1219,Northgate Neo,fintech_neobank,NA,fraud,65000,2027-06-18,14.9,80,0,True,False,fraud,AE - Hugo Park
+ACC-1221,Falcon Shop,marketplace_commerce,LATAM,fraud,164000,2027-04-19,-3.7,38,0,True,False,fraud,AE - Nico Duarte
+ACC-1222,Silverline Card,fintech_neobank,NA,compliance,166000,2027-06-02,19.9,70,0,True,True,compliance,AE - Iris Bell
+ACC-1226,Northgate Payments,payments_issuing,NA,fraud,330000,2027-01-09,0.2,108,0,True,False,fraud,AE - Hugo Park
+ACC-1230,Lakeshore Payments,payments_issuing,NA,fraud,232000,2027-07-03,-4.1,90,2,True,False,fraud,AE - Iris Bell
+ACC-1231,Summit Ridge Tickets,marketplace_commerce,NA,fraud,146000,2027-02-18,8.3,119,0,True,False,fraud,AE - Jon Reyes
+ACC-1232,Lakeshore Money,fintech_neobank,EMEA,compliance,115000,2027-03-03,0.4,97,1,True,False,compliance,AE - Klara Weiss
+ACC-1234,Tidewater Card,fintech_neobank,NA,fraud,171000,2027-06-07,-0.6,133,0,False,False,fraud,AE - Hugo Park
+ACC-1235,Cedar Valley Merchant Services,payments_issuing,NA,fraud,226000,2026-12-25,10.3,120,0,True,False,fraud,AE - Grace Tan
+ACC-1241,Ironwood Wallet,fintech_neobank,NA,fraud,159000,2027-05-06,10.8,53,0,True,False,fraud,AE - Grace Tan
+ACC-1244,Pinecrest Chain,crypto,EMEA,compliance,129000,2026-10-10,6.5,71,2,True,False,compliance;fraud,AE - Liam Byrne
+ACC-1244,Pinecrest Chain,crypto,EMEA,fraud,161000,2027-01-08,9.5,88,0,True,False,compliance;fraud,AE - Klara Weiss
+ACC-1245,Silverline Custody,crypto,NA,compliance,163000,2026-12-11,16.5,134,1,False,False,compliance;fraud,AE - Grace Tan
+ACC-1245,Silverline Custody,crypto,NA,fraud,60000,2027-01-25,6.6,108,0,True,False,compliance;fraud,AE - Grace Tan
+ACC-1246,Pinecrest Pay,fintech_neobank,NA,fraud,178000,2027-04-29,-27.5,97,0,True,False,fraud,AE - Jon Reyes
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,compliance,236000,2027-04-27,8.0,80,0,True,True,compliance;fraud,AE - Hugo Park
+ACC-1250,Evergreen National Bank,sponsor_bank_baas,NA,fraud,100000,2027-04-10,5.5,71,2,True,False,compliance;fraud,AE - Grace Tan
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,compliance,177000,2027-04-24,11.1,102,0,False,False,compliance;fraud,AE - Nico Duarte
+ACC-1253,Falcon Wallet,fintech_neobank,LATAM,fraud,122000,2027-06-26,14.8,90,2,True,True,compliance;fraud,AE - Nico Duarte
+ACC-1257,Lakeshore Bancorp,tier1_bank,APAC,fraud,650000,2027-07-21,8.3,56,0,True,False,fraud,AE - Mei Lin
+ACC-1268,Clearwater Custody,crypto,NA,compliance,67000,2026-11-30,21.3,83,0,True,False,compliance;fraud,AE - Grace Tan
+ACC-1268,Clearwater Custody,crypto,NA,fraud,213000,2027-01-02,-1.5,91,3,True,False,compliance;fraud,AE - Hugo Park
+ACC-1271,Pinecrest Play,gaming_prediction,EMEA,fraud,104000,2027-04-13,-18.3,96,1,True,True,fraud,AE - Liam Byrne
+ACC-1275,Granite Peak Federal CU,regional_bank_cu,NA,fraud,79000,2026-12-25,-8.3,75,1,True,True,fraud,AE - Grace Tan
+ACC-1280,Harborview Card,fintech_neobank,EMEA,fraud,116000,2027-06-17,-22.6,103,0,True,False,fraud,AE - Liam Byrne
+ACC-1283,Cedar Valley Sports,gaming_prediction,NA,fraud,105000,2026-09-22,9.5,112,0,False,False,fraud,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,compliance,105000,2026-12-04,7.2,94,0,False,False,compliance;fraud,AE - Hugo Park
+ACC-1285,Pinecrest Credit Union,regional_bank_cu,NA,fraud,108000,2027-02-01,-0.0,118,0,True,False,compliance;fraud,AE - Iris Bell
+ACC-1288,Arbor Chain,crypto,EMEA,fraud,241000,2027-01-15,1.4,88,0,True,True,fraud,AE - Liam Byrne
+ACC-1289,Clearwater Processing,payments_issuing,NA,fraud,370000,2027-02-27,-20.0,141,0,False,False,fraud,AE - Iris Bell
+ACC-1291,Westfield Neo,fintech_neobank,NA,fraud,78000,2026-09-28,3.1,110,0,True,False,fraud,AE - Hugo Park
+ACC-1296,Prairie First National Bank,sponsor_bank_baas,NA,fraud,179000,2027-01-14,3.9,99,1,True,True,fraud,AE - Jon Reyes
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,compliance,122000,2027-06-13,22.8,90,1,False,False,compliance;fraud,AE - Klara Weiss
+ACC-1299,Westfield Merchant Services,payments_issuing,EMEA,fraud,346000,2027-01-26,1.1,74,1,True,False,compliance;fraud,AE - Liam Byrne
+ACC-1301,Falcon Play,gaming_prediction,EMEA,fraud,55000,2027-07-21,-5.0,77,0,True,False,fraud,AE - Liam Byrne
+ACC-1305,Tidewater Processing,payments_issuing,NA,compliance,143000,2027-05-15,-13.1,93,0,True,True,compliance,AE - Hugo Park
+ACC-1308,Northgate Digital Assets,crypto,EMEA,fraud,165000,2027-01-26,-10.5,60,2,True,False,fraud,AE - Klara Weiss
+ACC-1311,Pinecrest Authority,public_sector,NA,fraud,334000,2026-12-12,-3.4,91,0,True,False,fraud,AE - Jon Reyes
+ACC-1312,Maple Leaf Money,fintech_neobank,NA,compliance,52000,2027-04-15,11.9,69,0,True,False,compliance,AE - Jon Reyes
+ACC-1313,Redwood Commerce,marketplace_commerce,LATAM,fraud,68000,2026-11-02,7.2,77,0,True,True,fraud,AE - Nico Duarte
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,compliance,43000,2027-06-30,-12.1,65,1,False,False,compliance;fraud,AE - Hugo Park
+ACC-1324,Bayfront Federal CU,regional_bank_cu,NA,fraud,70000,2026-12-17,4.3,95,0,True,False,compliance;fraud,AE - Grace Tan
+ACC-1325,Keystone Wallet,fintech_neobank,LATAM,fraud,84000,2027-01-27,7.0,127,0,True,False,fraud,AE - Nico Duarte
+ACC-1329,Westfield Wallet,fintech_neobank,NA,fraud,118000,2027-04-25,-17.6,88,0,True,False,fraud,AE - Hugo Park
+ACC-1336,Summit Ridge Exchange,crypto,NA,compliance,119000,2027-01-17,10.1,74,0,True,False,compliance;fraud,AE - Iris Bell
+ACC-1336,Summit Ridge Exchange,crypto,NA,fraud,172000,2027-02-22,-4.3,55,0,True,False,compliance;fraud,AE - Grace Tan
+ACC-1344,Bayfront Card,fintech_neobank,MENA,compliance,81000,2027-06-15,0.9,86,0,True,False,compliance;fraud,AE - Omar Haddad
+ACC-1344,Bayfront Card,fintech_neobank,MENA,fraud,180000,2026-12-07,-33.7,46,0,True,False,compliance;fraud,AE - Omar Haddad
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,compliance,58000,2027-05-08,0.7,49,3,True,False,compliance;fraud,AE - Iris Bell
+ACC-1348,Meridian Credit Union,regional_bank_cu,NA,fraud,110000,2027-03-13,-0.6,54,1,True,False,compliance;fraud,AE - Iris Bell
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,compliance,193000,2027-05-13,21.3,118,0,True,False,compliance;fraud,AE - Nico Duarte
+ACC-1354,Redwood National Bank,sponsor_bank_baas,LATAM,fraud,185000,2026-12-06,-19.6,128,1,True,False,compliance;fraud,AE - Nico Duarte
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,compliance,75000,2027-07-07,-8.9,105,0,False,True,compliance;fraud,AE - Grace Tan
+ACC-1357,Union Square National Bank,sponsor_bank_baas,NA,fraud,161000,2027-03-10,-1.7,48,0,True,False,compliance;fraud,AE - Iris Bell
+ACC-1360,Arbor Digital Assets,crypto,NA,compliance,134000,2027-06-20,-10.8,103,0,True,True,compliance;fraud,AE - Hugo Park
+ACC-1360,Arbor Digital Assets,crypto,NA,fraud,207000,2027-01-14,6.3,80,0,True,True,compliance;fraud,AE - Grace Tan
+ACC-1361,Oakmont Books,b2b_saas_payroll,NA,fraud,149000,2027-04-12,-19.8,114,0,True,False,fraud,AE - Iris Bell
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,compliance,233000,2027-03-05,7.2,78,0,True,False,compliance;fraud,AE - Liam Byrne
+ACC-1369,Blue Mesa Digital Assets,crypto,EMEA,fraud,216000,2026-10-01,11.1,87,0,True,True,compliance;fraud,AE - Klara Weiss
+ACC-1370,Union Square Exchange,crypto,NA,fraud,92000,2026-12-22,-7.5,81,0,False,True,fraud,AE - Hugo Park
+ACC-1372,Clearwater Payments,payments_issuing,EMEA,compliance,202000,2026-09-13,0.0,60,0,True,False,compliance,AE - Klara Weiss
+ACC-1375,Meridian Issuing,payments_issuing,NA,compliance,183000,2027-02-01,-20.7,118,1,False,True,compliance,AE - Jon Reyes
+ACC-1376,Crescent Tickets,marketplace_commerce,EMEA,fraud,161000,2027-03-30,-3.3,124,1,True,True,fraud,AE - Liam Byrne
+ACC-1378,Redwood Issuing,payments_issuing,NA,fraud,153000,2026-12-08,5.6,110,0,True,True,fraud,AE - Hugo Park
+ACC-1379,Riverbend Money,fintech_neobank,APAC,fraud,144000,2026-12-25,30.0,79,1,True,False,fraud,AE - Mei Lin
+ACC-1380,Granite Peak Tickets,marketplace_commerce,NA,fraud,72000,2026-10-28,12.5,80,2,True,False,fraud,AE - Iris Bell
+ACC-1382,Lakeshore Pay,fintech_neobank,NA,compliance,183000,2027-02-05,22.3,113,0,True,False,compliance,AE - Jon Reyes
+ACC-1387,Summit Ridge Chain,crypto,APAC,fraud,150000,2027-05-13,29.3,69,1,True,False,fraud,AE - Mei Lin
+ACC-1388,Highland Custody,crypto,NA,fraud,167000,2026-12-12,-2.0,80,0,True,True,fraud,AE - Iris Bell
+ACC-1393,Bayfront Community Bank,regional_bank_cu,NA,fraud,134000,2026-11-01,-14.1,83,3,False,False,fraud,AE - Hugo Park
+ACC-1399,Stonebridge Money,fintech_neobank,EMEA,fraud,59000,2026-12-13,9.2,89,0,True,False,fraud,AE - Liam Byrne
+ACC-1401,Clearwater Money,fintech_neobank,NA,compliance,43000,2027-05-23,10.4,102,0,True,False,compliance;fraud,AE - Jon Reyes
+ACC-1401,Clearwater Money,fintech_neobank,NA,fraud,127000,2027-04-28,-42.7,48,0,False,False,compliance;fraud,AE - Iris Bell
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,compliance,202000,2027-03-23,9.2,74,0,True,False,compliance;fraud,AE - Hugo Park
+ACC-1406,Pinecrest Bank & Trust,sponsor_bank_baas,NA,fraud,98000,2027-04-21,-0.1,65,0,False,True,compliance;fraud,AE - Iris Bell
+ACC-1410,Blue Mesa Pay,fintech_neobank,NA,compliance,69000,2027-03-02,-3.5,70,1,True,True,compliance,AE - Iris Bell
+ACC-1411,Clearwater Chain,crypto,NA,compliance,89000,2027-07-10,-16.2,56,0,False,False,compliance,AE - Grace Tan
+ACC-1413,Clearwater Pay,fintech_neobank,EMEA,fraud,75000,2027-04-17,16.4,94,0,True,True,fraud,AE - Klara Weiss
+ACC-1420,Clearwater National Bank,sponsor_bank_baas,EMEA,fraud,147000,2027-06-05,0.3,102,0,True,True,fraud,AE - Liam Byrne
+ACC-1422,Westfield Federal CU,regional_bank_cu,NA,compliance,133000,2027-03-09,12.8,72,0,True,False,compliance,AE - Jon Reyes
+ACC-1423,Copper State Money,fintech_neobank,EMEA,compliance,158000,2027-04-05,-19.1,70,3,True,False,compliance;fraud,AE - Klara Weiss
+ACC-1423,Copper State Money,fintech_neobank,EMEA,fraud,118000,2027-06-02,0.6,52,2,True,False,compliance;fraud,AE - Klara Weiss
+ACC-1425,Redwood Neo,fintech_neobank,NA,fraud,128000,2026-11-06,17.8,87,0,True,False,fraud,AE - Jon Reyes
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,compliance,64000,2027-01-09,-10.3,117,0,True,True,compliance;fraud,AE - Hugo Park
+ACC-1427,Evergreen BaaS,sponsor_bank_baas,NA,fraud,144000,2027-04-16,-7.8,75,0,True,False,compliance;fraud,AE - Hugo Park
+ACC-1431,Keystone Exchange,crypto,NA,compliance,45000,2027-04-06,-19.4,93,2,True,True,compliance,AE - Hugo Park
+ACC-1435,Oakmont Money,fintech_neobank,MENA,fraud,102000,2027-05-12,18.0,66,1,True,False,fraud,AE - Omar Haddad
+ACC-1440,Crescent Money,fintech_neobank,EMEA,fraud,116000,2027-05-28,-7.9,92,1,True,False,fraud,AE - Klara Weiss
+ACC-1445,Union Square Issuing,payments_issuing,NA,compliance,204000,2026-12-25,-3.5,78,0,True,False,compliance,AE - Jon Reyes
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,compliance,396000,2026-09-23,4.4,63,3,True,True,compliance;fraud,AE - Iris Bell
+ACC-1449,Lakeshore Issuing,payments_issuing,NA,fraud,263000,2026-11-21,11.2,51,0,True,False,compliance;fraud,AE - Grace Tan

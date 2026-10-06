@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RevenueWaterfallMetrics",
+  "type": "object",
+  "properties": {
+    "starting_arr": { "type": "number" },
+    "new_bookings_arr": { "type": "number" },
+    "expansion_arr": { "type": "number" },
+    "churn_arr": { "type": "number" },
+    "ending_arr": { "type": "number" },
+    "net_retention_rate": { "type": "number" }
+  },
+  "required": ["starting_arr", "ending_arr", "net_retention_rate"]
+}

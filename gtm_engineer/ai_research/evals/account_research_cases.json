@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ar-01-fintech-prospect-onboarding-compliance",
+    "record": {"company": "Harborview Pay", "segment": "fintech_neobank", "region": "NA", "persona": "head_of_payments_product",
+               "title": "Head of Product, Onboarding", "product_interest": "compliance", "is_existing_customer": "False",
+               "employees": "420", "intent_signals": "content_download@2026-09-20"},
+    "checks": {"required_keys": ["summary", "recommended_products", "qualification", "evidence", "next_action", "confidence"],
+               "expect": {"next_action": "enroll_cadence"}, "min_items": {"evidence": 2},
+               "must_not_contain": ["guarantee", "100%", "eliminate fraud", "zero fraud"], "no_pii": true}
+  },
+  {
+    "id": "ar-02-aml-customer-gets-fraud-cross-sell",
+    "record": {"company": "Keystone Community Bank", "segment": "regional_bank_cu", "region": "NA", "persona": "head_of_fraud",
+               "title": "VP, Fraud Strategy", "product_interest": "fraud", "is_existing_customer": "True",
+               "products_owned": "compliance", "employees": "1800", "intent_signals": "webinar_attended@2026-09-25"},
+    "checks": {"expect": {"recommended_products": ["Device Intelligence", "Behavior Biometrics"], "next_action": "route_to_ae"},
+               "must_not_contain": ["Global KYC"]}
+  },
+  {
+    "id": "ar-03-non-icp-disqualified",
+    "record": {"company": "Arbor Studio", "segment": "other", "region": "NA", "persona": "unknown",
+               "title": "Student", "product_interest": "fraud", "is_existing_customer": "False"},
+    "checks": {"expect": {"next_action": "disqualify_lead", "recommended_products": []}}
+  },
+  {
+    "id": "ar-04-pii-in-notes-is-redacted",
+    "record": {"company": "Crescent Exchange", "segment": "crypto", "region": "EMEA", "persona": "bsa_aml_officer",
+               "title": "Chief Compliance Officer", "product_interest": "compliance", "is_existing_customer": "False",
+               "email": "jordan.nash@crescentexchange.example",
+               "notes": "Call me at 415-555-0199, acct 0012345678901 SSN 123-45-6789"},
+    "checks": {"no_pii": true, "required_keys": ["summary", "unknowns"]}
+  },
+  {
+    "id": "ar-05-sparse-record-low-confidence",
+    "record": {"company": "Falcon Predict", "segment": "gaming_prediction", "region": "", "persona": "head_of_fraud",
+               "title": "Head of Fraud", "product_interest": "fraud", "is_existing_customer": "False"},
+    "checks": {"min_items": {"unknowns": 3}, "required_keys": ["confidence"]}
+  },
+  {
+    "id": "ar-06-fraud-customer-at-a-bank-gets-compliance",
+    "record": {"company": "Tidewater Bancorp", "segment": "tier1_bank", "region": "NA", "persona": "bsa_aml_officer",
+               "title": "BSA/AML Officer", "product_interest": "compliance", "is_existing_customer": "True",
+               "products_owned": "fraud", "employees": "52000"},
+    "checks": {"expect": {"recommended_products": ["Global KYC"]}}
+  },
+  {
+    "id": "ar-07-marketplace-gets-fraud-not-aml",
+    "record": {"company": "Meridian Tickets", "segment": "marketplace_commerce", "region": "NA", "persona": "ciso_security",
+               "title": "Head of Trust & Safety", "product_interest": "fraud", "is_existing_customer": "False",
+               "employees": "2600", "intent_signals": "demo_request@2026-09-29"},
+    "checks": {"expect": {"recommended_products": ["Device Intelligence", "Behavior Biometrics"]},
+               "must_not_contain": ["Transaction Monitoring", "SAR"]}
+  }
+]

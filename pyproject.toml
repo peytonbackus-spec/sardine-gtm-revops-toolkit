@@ -1,0 +1,25 @@
+[project]
+name = "sardine-gtm-revops-toolkit"
+version = "0.1.0"
+description = "Sardine GTM RevOps Toolkit: RevOps + GTM engineering for a consumption-priced fraud and compliance platform"
+requires-python = ">=3.9"
+dependencies = ["PyYAML>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+live = ["anthropic>=0.40"]   # only for GTM_LLM_MODE=anthropic
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+asyncio_mode = "auto"
+
+[tool.ruff]
+target-version = "py39"
+line-length = 130
+
+[tool.ruff.lint]
+# Correctness + import order. Style rules stay off so CI fails on bugs, not taste.
+select = ["E4", "E7", "E9", "F", "I", "B"]
+ignore = ["E741"]   # `l` as a loop variable over leads is readable here

@@ -1,0 +1,19 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.DS_Store
+
+# Ignore runtime log files
+logs/
+*.log
+
+# Local-only (never commit)
+private-vault/
+.backup/
+
+# Generated
+outputs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+config/company.yaml.local

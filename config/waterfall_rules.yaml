@@ -1,0 +1,27 @@
+engine_settings:
+  stop_on_first_match: true
+
+waterfalls:
+  email_validation:
+    stop_on_first_match: true
+    sequence:
+      - provider: "zerobounce"
+        action: "validate"
+        condition: "always"
+        success_criteria: "zerobounce.status == 'valid'"
+
+  person_enrichment:
+    stop_on_first_match: true
+    sequence:
+      - provider: "clay"
+        action: "enrich_person"
+        condition: "email != None"
+        success_criteria: "clay.contact != None"
+
+  company_enrichment:
+    stop_on_first_match: true
+    sequence:
+      - provider: "clearbit"
+        action: "enrich_domain"
+        condition: "domain != None"
+        success_criteria: "clearbit.account != None"

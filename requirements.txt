@@ -1,0 +1,11 @@
+# Core: everything in `make demo` runs on this
+PyYAML>=6.0
+# Tests and the optional webhook
+pytest>=7.4
+pytest-asyncio>=0.23
+fastapi>=0.110
+httpx>=0.27
+pydantic[email]>=2.6
+uvicorn>=0.29
+# Optional: live LLM mode only (GTM_LLM_MODE=anthropic)
+# anthropic>=0.40
