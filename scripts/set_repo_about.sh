@@ -3,9 +3,10 @@
 #   bash scripts/set_repo_about.sh        (needs the GitHub CLI: brew install gh && gh auth login)
 set -euo pipefail
 REPO="peytonbackus-spec/sardine-gtm-revops-toolkit"
-DESC="RevOps + GTM engineering toolkit for Sardine's consumption-priced fraud & AML platform: lead scoring, routing, pipeline, forecast, usage-vs-commit burn-down and renewals on a Salesforce · HubSpot · Unify · Clay · n8n core, with AI governance. Synthetic data."
+DESC="RevOps + GTM engineering toolkit for Sardine's consumption-priced fraud & AML platform: scoring, routing, pipeline, forecast, usage-vs-commit and renewals, plus VP of Sales briefs, stage bottlenecks, capacity/quota/territory planning and Marketing Ops attribution. Salesforce · HubSpot · Unify · Clay · n8n. Synthetic data."
 TOPICS=(revenue-operations revops gtm-engineering salesforce hubspot clay n8n lead-scoring lead-routing
-        forecasting usage-based-pricing fraud-prevention aml ai-governance python sql)
+        forecasting usage-based-pricing fraud-prevention aml ai-governance python sql
+        sales-analytics pipeline-analytics capacity-planning marketing-operations)
 
 if ! command -v gh >/dev/null; then
   echo "GitHub CLI not found. Set it by hand: repo page -> gear icon next to 'About'."

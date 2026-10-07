@@ -1,10 +1,11 @@
-.PHONY: help data demo test lint webhook new
+.PHONY: help data demo brief test lint webhook new
 
 PY ?= python3
 
 help:
 	@echo "make data                  regenerate synthetic sample_data/ from config"
 	@echo "make demo                  run every module on the sample data"
+	@echo "make brief                 VP of Sales snapshot (outputs/vp_brief_snapshot.md)"
 	@echo "make test                  run the pytest suite"
 	@echo "make lint                  ruff check"
 	@echo "make webhook               run the FastAPI enrichment webhook on :8000"
@@ -29,6 +30,23 @@ demo:
 	$(PY) -m gtm_strategy_ops.consumption.commit_burndown
 	$(PY) -m gtm_strategy_ops.ai_deal_risk.deal_risk
 	$(PY) -m shared_core.data_quality.dq_monitor
+	$(PY) -m gtm_engineer.marketing_ops.campaign_report
+	$(PY) -m gtm_engineer.marketing_ops.demand_plan
+	$(PY) -m gtm_strategy_ops.sales_leadership.rep_scorecard
+	$(PY) -m gtm_strategy_ops.sales_leadership.segment_performance
+	$(PY) -m gtm_strategy_ops.sales_leadership.stage_velocity
+	$(PY) -m gtm_strategy_ops.sales_leadership.deal_board
+	$(PY) -m gtm_strategy_ops.sales_leadership.vp_brief
+	$(PY) -m gtm_strategy_ops.sales_leadership.vp_brief --mode full
+	$(PY) -m gtm_strategy_ops.sales_leadership.all_hands
+	$(PY) -m gtm_strategy_ops.sales_planning.capacity_plan
+	$(PY) -m gtm_strategy_ops.sales_planning.quota_plan
+	$(PY) -m gtm_strategy_ops.sales_planning.territory_plan
+	$(PY) -m gtm_strategy_ops.sales_planning.pipeline_distribution
+	$(PY) -m gtm_strategy_ops.sales_planning.request_triage
+
+brief:
+	$(PY) -m gtm_strategy_ops.sales_leadership.vp_brief
 
 test:
 	$(PY) -m pytest
