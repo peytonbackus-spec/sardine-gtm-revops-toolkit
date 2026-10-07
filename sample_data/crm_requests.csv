@@ -1,0 +1,73 @@
+request_id,submitted_date,requester_team,system,category,summary,revenue_impact,users_affected,effort,due_date,status,first_response_date,completed_date
+REQ-1000,2026-09-26,Finance,HubSpot,Report / Dashboard,Rep activity dashboard,Nice to have,1,L,,In Progress,2026-09-30,
+REQ-1001,2026-08-07,Sales Leadership,Salesforce,Report / Dashboard,Win rate by competitor report,Blocks deal,40,S,,Done,2026-08-08,2026-08-11
+REQ-1002,2026-08-02,Finance,Salesforce,Routing / Assignment,Round-robin inbound demo requests,Improves efficiency,12,S,,Done,2026-08-06,2026-08-08
+REQ-1003,2026-09-15,Finance,Salesforce,Access / Permissions,New AE needs Salesforce access,Nice to have,8,XL,2026-09-29,In Progress,2026-09-16,
+REQ-1004,2026-08-28,Customer Success,Salesforce,Report / Dashboard,Rep activity dashboard,Blocks team,12,S,2026-09-27,Done,2026-09-01,2026-09-03
+REQ-1005,2026-08-29,Finance,HubSpot,Validation Rule,Block Commit without economic buyer,Improves efficiency,2,M,,Done,2026-09-02,2026-09-06
+REQ-1006,2026-08-02,Finance,Salesforce,Page Layout,Show security review fields on opp layout,Nice to have,40,L,2026-08-05,Done,2026-08-02,2026-08-24
+REQ-1007,2026-09-14,Finance,Salesforce,Field / Picklist,Add 'Agentic AML Ops' to product picklist,Blocks deal,2,M,2026-09-17,Done,2026-09-15,2026-09-20
+REQ-1008,2026-08-13,Marketing,Salesforce,Integration,Sync Unify signals to Salesforce,Improves efficiency,40,L,,Done,2026-08-20,2026-08-31
+REQ-1009,2026-07-05,Marketing Ops,Salesforce,Automation / Flow,Auto-create renewal opp at T-180,Blocks deal,8,S,,Done,2026-07-06,2026-07-09
+REQ-1010,2026-09-30,Customer Success,Salesforce,Access / Permissions,New AE needs Salesforce access,Nice to have,8,M,,In Progress,2026-09-30,
+REQ-1011,2026-08-24,Sales,Salesforce,Field / Picklist,New field: Sandbox start date,Blocks deal,4,S,,Done,2026-08-24,2026-08-27
+REQ-1012,2026-08-19,Marketing,HubSpot,Integration,Sync Unify signals to Salesforce,Improves efficiency,8,XL,2026-09-18,Done,2026-08-26,2026-09-17
+REQ-1013,2026-08-14,Sales,Salesforce,List View,Unworked MQLs list view,Blocks team,2,S,,Done,2026-08-15,2026-08-18
+REQ-1014,2026-07-22,Finance,Salesforce,Report / Dashboard,Webinar attendee report,Nice to have,12,M,2026-08-05,Done,2026-07-22,2026-07-26
+REQ-1015,2026-07-28,Marketing Ops,Salesforce,Automation / Flow,Alert AE when overage >100%,Blocks deal,1,S,,Done,2026-07-30,2026-08-01
+REQ-1016,2026-07-15,Sales Leadership,Both,Routing / Assignment,Round-robin inbound demo requests,Improves efficiency,8,XL,2026-07-18,Done,2026-07-17,2026-08-15
+REQ-1017,2026-07-22,Finance,Salesforce,Routing / Assignment,Fix routing for sponsor banks,Improves efficiency,8,S,,Done,2026-07-24,2026-07-27
+REQ-1018,2026-07-13,Marketing Ops,Salesforce,Report / Dashboard,Pipeline by segment for QBR,Improves efficiency,8,XL,2026-07-20,Done,2026-07-14,2026-08-09
+REQ-1019,2026-08-01,Marketing Ops,Salesforce,Routing / Assignment,Route MENA leads to new AE,Nice to have,40,XL,,Done,2026-08-01,2026-08-24
+REQ-1020,2026-08-29,Sales,Salesforce,Routing / Assignment,Fix routing for sponsor banks,Blocks team,2,S,2026-09-01,Done,2026-08-30,2026-09-01
+REQ-1021,2026-08-09,Finance,HubSpot,Field / Picklist,Add competitor value,Blocks team,25,L,2026-08-12,Done,2026-08-10,2026-08-30
+REQ-1022,2026-09-26,Marketing,Salesforce,Automation / Flow,Auto-create renewal opp at T-180,Blocks team,1,L,2026-09-29,Backlog,2026-09-26,
+REQ-1023,2026-08-13,Customer Success,HubSpot,Field / Picklist,Add 'Agentic AML Ops' to product picklist,Improves efficiency,12,M,,Done,2026-08-14,2026-08-24
+REQ-1024,2026-08-15,Marketing,HubSpot,Routing / Assignment,Route MENA leads to new AE,Nice to have,2,M,,Done,2026-08-17,2026-08-25
+REQ-1025,2026-09-21,Customer Success,HubSpot,Report / Dashboard,Webinar attendee report,Blocks team,25,M,2026-10-21,Done,2026-09-21,2026-09-27
+REQ-1026,2026-08-05,Sales,HubSpot,Data Fix,Fix wrong owner on renewal opps,Improves efficiency,8,M,,Done,2026-08-09,2026-08-17
+REQ-1027,2026-09-30,Sales,Salesforce,Automation / Flow,Alert AE when overage >100%,Improves efficiency,8,S,,In Progress,,
+REQ-1028,2026-08-25,Sales,Salesforce,Data Fix,Merge duplicate accounts,Nice to have,25,S,,Done,2026-08-25,2026-08-28
+REQ-1029,2026-07-03,Sales Leadership,Salesforce,List View,Unworked MQLs list view,Blocks team,1,S,,Done,2026-07-03,2026-07-05
+REQ-1030,2026-07-20,Finance,Salesforce,Automation / Flow,Stamp stage entry dates,Blocks team,25,S,2026-08-03,Done,2026-07-20,2026-07-23
+REQ-1031,2026-08-06,Sales Leadership,Salesforce,Report / Dashboard,Pipeline by segment for QBR,Nice to have,2,M,2026-08-09,Done,2026-08-07,2026-08-12
+REQ-1032,2026-08-02,Sales,HubSpot,Integration,Push usage data from billing to Salesforce,Blocks team,2,XL,,Done,2026-08-02,2026-09-04
+REQ-1033,2026-08-12,Marketing,Salesforce,Report / Dashboard,Webinar attendee report,Nice to have,2,S,,Done,2026-08-14,2026-08-16
+REQ-1034,2026-07-18,Marketing,HubSpot,Field / Picklist,Add 'Agentic AML Ops' to product picklist,Blocks team,2,S,,Done,2026-07-22,2026-07-23
+REQ-1035,2026-09-19,Marketing Ops,Salesforce,Field / Picklist,Add 'Agentic AML Ops' to product picklist,Improves efficiency,25,S,,Done,2026-09-26,2026-09-28
+REQ-1036,2026-08-20,Customer Success,HubSpot,Access / Permissions,New AE needs Salesforce access,Improves efficiency,40,S,,Done,2026-08-20,2026-08-22
+REQ-1037,2026-09-04,Sales Leadership,Salesforce,Data Fix,Fix wrong owner on renewal opps,Improves efficiency,1,M,,Done,2026-09-08,2026-09-15
+REQ-1038,2026-07-06,Marketing Ops,HubSpot,Routing / Assignment,Round-robin inbound demo requests,Nice to have,25,S,2026-08-05,Done,2026-07-10,2026-07-12
+REQ-1039,2026-09-23,Marketing Ops,Salesforce,Report / Dashboard,Webinar attendee report,Nice to have,25,M,,Done,2026-09-24,2026-09-28
+REQ-1040,2026-08-28,Customer Success,Salesforce,Data Fix,Merge duplicate accounts,Blocks team,1,XL,,Done,2026-08-29,2026-09-29
+REQ-1041,2026-07-23,Marketing Ops,Salesforce,Data Fix,Fix wrong owner on renewal opps,Blocks team,1,S,2026-08-22,Done,2026-07-24,2026-07-27
+REQ-1042,2026-07-20,Marketing,Salesforce,Data Fix,Fix wrong owner on renewal opps,Blocks team,4,L,,Done,2026-07-22,2026-07-31
+REQ-1043,2026-09-16,Marketing Ops,Salesforce,Data Fix,Merge duplicate accounts,Improves efficiency,4,S,,Done,2026-09-18,2026-09-19
+REQ-1044,2026-07-04,Marketing,Salesforce,Report / Dashboard,Rep activity dashboard,Improves efficiency,2,S,,Done,2026-07-11,2026-07-13
+REQ-1045,2026-09-28,Marketing Ops,Salesforce,Field / Picklist,New field: Sandbox start date,Improves efficiency,8,M,,In Progress,2026-09-28,
+REQ-1046,2026-07-14,Sales,HubSpot,Email Template,Event follow-up template,Nice to have,4,M,,Done,2026-07-16,2026-07-24
+REQ-1047,2026-09-29,Marketing Ops,Salesforce,Field / Picklist,New field: Sandbox start date,Improves efficiency,8,S,2026-10-02,Backlog,,
+REQ-1048,2026-08-26,Finance,HubSpot,Object / Data Model,Track POC / backtest results as an object,Blocks deal,40,L,,Done,2026-08-26,2026-09-09
+REQ-1049,2026-09-30,Marketing Ops,HubSpot,Data Fix,Merge duplicate accounts,Blocks deal,4,M,,Backlog,2026-09-30,
+REQ-1050,2026-09-12,Finance,Salesforce,Report / Dashboard,Rep activity dashboard,Blocks team,40,S,2026-10-12,Done,2026-09-12,2026-09-14
+REQ-1051,2026-07-10,Sales,Salesforce,List View,Unworked MQLs list view,Improves efficiency,4,XL,,Done,2026-07-11,2026-08-18
+REQ-1052,2026-09-27,Sales,HubSpot,Field / Picklist,Add competitor value,Improves efficiency,25,S,2026-10-27,In Progress,,
+REQ-1053,2026-08-24,Sales Leadership,Salesforce,Report / Dashboard,Webinar attendee report,Blocks deal,4,S,2026-09-07,Done,2026-08-26,2026-08-29
+REQ-1054,2026-07-08,Finance,Both,Integration,Push usage data from billing to Salesforce,Blocks team,1,XL,,Won't Do,2026-07-10,2026-07-10
+REQ-1055,2026-07-18,Sales,Salesforce,Page Layout,Add consumption fields to account,Blocks team,4,L,,Done,2026-07-19,2026-08-01
+REQ-1056,2026-08-01,Finance,Salesforce,Report / Dashboard,Rep activity dashboard,Blocks team,4,S,,Done,2026-08-01,2026-08-03
+REQ-1057,2026-07-11,Marketing,Salesforce,List View,My open deals closing this quarter,Improves efficiency,8,XL,2026-08-10,Done,2026-07-12,2026-08-12
+REQ-1058,2026-07-09,Sales,Salesforce,Data Fix,Fix wrong owner on renewal opps,Improves efficiency,25,L,,Done,2026-07-09,2026-07-28
+REQ-1059,2026-09-05,Marketing Ops,HubSpot,Access / Permissions,Contractor HubSpot seat,Improves efficiency,1,S,,Done,2026-09-06,2026-09-09
+REQ-1060,2026-09-24,Customer Success,Salesforce,Report / Dashboard,Win rate by competitor report,Nice to have,40,S,,Done,2026-09-25,2026-09-27
+REQ-1061,2026-07-25,Finance,Salesforce,Report / Dashboard,Win rate by competitor report,Nice to have,2,M,2026-07-28,Done,2026-07-25,2026-07-30
+REQ-1062,2026-07-30,Marketing,HubSpot,Email Template,Renewal notice template,Nice to have,40,L,2026-08-29,Done,2026-08-03,2026-08-26
+REQ-1063,2026-08-14,Sales,HubSpot,Data Fix,Merge duplicate accounts,Nice to have,1,S,2026-08-21,Done,2026-08-18,2026-08-21
+REQ-1064,2026-07-27,Marketing Ops,Salesforce,Report / Dashboard,Pipeline by segment for QBR,Improves efficiency,25,M,,Done,2026-07-27,2026-08-04
+REQ-1065,2026-07-07,Sales,Salesforce,Routing / Assignment,Fix routing for sponsor banks,Improves efficiency,1,S,,Done,2026-07-11,2026-07-13
+REQ-1066,2026-09-20,Marketing Ops,Salesforce,Automation / Flow,Alert AE when overage >100%,Improves efficiency,12,S,,Done,2026-09-22,2026-09-25
+REQ-1067,2026-08-11,Customer Success,Both,Access / Permissions,SE needs edit access on opps,Nice to have,12,M,,Done,2026-08-11,2026-08-16
+REQ-1068,2026-08-19,Customer Success,Both,Routing / Assignment,Fix routing for sponsor banks,Improves efficiency,12,L,2026-09-02,Done,2026-08-21,2026-09-05
+REQ-1069,2026-08-24,Sales,Salesforce,Report / Dashboard,Pipeline by segment for QBR,Blocks team,2,S,,Done,2026-08-26,2026-08-29
+REQ-1070,2026-07-01,Marketing,Salesforce,Integration,Push usage data from billing to Salesforce,Blocks deal,40,L,2026-07-31,Done,2026-07-05,2026-07-22
+REQ-1071,2026-07-05,Sales Leadership,Salesforce,Report / Dashboard,Pipeline by segment for QBR,Nice to have,12,M,,Done,2026-07-07,2026-07-16

@@ -90,6 +90,12 @@ make test        # unit tests + prompt evals (also in CI)
 | `gtm_strategy_ops.renewals.renewal_signals` | 🟩 | Renewal health, forecast GRR, cross-sell signals |
 | `gtm_strategy_ops.renewals.closed_lost_analysis` | 🟩 | Loss reasons and competitors → owner actions |
 | `make webhook` | 🟦 | FastAPI enrichment webhook: waterfall rules engine + lead-to-account matcher |
+| `gtm_engineer.marketing_ops.campaign_report` | 🟦 | Channel funnel and ROI, W-shaped attribution, campaign and consent hygiene (with Marketing Ops) |
+| `gtm_engineer.marketing_ops.demand_plan` | 🟦 | Reverse funnel: bookings plan → pipeline → opps by source → leads and MQLs by channel vs run rate |
+| **`gtm_strategy_ops.sales_leadership.vp_brief`** | 🟩 | **VP of Sales brief: snapshot (one phone screen) or full; the number, reps, industries, bottlenecks, hot and at-risk deals, asks** |
+| `gtm_strategy_ops.sales_leadership.stage_velocity` | 🟩 | Where deals slow and where they die, by stage, with the drivers (owner, source, segment, EB access) and the fix to test |
+| `gtm_strategy_ops.sales_leadership.all_hands` | 🟩 | Sales all-hands inputs: the number, wins, recognition, good and bad, lessons, focus, speaker prompts |
+| `gtm_strategy_ops.sales_planning.*` | 🟩 | AE capacity and hiring plan, quota vs capacity, territory carve and balance, pipeline distribution, CRM request triage |
 
 ## Repository map
 
@@ -108,11 +114,14 @@ gtm_engineer/                🟦 GTM ENGINEERING
   enrichment/ integrations/                     waterfall rules engine, lead-to-account matcher, FastAPI webhook
   ai_research/ platform_admin/                  AI account research (prompt, evals), enrichment + engagement config
   funnel_analytics/ sdr_capacity/               funnel report, SQL, dashboard spec; capacity model
+  marketing_ops/                                campaign ops spec, attribution + hygiene report, demand plan, RACI with Marketing Ops
 gtm_strategy_ops/            🟩 REVOPS
   opportunity_lifecycle/ forecasting/ forecast_tool_admin/   stage gates, cadence + accuracy, forecasting config
   pipeline_analytics/ ai_deal_risk/                           pipeline report, SQL, dashboards; deal risk + AI commentary
   consumption/                  commit burn-down + lead-to-cash map   ← Sardine-specific
   renewals/ partner_ops/        renewal health, closed-lost & churn; partner-sourced workflow
+  sales_leadership/             VP of Sales brief, rep scorecard, industries, stage velocity, deal board, all-hands inputs
+  sales_planning/               capacity, quota, territory, pipeline distribution, CRM request intake
 prototypes/                     earlier standalone engines (MEDDPICC health, churn, PQL ingestion, tech debt)
 docs/                           overview, specs, playbooks, examples
 sample_data/ scripts/ tests/    synthetic data + generator, unit tests + prompt evals
@@ -124,6 +133,9 @@ sample_data/ scripts/ tests/    synthetic data + generator, unit tests + prompt 
 - [Company brief](shared_core/context/sardine-company-brief.md): Sardine facts with sources and what they mean for RevOps
 - [Stack evaluation](shared_core/context/gtm-stack-evaluation.md): how I'd evaluate the GTM stack for an AI-first world
 - [Lead-to-cash](gtm_strategy_ops/consumption/lead-to-cash.md): the consumption revenue lifecycle, step by step, with the automation for each
+- [Sales leadership reporting](gtm_strategy_ops/sales_leadership/README.md): what the VP of Sales asks and how each answer is built, plus [intake questions](gtm_strategy_ops/sales_leadership/vp-intake.md) for the first 1:1
+- [Sales planning](gtm_strategy_ops/sales_planning/README.md): capacity, quota, territory, pipeline distribution and [CRM request intake](gtm_strategy_ops/sales_planning/crm-request-intake.md)
+- [Marketing Ops](gtm_engineer/marketing_ops/README.md): who owns what between Marketing Ops and RevOps, the [campaign operations spec](gtm_engineer/marketing_ops/campaign-operations-spec.md) and the demand plan
 - [`VARIABLES.md`](VARIABLES.md): how the generic toolkit was filled in for Sardine, with sources
 - [Wiki](https://github.com/peytonbackus-spec/sardine-gtm-revops-toolkit/wiki) (source in [`docs/wiki/`](docs/wiki/Home.md), published with `scripts/publish_wiki.sh`)
 - [`docs/overview/`](docs/overview/README.md): architecture, decision log, glossary, roadmap

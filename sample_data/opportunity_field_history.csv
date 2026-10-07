@@ -1,0 +1,707 @@
+opportunity_id,field,old_value,new_value,changed_date
+OPP-7000,StageName,1 - Qualify,2 - Discovery,2026-07-15
+OPP-7000,StageName,2 - Discovery,3 - Technical Validation,2026-08-03
+OPP-7000,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-21
+OPP-7001,StageName,1 - Qualify,2 - Discovery,2026-08-13
+OPP-7001,StageName,2 - Discovery,3 - Technical Validation,2026-09-02
+OPP-7002,CloseDate,2026-05-26,2026-07-25,2026-05-23
+OPP-7002,StageName,1 - Qualify,2 - Discovery,2026-07-06
+OPP-7002,StageName,2 - Discovery,Closed Lost,2026-07-25
+OPP-7003,StageName,1 - Qualify,2 - Discovery,2026-07-03
+OPP-7003,StageName,2 - Discovery,3 - Technical Validation,2026-07-12
+OPP-7003,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-27
+OPP-7003,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-17
+OPP-7003,StageName,5 - Negotiate & Contract,Closed Lost,2026-09-27
+OPP-7004,CloseDate,2026-07-09,2026-08-08,2026-07-02
+OPP-7004,StageName,1 - Qualify,Closed Lost,2026-08-08
+OPP-7005,StageName,1 - Qualify,2 - Discovery,2026-08-26
+OPP-7005,StageName,2 - Discovery,3 - Technical Validation,2026-08-27
+OPP-7005,CloseDate,2026-11-11,2026-11-18,2026-09-11
+OPP-7006,StageName,1 - Qualify,2 - Discovery,2026-07-19
+OPP-7006,StageName,2 - Discovery,3 - Technical Validation,2026-08-03
+OPP-7006,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-30
+OPP-7006,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-16
+OPP-7007,StageName,1 - Qualify,2 - Discovery,2026-05-09
+OPP-7007,StageName,2 - Discovery,3 - Technical Validation,2026-06-13
+OPP-7007,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-27
+OPP-7007,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-02
+OPP-7008,StageName,1 - Qualify,2 - Discovery,2026-05-07
+OPP-7008,StageName,2 - Discovery,3 - Technical Validation,2026-05-25
+OPP-7008,CloseDate,2026-06-13,2026-07-28,2026-06-09
+OPP-7008,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-24
+OPP-7008,CloseDate,2026-07-28,2026-08-11,2026-07-26
+OPP-7008,StageName,4 - Business Case & Security Review,Closed Lost,2026-08-11
+OPP-7009,StageName,1 - Qualify,2 - Discovery,2026-06-16
+OPP-7009,StageName,2 - Discovery,3 - Technical Validation,2026-06-27
+OPP-7009,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-11
+OPP-7009,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-19
+OPP-7009,StageName,5 - Negotiate & Contract,Closed Won,2026-09-03
+OPP-7010,StageName,1 - Qualify,2 - Discovery,2026-06-22
+OPP-7010,StageName,2 - Discovery,Closed Lost,2026-09-25
+OPP-7011,StageName,1 - Qualify,2 - Discovery,2026-04-12
+OPP-7011,StageName,2 - Discovery,3 - Technical Validation,2026-05-05
+OPP-7011,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-06-23
+OPP-7011,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-06
+OPP-7011,CloseDate,2026-08-19,2026-09-09,2026-08-15
+OPP-7011,StageName,5 - Negotiate & Contract,Closed Won,2026-09-09
+OPP-7013,StageName,1 - Qualify,2 - Discovery,2026-02-24
+OPP-7013,StageName,2 - Discovery,3 - Technical Validation,2026-03-19
+OPP-7013,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-08
+OPP-7013,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-07-26
+OPP-7013,StageName,5 - Negotiate & Contract,Closed Won,2026-08-08
+OPP-7014,CloseDate,2026-03-11,2026-04-25,2026-03-08
+OPP-7014,StageName,1 - Qualify,2 - Discovery,2026-04-16
+OPP-7014,CloseDate,2026-04-25,2026-05-25,2026-04-25
+OPP-7014,StageName,2 - Discovery,3 - Technical Validation,2026-09-26
+OPP-7015,StageName,1 - Qualify,2 - Discovery,2026-08-13
+OPP-7015,CloseDate,2026-12-19,2026-12-26,2026-08-28
+OPP-7015,StageName,2 - Discovery,3 - Technical Validation,2026-09-08
+OPP-7016,StageName,1 - Qualify,2 - Discovery,2026-02-18
+OPP-7016,StageName,2 - Discovery,3 - Technical Validation,2026-02-26
+OPP-7016,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-03-20
+OPP-7016,CloseDate,2026-03-25,2026-04-15,2026-03-24
+OPP-7016,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-04-04
+OPP-7016,StageName,5 - Negotiate & Contract,Closed Won,2026-04-15
+OPP-7019,StageName,1 - Qualify,2 - Discovery,2026-07-01
+OPP-7019,StageName,2 - Discovery,3 - Technical Validation,2026-07-12
+OPP-7019,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-28
+OPP-7019,CloseDate,2026-09-08,2026-09-15,2026-08-31
+OPP-7019,CloseDate,2026-09-15,2026-09-29,2026-08-31
+OPP-7019,CloseDate,2026-09-29,2026-10-06,2026-09-09
+OPP-7019,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-10
+OPP-7021,StageName,1 - Qualify,2 - Discovery,2026-05-18
+OPP-7021,StageName,2 - Discovery,3 - Technical Validation,2026-05-29
+OPP-7021,CloseDate,2026-06-27,2026-07-11,2026-06-22
+OPP-7021,StageName,3 - Technical Validation,Closed Lost,2026-07-11
+OPP-7022,StageName,1 - Qualify,2 - Discovery,2026-06-15
+OPP-7022,StageName,2 - Discovery,3 - Technical Validation,2026-07-28
+OPP-7022,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-28
+OPP-7023,StageName,1 - Qualify,2 - Discovery,2026-07-27
+OPP-7023,StageName,2 - Discovery,3 - Technical Validation,2026-08-06
+OPP-7023,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-23
+OPP-7024,CloseDate,2026-02-27,2026-03-29,2026-02-20
+OPP-7024,StageName,1 - Qualify,2 - Discovery,2026-04-14
+OPP-7024,StageName,2 - Discovery,3 - Technical Validation,2026-05-24
+OPP-7024,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-25
+OPP-7025,StageName,1 - Qualify,2 - Discovery,2026-05-04
+OPP-7025,StageName,2 - Discovery,3 - Technical Validation,2026-05-21
+OPP-7025,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-06-25
+OPP-7025,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-09
+OPP-7025,StageName,5 - Negotiate & Contract,Closed Won,2026-09-01
+OPP-7026,StageName,1 - Qualify,2 - Discovery,2026-08-28
+OPP-7027,StageName,1 - Qualify,2 - Discovery,2026-06-09
+OPP-7027,StageName,2 - Discovery,3 - Technical Validation,2026-07-16
+OPP-7027,StageName,3 - Technical Validation,Closed Lost,2026-09-20
+OPP-7028,StageName,1 - Qualify,2 - Discovery,2026-07-24
+OPP-7028,StageName,2 - Discovery,3 - Technical Validation,2026-09-08
+OPP-7029,StageName,1 - Qualify,2 - Discovery,2026-04-08
+OPP-7029,StageName,2 - Discovery,3 - Technical Validation,2026-04-30
+OPP-7029,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-05-26
+OPP-7029,CloseDate,2026-06-23,2026-07-14,2026-06-18
+OPP-7029,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-06-25
+OPP-7029,StageName,5 - Negotiate & Contract,Closed Won,2026-07-14
+OPP-7030,StageName,1 - Qualify,2 - Discovery,2026-08-11
+OPP-7030,StageName,2 - Discovery,3 - Technical Validation,2026-08-16
+OPP-7030,CloseDate,2026-12-10,2026-12-24,2026-09-03
+OPP-7031,StageName,1 - Qualify,2 - Discovery,2026-03-21
+OPP-7031,StageName,2 - Discovery,3 - Technical Validation,2026-03-31
+OPP-7031,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-04-16
+OPP-7031,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-05-07
+OPP-7031,StageName,5 - Negotiate & Contract,Closed Lost,2026-05-16
+OPP-7032,StageName,1 - Qualify,2 - Discovery,2026-02-07
+OPP-7032,StageName,2 - Discovery,3 - Technical Validation,2026-02-13
+OPP-7032,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-03-05
+OPP-7032,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-04-05
+OPP-7032,CloseDate,2026-04-09,2026-04-16,2026-04-06
+OPP-7032,StageName,5 - Negotiate & Contract,Closed Won,2026-04-16
+OPP-7033,StageName,1 - Qualify,2 - Discovery,2026-04-11
+OPP-7033,StageName,2 - Discovery,3 - Technical Validation,2026-05-21
+OPP-7033,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-12
+OPP-7033,CloseDate,2026-10-03,2026-10-10,2026-09-15
+OPP-7033,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-25
+OPP-7034,StageName,1 - Qualify,2 - Discovery,2026-05-21
+OPP-7034,StageName,2 - Discovery,3 - Technical Validation,2026-06-21
+OPP-7034,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-21
+OPP-7034,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-31
+OPP-7034,CloseDate,2026-09-06,2026-09-27,2026-09-03
+OPP-7034,StageName,5 - Negotiate & Contract,Closed Lost,2026-09-27
+OPP-7035,StageName,1 - Qualify,2 - Discovery,2026-04-24
+OPP-7035,StageName,2 - Discovery,3 - Technical Validation,2026-05-26
+OPP-7035,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-06-29
+OPP-7035,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-07-28
+OPP-7035,StageName,5 - Negotiate & Contract,Closed Won,2026-08-31
+OPP-7036,StageName,1 - Qualify,2 - Discovery,2026-02-04
+OPP-7036,StageName,2 - Discovery,3 - Technical Validation,2026-03-01
+OPP-7036,StageName,3 - Technical Validation,Closed Lost,2026-03-28
+OPP-7037,StageName,1 - Qualify,2 - Discovery,2026-08-02
+OPP-7037,StageName,2 - Discovery,Closed Lost,2026-09-04
+OPP-7038,StageName,1 - Qualify,2 - Discovery,2026-07-08
+OPP-7038,StageName,2 - Discovery,3 - Technical Validation,2026-07-26
+OPP-7038,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-16
+OPP-7038,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-20
+OPP-7039,StageName,1 - Qualify,2 - Discovery,2026-07-24
+OPP-7039,CloseDate,2026-10-07,2026-11-06,2026-08-30
+OPP-7039,CloseDate,2026-11-06,2026-12-21,2026-09-12
+OPP-7039,StageName,2 - Discovery,3 - Technical Validation,2026-09-17
+OPP-7040,CloseDate,2026-05-20,2026-07-19,2026-05-16
+OPP-7040,StageName,1 - Qualify,2 - Discovery,2026-06-01
+OPP-7040,StageName,2 - Discovery,3 - Technical Validation,2026-06-21
+OPP-7040,StageName,3 - Technical Validation,Closed Lost,2026-07-19
+OPP-7041,StageName,1 - Qualify,2 - Discovery,2026-02-15
+OPP-7041,CloseDate,2026-03-19,2026-05-03,2026-03-16
+OPP-7041,StageName,2 - Discovery,3 - Technical Validation,2026-03-16
+OPP-7041,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-04-07
+OPP-7041,CloseDate,2026-05-03,2026-05-24,2026-05-01
+OPP-7041,StageName,4 - Business Case & Security Review,Closed Lost,2026-05-24
+OPP-7042,StageName,1 - Qualify,2 - Discovery,2026-04-22
+OPP-7042,StageName,2 - Discovery,3 - Technical Validation,2026-05-18
+OPP-7042,CloseDate,2026-06-21,2026-07-05,2026-06-16
+OPP-7042,CloseDate,2026-07-05,2026-07-19,2026-06-19
+OPP-7042,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-06-19
+OPP-7042,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-07-08
+OPP-7042,StageName,5 - Negotiate & Contract,Closed Won,2026-07-19
+OPP-7044,StageName,1 - Qualify,2 - Discovery,2026-03-07
+OPP-7044,StageName,2 - Discovery,3 - Technical Validation,2026-04-07
+OPP-7044,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-05-17
+OPP-7044,CloseDate,2026-06-26,2026-07-10,2026-06-07
+OPP-7044,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-06-09
+OPP-7044,StageName,5 - Negotiate & Contract,Closed Won,2026-07-10
+OPP-7045,CloseDate,2026-05-29,2026-06-19,2026-05-29
+OPP-7045,CloseDate,2026-06-19,2026-08-18,2026-06-19
+OPP-7045,StageName,1 - Qualify,Closed Lost,2026-08-18
+OPP-7047,StageName,1 - Qualify,2 - Discovery,2026-02-09
+OPP-7047,StageName,2 - Discovery,3 - Technical Validation,2026-02-27
+OPP-7047,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-05-17
+OPP-7047,CloseDate,2026-06-04,2026-07-04,2026-05-27
+OPP-7047,StageName,4 - Business Case & Security Review,Closed Lost,2026-07-04
+OPP-7048,CloseDate,2027-01-16,2027-02-15,2026-08-30
+OPP-7048,StageName,1 - Qualify,2 - Discovery,2026-09-27
+OPP-7049,StageName,1 - Qualify,2 - Discovery,2026-09-26
+OPP-7050,CloseDate,2026-07-13,2026-08-03,2026-07-10
+OPP-7050,StageName,1 - Qualify,Closed Lost,2026-08-03
+OPP-7051,StageName,1 - Qualify,2 - Discovery,2026-07-04
+OPP-7051,CloseDate,2026-09-09,2026-09-30,2026-09-04
+OPP-7051,StageName,2 - Discovery,Closed Lost,2026-09-30
+OPP-7052,StageName,1 - Qualify,2 - Discovery,2026-07-09
+OPP-7052,StageName,2 - Discovery,3 - Technical Validation,2026-08-10
+OPP-7052,CloseDate,2026-09-27,2026-11-11,2026-09-12
+OPP-7052,CloseDate,2026-11-11,2026-12-11,2026-09-24
+OPP-7052,CloseDate,2026-12-11,2026-12-18,2026-09-27
+OPP-7053,StageName,1 - Qualify,2 - Discovery,2026-03-11
+OPP-7053,StageName,2 - Discovery,3 - Technical Validation,2026-04-24
+OPP-7053,CloseDate,2026-05-02,2026-06-16,2026-04-28
+OPP-7053,StageName,3 - Technical Validation,Closed Lost,2026-06-16
+OPP-7055,StageName,1 - Qualify,2 - Discovery,2026-03-26
+OPP-7055,CloseDate,2026-04-08,2026-05-08,2026-04-06
+OPP-7055,StageName,2 - Discovery,3 - Technical Validation,2026-04-12
+OPP-7055,StageName,3 - Technical Validation,Closed Lost,2026-05-08
+OPP-7057,StageName,1 - Qualify,Closed Lost,2026-06-03
+OPP-7058,StageName,1 - Qualify,2 - Discovery,2026-06-16
+OPP-7058,StageName,2 - Discovery,3 - Technical Validation,2026-07-23
+OPP-7058,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-21
+OPP-7059,StageName,1 - Qualify,2 - Discovery,2026-06-25
+OPP-7059,StageName,2 - Discovery,3 - Technical Validation,2026-07-13
+OPP-7059,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-30
+OPP-7059,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-19
+OPP-7059,CloseDate,2026-09-25,2026-10-09,2026-09-04
+OPP-7060,StageName,1 - Qualify,2 - Discovery,2026-07-22
+OPP-7060,CloseDate,2026-10-19,2026-12-03,2026-08-25
+OPP-7060,StageName,2 - Discovery,3 - Technical Validation,2026-08-30
+OPP-7061,StageName,1 - Qualify,2 - Discovery,2026-07-27
+OPP-7061,StageName,2 - Discovery,3 - Technical Validation,2026-09-01
+OPP-7062,CloseDate,2026-04-10,2026-04-24,2026-04-10
+OPP-7062,CloseDate,2026-04-24,2026-05-15,2026-04-20
+OPP-7062,CloseDate,2026-05-15,2026-05-29,2026-04-29
+OPP-7062,StageName,1 - Qualify,Closed Lost,2026-05-29
+OPP-7063,StageName,1 - Qualify,2 - Discovery,2026-08-07
+OPP-7063,StageName,2 - Discovery,3 - Technical Validation,2026-09-28
+OPP-7064,StageName,1 - Qualify,2 - Discovery,2026-08-15
+OPP-7064,StageName,2 - Discovery,3 - Technical Validation,2026-08-31
+OPP-7064,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-18
+OPP-7064,CloseDate,2026-10-10,2026-10-24,2026-09-28
+OPP-7065,StageName,1 - Qualify,2 - Discovery,2026-04-10
+OPP-7065,StageName,2 - Discovery,3 - Technical Validation,2026-04-27
+OPP-7065,StageName,3 - Technical Validation,Closed Lost,2026-06-13
+OPP-7066,StageName,1 - Qualify,2 - Discovery,2026-07-20
+OPP-7066,StageName,2 - Discovery,Closed Lost,2026-09-14
+OPP-7067,StageName,1 - Qualify,2 - Discovery,2026-07-02
+OPP-7067,StageName,2 - Discovery,3 - Technical Validation,2026-07-27
+OPP-7067,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-17
+OPP-7067,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-21
+OPP-7068,CloseDate,2026-08-19,2026-09-02,2026-08-19
+OPP-7068,CloseDate,2026-09-02,2026-09-23,2026-08-22
+OPP-7068,StageName,1 - Qualify,Closed Lost,2026-09-23
+OPP-7069,StageName,1 - Qualify,2 - Discovery,2026-08-29
+OPP-7069,StageName,2 - Discovery,3 - Technical Validation,2026-09-05
+OPP-7070,StageName,1 - Qualify,2 - Discovery,2026-02-12
+OPP-7070,StageName,2 - Discovery,3 - Technical Validation,2026-03-24
+OPP-7070,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-05-13
+OPP-7070,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-06-05
+OPP-7070,StageName,5 - Negotiate & Contract,Closed Won,2026-06-21
+OPP-7071,CloseDate,2026-03-03,2026-05-02,2026-03-03
+OPP-7071,StageName,1 - Qualify,2 - Discovery,2026-04-06
+OPP-7071,StageName,2 - Discovery,Closed Lost,2026-05-02
+OPP-7072,StageName,1 - Qualify,2 - Discovery,2026-07-27
+OPP-7072,StageName,2 - Discovery,3 - Technical Validation,2026-08-11
+OPP-7072,CloseDate,2026-10-31,2026-11-14,2026-09-03
+OPP-7072,CloseDate,2026-11-14,2026-11-21,2026-09-08
+OPP-7072,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-18
+OPP-7073,CloseDate,2026-06-22,2026-08-06,2026-06-21
+OPP-7073,StageName,1 - Qualify,Closed Lost,2026-08-06
+OPP-7074,StageName,1 - Qualify,2 - Discovery,2026-08-24
+OPP-7075,StageName,1 - Qualify,2 - Discovery,2026-09-17
+OPP-7075,CloseDate,2026-12-12,2026-12-19,2026-09-28
+OPP-7076,StageName,1 - Qualify,2 - Discovery,2026-06-17
+OPP-7076,CloseDate,2026-07-18,2026-08-01,2026-07-18
+OPP-7076,StageName,2 - Discovery,Closed Lost,2026-08-01
+OPP-7077,StageName,1 - Qualify,2 - Discovery,2026-07-01
+OPP-7077,StageName,2 - Discovery,3 - Technical Validation,2026-07-26
+OPP-7077,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-26
+OPP-7077,CloseDate,2026-10-16,2026-10-30,2026-09-10
+OPP-7077,CloseDate,2026-10-30,2026-11-29,2026-09-15
+OPP-7078,StageName,1 - Qualify,2 - Discovery,2026-03-20
+OPP-7078,StageName,2 - Discovery,Closed Lost,2026-05-08
+OPP-7079,StageName,1 - Qualify,2 - Discovery,2026-06-03
+OPP-7079,StageName,2 - Discovery,3 - Technical Validation,2026-06-21
+OPP-7079,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-12
+OPP-7079,CloseDate,2026-08-12,2026-08-19,2026-07-16
+OPP-7079,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-08
+OPP-7079,StageName,5 - Negotiate & Contract,Closed Won,2026-08-19
+OPP-7080,StageName,1 - Qualify,2 - Discovery,2026-04-14
+OPP-7080,StageName,2 - Discovery,3 - Technical Validation,2026-05-02
+OPP-7080,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-05-25
+OPP-7080,StageName,4 - Business Case & Security Review,Closed Lost,2026-06-29
+OPP-7081,StageName,1 - Qualify,2 - Discovery,2026-05-21
+OPP-7081,StageName,2 - Discovery,3 - Technical Validation,2026-06-30
+OPP-7081,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-20
+OPP-7081,CloseDate,2026-09-09,2026-09-23,2026-09-07
+OPP-7081,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-10
+OPP-7081,StageName,5 - Negotiate & Contract,Closed Won,2026-09-23
+OPP-7082,StageName,1 - Qualify,2 - Discovery,2026-05-30
+OPP-7082,StageName,2 - Discovery,3 - Technical Validation,2026-06-07
+OPP-7082,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-07
+OPP-7082,CloseDate,2026-07-17,2026-07-31,2026-07-10
+OPP-7082,StageName,4 - Business Case & Security Review,Closed Lost,2026-07-31
+OPP-7083,StageName,1 - Qualify,2 - Discovery,2026-02-23
+OPP-7083,StageName,2 - Discovery,3 - Technical Validation,2026-03-27
+OPP-7083,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-06-16
+OPP-7083,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-07-25
+OPP-7083,StageName,5 - Negotiate & Contract,Closed Won,2026-09-10
+OPP-7084,StageName,1 - Qualify,Closed Lost,2026-07-08
+OPP-7085,CloseDate,2026-04-26,2026-05-17,2026-04-23
+OPP-7085,CloseDate,2026-05-17,2026-05-31,2026-05-14
+OPP-7085,StageName,1 - Qualify,Closed Lost,2026-05-31
+OPP-7086,StageName,1 - Qualify,2 - Discovery,2026-07-11
+OPP-7086,StageName,2 - Discovery,3 - Technical Validation,2026-07-28
+OPP-7086,CloseDate,2026-08-12,2026-09-26,2026-08-11
+OPP-7086,StageName,3 - Technical Validation,Closed Lost,2026-09-26
+OPP-7087,StageName,1 - Qualify,2 - Discovery,2026-07-10
+OPP-7087,CloseDate,2026-08-31,2026-09-21,2026-08-30
+OPP-7087,StageName,2 - Discovery,Closed Lost,2026-09-21
+OPP-7088,CloseDate,2026-04-20,2026-06-19,2026-04-19
+OPP-7088,StageName,1 - Qualify,Closed Lost,2026-06-19
+OPP-7089,StageName,1 - Qualify,Closed Lost,2026-09-26
+OPP-7090,StageName,1 - Qualify,2 - Discovery,2026-07-24
+OPP-7090,StageName,2 - Discovery,3 - Technical Validation,2026-08-10
+OPP-7090,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-17
+OPP-7090,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-06
+OPP-7091,CloseDate,2027-01-07,2027-01-21,2026-09-05
+OPP-7092,StageName,1 - Qualify,2 - Discovery,2026-03-28
+OPP-7092,StageName,2 - Discovery,3 - Technical Validation,2026-04-25
+OPP-7092,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-05-27
+OPP-7092,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-07-14
+OPP-7092,StageName,5 - Negotiate & Contract,Closed Won,2026-08-18
+OPP-7093,StageName,1 - Qualify,2 - Discovery,2026-07-12
+OPP-7093,StageName,2 - Discovery,3 - Technical Validation,2026-07-27
+OPP-7093,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-13
+OPP-7095,StageName,1 - Qualify,2 - Discovery,2026-09-02
+OPP-7096,StageName,1 - Qualify,2 - Discovery,2026-04-09
+OPP-7096,StageName,2 - Discovery,3 - Technical Validation,2026-05-27
+OPP-7096,CloseDate,2026-07-26,2026-08-09,2026-06-30
+OPP-7096,StageName,3 - Technical Validation,Closed Lost,2026-08-09
+OPP-7097,StageName,1 - Qualify,2 - Discovery,2026-07-14
+OPP-7097,CloseDate,2026-12-23,2026-12-30,2026-08-22
+OPP-7097,StageName,2 - Discovery,3 - Technical Validation,2026-09-24
+OPP-7098,StageName,1 - Qualify,2 - Discovery,2025-12-21
+OPP-7098,StageName,2 - Discovery,3 - Technical Validation,2026-01-28
+OPP-7098,StageName,3 - Technical Validation,Closed Lost,2026-02-20
+OPP-7099,StageName,1 - Qualify,2 - Discovery,2026-04-20
+OPP-7099,StageName,2 - Discovery,3 - Technical Validation,2026-06-05
+OPP-7099,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-13
+OPP-7100,StageName,1 - Qualify,2 - Discovery,2026-01-31
+OPP-7100,StageName,2 - Discovery,3 - Technical Validation,2026-02-10
+OPP-7100,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-03-06
+OPP-7100,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-03-26
+OPP-7100,StageName,5 - Negotiate & Contract,Closed Won,2026-04-07
+OPP-7101,StageName,1 - Qualify,2 - Discovery,2026-04-05
+OPP-7101,StageName,2 - Discovery,3 - Technical Validation,2026-06-08
+OPP-7101,StageName,3 - Technical Validation,Closed Lost,2026-09-30
+OPP-7102,StageName,1 - Qualify,2 - Discovery,2026-02-09
+OPP-7102,StageName,2 - Discovery,3 - Technical Validation,2026-03-02
+OPP-7102,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-03-14
+OPP-7102,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-04-06
+OPP-7102,StageName,5 - Negotiate & Contract,Closed Lost,2026-04-23
+OPP-7103,StageName,1 - Qualify,2 - Discovery,2026-01-19
+OPP-7103,StageName,2 - Discovery,3 - Technical Validation,2026-02-07
+OPP-7103,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-02-27
+OPP-7103,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-03-24
+OPP-7103,StageName,5 - Negotiate & Contract,Closed Won,2026-04-03
+OPP-7104,StageName,1 - Qualify,2 - Discovery,2025-10-27
+OPP-7104,StageName,2 - Discovery,3 - Technical Validation,2025-11-23
+OPP-7104,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-01-01
+OPP-7104,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-02-01
+OPP-7104,StageName,5 - Negotiate & Contract,Closed Won,2026-03-03
+OPP-7105,CloseDate,2026-05-25,2026-06-24,2026-05-20
+OPP-7105,CloseDate,2026-06-24,2026-08-08,2026-06-24
+OPP-7105,StageName,1 - Qualify,Closed Lost,2026-08-08
+OPP-7106,StageName,1 - Qualify,2 - Discovery,2026-05-14
+OPP-7106,StageName,2 - Discovery,3 - Technical Validation,2026-06-11
+OPP-7106,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-20
+OPP-7106,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-01
+OPP-7106,StageName,5 - Negotiate & Contract,Closed Won,2026-09-28
+OPP-7107,StageName,1 - Qualify,2 - Discovery,2026-04-08
+OPP-7107,StageName,2 - Discovery,3 - Technical Validation,2026-05-30
+OPP-7107,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-24
+OPP-7107,CloseDate,2026-08-19,2026-10-03,2026-08-14
+OPP-7107,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-16
+OPP-7108,StageName,1 - Qualify,2 - Discovery,2026-05-22
+OPP-7108,StageName,2 - Discovery,3 - Technical Validation,2026-06-17
+OPP-7108,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-13
+OPP-7108,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-07-31
+OPP-7108,CloseDate,2026-08-23,2026-09-06,2026-08-02
+OPP-7108,StageName,5 - Negotiate & Contract,Closed Won,2026-09-06
+OPP-7109,StageName,1 - Qualify,2 - Discovery,2026-08-25
+OPP-7109,StageName,2 - Discovery,3 - Technical Validation,2026-08-25
+OPP-7109,CloseDate,2026-10-06,2026-10-20,2026-09-06
+OPP-7109,CloseDate,2026-10-20,2026-11-03,2026-09-10
+OPP-7110,CloseDate,2026-02-23,2026-04-09,2026-02-19
+OPP-7110,StageName,1 - Qualify,2 - Discovery,2026-03-17
+OPP-7110,CloseDate,2026-04-09,2026-04-23,2026-04-04
+OPP-7110,StageName,2 - Discovery,Closed Lost,2026-04-23
+OPP-7111,StageName,1 - Qualify,2 - Discovery,2025-12-17
+OPP-7111,CloseDate,2026-01-02,2026-01-23,2026-01-02
+OPP-7111,StageName,2 - Discovery,3 - Technical Validation,2026-01-02
+OPP-7111,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-01-13
+OPP-7111,CloseDate,2026-01-23,2026-02-13,2026-01-20
+OPP-7111,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-01-29
+OPP-7111,StageName,5 - Negotiate & Contract,Closed Won,2026-02-13
+OPP-7112,CloseDate,2026-06-05,2026-07-20,2026-06-05
+OPP-7112,CloseDate,2026-07-20,2026-08-19,2026-07-20
+OPP-7112,StageName,1 - Qualify,Closed Lost,2026-08-19
+OPP-7113,CloseDate,2025-12-07,2026-01-06,2025-12-07
+OPP-7113,StageName,1 - Qualify,Closed Lost,2026-01-06
+OPP-7114,StageName,1 - Qualify,2 - Discovery,2026-08-04
+OPP-7114,StageName,2 - Discovery,3 - Technical Validation,2026-08-11
+OPP-7114,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-31
+OPP-7114,CloseDate,2026-09-08,2026-09-29,2026-09-06
+OPP-7114,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-16
+OPP-7114,StageName,5 - Negotiate & Contract,Closed Won,2026-09-29
+OPP-7115,StageName,1 - Qualify,2 - Discovery,2026-08-26
+OPP-7115,StageName,2 - Discovery,3 - Technical Validation,2026-09-12
+OPP-7116,StageName,1 - Qualify,2 - Discovery,2026-08-21
+OPP-7116,CloseDate,2026-10-01,2026-10-31,2026-09-17
+OPP-7116,CloseDate,2026-10-31,2026-11-30,2026-09-20
+OPP-7116,StageName,2 - Discovery,3 - Technical Validation,2026-09-23
+OPP-7117,StageName,1 - Qualify,2 - Discovery,2026-03-01
+OPP-7117,StageName,2 - Discovery,3 - Technical Validation,2026-04-06
+OPP-7117,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-05-05
+OPP-7117,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-06-05
+OPP-7117,StageName,5 - Negotiate & Contract,Closed Won,2026-06-26
+OPP-7118,StageName,1 - Qualify,2 - Discovery,2026-03-17
+OPP-7118,StageName,2 - Discovery,Closed Lost,2026-08-08
+OPP-7119,StageName,1 - Qualify,2 - Discovery,2026-06-25
+OPP-7119,StageName,2 - Discovery,3 - Technical Validation,2026-07-10
+OPP-7119,CloseDate,2026-07-16,2026-08-15,2026-07-15
+OPP-7119,StageName,3 - Technical Validation,Closed Lost,2026-08-15
+OPP-7121,StageName,1 - Qualify,2 - Discovery,2026-06-30
+OPP-7121,StageName,2 - Discovery,3 - Technical Validation,2026-07-14
+OPP-7121,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-04
+OPP-7122,StageName,1 - Qualify,2 - Discovery,2026-01-22
+OPP-7122,StageName,2 - Discovery,3 - Technical Validation,2026-03-09
+OPP-7122,CloseDate,2026-03-28,2026-04-27,2026-03-25
+OPP-7122,StageName,3 - Technical Validation,Closed Lost,2026-04-27
+OPP-7123,StageName,1 - Qualify,2 - Discovery,2026-09-06
+OPP-7124,CloseDate,2026-03-03,2026-04-17,2026-02-26
+OPP-7124,StageName,1 - Qualify,Closed Lost,2026-04-17
+OPP-7125,StageName,1 - Qualify,2 - Discovery,2026-05-11
+OPP-7125,CloseDate,2026-07-04,2026-07-25,2026-06-19
+OPP-7125,StageName,2 - Discovery,Closed Lost,2026-07-25
+OPP-7126,StageName,1 - Qualify,2 - Discovery,2025-12-08
+OPP-7126,StageName,2 - Discovery,3 - Technical Validation,2026-01-08
+OPP-7126,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-03-04
+OPP-7126,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-03-31
+OPP-7126,StageName,5 - Negotiate & Contract,Closed Won,2026-04-12
+OPP-7127,StageName,1 - Qualify,2 - Discovery,2026-04-28
+OPP-7127,CloseDate,2026-07-30,2026-08-20,2026-07-24
+OPP-7127,StageName,2 - Discovery,Closed Lost,2026-08-20
+OPP-7128,StageName,1 - Qualify,2 - Discovery,2026-06-30
+OPP-7128,StageName,2 - Discovery,3 - Technical Validation,2026-07-17
+OPP-7128,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-22
+OPP-7128,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-11
+OPP-7129,CloseDate,2027-05-06,2027-05-13,2026-09-14
+OPP-7130,StageName,1 - Qualify,2 - Discovery,2026-08-17
+OPP-7130,StageName,2 - Discovery,3 - Technical Validation,2026-08-29
+OPP-7131,StageName,1 - Qualify,2 - Discovery,2026-05-14
+OPP-7131,StageName,2 - Discovery,3 - Technical Validation,2026-06-12
+OPP-7131,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-17
+OPP-7131,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-31
+OPP-7131,StageName,5 - Negotiate & Contract,Closed Won,2026-09-14
+OPP-7132,StageName,1 - Qualify,2 - Discovery,2025-10-26
+OPP-7132,CloseDate,2025-11-18,2025-12-18,2025-11-14
+OPP-7132,StageName,2 - Discovery,3 - Technical Validation,2025-11-20
+OPP-7132,StageName,3 - Technical Validation,Closed Lost,2025-12-18
+OPP-7133,CloseDate,2026-03-14,2026-04-28,2026-03-09
+OPP-7133,CloseDate,2026-04-28,2026-06-12,2026-04-27
+OPP-7133,CloseDate,2026-06-12,2026-07-03,2026-06-11
+OPP-7133,StageName,1 - Qualify,Closed Lost,2026-07-03
+OPP-7134,StageName,1 - Qualify,2 - Discovery,2025-12-29
+OPP-7134,CloseDate,2026-03-05,2026-04-19,2026-02-28
+OPP-7134,CloseDate,2026-04-19,2026-06-03,2026-04-17
+OPP-7134,StageName,2 - Discovery,Closed Lost,2026-06-03
+OPP-7135,StageName,1 - Qualify,2 - Discovery,2026-02-16
+OPP-7135,StageName,2 - Discovery,3 - Technical Validation,2026-03-10
+OPP-7135,CloseDate,2026-03-21,2026-04-20,2026-03-19
+OPP-7135,CloseDate,2026-04-20,2026-05-20,2026-04-19
+OPP-7135,StageName,3 - Technical Validation,Closed Lost,2026-05-20
+OPP-7136,StageName,1 - Qualify,2 - Discovery,2026-07-26
+OPP-7136,StageName,2 - Discovery,3 - Technical Validation,2026-08-16
+OPP-7137,StageName,1 - Qualify,2 - Discovery,2026-08-08
+OPP-7137,StageName,2 - Discovery,3 - Technical Validation,2026-08-14
+OPP-7138,StageName,1 - Qualify,2 - Discovery,2025-11-12
+OPP-7138,StageName,2 - Discovery,3 - Technical Validation,2025-12-15
+OPP-7138,StageName,3 - Technical Validation,Closed Lost,2026-03-20
+OPP-7139,CloseDate,2026-06-13,2026-08-12,2026-06-08
+OPP-7139,StageName,1 - Qualify,2 - Discovery,2026-06-30
+OPP-7139,StageName,2 - Discovery,Closed Lost,2026-08-12
+OPP-7141,StageName,1 - Qualify,2 - Discovery,2026-04-05
+OPP-7141,StageName,2 - Discovery,3 - Technical Validation,2026-04-30
+OPP-7141,StageName,3 - Technical Validation,Closed Lost,2026-06-26
+OPP-7142,CloseDate,2026-06-11,2026-07-02,2026-06-01
+OPP-7142,StageName,1 - Qualify,Closed Lost,2026-07-02
+OPP-7143,StageName,1 - Qualify,2 - Discovery,2025-10-24
+OPP-7143,StageName,2 - Discovery,3 - Technical Validation,2025-11-26
+OPP-7143,StageName,3 - Technical Validation,4 - Business Case & Security Review,2025-12-26
+OPP-7143,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-02-08
+OPP-7143,StageName,5 - Negotiate & Contract,Closed Won,2026-02-26
+OPP-7144,StageName,1 - Qualify,2 - Discovery,2026-08-10
+OPP-7144,StageName,2 - Discovery,3 - Technical Validation,2026-08-16
+OPP-7144,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-21
+OPP-7144,CloseDate,2026-10-08,2026-10-22,2026-09-17
+OPP-7145,StageName,1 - Qualify,2 - Discovery,2026-05-22
+OPP-7145,CloseDate,2026-07-12,2026-08-11,2026-07-09
+OPP-7145,StageName,2 - Discovery,3 - Technical Validation,2026-07-10
+OPP-7145,CloseDate,2026-08-11,2026-09-01,2026-08-08
+OPP-7145,StageName,3 - Technical Validation,Closed Lost,2026-09-01
+OPP-7146,StageName,1 - Qualify,2 - Discovery,2026-01-01
+OPP-7146,StageName,2 - Discovery,3 - Technical Validation,2026-01-08
+OPP-7146,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-01-27
+OPP-7146,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-02-10
+OPP-7146,StageName,5 - Negotiate & Contract,Closed Won,2026-02-26
+OPP-7147,CloseDate,2026-03-26,2026-05-10,2026-03-23
+OPP-7147,CloseDate,2026-05-10,2026-05-24,2026-04-19
+OPP-7147,StageName,1 - Qualify,Closed Lost,2026-05-24
+OPP-7148,StageName,1 - Qualify,2 - Discovery,2026-05-08
+OPP-7148,StageName,2 - Discovery,3 - Technical Validation,2026-05-25
+OPP-7148,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-06-15
+OPP-7148,CloseDate,2026-06-29,2026-07-20,2026-06-25
+OPP-7148,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-07-10
+OPP-7148,StageName,5 - Negotiate & Contract,Closed Won,2026-07-20
+OPP-7149,StageName,1 - Qualify,2 - Discovery,2026-08-10
+OPP-7149,StageName,2 - Discovery,3 - Technical Validation,2026-09-06
+OPP-7150,StageName,1 - Qualify,2 - Discovery,2026-08-18
+OPP-7150,StageName,2 - Discovery,3 - Technical Validation,2026-09-27
+OPP-7151,StageName,1 - Qualify,2 - Discovery,2026-01-20
+OPP-7151,StageName,2 - Discovery,Closed Lost,2026-02-24
+OPP-7152,StageName,1 - Qualify,2 - Discovery,2026-08-20
+OPP-7152,StageName,2 - Discovery,3 - Technical Validation,2026-09-05
+OPP-7153,StageName,1 - Qualify,2 - Discovery,2026-01-07
+OPP-7153,StageName,2 - Discovery,3 - Technical Validation,2026-02-08
+OPP-7153,StageName,3 - Technical Validation,Closed Lost,2026-04-28
+OPP-7154,CloseDate,2026-04-01,2026-04-15,2026-03-27
+OPP-7154,CloseDate,2026-04-15,2026-05-06,2026-04-15
+OPP-7154,CloseDate,2026-05-06,2026-05-20,2026-04-20
+OPP-7154,StageName,1 - Qualify,Closed Lost,2026-05-20
+OPP-7155,StageName,1 - Qualify,Closed Lost,2026-06-20
+OPP-7156,StageName,1 - Qualify,2 - Discovery,2026-08-19
+OPP-7156,StageName,2 - Discovery,3 - Technical Validation,2026-09-26
+OPP-7157,StageName,1 - Qualify,2 - Discovery,2026-01-09
+OPP-7157,StageName,2 - Discovery,3 - Technical Validation,2026-02-19
+OPP-7157,StageName,3 - Technical Validation,Closed Lost,2026-05-04
+OPP-7159,StageName,1 - Qualify,2 - Discovery,2025-11-26
+OPP-7159,StageName,2 - Discovery,3 - Technical Validation,2026-01-16
+OPP-7159,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-03-16
+OPP-7159,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-05-03
+OPP-7159,CloseDate,2026-05-23,2026-06-06,2026-05-18
+OPP-7159,StageName,5 - Negotiate & Contract,Closed Won,2026-06-06
+OPP-7160,StageName,1 - Qualify,2 - Discovery,2026-01-27
+OPP-7160,CloseDate,2026-02-02,2026-04-03,2026-01-29
+OPP-7160,StageName,2 - Discovery,3 - Technical Validation,2026-02-22
+OPP-7160,StageName,3 - Technical Validation,Closed Lost,2026-04-03
+OPP-7161,StageName,1 - Qualify,2 - Discovery,2025-11-04
+OPP-7161,StageName,2 - Discovery,3 - Technical Validation,2025-11-22
+OPP-7161,StageName,3 - Technical Validation,4 - Business Case & Security Review,2025-12-25
+OPP-7161,CloseDate,2026-01-14,2026-01-28,2026-01-12
+OPP-7161,CloseDate,2026-01-28,2026-02-27,2026-01-26
+OPP-7161,StageName,4 - Business Case & Security Review,Closed Lost,2026-02-27
+OPP-7162,StageName,1 - Qualify,Closed Lost,2026-03-08
+OPP-7163,StageName,1 - Qualify,2 - Discovery,2026-07-20
+OPP-7163,StageName,2 - Discovery,3 - Technical Validation,2026-08-03
+OPP-7163,CloseDate,2026-08-14,2026-09-04,2026-08-11
+OPP-7163,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-19
+OPP-7163,CloseDate,2026-09-04,2026-09-18,2026-08-24
+OPP-7163,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-01
+OPP-7163,StageName,5 - Negotiate & Contract,Closed Won,2026-09-18
+OPP-7164,StageName,1 - Qualify,2 - Discovery,2025-12-12
+OPP-7164,StageName,2 - Discovery,3 - Technical Validation,2025-12-25
+OPP-7164,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-01-28
+OPP-7164,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-02-22
+OPP-7164,StageName,5 - Negotiate & Contract,Closed Won,2026-03-10
+OPP-7165,StageName,1 - Qualify,2 - Discovery,2026-05-16
+OPP-7165,CloseDate,2026-05-22,2026-07-06,2026-05-19
+OPP-7165,StageName,2 - Discovery,3 - Technical Validation,2026-06-09
+OPP-7165,CloseDate,2026-07-06,2026-07-20,2026-07-01
+OPP-7165,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-14
+OPP-7165,CloseDate,2026-07-20,2026-08-10,2026-07-18
+OPP-7165,StageName,4 - Business Case & Security Review,Closed Lost,2026-08-10
+OPP-7166,StageName,1 - Qualify,2 - Discovery,2026-08-12
+OPP-7166,StageName,2 - Discovery,3 - Technical Validation,2026-08-20
+OPP-7166,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-03
+OPP-7166,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-09
+OPP-7167,StageName,1 - Qualify,2 - Discovery,2025-12-13
+OPP-7167,StageName,2 - Discovery,3 - Technical Validation,2026-01-09
+OPP-7167,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-01-24
+OPP-7167,CloseDate,2026-03-19,2026-04-02,2026-03-14
+OPP-7167,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-03-24
+OPP-7167,StageName,5 - Negotiate & Contract,Closed Lost,2026-04-02
+OPP-7168,CloseDate,2026-07-08,2026-09-06,2026-07-05
+OPP-7168,StageName,1 - Qualify,Closed Lost,2026-09-06
+OPP-7169,StageName,1 - Qualify,2 - Discovery,2026-08-21
+OPP-7170,CloseDate,2026-12-15,2027-01-29,2026-09-24
+OPP-7170,StageName,1 - Qualify,2 - Discovery,2026-09-24
+OPP-7171,CloseDate,2026-09-13,2026-09-27,2026-09-07
+OPP-7171,StageName,1 - Qualify,Closed Lost,2026-09-27
+OPP-7172,StageName,1 - Qualify,2 - Discovery,2025-12-31
+OPP-7172,CloseDate,2026-01-30,2026-03-16,2026-01-30
+OPP-7172,CloseDate,2026-03-16,2026-03-30,2026-03-11
+OPP-7172,StageName,2 - Discovery,Closed Lost,2026-03-30
+OPP-7173,StageName,1 - Qualify,2 - Discovery,2026-04-13
+OPP-7173,StageName,2 - Discovery,3 - Technical Validation,2026-06-08
+OPP-7173,CloseDate,2026-12-25,2027-01-01,2026-09-09
+OPP-7173,CloseDate,2027-01-01,2027-01-08,2026-09-16
+OPP-7173,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-25
+OPP-7174,StageName,1 - Qualify,2 - Discovery,2026-04-30
+OPP-7174,StageName,2 - Discovery,Closed Lost,2026-08-14
+OPP-7175,StageName,1 - Qualify,2 - Discovery,2026-06-10
+OPP-7175,StageName,2 - Discovery,3 - Technical Validation,2026-06-27
+OPP-7175,CloseDate,2026-08-02,2026-09-16,2026-08-02
+OPP-7175,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-14
+OPP-7175,StageName,4 - Business Case & Security Review,Closed Lost,2026-09-16
+OPP-7176,StageName,1 - Qualify,2 - Discovery,2026-04-17
+OPP-7176,CloseDate,2026-04-25,2026-05-02,2026-04-25
+OPP-7176,CloseDate,2026-05-02,2026-05-16,2026-04-29
+OPP-7176,CloseDate,2026-05-16,2026-05-30,2026-05-12
+OPP-7176,StageName,2 - Discovery,3 - Technical Validation,2026-05-15
+OPP-7176,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-07-05
+OPP-7176,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-06
+OPP-7177,StageName,1 - Qualify,2 - Discovery,2026-08-17
+OPP-7177,StageName,2 - Discovery,3 - Technical Validation,2026-09-30
+OPP-7178,StageName,1 - Qualify,2 - Discovery,2026-05-01
+OPP-7178,StageName,2 - Discovery,Closed Lost,2026-07-28
+OPP-7180,CloseDate,2025-10-06,2025-12-05,2025-10-06
+OPP-7180,StageName,1 - Qualify,2 - Discovery,2025-10-12
+OPP-7180,StageName,2 - Discovery,3 - Technical Validation,2025-10-23
+OPP-7180,CloseDate,2025-12-05,2025-12-26,2025-12-03
+OPP-7180,StageName,3 - Technical Validation,4 - Business Case & Security Review,2025-12-08
+OPP-7180,StageName,4 - Business Case & Security Review,Closed Lost,2025-12-26
+OPP-7181,StageName,1 - Qualify,2 - Discovery,2026-09-04
+OPP-7181,CloseDate,2026-11-28,2026-12-05,2026-09-08
+OPP-7182,StageName,1 - Qualify,2 - Discovery,2026-01-09
+OPP-7182,StageName,2 - Discovery,3 - Technical Validation,2026-01-31
+OPP-7182,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-02-19
+OPP-7182,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-03-07
+OPP-7182,StageName,5 - Negotiate & Contract,Closed Won,2026-03-24
+OPP-7183,StageName,1 - Qualify,2 - Discovery,2026-01-19
+OPP-7183,CloseDate,2026-02-03,2026-03-20,2026-02-01
+OPP-7183,CloseDate,2026-03-20,2026-04-19,2026-03-16
+OPP-7183,StageName,2 - Discovery,Closed Lost,2026-04-19
+OPP-7184,StageName,1 - Qualify,2 - Discovery,2025-12-23
+OPP-7184,StageName,2 - Discovery,3 - Technical Validation,2026-02-09
+OPP-7184,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-06-18
+OPP-7184,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-08
+OPP-7185,StageName,1 - Qualify,2 - Discovery,2026-01-23
+OPP-7185,StageName,2 - Discovery,3 - Technical Validation,2026-02-15
+OPP-7185,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-03-24
+OPP-7185,StageName,4 - Business Case & Security Review,Closed Lost,2026-06-30
+OPP-7186,StageName,1 - Qualify,2 - Discovery,2026-06-21
+OPP-7186,StageName,2 - Discovery,3 - Technical Validation,2026-07-08
+OPP-7186,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-09
+OPP-7186,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-08-22
+OPP-7186,StageName,5 - Negotiate & Contract,Closed Won,2026-09-11
+OPP-7187,CloseDate,2026-02-22,2026-03-01,2026-02-19
+OPP-7187,StageName,1 - Qualify,2 - Discovery,2026-02-24
+OPP-7187,StageName,2 - Discovery,3 - Technical Validation,2026-08-29
+OPP-7188,CloseDate,2026-03-31,2026-04-14,2026-03-31
+OPP-7188,StageName,1 - Qualify,2 - Discovery,2026-04-09
+OPP-7188,CloseDate,2026-04-14,2026-05-29,2026-04-10
+OPP-7188,StageName,2 - Discovery,3 - Technical Validation,2026-04-30
+OPP-7188,CloseDate,2026-05-29,2026-06-19,2026-05-27
+OPP-7188,StageName,3 - Technical Validation,Closed Lost,2026-06-19
+OPP-7189,StageName,1 - Qualify,2 - Discovery,2026-02-17
+OPP-7189,CloseDate,2026-06-03,2026-08-02,2026-05-30
+OPP-7189,CloseDate,2026-08-02,2026-08-16,2026-07-21
+OPP-7189,CloseDate,2026-08-16,2026-08-30,2026-07-22
+OPP-7189,StageName,2 - Discovery,Closed Lost,2026-08-30
+OPP-7190,StageName,1 - Qualify,2 - Discovery,2026-02-28
+OPP-7190,StageName,2 - Discovery,3 - Technical Validation,2026-04-01
+OPP-7190,CloseDate,2026-06-02,2026-06-16,2026-05-29
+OPP-7190,CloseDate,2026-06-16,2026-06-30,2026-05-31
+OPP-7190,StageName,3 - Technical Validation,Closed Lost,2026-06-30
+OPP-7191,StageName,1 - Qualify,2 - Discovery,2026-09-04
+OPP-7192,CloseDate,2026-05-11,2026-06-10,2026-05-09
+OPP-7192,StageName,1 - Qualify,Closed Lost,2026-06-10
+OPP-7193,StageName,1 - Qualify,2 - Discovery,2026-05-31
+OPP-7193,StageName,2 - Discovery,3 - Technical Validation,2026-06-30
+OPP-7193,CloseDate,2026-07-08,2026-08-07,2026-07-03
+OPP-7193,StageName,3 - Technical Validation,Closed Lost,2026-08-07
+OPP-7194,StageName,1 - Qualify,2 - Discovery,2026-05-17
+OPP-7194,StageName,2 - Discovery,3 - Technical Validation,2026-06-04
+OPP-7194,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-21
+OPP-7194,StageName,4 - Business Case & Security Review,5 - Negotiate & Contract,2026-09-02
+OPP-7194,StageName,5 - Negotiate & Contract,Closed Won,2026-09-17
+OPP-7195,CloseDate,2026-06-21,2026-07-21,2026-06-17
+OPP-7195,StageName,1 - Qualify,2 - Discovery,2026-06-20
+OPP-7195,StageName,2 - Discovery,3 - Technical Validation,2026-07-09
+OPP-7195,CloseDate,2026-07-21,2026-09-04,2026-07-20
+OPP-7195,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-08-11
+OPP-7195,CloseDate,2026-09-04,2026-09-25,2026-08-30
+OPP-7195,StageName,4 - Business Case & Security Review,Closed Lost,2026-09-25
+OPP-7196,StageName,1 - Qualify,2 - Discovery,2025-12-03
+OPP-7196,StageName,2 - Discovery,3 - Technical Validation,2026-01-07
+OPP-7196,CloseDate,2026-01-15,2026-01-29,2026-01-15
+OPP-7196,CloseDate,2026-01-29,2026-03-15,2026-01-25
+OPP-7196,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-02-17
+OPP-7196,CloseDate,2026-03-15,2026-04-05,2026-03-10
+OPP-7196,StageName,4 - Business Case & Security Review,Closed Lost,2026-04-05
+OPP-7197,StageName,1 - Qualify,2 - Discovery,2026-05-17
+OPP-7197,StageName,2 - Discovery,3 - Technical Validation,2026-07-17
+OPP-7197,StageName,3 - Technical Validation,4 - Business Case & Security Review,2026-09-26
+OPP-7198,StageName,1 - Qualify,2 - Discovery,2026-01-18
+OPP-7198,StageName,2 - Discovery,3 - Technical Validation,2026-04-06
+OPP-7198,StageName,3 - Technical Validation,Closed Lost,2026-09-27
+OPP-7199,StageName,1 - Qualify,2 - Discovery,2026-09-06
+OPP-7199,CloseDate,2026-12-03,2026-12-17,2026-09-29
+OPP-7200,CloseDate,2026-01-16,2026-03-17,2026-01-12
+OPP-7200,CloseDate,2026-03-17,2026-04-16,2026-03-14
+OPP-7200,StageName,1 - Qualify,Closed Lost,2026-04-16
+OPP-7201,StageName,1 - Qualify,2 - Discovery,2026-05-01
+OPP-7201,StageName,2 - Discovery,Closed Lost,2026-07-20
+OPP-7202,CloseDate,2026-03-01,2026-04-15,2026-02-27
+OPP-7202,StageName,1 - Qualify,2 - Discovery,2026-04-01
+OPP-7202,CloseDate,2026-04-15,2026-05-30,2026-04-11
+OPP-7202,StageName,2 - Discovery,Closed Lost,2026-05-30
+OPP-7203,StageName,1 - Qualify,2 - Discovery,2026-02-24
+OPP-7203,CloseDate,2026-03-20,2026-04-19,2026-03-16
+OPP-7203,StageName,2 - Discovery,3 - Technical Validation,2026-03-18
+OPP-7203,StageName,3 - Technical Validation,Closed Lost,2026-04-19
+OPP-7204,StageName,1 - Qualify,2 - Discovery,2025-12-20
+OPP-7204,StageName,2 - Discovery,Closed Lost,2026-03-08

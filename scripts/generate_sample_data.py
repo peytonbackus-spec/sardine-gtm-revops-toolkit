@@ -275,7 +275,7 @@ def make_opp(acct, otype, created, source, partner="", product_line=None, amount
         fc = ["Pipeline", "Pipeline", "Best Case", "Best Case", "Best Case"][idx]
         if (idx == 4 and rng.random() < 0.40) or (idx == 3 and rng.random() < 0.08):
             fc = "Commit"
-        stage_entered = AS_OF - timedelta(days=rng.randint(1, 55))
+        stage_entered = max(created, AS_OF - timedelta(days=rng.randint(1, 55)))  # never before the opp existed
     last_activity = (stage_entered if is_closed else AS_OF - timedelta(days=rng.choice([1, 2, 3, 5, 8, 12, 18, 25, 40])))
     return {
         "opportunity_id": f"OPP-{7000 + len(opps)}", "account_id": acct["account_id"], "account_name": acct["account_name"],
@@ -406,6 +406,203 @@ for q, (qs, qe) in QUARTERS.items():
                 "pipeline": int(commit * rng.uniform(2.2, 3.4)), "actual_closed_won": int(actual),
             })
 
+# ----------------------------------------------------------------------------- opportunity field history
+# Mirrors Salesforce OpportunityFieldHistory (StageName and CloseDate changes), which is what stage
+# velocity and close-date slippage are measured from. It uses its own RNG so adding it leaves every
+# other file byte-for-byte unchanged.
+# Planted SYNTHETIC patterns, so the sales-leadership reports have something real to find:
+#   - Marketing-sourced (inbound) deals wait longer in "1 - Qualify" before discovery is held
+#   - one AE converts Qualify -> Discovery slowly
+#   - bank segments run long in "3 - Technical Validation" (data-sharing approval for the backtest)
+#   - deals with no economic buyer drag in "4 - Business Case & Security Review"
+#   - lost deals get their close date pushed more often, and by more, than won deals
+hrng = random.Random(7)
+STAGE_BASE_DAYS = [10, 18, 28, 24, 16]
+BANK_SEGMENTS = {"tier1_bank", "regional_bank_cu", "sponsor_bank_baas"}
+SLOW_QUALIFY_AE = "AE - Jon Reyes"
+
+
+def _stage_days(o: dict, i: int) -> float:
+    m = hrng.lognormvariate(0, 0.35)
+    if i == 0:
+        m *= 2.4 if o["source"] == "Marketing" else 1.0
+        m *= 1.8 if o["owner"] == SLOW_QUALIFY_AE else 1.0
+    if i == 2 and o["segment"] in BANK_SEGMENTS:
+        m *= 1.7
+    if i == 3 and not o["economic_buyer_engaged"]:
+        m *= 1.6
+    return STAGE_BASE_DAYS[i] * m
+
+
+field_history = []
+for o in opps:
+    created, close = date.fromisoformat(o["created_date"]), date.fromisoformat(o["close_date"])
+    if o["is_closed"]:
+        reached = 4 if o["is_won"] else hrng.choices(range(5), weights=[30, 28, 22, 12, 8])[0]
+        draws, end = [_stage_days(o, i) for i in range(reached + 1)], close   # last draw = time in the final stage
+    else:
+        reached = OPEN_STAGES.index(o["stage"])
+        draws, end = [_stage_days(o, i) for i in range(reached)], date.fromisoformat(o["stage_entered_date"])
+    span, total, acc = max((end - created).days, 0), sum(draws) or 1.0, 0.0
+    rows = []
+    for k in range(1, reached + 1):
+        acc += draws[k - 1]
+        rows.append((OPEN_STAGES[k - 1], OPEN_STAGES[k], created + timedelta(days=round(span * acc / total))))
+    if o["is_closed"]:
+        rows.append((OPEN_STAGES[reached], o["stage"], close))
+    for old, new, when in rows:
+        field_history.append({"opportunity_id": o["opportunity_id"], "field": "StageName",
+                              "old_value": old, "new_value": new, "changed_date": d(when)})
+    # Close-date pushes, rebuilt backwards from the current close date.
+    if o["is_won"]:
+        n, sizes = hrng.choices([0, 1, 2], weights=[60, 30, 10])[0], [7, 14, 21]
+    elif o["is_closed"]:
+        n, sizes = hrng.choices([0, 1, 2, 3], weights=[30, 30, 25, 15])[0], [14, 21, 30, 45, 60]
+    else:
+        n, sizes = hrng.choices([0, 1, 2, 3], weights=[62, 27, 8, 3])[0], [7, 14, 30, 45]
+    new_val, pushes = close, []
+    for _ in range(n):
+        old_val = new_val - timedelta(days=hrng.choice(sizes))
+        if old_val <= created:
+            break
+        pushes.append([old_val, new_val])
+        new_val = old_val
+    # A push is made around the old close date, or earlier when that date is still in the future.
+    latest = min(AS_OF - timedelta(days=1), close)
+    dates = sorted(min(ov - timedelta(days=hrng.randint(0, 5)), latest - timedelta(days=hrng.randint(0, 40)))
+                   for ov, _ in pushes)
+    for (ov, nv), when in zip(reversed(pushes), dates):
+        if when > created:
+            field_history.append({"opportunity_id": o["opportunity_id"], "field": "CloseDate",
+                                  "old_value": d(ov), "new_value": d(nv), "changed_date": d(when)})
+field_history.sort(key=lambda r: (r["opportunity_id"], r["changed_date"], r["field"]))
+
+
+# ----------------------------------------------------------------------------- marketing ops: campaigns, members, consent
+# Campaigns follow the naming convention in config (marketing_ops.campaign_name_pattern); a few break it on
+# purpose, as do some UTM values, so the hygiene checks have something to catch. Own RNG: other files unchanged.
+mrng = random.Random(11)
+MO = cfg["marketing_ops"]
+SOURCE_TO_TYPE = {"Event": "EVT", "Webinar": "WBN", "Content Download": "CNT", "Paid Social": "PAID",
+                  "Outbound - Unify Signals": "OUT", "Outbound - Clay Enrichment": "OUT", "Partner Referral": "PRT",
+                  "Demo Request": "WEB", "Website Chat": "WEB"}
+TYPE_UTM = {"EVT": ("sardinecon", "event"), "WBN": ("hubspot", "webinar"), "CNT": ("linkedin", "organic"),
+            "PAID": ("linkedin", "paid_social"), "OUT": ("hubspot", "email"), "PRT": ("partner", "referral"),
+            "WEB": ("google", "cpc")}
+TYPE_NAMES = {"EVT": ["Bank-Risk-Forum", "Fintech-Summit"], "WBN": ["Fraud-Forward", "AML-Agents-Live"],
+              "CNT": ["Fraud-Benchmark-Report", "AML-Automation-Guide"], "PAID": ["LinkedIn-Compliance", "Influ2-Tier1-Banks"],
+              "OUT": ["Unify-Signals", "Clay-Regulatory-Trigger"], "PRT": ["Partner-Referral"], "WEB": ["Demo-Request", "Website-Chat"]}
+TYPE_SPEND = {"EVT": (25000, 60000), "WBN": (2000, 5000), "CNT": (3000, 8000), "PAID": (15000, 40000),
+              "OUT": (3000, 6000), "PRT": (0, 0), "WEB": (0, 0)}
+campaigns, camp_index = [], {}
+for q in ("FY26-Q1", "FY26-Q2", "FY26-Q3"):
+    for ctype, names in TYPE_NAMES.items():
+        for nm in names:
+            geo = "NA" if ctype == "EVT" and nm == "Bank-Risk-Forum" else "GLOBAL"
+            cid = f"CMP-{100 + len(campaigns)}"
+            lo, hi = TYPE_SPEND[ctype]
+            row = {"campaign_id": cid, "campaign_name": f"{q}_{ctype}_{geo}_{nm}", "type": ctype, "quarter": q,
+                   "region": geo, "start_date": "", "end_date": "", "spend": int(round(mrng.uniform(lo, hi), -2))}
+            campaigns.append(row)
+            camp_index.setdefault((q, ctype), []).append(row)
+for c in mrng.sample([c for c in campaigns if c["type"] in ("WBN", "CNT", "PAID")], 3):
+    c["campaign_name"] = c["campaign_name"].split("_")[-1].replace("-", " ") + " " + c["quarter"][-2:]   # broken name
+
+utm_typos = {"linkedin": "LinkedIn", "google": "google.com", "hubspot": "Hubspot", "partner": "partners"}
+members = []
+
+
+def _member(c, lead, when, responded=True):
+    statuses, resp = MO["campaign_types"][c["type"]]["statuses"], MO["campaign_types"][c["type"]]["responded"]
+    non_resp = [s for s in statuses if s not in resp]
+    responded = responded or not non_resp      # e.g. a content download is always a response
+    status = mrng.choice(resp) if responded else mrng.choice(non_resp)
+    src, med = TYPE_UTM[c["type"]]
+    if mrng.random() < 0.05:
+        src = utm_typos.get(src, src + "_")
+    members.append({"member_id": f"CM-{50000 + len(members)}", "campaign_id": c["campaign_id"], "lead_id": lead["lead_id"],
+                    "status": status, "responded": responded, "touch_date": d(when), "utm_source": src, "utm_medium": med})
+
+
+for lead in leads:
+    created = date.fromisoformat(lead["created_date"])
+    q = fiscal_quarter(created)
+    ctype = SOURCE_TO_TYPE.get(lead["lead_source"])
+    if not ctype or (q, ctype) not in camp_index:
+        continue
+    first = mrng.choice(camp_index[(q, ctype)])
+    _member(first, lead, created)
+    end = date.fromisoformat(lead["converted_date"]) if lead["converted_date"] else AS_OF - timedelta(days=1)
+    for _ in range(mrng.choices([0, 1, 2, 3], weights=[35, 35, 20, 10])[0]):
+        when = created + timedelta(days=mrng.randint(1, max(1, (end - created).days)))
+        pool = camp_index.get((fiscal_quarter(when), mrng.choice(["WBN", "CNT", "PAID", "EVT", "OUT"])))
+        if pool and when < AS_OF:
+            _member(mrng.choice(pool), lead, when, responded=mrng.random() < 0.8)
+for c in campaigns:   # dates from the members; event/webinar end date = when the list should have been uploaded
+    dates = sorted(m["touch_date"] for m in members if m["campaign_id"] == c["campaign_id"])
+    if dates:
+        first_touch = date.fromisoformat(dates[0])
+        c["start_date"] = d(first_touch - timedelta(days=mrng.randint(10, 30)))
+        c["end_date"] = d(first_touch - timedelta(days=mrng.choice([0, 0, 1, 1, 2, 4, 6]))) if c["type"] in ("EVT", "WBN") else d(date.fromisoformat(dates[-1]))
+members.sort(key=lambda m: (m["lead_id"], m["touch_date"]))
+
+consent = []
+for lead in leads:
+    region = lead["region"]
+    country = ("CA" if mrng.random() < 0.2 else "US") if region == "NA" else ("GB" if region == "EMEA" and mrng.random() < 0.3 else "")
+    if region == "EMEA":
+        ctype = mrng.choices(["opt_in", "legitimate_interest", "none"], weights=[70, 22, 8])[0]
+    elif country == "CA":
+        ctype = mrng.choices(["express", "implied_inquiry", "none"], weights=[55, 38, 7])[0]
+    else:
+        ctype = mrng.choices(["opt_in", "none"], weights=[60, 40])[0]
+    consent.append({"lead_id": lead["lead_id"], "region": region, "country": country, "consent_type": ctype,
+                    "consent_date": lead["created_date"] if ctype != "none" else "",
+                    "email_opt_out": mrng.random() < 0.04})
+
+# ----------------------------------------------------------------------------- CRM request queue
+# Salesforce / HubSpot requests from the business over the last quarter (fictional).
+qrng = random.Random(13)
+REQ_TEMPLATES = {
+    "Report / Dashboard": ["Pipeline by segment for QBR", "Rep activity dashboard", "Win rate by competitor report", "Webinar attendee report"],
+    "List View": ["My open deals closing this quarter", "Unworked MQLs list view"],
+    "Access / Permissions": ["New AE needs Salesforce access", "SE needs edit access on opps", "Contractor HubSpot seat"],
+    "Data Fix": ["Merge duplicate accounts", "Fix wrong owner on renewal opps", "Backfill industry on accounts"],
+    "Field / Picklist": ["Add 'Agentic AML Ops' to product picklist", "New field: Sandbox start date", "Add competitor value"],
+    "Validation Rule": ["Require next step date in stage 4+", "Block Commit without economic buyer"],
+    "Page Layout": ["Show security review fields on opp layout", "Add consumption fields to account"],
+    "Email Template": ["Renewal notice template", "Event follow-up template"],
+    "Automation / Flow": ["Auto-create renewal opp at T-180", "Alert AE when overage >100%", "Stamp stage entry dates"],
+    "Object / Data Model": ["Track POC / backtest results as an object", "Partner object for referral payouts"],
+    "Routing / Assignment": ["Route MENA leads to new AE", "Round-robin inbound demo requests", "Fix routing for sponsor banks"],
+    "Integration": ["Sync Unify signals to Salesforce", "Push usage data from billing to Salesforce"],
+}
+TEAMS = ["Sales", "Sales Leadership", "Marketing", "Marketing Ops", "Customer Success", "Finance"]
+requests = []
+for i in range(72):
+    cat = qrng.choices(list(REQ_TEMPLATES), weights=[22, 4, 8, 9, 7, 4, 3, 2, 8, 2, 5, 3])[0]
+    submitted = date(2026, 7, 1) + timedelta(days=qrng.randint(0, 91))
+    impact = qrng.choices(["Blocks deal", "Blocks team", "Improves efficiency", "Nice to have"], weights=[8, 20, 45, 27])[0]
+    effort = qrng.choices(["S", "M", "L", "XL"], weights=[45, 30, 18, 7])[0]
+    if cat in ("Object / Data Model", "Integration"):
+        effort = qrng.choice(["L", "XL"])
+    resp_days = qrng.choices([0, 1, 2, 4, 7], weights=[40, 30, 15, 10, 5])[0]
+    first_resp = submitted + timedelta(days=resp_days)
+    work_days = {"S": 2, "M": 6, "L": 15, "XL": 30}[effort] * qrng.uniform(0.6, 1.6)
+    done_on = first_resp + timedelta(days=round(work_days))
+    status = "Done" if done_on < AS_OF else qrng.choice(["In Progress", "Backlog"])
+    if qrng.random() < 0.05:
+        status, done_on = "Won't Do", first_resp
+    requests.append({
+        "request_id": f"REQ-{1000 + i}", "submitted_date": d(submitted), "requester_team": qrng.choice(TEAMS),
+        "system": "HubSpot" if cat == "Email Template" else qrng.choices(["Salesforce", "HubSpot", "Both"], weights=[70, 15, 15])[0],
+        "category": cat, "summary": qrng.choice(REQ_TEMPLATES[cat]), "revenue_impact": impact,
+        "users_affected": qrng.choice([1, 1, 2, 4, 8, 12, 25, 40]), "effort": effort,
+        "due_date": d(submitted + timedelta(days=qrng.choice([3, 7, 14, 30]))) if qrng.random() < 0.35 else "",
+        "status": status, "first_response_date": d(first_resp) if first_resp < AS_OF else "",
+        "completed_date": d(done_on) if status in ("Done", "Won't Do") else "",
+    })
+
 
 def write(name, rows):
     DATA_DIR.mkdir(exist_ok=True)
@@ -423,3 +620,8 @@ if __name__ == "__main__":
     write("renewals.csv", renewals)
     write("forecast_snapshots.csv", snapshots)
     write("consumption.csv", consumption)
+    write("opportunity_field_history.csv", field_history)
+    write("campaigns.csv", campaigns)
+    write("campaign_members.csv", members)
+    write("lead_consent.csv", consent)
+    write("crm_requests.csv", requests)

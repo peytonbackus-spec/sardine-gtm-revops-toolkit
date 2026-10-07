@@ -38,6 +38,10 @@ flowchart LR
 | Closed-lost and churn insights | [`closed_lost_analysis.py`](renewals/closed_lost_analysis.py), [taxonomy](renewals/closed-lost-and-churn-taxonomy.md) | ▶️ + 📐 |
 | Deal frameworks (MEDDPICC inspection, health scoring, territory) | [`docs/playbooks/`](../docs/playbooks/) | 📐 playbooks |
 | Consumption vs minimum commit: overage and shelfware | [`commit_burndown.py`](consumption/commit_burndown.py), [lead-to-cash map](consumption/lead-to-cash.md) | ▶️ + 📐 |
+| VP of Sales reporting: snapshot or full brief, rep scorecard, industries, stage bottlenecks, deal board | [`sales_leadership/`](sales_leadership/README.md) | ▶️ tested |
+| Sales all-hands inputs (wins, recognition, good and bad, focus) | [`all_hands.py`](sales_leadership/all_hands.py) | ▶️ tested |
+| Capacity, quota, territory and pipeline distribution | [`sales_planning/`](sales_planning/README.md) | ▶️ tested |
+| Salesforce / HubSpot request intake, SLAs and release path | [process](sales_planning/crm-request-intake.md), [`request_triage.py`](sales_planning/request_triage.py) | ▶️ + 📐 |
 | First 90 days | [plan](../FIRST_90_DAYS.md) | 📐 plan |
 
 ▶️ runs on the synthetic data in `sample_data/` · 📐 design spec / config

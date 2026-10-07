@@ -15,6 +15,7 @@
 - [[AI Governance]]
 
 **Use it**
+- [[Sales Leadership and Planning]]
 - [[Running the Toolkit]]
 - [[First 90 Days]]
 - [[Decision Log]]

@@ -1,0 +1,1897 @@
+member_id,campaign_id,lead_id,status,responded,touch_date,utm_source,utm_medium
+CM-50000,CMP-109,L-5000,Replied,True,2026-02-18,hubspot,email
+CM-50002,CMP-104,L-5000,Downloaded,True,2026-02-19,linkedin,organic
+CM-50001,CMP-116,L-5000,Attended,True,2026-06-01,hubspot,webinar
+CM-50003,CMP-120,L-5001,Converted,True,2026-06-19,linkedin,paid_social
+CM-50004,CMP-133,L-5001,Converted,True,2026-09-27,LinkedIn,paid_social
+CM-50005,CMP-118,L-5002,Downloaded,True,2026-06-18,linkedin,organic
+CM-50006,CMP-116,L-5002,Attended,True,2026-06-20,hubspot,webinar
+CM-50007,CMP-126,L-5002,Registered,False,2026-07-13,sardinecon,event
+CM-50008,CMP-135,L-5003,Replied,True,2026-08-25,hubspot,email
+CM-50009,CMP-133,L-5003,Clicked,False,2026-08-26,linkedin,paid_social
+CM-50011,CMP-129,L-5003,No Show,False,2026-09-11,hubspot,webinar
+CM-50010,CMP-134,L-5003,Replied,True,2026-09-20,hubspot,email
+CM-50012,CMP-123,L-5004,Referred,True,2026-06-26,partner,referral
+CM-50013,CMP-125,L-5005,Chat Engaged,True,2026-05-25,google,cpc
+CM-50014,CMP-125,L-5006,Demo Requested,True,2026-06-29,google,cpc
+CM-50015,CMP-134,L-5007,Meeting Booked,True,2026-08-03,hubspot,email
+CM-50016,CMP-130,L-5007,Downloaded,True,2026-08-19,linkedin,organic
+CM-50017,CMP-126,L-5007,Attended,True,2026-08-28,sardinecon,event
+CM-50018,CMP-118,L-5008,Downloaded,True,2026-06-08,linkedin,organic
+CM-50019,CMP-135,L-5008,Replied,True,2026-08-01,hubspot,email
+CM-50020,CMP-100,L-5009,Attended,True,2026-01-11,sardinecon,event
+CM-50021,CMP-106,L-5009,Clicked,False,2026-02-18,linkedin,paid_social
+CM-50022,CMP-106,L-5010,Converted,True,2026-03-24,linkedin,paid_social
+CM-50023,CMP-121,L-5011,Replied,True,2026-06-12,hubspot,email
+CM-50024,CMP-116,L-5011,Watched On-Demand,True,2026-06-29,hubspot,webinar
+CM-50025,CMP-102,L-5012,Attended,True,2026-01-10,hubspot,webinar
+CM-50026,CMP-132,L-5012,Converted,True,2026-07-13,linkedin,paid_social
+CM-50027,CMP-107,L-5013,Converted,True,2026-02-06,linkedin,paid_social
+CM-50028,CMP-125,L-5014,Chat Engaged,True,2026-05-10,google,cpc
+CM-50031,CMP-121,L-5014,Replied,True,2026-05-14,hubspot,email
+CM-50029,CMP-120,L-5014,Converted,True,2026-06-13,linkedin,paid_social
+CM-50030,CMP-129,L-5014,Watched On-Demand,True,2026-08-25,hubspot,webinar
+CM-50032,CMP-125,L-5015,Chat Engaged,True,2026-05-23,google,cpc
+CM-50034,CMP-119,L-5015,Converted,True,2026-05-31,linkedin,paid_social
+CM-50033,CMP-127,L-5015,Registered,False,2026-09-18,sardinecon,event
+CM-50035,CMP-119,L-5016,Converted,True,2026-06-03,linkedin,paid_social
+CM-50036,CMP-132,L-5016,Converted,True,2026-08-05,linkedin,paid_social
+CM-50037,CMP-100,L-5017,Attended,True,2026-01-09,sardinecon,event
+CM-50038,CMP-135,L-5018,Meeting Booked,True,2026-09-28,hubspot,email
+CM-50039,CMP-120,L-5019,Converted,True,2026-05-06,linkedin,paid_social
+CM-50041,CMP-114,L-5019,Registered,False,2026-05-09,sardinecon,event
+CM-50040,CMP-118,L-5019,Downloaded,True,2026-05-10,linkedin,organic
+CM-50042,CMP-122,L-5020,Replied,True,2026-06-11,hubspot,email
+CM-50043,CMP-127,L-5020,Met at Booth,True,2026-07-09,sardinecon,event
+CM-50044,CMP-125,L-5021,Chat Engaged,True,2026-04-04,google,cpc
+CM-50045,CMP-104,L-5022,Downloaded,True,2026-02-07,linkedin,organic
+CM-50046,CMP-119,L-5023,Converted,True,2026-05-10,linkedin,paid_social
+CM-50047,CMP-127,L-5024,Attended,True,2026-07-19,sardinecon,event
+CM-50048,CMP-126,L-5024,Met at Booth,True,2026-08-03,sardinecon,event
+CM-50049,CMP-131,L-5024,Downloaded,True,2026-08-14,linkedin,organic
+CM-50050,CMP-115,L-5025,Attended,True,2026-05-04,hubspot,webinar
+CM-50052,CMP-131,L-5025,Downloaded,True,2026-08-12,linkedin,organic
+CM-50051,CMP-134,L-5025,Replied,True,2026-09-20,hubspot,email
+CM-50053,CMP-118,L-5026,Downloaded,True,2026-04-05,linkedin,organic
+CM-50056,CMP-116,L-5026,Watched On-Demand,True,2026-04-27,hubspot,webinar
+CM-50054,CMP-115,L-5026,Watched On-Demand,True,2026-05-01,hubspot,webinar
+CM-50055,CMP-122,L-5026,Replied,True,2026-06-24,hubspot,email
+CM-50057,CMP-112,L-5027,Demo Requested,True,2026-02-20,google,cpc
+CM-50058,CMP-115,L-5027,Attended,True,2026-06-10,hubspot,webinar
+CM-50059,CMP-135,L-5027,Sent,False,2026-07-03,hubspot,email
+CM-50060,CMP-102,L-5028,Attended,True,2026-03-21,hubspot,webinar
+CM-50061,CMP-134,L-5028,Meeting Booked,True,2026-09-24,hubspot,email
+CM-50062,CMP-127,L-5029,Attended,True,2026-09-11,sardinecon,event
+CM-50063,CMP-103,L-5030,Watched On-Demand,True,2026-03-11,hubspot,webinar
+CM-50064,CMP-129,L-5030,Attended,True,2026-07-18,hubspot,webinar
+CM-50065,CMP-105,L-5031,Downloaded,True,2026-02-13,linkedin,organic
+CM-50066,CMP-109,L-5031,Meeting Booked,True,2026-03-02,hubspot,email
+CM-50067,CMP-109,L-5032,Meeting Booked,True,2026-01-29,hubspot,email
+CM-50068,CMP-127,L-5032,Met at Booth,True,2026-08-26,sardinecon,event
+CM-50069,CMP-112,L-5033,Demo Requested,True,2026-02-11,google,cpc
+CM-50070,CMP-104,L-5033,Downloaded,True,2026-02-21,linkedin,organic
+CM-50071,CMP-118,L-5033,Downloaded,True,2026-05-13,linkedin,organic
+CM-50072,CMP-132,L-5033,Converted,True,2026-07-21,LinkedIn,paid_social
+CM-50073,CMP-138,L-5034,Demo Requested,True,2026-09-09,google,cpc
+CM-50074,CMP-130,L-5034,Downloaded,True,2026-09-27,linkedin,organic
+CM-50075,CMP-132,L-5034,Converted,True,2026-09-30,linkedin,paid_social
+CM-50076,CMP-119,L-5035,Converted,True,2026-05-20,linkedin,paid_social
+CM-50077,CMP-124,L-5036,Demo Requested,True,2026-06-03,google,cpc
+CM-50078,CMP-124,L-5037,Chat Engaged,True,2026-05-22,google,cpc
+CM-50079,CMP-134,L-5037,Replied,True,2026-09-07,hubspot,email
+CM-50080,CMP-109,L-5038,Meeting Booked,True,2026-02-14,hubspot,email
+CM-50081,CMP-132,L-5038,Clicked,False,2026-08-28,linkedin,paid_social
+CM-50082,CMP-137,L-5039,Chat Engaged,True,2026-08-09,google,cpc
+CM-50083,CMP-134,L-5040,Replied,True,2026-09-29,hubspot,email
+CM-50084,CMP-134,L-5040,Meeting Booked,True,2026-09-30,hubspot,email
+CM-50085,CMP-133,L-5040,Converted,True,2026-09-30,linkedin,paid_social
+CM-50086,CMP-128,L-5040,Registered,False,2026-09-30,hubspot,webinar
+CM-50087,CMP-123,L-5041,Referred,True,2026-05-31,partner,referral
+CM-50088,CMP-119,L-5042,Converted,True,2026-06-13,linkedin,paid_social
+CM-50089,CMP-128,L-5043,Watched On-Demand,True,2026-09-25,hubspot,webinar
+CM-50090,CMP-135,L-5044,Meeting Booked,True,2026-07-12,hubspot,email
+CM-50091,CMP-124,L-5045,Chat Engaged,True,2026-05-30,google,cpc
+CM-50092,CMP-103,L-5046,Watched On-Demand,True,2026-03-13,hubspot,webinar
+CM-50093,CMP-130,L-5046,Downloaded,True,2026-09-14,linkedin,organic
+CM-50094,CMP-136,L-5047,Referred,True,2026-07-15,partner,referral
+CM-50095,CMP-131,L-5047,Downloaded,True,2026-07-22,linkedin,organic
+CM-50096,CMP-134,L-5047,Meeting Booked,True,2026-09-05,hubspot,email
+CM-50097,CMP-130,L-5047,Downloaded,True,2026-09-17,linkedin,organic
+CM-50098,CMP-110,L-5048,Referred,True,2026-03-22,partner,referral
+CM-50099,CMP-105,L-5048,Downloaded,True,2026-03-24,linkedin,organic
+CM-50100,CMP-116,L-5049,Watched On-Demand,True,2026-06-07,hubspot,webinar
+CM-50101,CMP-113,L-5049,Attended,True,2026-06-20,sardinecon,event
+CM-50102,CMP-126,L-5050,Met at Booth,True,2026-08-08,sardinecon,event
+CM-50103,CMP-135,L-5051,Replied,True,2026-08-02,hubspot,email
+CM-50104,CMP-135,L-5051,Meeting Booked,True,2026-08-21,hubspot,email
+CM-50105,CMP-138,L-5052,Chat Engaged,True,2026-09-12,google,cpc
+CM-50106,CMP-118,L-5053,Downloaded,True,2026-05-12,LinkedIn,organic
+CM-50107,CMP-126,L-5054,Attended,True,2026-09-30,sardinecon,event
+CM-50108,CMP-116,L-5055,Attended,True,2026-04-29,hubspot,webinar
+CM-50110,CMP-128,L-5055,No Show,False,2026-07-01,hubspot,webinar
+CM-50109,CMP-128,L-5055,Watched On-Demand,True,2026-07-20,hubspot,webinar
+CM-50111,CMP-111,L-5056,Demo Requested,True,2026-01-29,google,cpc
+CM-50112,CMP-104,L-5056,Downloaded,True,2026-03-01,linkedin,organic
+CM-50113,CMP-110,L-5057,Referred,True,2026-02-25,partner,referral
+CM-50114,CMP-122,L-5057,Replied,True,2026-05-04,hubspot,email
+CM-50115,CMP-132,L-5058,Converted,True,2026-08-02,linkedin,paid_social
+CM-50116,CMP-135,L-5058,Replied,True,2026-08-22,hubspot,email
+CM-50117,CMP-111,L-5059,Demo Requested,True,2026-03-22,google,cpc
+CM-50118,CMP-130,L-5059,Downloaded,True,2026-09-06,linkedin,organic
+CM-50119,CMP-112,L-5060,Demo Requested,True,2026-02-22,google,cpc
+CM-50120,CMP-135,L-5061,Replied,True,2026-07-28,hubspot,email
+CM-50123,CMP-129,L-5061,Registered,False,2026-08-07,hubspot,webinar
+CM-50121,CMP-134,L-5061,Meeting Booked,True,2026-08-18,hubspot,email
+CM-50122,CMP-131,L-5061,Downloaded,True,2026-09-12,linkedin,organic
+CM-50124,CMP-138,L-5062,Chat Engaged,True,2026-07-07,google,cpc
+CM-50125,CMP-135,L-5062,Replied,True,2026-09-29,hubspot,email
+CM-50126,CMP-135,L-5063,Replied,True,2026-07-01,hubspot,email
+CM-50127,CMP-117,L-5064,Downloaded,True,2026-06-18,linkedin,organic
+CM-50128,CMP-114,L-5064,Registered,False,2026-06-29,sardinecon,event
+CM-50129,CMP-134,L-5065,Replied,True,2026-07-30,hubspot,email
+CM-50130,CMP-133,L-5065,Clicked,False,2026-09-17,linkedin,paid_social
+CM-50131,CMP-114,L-5066,Met at Booth,True,2026-06-28,sardinecon,event
+CM-50132,CMP-112,L-5067,Chat Engaged,True,2026-02-28,google,cpc
+CM-50133,CMP-114,L-5067,Attended,True,2026-05-18,sardinecon,event
+CM-50134,CMP-132,L-5067,Converted,True,2026-09-29,linkedin,paid_social
+CM-50135,CMP-108,L-5068,Meeting Booked,True,2026-03-09,hubspot,email
+CM-50136,CMP-134,L-5068,Meeting Booked,True,2026-08-08,hubspot,email
+CM-50137,CMP-112,L-5069,Demo Requested,True,2026-03-11,google,cpc
+CM-50138,CMP-123,L-5070,Referred,True,2026-06-14,partner,referral
+CM-50139,CMP-126,L-5070,Met at Booth,True,2026-09-25,sardinecon,event
+CM-50140,CMP-136,L-5071,Referred,True,2026-08-06,partner,referral
+CM-50141,CMP-128,L-5071,Attended,True,2026-08-27,hubspot,webinar
+CM-50142,CMP-126,L-5071,Met at Booth,True,2026-09-28,sardinecon,event
+CM-50143,CMP-101,L-5072,Met at Booth,True,2026-01-21,sardinecon,event
+CM-50144,CMP-112,L-5073,Demo Requested,True,2026-02-01,google,cpc
+CM-50145,CMP-128,L-5073,Watched On-Demand,True,2026-08-05,hubspot,webinar
+CM-50146,CMP-123,L-5074,Referred,True,2026-04-03,partner,referral
+CM-50147,CMP-122,L-5074,Replied,True,2026-04-04,hubspot,email
+CM-50149,CMP-118,L-5074,Downloaded,True,2026-04-14,linkedin,organic
+CM-50148,CMP-117,L-5074,Downloaded,True,2026-04-17,linkedin,organic
+CM-50150,CMP-121,L-5075,Meeting Booked,True,2026-06-08,hubspot,email
+CM-50151,CMP-136,L-5076,Referred,True,2026-09-05,partner,referral
+CM-50152,CMP-135,L-5076,Sent,False,2026-09-06,hubspot,email
+CM-50153,CMP-131,L-5076,Downloaded,True,2026-09-12,linkedin,organic
+CM-50154,CMP-133,L-5077,Converted,True,2026-07-21,linkedin,paid_social
+CM-50155,CMP-131,L-5077,Downloaded,True,2026-09-11,linkedin,organic
+CM-50156,CMP-127,L-5077,Attended,True,2026-09-22,sardinecon,event
+CM-50157,CMP-104,L-5078,Downloaded,True,2026-02-07,LinkedIn,organic
+CM-50159,CMP-116,L-5078,No Show,False,2026-04-09,hubspot,webinar
+CM-50160,CMP-126,L-5078,Met at Booth,True,2026-08-09,sardinecon,event
+CM-50158,CMP-127,L-5078,Attended,True,2026-09-01,sardinecon,event
+CM-50161,CMP-108,L-5079,Meeting Booked,True,2026-01-17,hubspot,email
+CM-50162,CMP-108,L-5080,Replied,True,2026-01-13,hubspot,email
+CM-50165,CMP-100,L-5080,Met at Booth,True,2026-03-01,sardinecon,event
+CM-50163,CMP-104,L-5080,Downloaded,True,2026-03-31,linkedin,organic
+CM-50164,CMP-129,L-5080,Attended,True,2026-09-10,hubspot,webinar
+CM-50166,CMP-106,L-5081,Converted,True,2026-02-18,linkedin,paid_social
+CM-50167,CMP-133,L-5081,Converted,True,2026-07-11,linkedin,paid_social
+CM-50168,CMP-110,L-5082,Referred,True,2026-01-10,partner,referral
+CM-50169,CMP-100,L-5082,No Show,False,2026-03-14,sardinecon,event
+CM-50170,CMP-124,L-5083,Chat Engaged,True,2026-04-14,google,cpc
+CM-50171,CMP-121,L-5083,Meeting Booked,True,2026-06-06,hubspot,email
+CM-50172,CMP-120,L-5083,Converted,True,2026-06-30,linkedin,paid_social
+CM-50173,CMP-128,L-5084,Watched On-Demand,True,2026-07-06,hubspot,webinar
+CM-50174,CMP-122,L-5085,Meeting Booked,True,2026-06-15,hubspot,email
+CM-50175,CMP-103,L-5086,Attended,True,2026-03-01,hubspot,webinar
+CM-50176,CMP-117,L-5086,Downloaded,True,2026-04-04,linkedin,organic
+CM-50177,CMP-124,L-5087,Demo Requested,True,2026-04-23,google,cpc
+CM-50178,CMP-128,L-5088,Watched On-Demand,True,2026-08-21,hubspot,webinar
+CM-50179,CMP-125,L-5089,Demo Requested,True,2026-05-04,google,cpc
+CM-50181,CMP-130,L-5089,Downloaded,True,2026-07-25,linkedin,organic
+CM-50180,CMP-127,L-5089,Registered,False,2026-08-11,sardinecon,event
+CM-50182,CMP-135,L-5090,Replied,True,2026-07-16,hubspot,email
+CM-50183,CMP-110,L-5091,Referred,True,2026-02-13,partner,referral
+CM-50184,CMP-107,L-5091,Converted,True,2026-03-26,linkedin,paid_social
+CM-50185,CMP-104,L-5092,Downloaded,True,2026-01-16,linkedin,organic
+CM-50186,CMP-121,L-5092,Replied,True,2026-04-27,hubspot,email
+CM-50187,CMP-134,L-5093,Replied,True,2026-09-26,hubspot,email
+CM-50188,CMP-132,L-5093,Clicked,False,2026-09-29,linkedin,paid_social
+CM-50189,CMP-100,L-5094,Met at Booth,True,2026-03-31,sardinecon,event
+CM-50190,CMP-137,L-5095,Chat Engaged,True,2026-09-19,google,cpc
+CM-50191,CMP-134,L-5095,Replied,True,2026-09-25,hubspot,email
+CM-50192,CMP-131,L-5095,Downloaded,True,2026-09-25,linkedin,organic
+CM-50193,CMP-137,L-5096,Chat Engaged,True,2026-07-03,google.com,cpc
+CM-50194,CMP-126,L-5097,Met at Booth,True,2026-08-02,sardinecon,event
+CM-50196,CMP-135,L-5097,Meeting Booked,True,2026-08-12,hubspot,email
+CM-50195,CMP-126,L-5097,Met at Booth,True,2026-09-30,sardinecon,event
+CM-50197,CMP-128,L-5098,Watched On-Demand,True,2026-09-09,hubspot,webinar
+CM-50198,CMP-128,L-5098,Watched On-Demand,True,2026-09-11,hubspot,webinar
+CM-50199,CMP-133,L-5098,Clicked,False,2026-09-25,linkedin,paid_social
+CM-50200,CMP-127,L-5098,Registered,False,2026-09-25,sardinecon,event
+CM-50201,CMP-122,L-5099,Meeting Booked,True,2026-05-02,hubspot,email
+CM-50202,CMP-108,L-5100,Meeting Booked,True,2026-03-20,hubspot,email
+CM-50204,CMP-117,L-5100,Downloaded,True,2026-04-07,linkedin,organic
+CM-50205,CMP-116,L-5100,Attended,True,2026-06-30,hubspot,webinar
+CM-50203,CMP-127,L-5100,Met at Booth,True,2026-09-24,sardinecon,event
+CM-50206,CMP-125,L-5101,Demo Requested,True,2026-04-14,google,cpc
+CM-50209,CMP-116,L-5101,Attended,True,2026-05-18,hubspot,webinar
+CM-50207,CMP-135,L-5101,Replied,True,2026-07-18,hubspot,email
+CM-50208,CMP-134,L-5101,Sent,False,2026-07-31,hubspot,email
+CM-50210,CMP-130,L-5102,Downloaded,True,2026-07-31,linkedin,organic
+CM-50211,CMP-135,L-5102,Replied,True,2026-08-29,Hubspot,email
+CM-50212,CMP-121,L-5103,Meeting Booked,True,2026-04-04,hubspot,email
+CM-50213,CMP-131,L-5104,Downloaded,True,2026-09-09,linkedin,organic
+CM-50216,CMP-130,L-5104,Downloaded,True,2026-09-17,linkedin,organic
+CM-50215,CMP-126,L-5104,Attended,True,2026-09-21,sardinecon,event
+CM-50214,CMP-130,L-5104,Downloaded,True,2026-09-25,linkedin,organic
+CM-50217,CMP-114,L-5105,Met at Booth,True,2026-05-02,sardinecon,event
+CM-50218,CMP-120,L-5105,Converted,True,2026-05-07,linkedin,paid_social
+CM-50219,CMP-115,L-5105,Attended,True,2026-05-12,hubspot,webinar
+CM-50220,CMP-122,L-5106,Meeting Booked,True,2026-04-12,hubspot,email
+CM-50221,CMP-121,L-5106,Sent,False,2026-05-12,hubspot,email
+CM-50222,CMP-110,L-5107,Referred,True,2026-01-08,partner,referral
+CM-50223,CMP-121,L-5108,Meeting Booked,True,2026-04-04,hubspot,email
+CM-50224,CMP-134,L-5109,Replied,True,2026-07-10,hubspot,email
+CM-50225,CMP-109,L-5110,Meeting Booked,True,2026-03-22,hubspot,email
+CM-50226,CMP-136,L-5111,Referred,True,2026-07-08,partner,referral
+CM-50227,CMP-137,L-5112,Demo Requested,True,2026-08-21,google,cpc
+CM-50228,CMP-117,L-5113,Downloaded,True,2026-06-29,linkedin,organic
+CM-50229,CMP-113,L-5113,Met at Booth,True,2026-06-30,sardinecon,event
+CM-50230,CMP-125,L-5114,Demo Requested,True,2026-04-09,google,cpc
+CM-50231,CMP-134,L-5114,Replied,True,2026-09-19,hubspot,email
+CM-50232,CMP-107,L-5115,Converted,True,2026-02-27,linkedin,paid_social
+CM-50233,CMP-118,L-5115,Downloaded,True,2026-05-04,linkedin,organic
+CM-50234,CMP-129,L-5116,Watched On-Demand,True,2026-08-20,Hubspot,webinar
+CM-50235,CMP-135,L-5116,Sent,False,2026-08-24,hubspot,email
+CM-50236,CMP-134,L-5117,Meeting Booked,True,2026-07-11,hubspot,email
+CM-50237,CMP-128,L-5117,Attended,True,2026-08-14,hubspot,webinar
+CM-50238,CMP-110,L-5118,Referred,True,2026-01-08,partner,referral
+CM-50239,CMP-122,L-5118,Meeting Booked,True,2026-06-18,hubspot,email
+CM-50240,CMP-119,L-5119,Converted,True,2026-05-24,linkedin,paid_social
+CM-50241,CMP-112,L-5120,Demo Requested,True,2026-03-23,google,cpc
+CM-50242,CMP-130,L-5120,Downloaded,True,2026-09-18,linkedin,organic
+CM-50243,CMP-107,L-5121,Converted,True,2026-02-02,LinkedIn,paid_social
+CM-50244,CMP-117,L-5121,Downloaded,True,2026-06-17,linkedin,organic
+CM-50245,CMP-121,L-5122,Replied,True,2026-04-16,hubspot,email
+CM-50247,CMP-118,L-5122,Downloaded,True,2026-05-09,LinkedIn,organic
+CM-50246,CMP-131,L-5122,Downloaded,True,2026-09-20,linkedin,organic
+CM-50248,CMP-125,L-5123,Demo Requested,True,2026-04-26,google,cpc
+CM-50249,CMP-131,L-5123,Downloaded,True,2026-09-25,linkedin,organic
+CM-50250,CMP-108,L-5124,Replied,True,2026-03-26,hubspot,email
+CM-50251,CMP-130,L-5125,Downloaded,True,2026-08-17,linkedin,organic
+CM-50252,CMP-123,L-5126,Referred,True,2026-05-25,partner,referral
+CM-50253,CMP-126,L-5126,Met at Booth,True,2026-07-11,sardinecon,event
+CM-50254,CMP-114,L-5127,Met at Booth,True,2026-05-07,sardinecon,event
+CM-50255,CMP-131,L-5127,Downloaded,True,2026-09-17,linkedin,organic
+CM-50256,CMP-125,L-5128,Demo Requested,True,2026-04-18,google,cpc
+CM-50258,CMP-127,L-5128,Met at Booth,True,2026-07-10,sardinecon,event
+CM-50257,CMP-130,L-5128,Downloaded,True,2026-07-20,LinkedIn,organic
+CM-50259,CMP-129,L-5128,Attended,True,2026-08-29,hubspot,webinar
+CM-50260,CMP-104,L-5129,Downloaded,True,2026-01-11,linkedin,organic
+CM-50261,CMP-123,L-5130,Referred,True,2026-05-03,partner,referral
+CM-50262,CMP-122,L-5130,Meeting Booked,True,2026-06-07,hubspot,email
+CM-50263,CMP-134,L-5131,Replied,True,2026-08-27,hubspot,email
+CM-50264,CMP-126,L-5131,Met at Booth,True,2026-09-25,sardinecon,event
+CM-50265,CMP-135,L-5132,Meeting Booked,True,2026-08-04,hubspot,email
+CM-50266,CMP-110,L-5133,Referred,True,2026-01-13,partner,referral
+CM-50267,CMP-106,L-5133,Clicked,False,2026-01-14,linkedin,paid_social
+CM-50268,CMP-131,L-5134,Downloaded,True,2026-07-28,linkedin,organic
+CM-50270,CMP-127,L-5134,No Show,False,2026-08-05,sardinecon,event
+CM-50269,CMP-132,L-5134,Converted,True,2026-08-28,linkedin,paid_social
+CM-50271,CMP-138,L-5135,Demo Requested,True,2026-08-06,google,cpc
+CM-50272,CMP-131,L-5135,Downloaded,True,2026-09-06,linkedin,organic
+CM-50273,CMP-135,L-5136,Meeting Booked,True,2026-07-25,hubspot,email
+CM-50274,CMP-135,L-5136,Replied,True,2026-07-30,hubspot,email
+CM-50275,CMP-121,L-5137,Meeting Booked,True,2026-04-16,hubspot,email
+CM-50276,CMP-116,L-5137,Watched On-Demand,True,2026-06-25,hubspot,webinar
+CM-50277,CMP-132,L-5137,Converted,True,2026-07-09,linkedin,paid_social
+CM-50278,CMP-135,L-5137,Replied,True,2026-07-21,hubspot,email
+CM-50279,CMP-114,L-5138,Met at Booth,True,2026-04-12,sardinecon,event
+CM-50280,CMP-130,L-5138,Downloaded,True,2026-09-07,linkedin,organic
+CM-50281,CMP-111,L-5139,Chat Engaged,True,2026-03-25,google,cpc
+CM-50282,CMP-127,L-5139,Attended,True,2026-07-19,sardinecon,event
+CM-50283,CMP-133,L-5140,Converted,True,2026-09-29,linkedin,paid_social
+CM-50284,CMP-130,L-5140,Downloaded,True,2026-09-30,linkedin,organic
+CM-50285,CMP-124,L-5141,Demo Requested,True,2026-05-23,google,cpc
+CM-50286,CMP-118,L-5141,Downloaded,True,2026-05-24,linkedin,organic
+CM-50288,CMP-126,L-5141,Registered,False,2026-07-16,sardinecon,event
+CM-50287,CMP-133,L-5141,Converted,True,2026-08-17,linkedin,paid_social
+CM-50289,CMP-136,L-5142,Referred,True,2026-07-18,partner,referral
+CM-50290,CMP-101,L-5143,Attended,True,2026-01-14,sardinecon,event
+CM-50291,CMP-121,L-5143,Sent,False,2026-04-16,hubspot,email
+CM-50292,CMP-122,L-5144,Replied,True,2026-06-28,hubspot,email
+CM-50293,CMP-126,L-5144,Met at Booth,True,2026-09-23,sardinecon,event
+CM-50294,CMP-115,L-5145,Watched On-Demand,True,2026-04-18,hubspot,webinar
+CM-50295,CMP-133,L-5145,Converted,True,2026-07-28,linkedin,paid_social
+CM-50296,CMP-102,L-5146,Attended,True,2026-03-06,hubspot,webinar
+CM-50297,CMP-131,L-5146,Downloaded,True,2026-09-03,linkedin,organic
+CM-50298,CMP-118,L-5147,Downloaded,True,2026-05-03,linkedin,organic
+CM-50301,CMP-120,L-5147,Converted,True,2026-06-22,linkedin,paid_social
+CM-50300,CMP-126,L-5147,Attended,True,2026-08-13,sardinecon,event
+CM-50299,CMP-134,L-5147,Meeting Booked,True,2026-09-01,hubspot,email
+CM-50302,CMP-104,L-5148,Downloaded,True,2026-03-29,linkedin,organic
+CM-50303,CMP-135,L-5149,Meeting Booked,True,2026-08-11,hubspot,email
+CM-50305,CMP-126,L-5149,No Show,False,2026-08-21,sardinecon,event
+CM-50304,CMP-131,L-5149,Downloaded,True,2026-09-07,linkedin,organic
+CM-50306,CMP-136,L-5150,Referred,True,2026-09-27,partner,referral
+CM-50308,CMP-129,L-5150,Watched On-Demand,True,2026-09-28,hubspot,webinar
+CM-50307,CMP-134,L-5150,Meeting Booked,True,2026-09-29,hubspot,email
+CM-50309,CMP-137,L-5151,Demo Requested,True,2026-08-24,google.com,cpc
+CM-50310,CMP-128,L-5151,Attended,True,2026-08-30,hubspot,webinar
+CM-50311,CMP-127,L-5151,Met at Booth,True,2026-09-06,sardinecon,event
+CM-50312,CMP-107,L-5152,Converted,True,2026-02-20,linkedin,paid_social
+CM-50313,CMP-135,L-5152,Meeting Booked,True,2026-09-20,hubspot,email
+CM-50314,CMP-116,L-5153,Attended,True,2026-06-25,hubspot,webinar
+CM-50315,CMP-108,L-5154,Replied,True,2026-01-11,hubspot,email
+CM-50316,CMP-102,L-5155,Watched On-Demand,True,2026-01-30,hubspot,webinar
+CM-50317,CMP-103,L-5155,Watched On-Demand,True,2026-02-01,hubspot,webinar
+CM-50318,CMP-122,L-5156,Meeting Booked,True,2026-04-05,hubspot,email
+CM-50319,CMP-129,L-5156,Watched On-Demand,True,2026-09-23,hubspot,webinar
+CM-50320,CMP-113,L-5157,Attended,True,2026-05-25,sardinecon,event
+CM-50321,CMP-122,L-5158,Meeting Booked,True,2026-06-01,hubspot,email
+CM-50322,CMP-118,L-5159,Downloaded,True,2026-06-02,linkedin,organic
+CM-50323,CMP-125,L-5160,Demo Requested,True,2026-04-23,google,cpc
+CM-50324,CMP-134,L-5161,Replied,True,2026-09-07,Hubspot,email
+CM-50325,CMP-105,L-5162,Downloaded,True,2026-01-14,linkedin,organic
+CM-50326,CMP-106,L-5163,Converted,True,2026-01-21,linkedin,paid_social
+CM-50327,CMP-100,L-5163,Met at Booth,True,2026-01-24,sardinecon,event
+CM-50328,CMP-108,L-5164,Replied,True,2026-02-21,hubspot,email
+CM-50329,CMP-124,L-5165,Chat Engaged,True,2026-04-20,google,cpc
+CM-50332,CMP-118,L-5165,Downloaded,True,2026-04-23,linkedin,organic
+CM-50331,CMP-114,L-5165,No Show,False,2026-05-08,sardinecon,event
+CM-50330,CMP-114,L-5165,Attended,True,2026-06-16,sardinecon,event
+CM-50333,CMP-125,L-5166,Chat Engaged,True,2026-06-13,google,cpc
+CM-50334,CMP-134,L-5166,Meeting Booked,True,2026-08-17,hubspot,email
+CM-50335,CMP-138,L-5167,Chat Engaged,True,2026-09-25,google,cpc
+CM-50336,CMP-134,L-5167,Replied,True,2026-09-29,hubspot,email
+CM-50337,CMP-138,L-5168,Chat Engaged,True,2026-08-20,google,cpc
+CM-50338,CMP-111,L-5169,Chat Engaged,True,2026-03-13,google,cpc
+CM-50339,CMP-122,L-5169,Meeting Booked,True,2026-05-18,hubspot,email
+CM-50340,CMP-135,L-5170,Replied,True,2026-08-25,hubspot,email
+CM-50341,CMP-107,L-5171,Converted,True,2026-02-10,linkedin,paid_social
+CM-50343,CMP-104,L-5171,Downloaded,True,2026-02-27,linkedin,organic
+CM-50342,CMP-130,L-5171,Downloaded,True,2026-07-27,linkedin,organic
+CM-50344,CMP-116,L-5172,Watched On-Demand,True,2026-05-05,hubspot,webinar
+CM-50345,CMP-112,L-5173,Demo Requested,True,2026-03-17,google,cpc
+CM-50347,CMP-113,L-5173,Attended,True,2026-04-05,sardinecon,event
+CM-50348,CMP-119,L-5173,Converted,True,2026-04-25,linkedin,paid_social
+CM-50346,CMP-115,L-5173,Watched On-Demand,True,2026-05-18,hubspot,webinar
+CM-50349,CMP-134,L-5174,Meeting Booked,True,2026-09-23,hubspot,email
+CM-50350,CMP-135,L-5175,Replied,True,2026-07-19,hubspot,email
+CM-50351,CMP-128,L-5175,Registered,False,2026-09-20,hubspot,webinar
+CM-50352,CMP-112,L-5176,Demo Requested,True,2026-01-10,google,cpc
+CM-50354,CMP-117,L-5176,Downloaded,True,2026-04-27,linkedin,organic
+CM-50353,CMP-129,L-5176,Watched On-Demand,True,2026-07-23,hubspot,webinar
+CM-50355,CMP-128,L-5176,Watched On-Demand,True,2026-09-06,hubspot,webinar
+CM-50356,CMP-136,L-5177,Referred,True,2026-08-25,partner,referral
+CM-50359,CMP-134,L-5177,Sent,False,2026-09-03,hubspot,email
+CM-50357,CMP-133,L-5177,Converted,True,2026-09-08,linkedin,paid_social
+CM-50358,CMP-127,L-5177,No Show,False,2026-09-12,sardinecon,event
+CM-50360,CMP-138,L-5178,Demo Requested,True,2026-07-11,google,cpc
+CM-50361,CMP-137,L-5179,Chat Engaged,True,2026-09-03,google,cpc
+CM-50362,CMP-125,L-5180,Demo Requested,True,2026-05-18,google,cpc
+CM-50363,CMP-113,L-5180,Attended,True,2026-05-30,sardinecon,event
+CM-50364,CMP-109,L-5181,Meeting Booked,True,2026-03-23,hubspot,email
+CM-50365,CMP-119,L-5181,Converted,True,2026-05-31,LinkedIn,paid_social
+CM-50366,CMP-135,L-5182,Replied,True,2026-09-15,hubspot,email
+CM-50368,CMP-126,L-5182,Met at Booth,True,2026-09-17,sardinecon_,event
+CM-50367,CMP-127,L-5182,Attended,True,2026-09-22,sardinecon,event
+CM-50369,CMP-134,L-5183,Meeting Booked,True,2026-08-30,hubspot,email
+CM-50370,CMP-131,L-5183,Downloaded,True,2026-08-31,linkedin,organic
+CM-50371,CMP-126,L-5183,Registered,False,2026-09-10,sardinecon,event
+CM-50372,CMP-135,L-5184,Meeting Booked,True,2026-07-05,hubspot,email
+CM-50373,CMP-128,L-5184,No Show,False,2026-07-20,hubspot,webinar
+CM-50374,CMP-113,L-5185,Attended,True,2026-04-07,sardinecon,event
+CM-50375,CMP-126,L-5185,Attended,True,2026-08-17,sardinecon_,event
+CM-50376,CMP-135,L-5185,Meeting Booked,True,2026-09-21,hubspot,email
+CM-50377,CMP-111,L-5186,Chat Engaged,True,2026-01-17,google,cpc
+CM-50378,CMP-127,L-5187,Attended,True,2026-08-11,sardinecon,event
+CM-50379,CMP-134,L-5187,Replied,True,2026-09-16,hubspot,email
+CM-50380,CMP-102,L-5188,Attended,True,2026-03-01,hubspot,webinar
+CM-50381,CMP-111,L-5189,Chat Engaged,True,2026-01-05,google,cpc
+CM-50383,CMP-121,L-5189,Replied,True,2026-04-03,hubspot,email
+CM-50382,CMP-122,L-5189,Replied,True,2026-05-12,hubspot,email
+CM-50384,CMP-108,L-5190,Replied,True,2026-01-06,hubspot,email
+CM-50385,CMP-134,L-5190,Replied,True,2026-08-03,hubspot,email
+CM-50386,CMP-121,L-5191,Meeting Booked,True,2026-06-07,hubspot,email
+CM-50387,CMP-113,L-5191,Attended,True,2026-06-11,sardinecon,event
+CM-50388,CMP-101,L-5192,Attended,True,2026-02-02,sardinecon,event
+CM-50389,CMP-127,L-5192,Registered,False,2026-07-21,sardinecon,event
+CM-50390,CMP-108,L-5193,Replied,True,2026-03-18,hubspot,email
+CM-50391,CMP-112,L-5194,Demo Requested,True,2026-02-28,google,cpc
+CM-50392,CMP-127,L-5194,Met at Booth,True,2026-07-01,sardinecon,event
+CM-50393,CMP-106,L-5195,Converted,True,2026-03-07,linkedin,paid_social
+CM-50394,CMP-112,L-5196,Chat Engaged,True,2026-03-26,google,cpc
+CM-50395,CMP-130,L-5197,Downloaded,True,2026-08-03,LinkedIn,organic
+CM-50396,CMP-135,L-5197,Meeting Booked,True,2026-08-18,hubspot,email
+CM-50397,CMP-119,L-5198,Converted,True,2026-04-21,linkedin,paid_social
+CM-50398,CMP-120,L-5198,Clicked,False,2026-06-24,linkedin,paid_social
+CM-50399,CMP-132,L-5199,Converted,True,2026-07-10,linkedin,paid_social
+CM-50400,CMP-127,L-5200,Attended,True,2026-08-20,sardinecon,event
+CM-50401,CMP-109,L-5201,Meeting Booked,True,2026-02-01,hubspot,email
+CM-50402,CMP-106,L-5201,Converted,True,2026-02-24,linkedin,paid_social
+CM-50403,CMP-116,L-5202,Attended,True,2026-05-28,hubspot,webinar
+CM-50405,CMP-128,L-5202,Registered,False,2026-08-16,hubspot,webinar
+CM-50404,CMP-133,L-5202,Converted,True,2026-09-06,LinkedIn,paid_social
+CM-50406,CMP-124,L-5203,Demo Requested,True,2026-05-02,google,cpc
+CM-50407,CMP-128,L-5203,Watched On-Demand,True,2026-07-27,hubspot,webinar
+CM-50408,CMP-130,L-5204,Downloaded,True,2026-08-15,linkedin,organic
+CM-50409,CMP-127,L-5204,Registered,False,2026-08-23,sardinecon,event
+CM-50410,CMP-131,L-5205,Downloaded,True,2026-08-01,linkedin,organic
+CM-50411,CMP-134,L-5205,Sent,False,2026-09-15,hubspot,email
+CM-50412,CMP-109,L-5206,Replied,True,2026-01-17,hubspot,email
+CM-50413,CMP-122,L-5207,Meeting Booked,True,2026-06-05,hubspot,email
+CM-50414,CMP-131,L-5207,Downloaded,True,2026-07-24,linkedin,organic
+CM-50415,CMP-128,L-5207,Watched On-Demand,True,2026-08-06,hubspot,webinar
+CM-50416,CMP-127,L-5208,Attended,True,2026-07-20,sardinecon,event
+CM-50417,CMP-127,L-5208,Met at Booth,True,2026-09-25,sardinecon,event
+CM-50418,CMP-130,L-5209,Downloaded,True,2026-09-06,linkedin,organic
+CM-50419,CMP-126,L-5209,Met at Booth,True,2026-09-09,sardinecon,event
+CM-50420,CMP-126,L-5210,Met at Booth,True,2026-08-24,sardinecon,event
+CM-50422,CMP-134,L-5210,Sent,False,2026-08-29,hubspot,email
+CM-50421,CMP-126,L-5210,Met at Booth,True,2026-09-10,sardinecon,event
+CM-50423,CMP-121,L-5211,Replied,True,2026-06-04,hubspot,email
+CM-50424,CMP-132,L-5211,Converted,True,2026-08-30,linkedin,paid_social
+CM-50425,CMP-122,L-5212,Meeting Booked,True,2026-06-21,hubspot,email
+CM-50426,CMP-133,L-5212,Converted,True,2026-09-27,linkedin,paid_social
+CM-50427,CMP-102,L-5213,Watched On-Demand,True,2026-03-31,hubspot,webinar
+CM-50428,CMP-120,L-5213,Converted,True,2026-04-06,linkedin,paid_social
+CM-50429,CMP-115,L-5213,Attended,True,2026-04-09,hubspot,webinar
+CM-50430,CMP-125,L-5214,Chat Engaged,True,2026-06-08,google,cpc
+CM-50431,CMP-126,L-5214,Met at Booth,True,2026-07-12,sardinecon,event
+CM-50432,CMP-137,L-5215,Chat Engaged,True,2026-09-07,google,cpc
+CM-50433,CMP-134,L-5215,Replied,True,2026-09-12,hubspot,email
+CM-50434,CMP-135,L-5215,Meeting Booked,True,2026-09-29,hubspot,email
+CM-50435,CMP-125,L-5216,Demo Requested,True,2026-04-15,google,cpc
+CM-50436,CMP-131,L-5216,Downloaded,True,2026-07-13,linkedin,organic
+CM-50437,CMP-126,L-5217,Attended,True,2026-08-11,sardinecon,event
+CM-50439,CMP-131,L-5217,Downloaded,True,2026-08-19,linkedin,organic
+CM-50440,CMP-128,L-5217,Attended,True,2026-09-23,hubspot,webinar
+CM-50438,CMP-129,L-5217,Registered,False,2026-09-28,hubspot,webinar
+CM-50441,CMP-115,L-5218,Watched On-Demand,True,2026-06-01,hubspot,webinar
+CM-50442,CMP-133,L-5219,Converted,True,2026-08-02,linkedin,paid_social
+CM-50444,CMP-134,L-5219,Meeting Booked,True,2026-08-04,hubspot,email
+CM-50443,CMP-126,L-5219,Attended,True,2026-08-09,sardinecon,event
+CM-50445,CMP-111,L-5220,Chat Engaged,True,2026-01-18,google,cpc
+CM-50448,CMP-102,L-5220,Watched On-Demand,True,2026-02-28,hubspot,webinar
+CM-50447,CMP-135,L-5220,Sent,False,2026-08-10,hubspot,email
+CM-50446,CMP-131,L-5220,Downloaded,True,2026-09-19,linkedin,organic
+CM-50449,CMP-121,L-5221,Meeting Booked,True,2026-05-26,Hubspot,email
+CM-50451,CMP-113,L-5221,Met at Booth,True,2026-05-28,sardinecon,event
+CM-50450,CMP-121,L-5221,Replied,True,2026-05-31,hubspot,email
+CM-50452,CMP-114,L-5222,Attended,True,2026-05-24,sardinecon,event
+CM-50453,CMP-119,L-5223,Converted,True,2026-06-15,linkedin,paid_social
+CM-50454,CMP-131,L-5224,Downloaded,True,2026-09-19,linkedin,organic
+CM-50456,CMP-132,L-5224,Converted,True,2026-09-23,linkedin,paid_social
+CM-50455,CMP-130,L-5224,Downloaded,True,2026-09-26,linkedin,organic
+CM-50457,CMP-132,L-5224,Converted,True,2026-09-29,linkedin,paid_social
+CM-50458,CMP-109,L-5225,Replied,True,2026-03-17,hubspot,email
+CM-50460,CMP-100,L-5225,Met at Booth,True,2026-03-29,sardinecon,event
+CM-50459,CMP-128,L-5225,Attended,True,2026-08-03,hubspot,webinar
+CM-50461,CMP-137,L-5226,Chat Engaged,True,2026-08-13,google,cpc
+CM-50462,CMP-131,L-5226,Downloaded,True,2026-09-25,linkedin,organic
+CM-50463,CMP-114,L-5227,Attended,True,2026-04-09,sardinecon,event
+CM-50464,CMP-116,L-5227,Attended,True,2026-04-13,hubspot,webinar
+CM-50465,CMP-117,L-5227,Downloaded,True,2026-05-20,linkedin,organic
+CM-50466,CMP-110,L-5228,Referred,True,2026-01-12,partner,referral
+CM-50467,CMP-131,L-5229,Downloaded,True,2026-09-25,linkedin,organic
+CM-50468,CMP-100,L-5230,Met at Booth,True,2026-02-16,sardinecon,event
+CM-50470,CMP-107,L-5230,Converted,True,2026-03-20,linkedin,paid_social
+CM-50469,CMP-117,L-5230,Downloaded,True,2026-04-27,linkedin,organic
+CM-50471,CMP-109,L-5231,Meeting Booked,True,2026-01-11,hubspot,email
+CM-50472,CMP-137,L-5232,Demo Requested,True,2026-07-30,google,cpc
+CM-50473,CMP-130,L-5233,Downloaded,True,2026-09-16,linkedin,organic
+CM-50474,CMP-133,L-5233,Converted,True,2026-09-18,linkedin,paid_social
+CM-50475,CMP-112,L-5234,Chat Engaged,True,2026-02-23,google.com,cpc
+CM-50476,CMP-138,L-5235,Demo Requested,True,2026-08-28,google,cpc
+CM-50477,CMP-132,L-5235,Converted,True,2026-09-01,linkedin,paid_social
+CM-50478,CMP-134,L-5236,Replied,True,2026-09-02,Hubspot,email
+CM-50479,CMP-134,L-5236,Replied,True,2026-09-18,hubspot,email
+CM-50480,CMP-111,L-5237,Chat Engaged,True,2026-01-19,google,cpc
+CM-50481,CMP-107,L-5238,Converted,True,2026-02-07,linkedin,paid_social
+CM-50482,CMP-106,L-5238,Clicked,False,2026-03-22,linkedin,paid_social
+CM-50483,CMP-127,L-5238,Met at Booth,True,2026-07-08,sardinecon,event
+CM-50484,CMP-137,L-5239,Chat Engaged,True,2026-09-02,google,cpc
+CM-50485,CMP-131,L-5239,Downloaded,True,2026-09-12,linkedin,organic
+CM-50486,CMP-132,L-5239,Converted,True,2026-09-13,linkedin,paid_social
+CM-50487,CMP-129,L-5239,Watched On-Demand,True,2026-09-20,hubspot,webinar
+CM-50488,CMP-120,L-5240,Converted,True,2026-04-24,linkedin,paid_social
+CM-50489,CMP-126,L-5240,Met at Booth,True,2026-09-17,sardinecon,event
+CM-50490,CMP-113,L-5241,Attended,True,2026-04-22,sardinecon,event
+CM-50491,CMP-131,L-5242,Downloaded,True,2026-09-17,linkedin,organic
+CM-50492,CMP-135,L-5242,Meeting Booked,True,2026-09-21,hubspot,email
+CM-50493,CMP-134,L-5242,Replied,True,2026-09-28,hubspot,email
+CM-50494,CMP-135,L-5243,Meeting Booked,True,2026-07-10,hubspot,email
+CM-50495,CMP-107,L-5244,Converted,True,2026-03-28,linkedin,paid_social
+CM-50496,CMP-132,L-5244,Converted,True,2026-07-21,linkedin,paid_social
+CM-50497,CMP-123,L-5245,Referred,True,2026-05-27,partner,referral
+CM-50498,CMP-110,L-5246,Referred,True,2026-03-03,partner,referral
+CM-50499,CMP-122,L-5247,Meeting Booked,True,2026-05-05,hubspot,email
+CM-50500,CMP-128,L-5247,Watched On-Demand,True,2026-08-16,hubspot,webinar
+CM-50501,CMP-135,L-5248,Meeting Booked,True,2026-08-09,hubspot,email
+CM-50502,CMP-132,L-5248,Converted,True,2026-09-27,linkedin,paid_social
+CM-50503,CMP-133,L-5249,Converted,True,2026-07-20,linkedin,paid_social
+CM-50505,CMP-126,L-5249,Attended,True,2026-08-10,sardinecon,event
+CM-50504,CMP-127,L-5249,Met at Booth,True,2026-08-23,sardinecon_,event
+CM-50506,CMP-109,L-5250,Meeting Booked,True,2026-03-28,hubspot,email
+CM-50507,CMP-119,L-5250,Converted,True,2026-04-04,linkedin,paid_social
+CM-50508,CMP-135,L-5251,Meeting Booked,True,2026-07-04,hubspot,email
+CM-50510,CMP-134,L-5251,Replied,True,2026-07-05,hubspot,email
+CM-50509,CMP-129,L-5251,Watched On-Demand,True,2026-07-07,hubspot,webinar
+CM-50511,CMP-127,L-5252,Attended,True,2026-08-03,sardinecon,event
+CM-50512,CMP-129,L-5252,Watched On-Demand,True,2026-08-25,hubspot,webinar
+CM-50513,CMP-111,L-5253,Chat Engaged,True,2026-01-15,google,cpc
+CM-50514,CMP-105,L-5254,Downloaded,True,2026-03-06,linkedin,organic
+CM-50515,CMP-135,L-5254,Meeting Booked,True,2026-08-15,hubspot,email
+CM-50516,CMP-111,L-5255,Demo Requested,True,2026-03-20,google,cpc
+CM-50519,CMP-129,L-5255,No Show,False,2026-07-15,hubspot,webinar
+CM-50518,CMP-133,L-5255,Converted,True,2026-08-17,linkedin,paid_social
+CM-50517,CMP-130,L-5255,Downloaded,True,2026-08-25,linkedin,organic
+CM-50520,CMP-112,L-5256,Demo Requested,True,2026-02-11,google,cpc
+CM-50521,CMP-116,L-5257,Watched On-Demand,True,2026-05-18,hubspot,webinar
+CM-50523,CMP-128,L-5257,Attended,True,2026-08-31,hubspot,webinar
+CM-50524,CMP-126,L-5257,Met at Booth,True,2026-09-17,sardinecon,event
+CM-50522,CMP-134,L-5257,Replied,True,2026-09-23,hubspot,email
+CM-50525,CMP-119,L-5258,Converted,True,2026-05-29,linkedin,paid_social
+CM-50527,CMP-118,L-5258,Downloaded,True,2026-06-01,linkedin,organic
+CM-50526,CMP-135,L-5258,Sent,False,2026-07-31,hubspot,email
+CM-50528,CMP-104,L-5259,Downloaded,True,2026-02-01,linkedin,organic
+CM-50529,CMP-118,L-5259,Downloaded,True,2026-05-24,linkedin,organic
+CM-50530,CMP-135,L-5260,Meeting Booked,True,2026-08-27,hubspot,email
+CM-50531,CMP-110,L-5261,Referred,True,2026-01-07,partner,referral
+CM-50532,CMP-126,L-5261,Met at Booth,True,2026-09-23,sardinecon,event
+CM-50533,CMP-101,L-5262,Met at Booth,True,2026-01-07,sardinecon,event
+CM-50534,CMP-108,L-5263,Meeting Booked,True,2026-03-29,hubspot,email
+CM-50535,CMP-133,L-5263,Converted,True,2026-07-14,linkedin,paid_social
+CM-50536,CMP-135,L-5264,Meeting Booked,True,2026-09-12,hubspot,email
+CM-50537,CMP-138,L-5265,Demo Requested,True,2026-09-30,google,cpc
+CM-50538,CMP-110,L-5266,Referred,True,2026-01-29,partner,referral
+CM-50540,CMP-135,L-5266,Replied,True,2026-07-23,hubspot,email
+CM-50539,CMP-133,L-5266,Converted,True,2026-07-31,linkedin,paid_social
+CM-50541,CMP-135,L-5266,Sent,False,2026-08-17,hubspot,email
+CM-50542,CMP-138,L-5267,Chat Engaged,True,2026-07-25,google,cpc
+CM-50544,CMP-134,L-5267,Meeting Booked,True,2026-08-07,hubspot,email
+CM-50545,CMP-133,L-5267,Converted,True,2026-09-01,LinkedIn,paid_social
+CM-50543,CMP-127,L-5267,No Show,False,2026-09-27,sardinecon,event
+CM-50546,CMP-106,L-5268,Converted,True,2026-02-14,linkedin,paid_social
+CM-50547,CMP-118,L-5268,Downloaded,True,2026-04-26,linkedin,organic
+CM-50548,CMP-133,L-5269,Converted,True,2026-07-26,linkedin,paid_social
+CM-50549,CMP-121,L-5270,Replied,True,2026-05-08,hubspot,email
+CM-50550,CMP-117,L-5271,Downloaded,True,2026-05-09,linkedin,organic
+CM-50551,CMP-109,L-5272,Replied,True,2026-01-23,hubspot,email
+CM-50552,CMP-135,L-5273,Meeting Booked,True,2026-08-22,hubspot,email
+CM-50553,CMP-132,L-5273,Clicked,False,2026-09-12,LinkedIn,paid_social
+CM-50554,CMP-133,L-5273,Converted,True,2026-09-28,linkedin,paid_social
+CM-50555,CMP-107,L-5274,Converted,True,2026-03-13,linkedin,paid_social
+CM-50558,CMP-105,L-5274,Downloaded,True,2026-03-14,linkedin,organic
+CM-50557,CMP-105,L-5274,Downloaded,True,2026-03-19,linkedin,organic
+CM-50556,CMP-100,L-5274,Registered,False,2026-03-21,sardinecon,event
+CM-50559,CMP-123,L-5275,Referred,True,2026-04-22,partner,referral
+CM-50560,CMP-138,L-5276,Chat Engaged,True,2026-09-25,google,cpc
+CM-50561,CMP-129,L-5276,Attended,True,2026-09-26,hubspot,webinar
+CM-50562,CMP-131,L-5276,Downloaded,True,2026-09-26,linkedin,organic
+CM-50563,CMP-113,L-5277,Met at Booth,True,2026-04-20,sardinecon,event
+CM-50564,CMP-122,L-5278,Meeting Booked,True,2026-05-10,hubspot,email
+CM-50565,CMP-109,L-5279,Meeting Booked,True,2026-03-16,hubspot,email
+CM-50566,CMP-128,L-5280,Attended,True,2026-07-29,hubspot,webinar
+CM-50567,CMP-131,L-5280,Downloaded,True,2026-08-31,linkedin,organic
+CM-50568,CMP-134,L-5281,Meeting Booked,True,2026-07-30,hubspot,email
+CM-50569,CMP-127,L-5281,Attended,True,2026-08-08,sardinecon,event
+CM-50570,CMP-125,L-5282,Chat Engaged,True,2026-04-24,google,cpc
+CM-50571,CMP-122,L-5282,Replied,True,2026-05-05,hubspot,email
+CM-50572,CMP-138,L-5283,Chat Engaged,True,2026-09-20,google,cpc
+CM-50573,CMP-134,L-5283,Sent,False,2026-09-27,hubspot,email
+CM-50574,CMP-132,L-5284,Converted,True,2026-07-03,linkedin,paid_social
+CM-50575,CMP-129,L-5284,Attended,True,2026-08-12,hubspot,webinar
+CM-50576,CMP-128,L-5285,Attended,True,2026-08-10,hubspot,webinar
+CM-50578,CMP-134,L-5285,Replied,True,2026-09-14,hubspot,email
+CM-50577,CMP-129,L-5285,Watched On-Demand,True,2026-09-25,hubspot,webinar
+CM-50579,CMP-128,L-5286,Watched On-Demand,True,2026-08-06,hubspot,webinar
+CM-50580,CMP-132,L-5286,Converted,True,2026-09-10,linkedin,paid_social
+CM-50581,CMP-110,L-5287,Referred,True,2026-03-26,partner,referral
+CM-50582,CMP-134,L-5287,Sent,False,2026-08-17,hubspot,email
+CM-50584,CMP-130,L-5287,Downloaded,True,2026-09-26,linkedin,organic
+CM-50583,CMP-130,L-5287,Downloaded,True,2026-09-28,linkedin,organic
+CM-50585,CMP-118,L-5288,Downloaded,True,2026-05-30,linkedin,organic
+CM-50587,CMP-127,L-5288,Attended,True,2026-07-08,sardinecon,event
+CM-50586,CMP-128,L-5288,Registered,False,2026-07-10,hubspot,webinar
+CM-50588,CMP-134,L-5289,Replied,True,2026-07-17,hubspot,email
+CM-50589,CMP-121,L-5290,Replied,True,2026-05-04,hubspot,email
+CM-50590,CMP-130,L-5291,Downloaded,True,2026-09-29,linkedin,organic
+CM-50591,CMP-127,L-5291,Attended,True,2026-09-30,sardinecon,event
+CM-50592,CMP-129,L-5291,Attended,True,2026-09-30,hubspot,webinar
+CM-50593,CMP-122,L-5292,Meeting Booked,True,2026-06-18,hubspot,email
+CM-50596,CMP-121,L-5292,Meeting Booked,True,2026-06-28,hubspot,email
+CM-50594,CMP-134,L-5292,Replied,True,2026-09-09,hubspot,email
+CM-50595,CMP-134,L-5292,Meeting Booked,True,2026-09-25,hubspot,email
+CM-50597,CMP-125,L-5293,Chat Engaged,True,2026-04-01,google,cpc
+CM-50599,CMP-115,L-5293,Watched On-Demand,True,2026-04-11,hubspot,webinar
+CM-50598,CMP-116,L-5293,Registered,False,2026-04-13,hubspot,webinar
+CM-50600,CMP-100,L-5294,Attended,True,2026-02-05,sardinecon,event
+CM-50601,CMP-128,L-5294,Attended,True,2026-09-28,hubspot,webinar
+CM-50602,CMP-106,L-5295,Converted,True,2026-03-10,linkedin,paid_social
+CM-50603,CMP-115,L-5295,No Show,False,2026-04-23,hubspot,webinar
+CM-50604,CMP-133,L-5296,Converted,True,2026-08-30,linkedin,paid_social
+CM-50605,CMP-134,L-5296,Meeting Booked,True,2026-09-01,hubspot,email
+CM-50606,CMP-107,L-5297,Converted,True,2026-02-09,linkedin,paid_social
+CM-50607,CMP-124,L-5298,Demo Requested,True,2026-06-22,google,cpc
+CM-50608,CMP-128,L-5298,Watched On-Demand,True,2026-08-09,hubspot,webinar
+CM-50609,CMP-128,L-5298,Watched On-Demand,True,2026-09-27,hubspot,webinar
+CM-50610,CMP-108,L-5299,Replied,True,2026-01-20,hubspot,email
+CM-50611,CMP-122,L-5299,Sent,False,2026-04-23,hubspot,email
+CM-50612,CMP-134,L-5299,Meeting Booked,True,2026-09-23,hubspot,email
+CM-50613,CMP-124,L-5300,Demo Requested,True,2026-04-13,google,cpc
+CM-50614,CMP-120,L-5300,Converted,True,2026-06-06,linkedin,paid_social
+CM-50615,CMP-102,L-5301,Watched On-Demand,True,2026-02-07,hubspot,webinar
+CM-50616,CMP-131,L-5301,Downloaded,True,2026-07-13,linkedin,organic
+CM-50617,CMP-121,L-5302,Replied,True,2026-06-19,hubspot,email
+CM-50618,CMP-113,L-5302,Attended,True,2026-06-24,sardinecon,event
+CM-50619,CMP-137,L-5303,Chat Engaged,True,2026-08-09,google,cpc
+CM-50620,CMP-133,L-5303,Converted,True,2026-09-05,linkedin,paid_social
+CM-50622,CMP-130,L-5303,Downloaded,True,2026-09-17,linkedin,organic
+CM-50621,CMP-126,L-5303,Registered,False,2026-09-26,sardinecon,event
+CM-50623,CMP-123,L-5304,Referred,True,2026-06-24,partner,referral
+CM-50624,CMP-108,L-5305,Replied,True,2026-02-05,hubspot,email
+CM-50625,CMP-120,L-5305,Clicked,False,2026-04-12,linkedin,paid_social
+CM-50626,CMP-124,L-5306,Demo Requested,True,2026-05-04,google,cpc
+CM-50627,CMP-111,L-5307,Demo Requested,True,2026-02-26,google,cpc
+CM-50628,CMP-123,L-5308,Referred,True,2026-06-13,partner,referral
+CM-50629,CMP-133,L-5308,Converted,True,2026-09-05,linkedin,paid_social
+CM-50630,CMP-109,L-5309,Meeting Booked,True,2026-02-01,hubspot,email
+CM-50631,CMP-120,L-5310,Converted,True,2026-06-25,linkedin,paid_social
+CM-50632,CMP-126,L-5310,Attended,True,2026-07-29,sardinecon,event
+CM-50633,CMP-131,L-5311,Downloaded,True,2026-07-16,linkedin,organic
+CM-50636,CMP-129,L-5311,Attended,True,2026-07-17,hubspot,webinar
+CM-50634,CMP-129,L-5311,Watched On-Demand,True,2026-07-19,hubspot,webinar
+CM-50635,CMP-127,L-5311,Met at Booth,True,2026-07-20,sardinecon,event
+CM-50637,CMP-116,L-5312,Attended,True,2026-05-10,hubspot,webinar
+CM-50639,CMP-118,L-5312,Downloaded,True,2026-05-11,linkedin,organic
+CM-50638,CMP-133,L-5312,Converted,True,2026-09-01,linkedin,paid_social
+CM-50640,CMP-121,L-5313,Replied,True,2026-06-10,hubspot,email
+CM-50641,CMP-129,L-5313,No Show,False,2026-08-27,hubspot,webinar
+CM-50642,CMP-123,L-5314,Referred,True,2026-04-13,partner,referral
+CM-50643,CMP-135,L-5315,Meeting Booked,True,2026-09-22,hubspot,email
+CM-50646,CMP-132,L-5315,Converted,True,2026-09-25,linkedin,paid_social
+CM-50644,CMP-128,L-5315,Watched On-Demand,True,2026-09-26,hubspot,webinar
+CM-50645,CMP-130,L-5315,Downloaded,True,2026-09-29,linkedin,organic
+CM-50647,CMP-132,L-5316,Converted,True,2026-09-04,linkedin,paid_social
+CM-50648,CMP-132,L-5316,Converted,True,2026-09-22,linkedin,paid_social
+CM-50649,CMP-103,L-5317,Attended,True,2026-02-17,hubspot,webinar
+CM-50650,CMP-100,L-5317,Attended,True,2026-02-25,sardinecon,event
+CM-50651,CMP-100,L-5318,Met at Booth,True,2026-02-12,sardinecon,event
+CM-50652,CMP-118,L-5318,Downloaded,True,2026-05-17,linkedin,organic
+CM-50653,CMP-115,L-5319,Attended,True,2026-04-12,hubspot,webinar
+CM-50654,CMP-135,L-5319,Meeting Booked,True,2026-08-23,hubspot,email
+CM-50655,CMP-125,L-5320,Demo Requested,True,2026-06-28,google,cpc
+CM-50656,CMP-135,L-5320,Replied,True,2026-08-13,hubspot,email
+CM-50657,CMP-109,L-5321,Replied,True,2026-01-09,hubspot,email
+CM-50658,CMP-134,L-5322,Replied,True,2026-07-24,hubspot,email
+CM-50659,CMP-109,L-5323,Replied,True,2026-01-21,hubspot,email
+CM-50661,CMP-107,L-5323,Clicked,False,2026-01-22,linkedin,paid_social
+CM-50662,CMP-107,L-5323,Converted,True,2026-01-24,linkedin,paid_social
+CM-50660,CMP-103,L-5323,Watched On-Demand,True,2026-01-26,hubspot,webinar
+CM-50663,CMP-110,L-5324,Referred,True,2026-03-12,partner,referral
+CM-50664,CMP-123,L-5325,Referred,True,2026-05-11,partner,referral
+CM-50665,CMP-132,L-5325,Converted,True,2026-08-01,linkedin,paid_social
+CM-50666,CMP-121,L-5326,Meeting Booked,True,2026-04-06,hubspot,email
+CM-50668,CMP-128,L-5326,Attended,True,2026-09-21,hubspot,webinar
+CM-50667,CMP-134,L-5326,Replied,True,2026-09-29,hubspot,email
+CM-50669,CMP-122,L-5327,Meeting Booked,True,2026-04-26,hubspot,email
+CM-50672,CMP-115,L-5327,No Show,False,2026-06-03,hubspot,webinar
+CM-50671,CMP-122,L-5327,Sent,False,2026-06-06,hubspot,email
+CM-50670,CMP-129,L-5327,Watched On-Demand,True,2026-08-21,hubspot,webinar
+CM-50673,CMP-108,L-5328,Meeting Booked,True,2026-01-27,hubspot,email
+CM-50674,CMP-135,L-5328,Meeting Booked,True,2026-07-07,hubspot,email
+CM-50675,CMP-134,L-5329,Meeting Booked,True,2026-09-10,hubspot,email
+CM-50676,CMP-102,L-5330,Attended,True,2026-02-25,hubspot,webinar
+CM-50677,CMP-134,L-5330,Replied,True,2026-08-15,hubspot,email
+CM-50678,CMP-137,L-5331,Chat Engaged,True,2026-09-29,google,cpc
+CM-50679,CMP-134,L-5331,Meeting Booked,True,2026-09-30,Hubspot,email
+CM-50680,CMP-124,L-5332,Chat Engaged,True,2026-04-17,google,cpc
+CM-50681,CMP-131,L-5332,Downloaded,True,2026-08-08,linkedin,organic
+CM-50682,CMP-101,L-5333,Attended,True,2026-03-01,sardinecon,event
+CM-50683,CMP-103,L-5333,No Show,False,2026-03-25,hubspot,webinar
+CM-50684,CMP-122,L-5333,Meeting Booked,True,2026-05-13,Hubspot,email
+CM-50685,CMP-133,L-5333,Converted,True,2026-09-16,linkedin,paid_social
+CM-50686,CMP-108,L-5334,Replied,True,2026-01-12,Hubspot,email
+CM-50687,CMP-128,L-5334,Registered,False,2026-07-15,hubspot,webinar
+CM-50688,CMP-137,L-5335,Demo Requested,True,2026-09-17,google,cpc
+CM-50689,CMP-130,L-5335,Downloaded,True,2026-09-22,linkedin,organic
+CM-50690,CMP-113,L-5336,Attended,True,2026-04-04,sardinecon,event
+CM-50691,CMP-117,L-5336,Downloaded,True,2026-06-03,linkedin,organic
+CM-50692,CMP-130,L-5337,Downloaded,True,2026-08-12,LinkedIn,organic
+CM-50693,CMP-126,L-5337,Met at Booth,True,2026-08-18,sardinecon,event
+CM-50694,CMP-106,L-5338,Converted,True,2026-03-14,linkedin,paid_social
+CM-50695,CMP-105,L-5338,Downloaded,True,2026-03-18,linkedin,organic
+CM-50696,CMP-100,L-5338,No Show,False,2026-03-24,sardinecon,event
+CM-50697,CMP-108,L-5338,Meeting Booked,True,2026-03-28,hubspot,email
+CM-50698,CMP-136,L-5339,Referred,True,2026-07-19,partner,referral
+CM-50699,CMP-129,L-5339,Watched On-Demand,True,2026-09-11,hubspot,webinar
+CM-50700,CMP-123,L-5340,Referred,True,2026-04-03,partner,referral
+CM-50701,CMP-129,L-5341,Watched On-Demand,True,2026-07-17,hubspot,webinar
+CM-50702,CMP-132,L-5341,Converted,True,2026-08-24,linkedin,paid_social
+CM-50703,CMP-110,L-5342,Referred,True,2026-03-24,partner,referral
+CM-50704,CMP-107,L-5342,Converted,True,2026-03-25,LinkedIn,paid_social
+CM-50705,CMP-127,L-5343,Attended,True,2026-07-26,sardinecon,event
+CM-50706,CMP-113,L-5344,Met at Booth,True,2026-05-15,sardinecon,event
+CM-50707,CMP-129,L-5345,Attended,True,2026-08-26,hubspot,webinar
+CM-50709,CMP-133,L-5345,Clicked,False,2026-09-05,linkedin,paid_social
+CM-50708,CMP-129,L-5345,Watched On-Demand,True,2026-09-27,hubspot,webinar
+CM-50710,CMP-108,L-5346,Meeting Booked,True,2026-03-30,hubspot,email
+CM-50711,CMP-111,L-5347,Chat Engaged,True,2026-01-05,google,cpc
+CM-50713,CMP-101,L-5347,No Show,False,2026-01-07,sardinecon,event
+CM-50712,CMP-103,L-5347,No Show,False,2026-01-09,Hubspot,webinar
+CM-50714,CMP-117,L-5348,Downloaded,True,2026-04-08,LinkedIn,organic
+CM-50715,CMP-130,L-5348,Downloaded,True,2026-07-04,linkedin,organic
+CM-50716,CMP-106,L-5349,Converted,True,2026-02-05,linkedin,paid_social
+CM-50717,CMP-115,L-5349,Watched On-Demand,True,2026-06-14,hubspot,webinar
+CM-50718,CMP-127,L-5350,Attended,True,2026-08-12,sardinecon,event
+CM-50721,CMP-130,L-5350,Downloaded,True,2026-08-14,linkedin,organic
+CM-50720,CMP-127,L-5350,Met at Booth,True,2026-09-23,sardinecon,event
+CM-50719,CMP-134,L-5350,Replied,True,2026-09-29,hubspot,email
+CM-50722,CMP-111,L-5351,Demo Requested,True,2026-01-18,google,cpc
+CM-50723,CMP-101,L-5352,Attended,True,2026-02-15,sardinecon,event
+CM-50724,CMP-118,L-5353,Downloaded,True,2026-05-08,linkedin,organic
+CM-50726,CMP-130,L-5353,Downloaded,True,2026-07-02,linkedin,organic
+CM-50725,CMP-133,L-5353,Converted,True,2026-09-16,linkedin,paid_social
+CM-50727,CMP-103,L-5354,Watched On-Demand,True,2026-03-09,hubspot,webinar
+CM-50728,CMP-117,L-5355,Downloaded,True,2026-05-04,linkedin,organic
+CM-50729,CMP-129,L-5355,Registered,False,2026-09-06,hubspot,webinar
+CM-50730,CMP-138,L-5356,Chat Engaged,True,2026-07-18,google,cpc
+CM-50733,CMP-130,L-5356,Downloaded,True,2026-08-17,linkedin,organic
+CM-50731,CMP-127,L-5356,Registered,False,2026-09-05,sardinecon,event
+CM-50732,CMP-128,L-5356,Watched On-Demand,True,2026-09-27,hubspot,webinar
+CM-50734,CMP-115,L-5357,Attended,True,2026-06-15,hubspot,webinar
+CM-50735,CMP-129,L-5357,Watched On-Demand,True,2026-07-31,hubspot,webinar
+CM-50736,CMP-121,L-5358,Replied,True,2026-05-25,hubspot,email
+CM-50737,CMP-114,L-5358,Attended,True,2026-06-13,sardinecon,event
+CM-50738,CMP-135,L-5359,Meeting Booked,True,2026-09-11,hubspot,email
+CM-50739,CMP-135,L-5359,Sent,False,2026-09-22,hubspot,email
+CM-50740,CMP-117,L-5360,Downloaded,True,2026-05-29,linkedin,organic
+CM-50741,CMP-122,L-5360,Sent,False,2026-05-30,hubspot,email
+CM-50742,CMP-138,L-5361,Chat Engaged,True,2026-07-09,google,cpc
+CM-50743,CMP-135,L-5361,Replied,True,2026-07-22,hubspot,email
+CM-50744,CMP-109,L-5362,Meeting Booked,True,2026-03-22,hubspot,email
+CM-50745,CMP-111,L-5363,Chat Engaged,True,2026-03-05,google,cpc
+CM-50746,CMP-122,L-5364,Meeting Booked,True,2026-04-09,hubspot,email
+CM-50747,CMP-103,L-5365,Watched On-Demand,True,2026-01-25,hubspot,webinar
+CM-50748,CMP-120,L-5365,Clicked,False,2026-05-10,linkedin,paid_social
+CM-50749,CMP-129,L-5366,Attended,True,2026-08-20,hubspot,webinar
+CM-50750,CMP-115,L-5367,Attended,True,2026-04-25,hubspot,webinar
+CM-50751,CMP-122,L-5368,Meeting Booked,True,2026-05-15,hubspot,email
+CM-50753,CMP-119,L-5368,Converted,True,2026-05-21,linkedin,paid_social
+CM-50754,CMP-132,L-5368,Clicked,False,2026-09-02,linkedin,paid_social
+CM-50752,CMP-132,L-5368,Clicked,False,2026-09-23,linkedin,paid_social
+CM-50755,CMP-110,L-5369,Referred,True,2026-03-09,partner,referral
+CM-50757,CMP-116,L-5369,No Show,False,2026-04-12,Hubspot,webinar
+CM-50756,CMP-128,L-5369,Attended,True,2026-07-11,hubspot,webinar
+CM-50758,CMP-112,L-5370,Demo Requested,True,2026-02-27,google,cpc
+CM-50759,CMP-122,L-5371,Replied,True,2026-06-16,hubspot,email
+CM-50760,CMP-103,L-5372,Watched On-Demand,True,2026-03-10,hubspot,webinar
+CM-50761,CMP-114,L-5372,No Show,False,2026-04-12,sardinecon,event
+CM-50762,CMP-127,L-5372,Attended,True,2026-09-24,sardinecon,event
+CM-50763,CMP-121,L-5373,Meeting Booked,True,2026-05-26,hubspot,email
+CM-50764,CMP-106,L-5374,Converted,True,2026-02-17,linkedin,paid_social
+CM-50766,CMP-105,L-5374,Downloaded,True,2026-02-25,linkedin,organic
+CM-50765,CMP-119,L-5374,Converted,True,2026-05-04,linkedin,paid_social
+CM-50767,CMP-119,L-5374,Converted,True,2026-05-09,linkedin,paid_social
+CM-50768,CMP-109,L-5375,Replied,True,2026-01-08,hubspot,email
+CM-50769,CMP-118,L-5376,Downloaded,True,2026-06-27,linkedin,organic
+CM-50770,CMP-138,L-5377,Demo Requested,True,2026-07-06,google,cpc
+CM-50771,CMP-132,L-5377,Converted,True,2026-07-13,linkedin,paid_social
+CM-50772,CMP-102,L-5378,Watched On-Demand,True,2026-01-08,hubspot,webinar
+CM-50773,CMP-105,L-5378,Downloaded,True,2026-02-01,linkedin,organic
+CM-50774,CMP-115,L-5378,Watched On-Demand,True,2026-06-10,hubspot,webinar
+CM-50775,CMP-102,L-5379,Attended,True,2026-03-28,hubspot,webinar
+CM-50776,CMP-116,L-5379,Watched On-Demand,True,2026-06-04,hubspot,webinar
+CM-50777,CMP-126,L-5379,Registered,False,2026-09-22,sardinecon,event
+CM-50778,CMP-129,L-5380,Attended,True,2026-09-15,hubspot,webinar
+CM-50779,CMP-125,L-5381,Chat Engaged,True,2026-05-06,google,cpc
+CM-50780,CMP-114,L-5381,Registered,False,2026-05-20,sardinecon,event
+CM-50781,CMP-122,L-5382,Replied,True,2026-04-16,hubspot,email
+CM-50782,CMP-116,L-5383,Attended,True,2026-04-13,hubspot,webinar
+CM-50784,CMP-116,L-5383,Attended,True,2026-05-18,hubspot,webinar
+CM-50783,CMP-126,L-5383,Registered,False,2026-08-13,sardinecon,event
+CM-50785,CMP-107,L-5384,Converted,True,2026-01-31,linkedin,paid_social
+CM-50786,CMP-131,L-5384,Downloaded,True,2026-07-12,linkedin,organic
+CM-50787,CMP-108,L-5385,Meeting Booked,True,2026-02-25,hubspot,email
+CM-50788,CMP-131,L-5386,Downloaded,True,2026-07-14,linkedin,organic
+CM-50789,CMP-112,L-5387,Chat Engaged,True,2026-02-24,google,cpc
+CM-50792,CMP-101,L-5387,Registered,False,2026-03-17,sardinecon,event
+CM-50790,CMP-118,L-5387,Downloaded,True,2026-05-10,linkedin,organic
+CM-50791,CMP-134,L-5387,Replied,True,2026-07-20,hubspot,email
+CM-50793,CMP-138,L-5388,Chat Engaged,True,2026-08-16,google,cpc
+CM-50796,CMP-134,L-5388,Sent,False,2026-08-21,hubspot,email
+CM-50794,CMP-135,L-5388,Sent,False,2026-08-24,hubspot,email
+CM-50795,CMP-128,L-5388,Attended,True,2026-08-25,hubspot,webinar
+CM-50797,CMP-137,L-5389,Demo Requested,True,2026-09-24,google,cpc
+CM-50798,CMP-130,L-5389,Downloaded,True,2026-09-30,linkedin,organic
+CM-50799,CMP-136,L-5390,Referred,True,2026-08-26,partner,referral
+CM-50800,CMP-130,L-5390,Downloaded,True,2026-09-26,linkedin,organic
+CM-50801,CMP-125,L-5391,Demo Requested,True,2026-05-23,google,cpc
+CM-50802,CMP-117,L-5391,Downloaded,True,2026-05-29,linkedin,organic
+CM-50803,CMP-116,L-5392,Watched On-Demand,True,2026-05-28,hubspot,webinar
+CM-50804,CMP-117,L-5393,Downloaded,True,2026-05-22,linkedin,organic
+CM-50805,CMP-119,L-5393,Converted,True,2026-05-23,linkedin,paid_social
+CM-50806,CMP-106,L-5394,Converted,True,2026-01-15,linkedin,paid_social
+CM-50807,CMP-108,L-5395,Meeting Booked,True,2026-02-25,hubspot,email
+CM-50808,CMP-104,L-5395,Downloaded,True,2026-02-26,linkedin,organic
+CM-50809,CMP-116,L-5396,Attended,True,2026-04-18,hubspot,webinar
+CM-50810,CMP-117,L-5396,Downloaded,True,2026-04-24,linkedin,organic
+CM-50811,CMP-105,L-5397,Downloaded,True,2026-01-05,linkedin,organic
+CM-50812,CMP-119,L-5397,Converted,True,2026-05-06,linkedin,paid_social
+CM-50813,CMP-105,L-5398,Downloaded,True,2026-03-02,linkedin,organic
+CM-50814,CMP-113,L-5398,Registered,False,2026-06-27,sardinecon,event
+CM-50815,CMP-116,L-5399,Attended,True,2026-06-25,Hubspot,webinar
+CM-50816,CMP-134,L-5399,Meeting Booked,True,2026-07-18,hubspot,email
+CM-50817,CMP-100,L-5400,Met at Booth,True,2026-03-21,sardinecon,event
+CM-50818,CMP-131,L-5400,Downloaded,True,2026-08-03,linkedin,organic
+CM-50819,CMP-121,L-5401,Meeting Booked,True,2026-04-08,hubspot,email
+CM-50820,CMP-134,L-5401,Replied,True,2026-08-13,hubspot,email
+CM-50821,CMP-135,L-5401,Meeting Booked,True,2026-08-13,hubspot,email
+CM-50822,CMP-136,L-5402,Referred,True,2026-09-16,partner,referral
+CM-50824,CMP-135,L-5402,Meeting Booked,True,2026-09-24,hubspot,email
+CM-50823,CMP-134,L-5402,Meeting Booked,True,2026-09-30,hubspot,email
+CM-50825,CMP-104,L-5403,Downloaded,True,2026-01-06,linkedin,organic
+CM-50826,CMP-114,L-5403,Attended,True,2026-04-02,sardinecon,event
+CM-50827,CMP-117,L-5403,Downloaded,True,2026-04-07,linkedin,organic
+CM-50828,CMP-108,L-5404,Meeting Booked,True,2026-01-18,Hubspot,email
+CM-50830,CMP-103,L-5404,Registered,False,2026-01-23,hubspot,webinar
+CM-50829,CMP-103,L-5404,No Show,False,2026-01-26,hubspot,webinar
+CM-50831,CMP-101,L-5404,Met at Booth,True,2026-01-28,sardinecon,event
+CM-50832,CMP-128,L-5405,Attended,True,2026-09-02,hubspot,webinar
+CM-50833,CMP-136,L-5406,Referred,True,2026-08-25,partner,referral
+CM-50834,CMP-133,L-5406,Converted,True,2026-09-22,linkedin,paid_social
+CM-50835,CMP-134,L-5407,Replied,True,2026-09-01,hubspot,email
+CM-50836,CMP-133,L-5407,Converted,True,2026-09-24,linkedin,paid_social
+CM-50837,CMP-112,L-5408,Chat Engaged,True,2026-02-28,google,cpc
+CM-50840,CMP-106,L-5408,Converted,True,2026-03-01,linkedin,paid_social
+CM-50839,CMP-104,L-5408,Downloaded,True,2026-03-03,LinkedIn,organic
+CM-50838,CMP-101,L-5408,Met at Booth,True,2026-03-07,sardinecon,event
+CM-50841,CMP-131,L-5409,Downloaded,True,2026-09-18,linkedin,organic
+CM-50842,CMP-137,L-5410,Chat Engaged,True,2026-08-30,google,cpc
+CM-50843,CMP-134,L-5410,Replied,True,2026-09-30,hubspot,email
+CM-50844,CMP-108,L-5411,Meeting Booked,True,2026-01-25,hubspot,email
+CM-50845,CMP-101,L-5411,Attended,True,2026-02-23,sardinecon,event
+CM-50846,CMP-138,L-5412,Chat Engaged,True,2026-09-17,google,cpc
+CM-50847,CMP-137,L-5413,Demo Requested,True,2026-09-11,google,cpc
+CM-50848,CMP-128,L-5413,Watched On-Demand,True,2026-09-23,hubspot,webinar
+CM-50849,CMP-123,L-5414,Referred,True,2026-05-10,partner,referral
+CM-50850,CMP-121,L-5414,Replied,True,2026-06-30,hubspot,email
+CM-50851,CMP-108,L-5415,Replied,True,2026-03-01,Hubspot,email
+CM-50852,CMP-101,L-5416,Met at Booth,True,2026-02-05,sardinecon,event
+CM-50853,CMP-134,L-5416,Replied,True,2026-09-14,hubspot,email
+CM-50854,CMP-112,L-5417,Demo Requested,True,2026-02-01,google.com,cpc
+CM-50856,CMP-119,L-5417,Clicked,False,2026-04-07,linkedin,paid_social
+CM-50855,CMP-130,L-5417,Downloaded,True,2026-09-09,linkedin,organic
+CM-50857,CMP-125,L-5418,Chat Engaged,True,2026-04-16,google,cpc
+CM-50858,CMP-132,L-5418,Converted,True,2026-07-28,linkedin,paid_social
+CM-50859,CMP-138,L-5419,Demo Requested,True,2026-08-23,google,cpc
+CM-50860,CMP-131,L-5419,Downloaded,True,2026-09-18,linkedin,organic
+CM-50861,CMP-106,L-5420,Converted,True,2026-01-13,linkedin,paid_social
+CM-50862,CMP-122,L-5421,Replied,True,2026-05-30,hubspot,email
+CM-50863,CMP-135,L-5421,Meeting Booked,True,2026-07-25,hubspot,email
+CM-50864,CMP-117,L-5422,Downloaded,True,2026-04-23,linkedin,organic
+CM-50865,CMP-131,L-5423,Downloaded,True,2026-08-05,linkedin,organic
+CM-50866,CMP-132,L-5423,Converted,True,2026-09-22,linkedin,paid_social
+CM-50867,CMP-130,L-5424,Downloaded,True,2026-08-13,linkedin,organic
+CM-50868,CMP-132,L-5424,Converted,True,2026-09-02,linkedin,paid_social
+CM-50869,CMP-110,L-5425,Referred,True,2026-03-10,partner,referral
+CM-50870,CMP-137,L-5426,Chat Engaged,True,2026-07-19,google,cpc
+CM-50871,CMP-134,L-5426,Replied,True,2026-08-12,hubspot,email
+CM-50872,CMP-127,L-5426,Met at Booth,True,2026-09-21,sardinecon,event
+CM-50873,CMP-107,L-5427,Converted,True,2026-01-31,linkedin,paid_social
+CM-50875,CMP-108,L-5427,Meeting Booked,True,2026-02-04,hubspot,email
+CM-50874,CMP-108,L-5427,Replied,True,2026-02-09,hubspot,email
+CM-50876,CMP-137,L-5428,Demo Requested,True,2026-07-24,google,cpc
+CM-50877,CMP-133,L-5428,Converted,True,2026-08-11,linkedin,paid_social
+CM-50878,CMP-111,L-5429,Chat Engaged,True,2026-01-21,google,cpc
+CM-50879,CMP-133,L-5429,Converted,True,2026-07-07,linkedin,paid_social
+CM-50880,CMP-103,L-5430,Watched On-Demand,True,2026-02-16,hubspot,webinar
+CM-50882,CMP-115,L-5430,Watched On-Demand,True,2026-04-29,hubspot,webinar
+CM-50881,CMP-126,L-5430,Attended,True,2026-08-03,sardinecon,event
+CM-50883,CMP-117,L-5431,Downloaded,True,2026-04-03,linkedin,organic
+CM-50884,CMP-114,L-5432,Met at Booth,True,2026-04-17,sardinecon,event
+CM-50887,CMP-126,L-5432,No Show,False,2026-07-21,sardinecon,event
+CM-50886,CMP-128,L-5432,Attended,True,2026-07-24,hubspot,webinar
+CM-50885,CMP-132,L-5432,Clicked,False,2026-08-11,linkedin,paid_social
+CM-50888,CMP-102,L-5433,Attended,True,2026-03-04,hubspot,webinar
+CM-50889,CMP-122,L-5433,Replied,True,2026-05-09,hubspot,email
+CM-50890,CMP-123,L-5434,Referred,True,2026-04-23,partner,referral
+CM-50891,CMP-114,L-5435,Attended,True,2026-06-16,sardinecon,event
+CM-50892,CMP-126,L-5435,Met at Booth,True,2026-09-14,sardinecon,event
+CM-50893,CMP-109,L-5436,Replied,True,2026-01-07,hubspot,email
+CM-50894,CMP-130,L-5436,Downloaded,True,2026-08-01,linkedin,organic
+CM-50895,CMP-138,L-5437,Chat Engaged,True,2026-07-28,google,cpc
+CM-50896,CMP-111,L-5438,Demo Requested,True,2026-03-17,google,cpc
+CM-50897,CMP-120,L-5438,Converted,True,2026-05-31,linkedin,paid_social
+CM-50898,CMP-121,L-5439,Replied,True,2026-06-22,hubspot,email
+CM-50900,CMP-135,L-5439,Meeting Booked,True,2026-08-08,Hubspot,email
+CM-50899,CMP-127,L-5439,Met at Booth,True,2026-08-11,sardinecon,event
+CM-50901,CMP-122,L-5440,Replied,True,2026-05-08,hubspot,email
+CM-50902,CMP-121,L-5441,Replied,True,2026-04-25,hubspot,email
+CM-50903,CMP-121,L-5441,Meeting Booked,True,2026-06-25,hubspot,email
+CM-50904,CMP-114,L-5442,Met at Booth,True,2026-04-27,sardinecon,event
+CM-50905,CMP-136,L-5443,Referred,True,2026-09-05,partner,referral
+CM-50907,CMP-127,L-5443,Met at Booth,True,2026-09-07,sardinecon_,event
+CM-50906,CMP-128,L-5443,Watched On-Demand,True,2026-09-12,hubspot,webinar
+CM-50908,CMP-128,L-5444,Attended,True,2026-07-30,hubspot,webinar
+CM-50909,CMP-131,L-5444,Downloaded,True,2026-09-03,linkedin,organic
+CM-50910,CMP-135,L-5445,Meeting Booked,True,2026-07-31,hubspot,email
+CM-50911,CMP-126,L-5445,Registered,False,2026-08-03,sardinecon,event
+CM-50912,CMP-132,L-5446,Converted,True,2026-09-06,linkedin,paid_social
+CM-50914,CMP-127,L-5446,Registered,False,2026-09-12,sardinecon_,event
+CM-50913,CMP-126,L-5446,Attended,True,2026-09-15,sardinecon,event
+CM-50915,CMP-102,L-5447,Watched On-Demand,True,2026-02-13,hubspot,webinar
+CM-50916,CMP-136,L-5448,Referred,True,2026-09-30,partner,referral
+CM-50917,CMP-100,L-5449,Met at Booth,True,2026-01-11,sardinecon,event
+CM-50918,CMP-108,L-5449,Meeting Booked,True,2026-02-06,hubspot,email
+CM-50919,CMP-126,L-5449,No Show,False,2026-07-06,sardinecon,event
+CM-50920,CMP-134,L-5450,Replied,True,2026-07-06,hubspot,email
+CM-50921,CMP-135,L-5450,Meeting Booked,True,2026-09-05,hubspot,email
+CM-50922,CMP-120,L-5451,Converted,True,2026-04-04,linkedin,paid_social
+CM-50923,CMP-108,L-5452,Replied,True,2026-01-09,hubspot,email
+CM-50924,CMP-103,L-5452,Attended,True,2026-01-11,hubspot,webinar
+CM-50925,CMP-137,L-5453,Chat Engaged,True,2026-07-04,google,cpc
+CM-50927,CMP-130,L-5453,Downloaded,True,2026-07-18,linkedin,organic
+CM-50926,CMP-129,L-5453,Attended,True,2026-09-09,hubspot,webinar
+CM-50928,CMP-118,L-5454,Downloaded,True,2026-06-02,linkedin,organic
+CM-50929,CMP-121,L-5455,Replied,True,2026-04-03,hubspot,email
+CM-50930,CMP-126,L-5455,No Show,False,2026-07-21,sardinecon,event
+CM-50932,CMP-128,L-5455,Watched On-Demand,True,2026-09-04,hubspot,webinar
+CM-50931,CMP-132,L-5455,Converted,True,2026-09-30,linkedin,paid_social
+CM-50933,CMP-126,L-5456,Attended,True,2026-09-19,sardinecon,event
+CM-50934,CMP-128,L-5456,Attended,True,2026-09-29,hubspot,webinar
+CM-50935,CMP-131,L-5456,Downloaded,True,2026-09-30,linkedin,organic
+CM-50936,CMP-123,L-5457,Referred,True,2026-05-09,partner,referral
+CM-50937,CMP-137,L-5458,Chat Engaged,True,2026-08-28,google,cpc
+CM-50938,CMP-126,L-5458,Met at Booth,True,2026-09-08,sardinecon,event
+CM-50939,CMP-129,L-5458,Registered,False,2026-09-27,hubspot,webinar
+CM-50940,CMP-105,L-5459,Downloaded,True,2026-02-01,linkedin,organic
+CM-50941,CMP-118,L-5459,Downloaded,True,2026-05-27,linkedin,organic
+CM-50942,CMP-138,L-5460,Chat Engaged,True,2026-09-28,google,cpc
+CM-50943,CMP-122,L-5461,Replied,True,2026-05-18,hubspot,email
+CM-50944,CMP-131,L-5461,Downloaded,True,2026-09-08,linkedin,organic
+CM-50945,CMP-120,L-5462,Converted,True,2026-06-02,linkedin,paid_social
+CM-50946,CMP-130,L-5462,Downloaded,True,2026-09-30,LinkedIn,organic
+CM-50947,CMP-138,L-5463,Demo Requested,True,2026-07-23,google,cpc
+CM-50948,CMP-128,L-5463,Attended,True,2026-07-30,hubspot,webinar
+CM-50949,CMP-103,L-5464,Attended,True,2026-02-06,hubspot,webinar
+CM-50950,CMP-136,L-5465,Referred,True,2026-09-21,partner,referral
+CM-50951,CMP-131,L-5465,Downloaded,True,2026-09-26,linkedin,organic
+CM-50952,CMP-118,L-5466,Downloaded,True,2026-05-03,linkedin,organic
+CM-50953,CMP-132,L-5466,Converted,True,2026-07-11,linkedin,paid_social
+CM-50954,CMP-109,L-5467,Meeting Booked,True,2026-02-11,hubspot,email
+CM-50955,CMP-117,L-5468,Downloaded,True,2026-04-30,linkedin,organic
+CM-50957,CMP-113,L-5468,Attended,True,2026-06-24,sardinecon,event
+CM-50956,CMP-134,L-5468,Meeting Booked,True,2026-07-16,hubspot,email
+CM-50958,CMP-123,L-5469,Referred,True,2026-04-09,partner,referral
+CM-50959,CMP-128,L-5469,Attended,True,2026-09-18,hubspot,webinar
+CM-50960,CMP-138,L-5470,Demo Requested,True,2026-07-16,google,cpc
+CM-50961,CMP-124,L-5471,Demo Requested,True,2026-06-01,google,cpc
+CM-50962,CMP-121,L-5471,Meeting Booked,True,2026-06-23,hubspot,email
+CM-50963,CMP-118,L-5472,Downloaded,True,2026-05-18,linkedin,organic
+CM-50964,CMP-106,L-5473,Converted,True,2026-03-12,linkedin,paid_social
+CM-50965,CMP-121,L-5473,Meeting Booked,True,2026-05-12,hubspot,email
+CM-50966,CMP-138,L-5474,Demo Requested,True,2026-07-18,google,cpc
+CM-50967,CMP-129,L-5474,Attended,True,2026-07-28,hubspot,webinar
+CM-50968,CMP-131,L-5474,Downloaded,True,2026-09-13,linkedin,organic
+CM-50969,CMP-136,L-5475,Referred,True,2026-08-04,partner,referral
+CM-50970,CMP-134,L-5475,Meeting Booked,True,2026-09-18,hubspot,email
+CM-50971,CMP-111,L-5476,Chat Engaged,True,2026-02-13,google,cpc
+CM-50972,CMP-101,L-5476,Registered,False,2026-03-30,sardinecon,event
+CM-50973,CMP-114,L-5477,Attended,True,2026-05-21,sardinecon,event
+CM-50976,CMP-121,L-5477,Sent,False,2026-05-29,hubspot,email
+CM-50975,CMP-121,L-5477,Replied,True,2026-06-27,hubspot,email
+CM-50974,CMP-130,L-5477,Downloaded,True,2026-09-15,linkedin,organic
+CM-50977,CMP-129,L-5478,Attended,True,2026-07-14,hubspot,webinar
+CM-50978,CMP-129,L-5478,Attended,True,2026-07-19,hubspot,webinar
+CM-50979,CMP-134,L-5479,Meeting Booked,True,2026-07-19,hubspot,email
+CM-50980,CMP-127,L-5479,Attended,True,2026-07-20,sardinecon,event
+CM-50981,CMP-131,L-5479,Downloaded,True,2026-07-28,linkedin,organic
+CM-50982,CMP-131,L-5479,Downloaded,True,2026-08-29,linkedin,organic
+CM-50983,CMP-122,L-5480,Meeting Booked,True,2026-06-28,hubspot,email
+CM-50984,CMP-124,L-5481,Chat Engaged,True,2026-05-25,google,cpc
+CM-50985,CMP-136,L-5482,Referred,True,2026-09-07,partner,referral
+CM-50986,CMP-104,L-5483,Downloaded,True,2026-03-11,linkedin,organic
+CM-50987,CMP-108,L-5483,Meeting Booked,True,2026-03-22,hubspot,email
+CM-50988,CMP-127,L-5483,Met at Booth,True,2026-09-04,sardinecon,event
+CM-50989,CMP-124,L-5484,Chat Engaged,True,2026-05-16,google,cpc
+CM-50990,CMP-116,L-5484,Watched On-Demand,True,2026-06-01,hubspot,webinar
+CM-50991,CMP-112,L-5485,Chat Engaged,True,2026-03-19,google,cpc
+CM-50992,CMP-116,L-5485,Attended,True,2026-06-12,hubspot,webinar
+CM-50993,CMP-112,L-5486,Chat Engaged,True,2026-01-18,google,cpc
+CM-50994,CMP-115,L-5486,Watched On-Demand,True,2026-05-19,hubspot,webinar
+CM-50995,CMP-131,L-5486,Downloaded,True,2026-09-12,linkedin,organic
+CM-50996,CMP-104,L-5487,Downloaded,True,2026-02-13,linkedin,organic
+CM-50997,CMP-117,L-5488,Downloaded,True,2026-06-04,linkedin,organic
+CM-50998,CMP-136,L-5489,Referred,True,2026-07-04,partner,referral
+CM-50999,CMP-114,L-5490,Met at Booth,True,2026-05-31,sardinecon,event
+CM-51000,CMP-132,L-5490,Clicked,False,2026-07-06,linkedin,paid_social
+CM-51001,CMP-135,L-5490,Replied,True,2026-08-13,hubspot,email
+CM-51002,CMP-138,L-5491,Demo Requested,True,2026-09-02,google,cpc
+CM-51003,CMP-132,L-5491,Converted,True,2026-09-11,LinkedIn,paid_social
+CM-51004,CMP-120,L-5492,Converted,True,2026-05-08,linkedin,paid_social
+CM-51005,CMP-121,L-5492,Replied,True,2026-05-24,hubspot,email
+CM-51007,CMP-122,L-5492,Replied,True,2026-05-29,hubspot,email
+CM-51006,CMP-128,L-5492,Attended,True,2026-09-03,hubspot,webinar
+CM-51008,CMP-121,L-5493,Meeting Booked,True,2026-06-02,hubspot,email
+CM-51009,CMP-130,L-5493,Downloaded,True,2026-08-15,linkedin,organic
+CM-51010,CMP-134,L-5493,Meeting Booked,True,2026-08-23,hubspot,email
+CM-51011,CMP-134,L-5493,Sent,False,2026-09-07,hubspot,email
+CM-51012,CMP-104,L-5494,Downloaded,True,2026-02-23,linkedin,organic
+CM-51013,CMP-106,L-5494,Converted,True,2026-02-27,linkedin,paid_social
+CM-51014,CMP-122,L-5494,Replied,True,2026-04-23,hubspot,email
+CM-51015,CMP-117,L-5494,Downloaded,True,2026-06-07,linkedin,organic
+CM-51016,CMP-112,L-5495,Chat Engaged,True,2026-03-19,google,cpc
+CM-51018,CMP-105,L-5495,Downloaded,True,2026-03-20,linkedin,organic
+CM-51019,CMP-100,L-5495,Met at Booth,True,2026-03-23,sardinecon,event
+CM-51017,CMP-106,L-5495,Converted,True,2026-03-25,LinkedIn,paid_social
+CM-51020,CMP-112,L-5496,Chat Engaged,True,2026-03-18,google,cpc
+CM-51021,CMP-116,L-5496,Attended,True,2026-05-22,hubspot,webinar
+CM-51022,CMP-122,L-5497,Replied,True,2026-05-29,hubspot,email
+CM-51024,CMP-116,L-5497,Watched On-Demand,True,2026-06-23,hubspot,webinar
+CM-51023,CMP-130,L-5497,Downloaded,True,2026-08-24,linkedin,organic
+CM-51025,CMP-100,L-5498,Attended,True,2026-02-12,sardinecon,event
+CM-51027,CMP-108,L-5498,Replied,True,2026-02-16,hubspot,email
+CM-51026,CMP-101,L-5498,Met at Booth,True,2026-03-31,sardinecon,event
+CM-51028,CMP-132,L-5498,Converted,True,2026-09-18,linkedin,paid_social
+CM-51029,CMP-126,L-5499,Attended,True,2026-09-28,sardinecon,event
+CM-51030,CMP-128,L-5499,Watched On-Demand,True,2026-09-30,hubspot,webinar
+CM-51031,CMP-132,L-5499,Clicked,False,2026-09-30,LinkedIn,paid_social
+CM-51032,CMP-121,L-5500,Replied,True,2026-05-20,Hubspot,email
+CM-51033,CMP-116,L-5501,Attended,True,2026-04-21,hubspot,webinar
+CM-51034,CMP-135,L-5501,Replied,True,2026-07-11,hubspot,email
+CM-51035,CMP-119,L-5502,Converted,True,2026-05-03,linkedin,paid_social
+CM-51036,CMP-113,L-5502,Met at Booth,True,2026-05-16,sardinecon,event
+CM-51037,CMP-130,L-5502,Downloaded,True,2026-09-03,linkedin,organic
+CM-51038,CMP-138,L-5503,Chat Engaged,True,2026-08-10,google,cpc
+CM-51039,CMP-127,L-5503,Met at Booth,True,2026-09-12,sardinecon,event
+CM-51040,CMP-123,L-5504,Referred,True,2026-05-22,partner,referral
+CM-51041,CMP-110,L-5505,Referred,True,2026-03-31,partner,referral
+CM-51042,CMP-114,L-5505,Met at Booth,True,2026-05-04,sardinecon,event
+CM-51043,CMP-135,L-5505,Meeting Booked,True,2026-08-24,hubspot,email
+CM-51044,CMP-111,L-5506,Demo Requested,True,2026-02-06,google,cpc
+CM-51045,CMP-123,L-5507,Referred,True,2026-04-25,partner,referral
+CM-51046,CMP-110,L-5508,Referred,True,2026-02-11,partner,referral
+CM-51047,CMP-133,L-5509,Converted,True,2026-07-16,linkedin,paid_social
+CM-51048,CMP-127,L-5509,Met at Booth,True,2026-09-03,sardinecon,event
+CM-51049,CMP-136,L-5510,Referred,True,2026-07-14,partner,referral
+CM-51050,CMP-134,L-5510,Sent,False,2026-09-27,hubspot,email
+CM-51051,CMP-117,L-5511,Downloaded,True,2026-04-01,linkedin,organic
+CM-51052,CMP-119,L-5511,Converted,True,2026-05-08,LinkedIn,paid_social
+CM-51053,CMP-120,L-5511,Clicked,False,2026-05-24,linkedin,paid_social
+CM-51054,CMP-106,L-5512,Converted,True,2026-01-07,LinkedIn,paid_social
+CM-51055,CMP-130,L-5512,Downloaded,True,2026-09-18,linkedin,organic
+CM-51056,CMP-129,L-5513,Watched On-Demand,True,2026-07-16,hubspot,webinar
+CM-51057,CMP-109,L-5514,Replied,True,2026-03-06,hubspot,email
+CM-51058,CMP-110,L-5515,Referred,True,2026-03-30,partner,referral
+CM-51059,CMP-118,L-5515,Downloaded,True,2026-04-26,linkedin,organic
+CM-51060,CMP-101,L-5516,Attended,True,2026-02-08,sardinecon,event
+CM-51063,CMP-101,L-5516,Met at Booth,True,2026-03-02,sardinecon,event
+CM-51062,CMP-103,L-5516,Watched On-Demand,True,2026-03-06,hubspot,webinar
+CM-51061,CMP-132,L-5516,Converted,True,2026-09-29,linkedin,paid_social
+CM-51064,CMP-125,L-5517,Demo Requested,True,2026-04-18,google,cpc
+CM-51065,CMP-132,L-5517,Converted,True,2026-07-20,linkedin,paid_social
+CM-51066,CMP-102,L-5518,Watched On-Demand,True,2026-03-19,hubspot,webinar
+CM-51067,CMP-118,L-5518,Downloaded,True,2026-06-18,linkedin,organic
+CM-51068,CMP-134,L-5519,Replied,True,2026-07-25,hubspot,email
+CM-51069,CMP-135,L-5520,Meeting Booked,True,2026-08-19,hubspot,email
+CM-51070,CMP-127,L-5520,Met at Booth,True,2026-08-27,sardinecon,event
+CM-51071,CMP-132,L-5520,Converted,True,2026-09-03,linkedin,paid_social
+CM-51072,CMP-126,L-5521,Met at Booth,True,2026-07-19,sardinecon,event
+CM-51073,CMP-134,L-5521,Sent,False,2026-07-22,hubspot,email
+CM-51074,CMP-122,L-5522,Meeting Booked,True,2026-05-25,hubspot,email
+CM-51075,CMP-115,L-5522,Registered,False,2026-06-02,hubspot,webinar
+CM-51076,CMP-100,L-5523,Attended,True,2026-01-24,sardinecon_,event
+CM-51077,CMP-110,L-5524,Referred,True,2026-02-23,partner,referral
+CM-51078,CMP-115,L-5524,Watched On-Demand,True,2026-05-19,hubspot,webinar
+CM-51079,CMP-117,L-5525,Downloaded,True,2026-05-26,linkedin,organic
+CM-51081,CMP-116,L-5525,No Show,False,2026-06-24,hubspot,webinar
+CM-51080,CMP-133,L-5525,Converted,True,2026-08-25,linkedin,paid_social
+CM-51082,CMP-124,L-5526,Demo Requested,True,2026-04-08,google,cpc
+CM-51083,CMP-117,L-5526,Downloaded,True,2026-05-31,linkedin,organic
+CM-51084,CMP-132,L-5527,Converted,True,2026-07-18,linkedin,paid_social
+CM-51085,CMP-129,L-5527,Attended,True,2026-09-10,hubspot,webinar
+CM-51086,CMP-125,L-5528,Demo Requested,True,2026-05-20,google,cpc
+CM-51089,CMP-116,L-5528,Watched On-Demand,True,2026-05-26,hubspot,webinar
+CM-51088,CMP-119,L-5528,Converted,True,2026-06-29,linkedin,paid_social
+CM-51087,CMP-130,L-5528,Downloaded,True,2026-07-22,linkedin,organic
+CM-51090,CMP-118,L-5529,Downloaded,True,2026-06-01,linkedin,organic
+CM-51091,CMP-119,L-5529,Clicked,False,2026-06-15,LinkedIn,paid_social
+CM-51093,CMP-127,L-5529,No Show,False,2026-08-12,sardinecon_,event
+CM-51092,CMP-129,L-5529,Watched On-Demand,True,2026-09-02,hubspot,webinar
+CM-51094,CMP-137,L-5530,Demo Requested,True,2026-07-17,google,cpc
+CM-51095,CMP-132,L-5530,Converted,True,2026-07-20,linkedin,paid_social
+CM-51096,CMP-130,L-5530,Downloaded,True,2026-08-02,linkedin,organic
+CM-51097,CMP-136,L-5531,Referred,True,2026-09-01,partner,referral
+CM-51098,CMP-127,L-5531,Met at Booth,True,2026-09-12,sardinecon,event
+CM-51099,CMP-122,L-5532,Replied,True,2026-05-22,hubspot,email
+CM-51100,CMP-100,L-5533,Attended,True,2026-03-18,sardinecon,event
+CM-51101,CMP-122,L-5533,Sent,False,2026-06-26,hubspot,email
+CM-51102,CMP-121,L-5533,Sent,False,2026-06-26,hubspot,email
+CM-51103,CMP-134,L-5533,Replied,True,2026-09-09,hubspot,email
+CM-51104,CMP-109,L-5534,Meeting Booked,True,2026-01-07,hubspot,email
+CM-51105,CMP-118,L-5534,Downloaded,True,2026-05-08,linkedin,organic
+CM-51107,CMP-121,L-5534,Replied,True,2026-06-29,hubspot,email
+CM-51106,CMP-126,L-5534,Met at Booth,True,2026-09-15,sardinecon,event
+CM-51108,CMP-116,L-5535,Watched On-Demand,True,2026-06-16,hubspot,webinar
+CM-51109,CMP-134,L-5535,Meeting Booked,True,2026-07-19,hubspot,email
+CM-51110,CMP-113,L-5536,Met at Booth,True,2026-05-05,sardinecon,event
+CM-51111,CMP-134,L-5536,Meeting Booked,True,2026-08-03,hubspot,email
+CM-51112,CMP-101,L-5537,Met at Booth,True,2026-02-21,sardinecon,event
+CM-51113,CMP-137,L-5538,Chat Engaged,True,2026-07-31,google,cpc
+CM-51114,CMP-123,L-5539,Referred,True,2026-06-25,partner,referral
+CM-51115,CMP-135,L-5539,Replied,True,2026-08-12,hubspot,email
+CM-51116,CMP-112,L-5540,Demo Requested,True,2026-01-25,google,cpc
+CM-51117,CMP-135,L-5540,Sent,False,2026-07-01,hubspot,email
+CM-51118,CMP-132,L-5540,Clicked,False,2026-08-27,linkedin,paid_social
+CM-51119,CMP-125,L-5541,Chat Engaged,True,2026-06-06,google,cpc
+CM-51120,CMP-114,L-5541,Met at Booth,True,2026-06-29,sardinecon,event
+CM-51121,CMP-135,L-5541,Sent,False,2026-09-03,hubspot,email
+CM-51122,CMP-123,L-5542,Referred,True,2026-05-09,partner,referral
+CM-51123,CMP-122,L-5542,Replied,True,2026-06-03,hubspot,email
+CM-51124,CMP-109,L-5543,Meeting Booked,True,2026-02-14,hubspot,email
+CM-51125,CMP-132,L-5543,Converted,True,2026-08-29,linkedin,paid_social
+CM-51126,CMP-109,L-5544,Replied,True,2026-01-28,hubspot,email
+CM-51128,CMP-135,L-5544,Replied,True,2026-07-21,hubspot,email
+CM-51127,CMP-128,L-5544,Attended,True,2026-09-21,hubspot,webinar
+CM-51129,CMP-125,L-5545,Demo Requested,True,2026-04-28,google,cpc
+CM-51131,CMP-116,L-5545,Attended,True,2026-05-19,hubspot,webinar
+CM-51130,CMP-135,L-5545,Meeting Booked,True,2026-08-03,hubspot,email
+CM-51132,CMP-109,L-5546,Meeting Booked,True,2026-03-23,hubspot,email
+CM-51133,CMP-118,L-5546,Downloaded,True,2026-05-15,linkedin,organic
+CM-51134,CMP-133,L-5547,Converted,True,2026-07-13,linkedin,paid_social
+CM-51135,CMP-134,L-5547,Meeting Booked,True,2026-08-17,hubspot,email
+CM-51136,CMP-121,L-5548,Replied,True,2026-05-05,hubspot,email
+CM-51137,CMP-122,L-5549,Replied,True,2026-04-26,hubspot,email
+CM-51138,CMP-132,L-5549,Converted,True,2026-08-04,linkedin,paid_social
+CM-51139,CMP-122,L-5550,Replied,True,2026-06-25,hubspot,email
+CM-51140,CMP-128,L-5550,Attended,True,2026-08-25,hubspot,webinar
+CM-51141,CMP-137,L-5551,Demo Requested,True,2026-07-13,google,cpc
+CM-51142,CMP-106,L-5552,Converted,True,2026-03-13,linkedin,paid_social
+CM-51143,CMP-117,L-5552,Downloaded,True,2026-06-27,linkedin,organic
+CM-51144,CMP-115,L-5553,Attended,True,2026-06-23,hubspot,webinar
+CM-51145,CMP-109,L-5554,Replied,True,2026-01-17,hubspot,email
+CM-51146,CMP-103,L-5555,Watched On-Demand,True,2026-03-03,hubspot,webinar
+CM-51147,CMP-113,L-5555,Attended,True,2026-05-19,sardinecon,event
+CM-51148,CMP-120,L-5556,Converted,True,2026-05-10,linkedin,paid_social
+CM-51149,CMP-129,L-5556,Registered,False,2026-09-20,hubspot,webinar
+CM-51150,CMP-132,L-5557,Converted,True,2026-07-09,linkedin,paid_social
+CM-51151,CMP-116,L-5558,Watched On-Demand,True,2026-06-09,hubspot,webinar
+CM-51154,CMP-134,L-5558,Meeting Booked,True,2026-07-14,hubspot,email
+CM-51153,CMP-132,L-5558,Converted,True,2026-07-15,linkedin,paid_social
+CM-51152,CMP-134,L-5558,Replied,True,2026-08-03,hubspot,email
+CM-51155,CMP-129,L-5559,Attended,True,2026-09-10,hubspot,webinar
+CM-51156,CMP-135,L-5559,Meeting Booked,True,2026-09-18,hubspot,email
+CM-51157,CMP-117,L-5560,Downloaded,True,2026-05-01,linkedin,organic
+CM-51158,CMP-118,L-5560,Downloaded,True,2026-05-16,linkedin,organic
+CM-51159,CMP-120,L-5561,Converted,True,2026-05-10,linkedin,paid_social
+CM-51161,CMP-127,L-5561,Registered,False,2026-07-04,sardinecon,event
+CM-51160,CMP-133,L-5561,Converted,True,2026-09-24,linkedin,paid_social
+CM-51162,CMP-105,L-5562,Downloaded,True,2026-02-05,linkedin,organic
+CM-51164,CMP-104,L-5562,Downloaded,True,2026-02-22,linkedin,organic
+CM-51165,CMP-114,L-5562,Met at Booth,True,2026-06-15,sardinecon,event
+CM-51163,CMP-130,L-5562,Downloaded,True,2026-07-26,linkedin,organic
+CM-51166,CMP-133,L-5563,Converted,True,2026-09-11,linkedin,paid_social
+CM-51167,CMP-129,L-5563,Attended,True,2026-09-21,hubspot,webinar
+CM-51168,CMP-135,L-5564,Replied,True,2026-09-21,hubspot,email
+CM-51169,CMP-138,L-5565,Chat Engaged,True,2026-09-11,google,cpc
+CM-51170,CMP-118,L-5566,Downloaded,True,2026-05-03,linkedin,organic
+CM-51173,CMP-129,L-5566,Watched On-Demand,True,2026-08-10,hubspot,webinar
+CM-51172,CMP-132,L-5566,Converted,True,2026-08-25,linkedin,paid_social
+CM-51171,CMP-135,L-5566,Replied,True,2026-09-25,hubspot,email
+CM-51174,CMP-103,L-5567,Watched On-Demand,True,2026-03-26,hubspot,webinar
+CM-51175,CMP-113,L-5568,Attended,True,2026-06-10,sardinecon,event
+CM-51177,CMP-120,L-5568,Converted,True,2026-06-26,linkedin,paid_social
+CM-51176,CMP-131,L-5568,Downloaded,True,2026-09-07,linkedin,organic
+CM-51178,CMP-117,L-5569,Downloaded,True,2026-04-18,linkedin,organic
+CM-51179,CMP-126,L-5569,Met at Booth,True,2026-08-31,sardinecon,event
+CM-51180,CMP-124,L-5570,Chat Engaged,True,2026-05-25,google.com,cpc
+CM-51182,CMP-134,L-5570,Meeting Booked,True,2026-07-02,Hubspot,email
+CM-51181,CMP-129,L-5570,Attended,True,2026-07-11,hubspot,webinar
+CM-51183,CMP-121,L-5571,Replied,True,2026-05-28,hubspot,email
+CM-51184,CMP-129,L-5572,Attended,True,2026-08-04,hubspot,webinar
+CM-51187,CMP-130,L-5572,Downloaded,True,2026-08-12,linkedin,organic
+CM-51186,CMP-132,L-5572,Converted,True,2026-09-08,linkedin,paid_social
+CM-51185,CMP-134,L-5572,Replied,True,2026-09-21,hubspot,email
+CM-51188,CMP-100,L-5573,Met at Booth,True,2026-02-08,sardinecon,event
+CM-51189,CMP-109,L-5574,Meeting Booked,True,2026-01-13,hubspot,email
+CM-51190,CMP-134,L-5574,Replied,True,2026-08-30,hubspot,email
+CM-51191,CMP-124,L-5575,Chat Engaged,True,2026-04-12,google,cpc
+CM-51193,CMP-117,L-5575,Downloaded,True,2026-04-20,linkedin,organic
+CM-51192,CMP-118,L-5575,Downloaded,True,2026-04-23,linkedin,organic
+CM-51194,CMP-114,L-5575,Met at Booth,True,2026-04-24,sardinecon,event
+CM-51195,CMP-118,L-5576,Downloaded,True,2026-05-17,linkedin,organic
+CM-51196,CMP-100,L-5577,Attended,True,2026-02-09,sardinecon,event
+CM-51197,CMP-115,L-5577,No Show,False,2026-05-18,hubspot,webinar
+CM-51198,CMP-129,L-5577,Attended,True,2026-09-10,hubspot,webinar
+CM-51199,CMP-138,L-5578,Demo Requested,True,2026-07-18,google,cpc
+CM-51200,CMP-129,L-5578,Watched On-Demand,True,2026-09-22,hubspot,webinar
+CM-51201,CMP-133,L-5578,Converted,True,2026-09-23,linkedin,paid_social
+CM-51202,CMP-122,L-5579,Meeting Booked,True,2026-06-16,hubspot,email
+CM-51204,CMP-129,L-5579,Attended,True,2026-08-19,hubspot,webinar
+CM-51203,CMP-133,L-5579,Converted,True,2026-08-20,linkedin,paid_social
+CM-51205,CMP-108,L-5580,Meeting Booked,True,2026-02-07,hubspot,email
+CM-51207,CMP-109,L-5580,Replied,True,2026-02-10,hubspot,email
+CM-51206,CMP-130,L-5580,Downloaded,True,2026-08-05,linkedin,organic
+CM-51208,CMP-102,L-5581,Attended,True,2026-01-09,hubspot,webinar
+CM-51209,CMP-135,L-5581,Meeting Booked,True,2026-07-14,hubspot,email
+CM-51210,CMP-113,L-5582,Attended,True,2026-04-07,sardinecon,event
+CM-51211,CMP-117,L-5582,Downloaded,True,2026-05-19,linkedin,organic
+CM-51212,CMP-134,L-5582,Replied,True,2026-07-20,hubspot,email
+CM-51213,CMP-126,L-5582,Attended,True,2026-08-27,sardinecon_,event
+CM-51214,CMP-109,L-5583,Meeting Booked,True,2026-03-19,hubspot,email
+CM-51215,CMP-129,L-5584,Watched On-Demand,True,2026-08-18,hubspot,webinar
+CM-51216,CMP-132,L-5584,Clicked,False,2026-09-09,linkedin,paid_social
+CM-51217,CMP-123,L-5585,Referred,True,2026-04-27,partner,referral
+CM-51218,CMP-119,L-5585,Clicked,False,2026-05-07,linkedin,paid_social
+CM-51219,CMP-128,L-5585,No Show,False,2026-08-17,Hubspot,webinar
+CM-51220,CMP-122,L-5586,Replied,True,2026-06-21,hubspot,email
+CM-51221,CMP-135,L-5587,Meeting Booked,True,2026-07-31,hubspot,email
+CM-51222,CMP-128,L-5587,Attended,True,2026-09-03,hubspot,webinar
+CM-51223,CMP-133,L-5587,Converted,True,2026-09-14,linkedin,paid_social
+CM-51224,CMP-101,L-5588,Met at Booth,True,2026-02-06,sardinecon,event
+CM-51225,CMP-133,L-5588,Converted,True,2026-08-23,linkedin,paid_social
+CM-51226,CMP-122,L-5589,Meeting Booked,True,2026-06-11,hubspot,email
+CM-51227,CMP-135,L-5589,Sent,False,2026-09-23,hubspot,email
+CM-51228,CMP-136,L-5590,Referred,True,2026-07-05,partner,referral
+CM-51230,CMP-129,L-5590,Watched On-Demand,True,2026-07-17,hubspot,webinar
+CM-51229,CMP-128,L-5590,Watched On-Demand,True,2026-09-17,hubspot,webinar
+CM-51231,CMP-115,L-5591,Attended,True,2026-04-30,Hubspot,webinar
+CM-51232,CMP-131,L-5591,Downloaded,True,2026-08-04,linkedin,organic
+CM-51233,CMP-117,L-5592,Downloaded,True,2026-06-13,linkedin,organic
+CM-51234,CMP-104,L-5593,Downloaded,True,2026-03-23,linkedin,organic
+CM-51235,CMP-129,L-5593,Watched On-Demand,True,2026-09-16,hubspot,webinar
+CM-51236,CMP-128,L-5594,Attended,True,2026-08-25,Hubspot,webinar
+CM-51237,CMP-127,L-5594,Met at Booth,True,2026-08-29,sardinecon,event
+CM-51238,CMP-131,L-5594,Downloaded,True,2026-09-18,linkedin,organic
+CM-51239,CMP-117,L-5595,Downloaded,True,2026-06-03,linkedin,organic
+CM-51240,CMP-120,L-5596,Converted,True,2026-05-26,linkedin,paid_social
+CM-51241,CMP-109,L-5597,Meeting Booked,True,2026-02-27,hubspot,email
+CM-51242,CMP-134,L-5598,Replied,True,2026-08-08,hubspot,email
+CM-51243,CMP-127,L-5598,Met at Booth,True,2026-09-25,sardinecon,event
+CM-51244,CMP-125,L-5599,Demo Requested,True,2026-04-07,google,cpc
+CM-51246,CMP-113,L-5599,No Show,False,2026-04-30,sardinecon,event
+CM-51245,CMP-134,L-5599,Replied,True,2026-09-17,hubspot,email
+CM-51247,CMP-123,L-5600,Referred,True,2026-04-22,partner,referral
+CM-51249,CMP-130,L-5600,Downloaded,True,2026-09-04,linkedin,organic
+CM-51248,CMP-133,L-5600,Converted,True,2026-09-16,linkedin,paid_social
+CM-51250,CMP-131,L-5601,Downloaded,True,2026-07-19,linkedin,organic
+CM-51253,CMP-128,L-5601,Watched On-Demand,True,2026-08-08,hubspot,webinar
+CM-51251,CMP-134,L-5601,Sent,False,2026-09-08,hubspot,email
+CM-51252,CMP-126,L-5601,Met at Booth,True,2026-09-15,sardinecon,event
+CM-51254,CMP-136,L-5602,Referred,True,2026-09-21,partner,referral
+CM-51255,CMP-131,L-5602,Downloaded,True,2026-09-24,linkedin,organic
+CM-51256,CMP-129,L-5603,Attended,True,2026-07-27,hubspot,webinar
+CM-51257,CMP-129,L-5603,Attended,True,2026-08-22,Hubspot,webinar
+CM-51258,CMP-117,L-5604,Downloaded,True,2026-04-27,linkedin,organic
+CM-51259,CMP-117,L-5604,Downloaded,True,2026-05-08,LinkedIn,organic
+CM-51260,CMP-128,L-5604,Watched On-Demand,True,2026-08-16,hubspot,webinar
+CM-51261,CMP-128,L-5605,Attended,True,2026-08-04,hubspot,webinar
+CM-51263,CMP-129,L-5605,Registered,False,2026-08-17,hubspot,webinar
+CM-51264,CMP-132,L-5605,Converted,True,2026-09-06,linkedin,paid_social
+CM-51262,CMP-133,L-5605,Converted,True,2026-09-13,linkedin,paid_social
+CM-51265,CMP-111,L-5606,Chat Engaged,True,2026-03-11,google,cpc
+CM-51266,CMP-126,L-5606,No Show,False,2026-08-19,sardinecon,event
+CM-51267,CMP-100,L-5607,Met at Booth,True,2026-02-03,sardinecon,event
+CM-51268,CMP-121,L-5607,Meeting Booked,True,2026-06-03,hubspot,email
+CM-51269,CMP-126,L-5607,Attended,True,2026-09-27,sardinecon,event
+CM-51270,CMP-109,L-5608,Replied,True,2026-03-14,hubspot,email
+CM-51271,CMP-110,L-5609,Referred,True,2026-02-06,partner,referral
+CM-51272,CMP-114,L-5609,Attended,True,2026-04-14,sardinecon,event
+CM-51273,CMP-124,L-5610,Chat Engaged,True,2026-04-08,google,cpc
+CM-51274,CMP-121,L-5610,Sent,False,2026-04-28,hubspot,email
+CM-51275,CMP-119,L-5610,Clicked,False,2026-06-17,linkedin,paid_social
+CM-51276,CMP-110,L-5611,Referred,True,2026-02-22,partner,referral
+CM-51277,CMP-107,L-5611,Converted,True,2026-02-26,linkedin,paid_social
+CM-51279,CMP-103,L-5611,Registered,False,2026-02-26,hubspot,webinar
+CM-51278,CMP-100,L-5611,Attended,True,2026-03-01,sardinecon,event
+CM-51280,CMP-117,L-5612,Downloaded,True,2026-04-03,linkedin,organic
+CM-51282,CMP-120,L-5612,Converted,True,2026-06-19,linkedin,paid_social
+CM-51283,CMP-114,L-5612,Attended,True,2026-06-23,sardinecon,event
+CM-51281,CMP-132,L-5612,Converted,True,2026-07-22,linkedin,paid_social
+CM-51284,CMP-119,L-5613,Converted,True,2026-06-13,linkedin,paid_social
+CM-51285,CMP-117,L-5614,Downloaded,True,2026-06-27,linkedin,organic
+CM-51286,CMP-115,L-5614,Watched On-Demand,True,2026-06-28,hubspot,webinar
+CM-51287,CMP-130,L-5614,Downloaded,True,2026-07-20,linkedin,organic
+CM-51288,CMP-138,L-5615,Demo Requested,True,2026-09-28,google,cpc
+CM-51289,CMP-129,L-5615,Watched On-Demand,True,2026-09-29,hubspot,webinar
+CM-51290,CMP-134,L-5616,Replied,True,2026-07-30,hubspot,email
+CM-51291,CMP-130,L-5616,Downloaded,True,2026-08-28,linkedin,organic
+CM-51293,CMP-130,L-5616,Downloaded,True,2026-08-28,linkedin,organic
+CM-51292,CMP-128,L-5616,Watched On-Demand,True,2026-08-29,hubspot,webinar
+CM-51294,CMP-125,L-5617,Chat Engaged,True,2026-06-14,google,cpc
+CM-51295,CMP-130,L-5617,Downloaded,True,2026-07-10,linkedin,organic
+CM-51296,CMP-129,L-5617,Watched On-Demand,True,2026-07-25,hubspot,webinar
+CM-51297,CMP-124,L-5618,Demo Requested,True,2026-04-24,google,cpc
+CM-51299,CMP-113,L-5618,No Show,False,2026-06-16,sardinecon,event
+CM-51300,CMP-118,L-5618,Downloaded,True,2026-06-16,linkedin,organic
+CM-51298,CMP-119,L-5618,Converted,True,2026-06-25,linkedin,paid_social
+CM-51301,CMP-121,L-5619,Replied,True,2026-04-05,hubspot,email
+CM-51303,CMP-122,L-5619,Sent,False,2026-06-01,hubspot,email
+CM-51302,CMP-130,L-5619,Downloaded,True,2026-09-26,linkedin,organic
+CM-51304,CMP-118,L-5620,Downloaded,True,2026-05-27,linkedin,organic
+CM-51305,CMP-130,L-5620,Downloaded,True,2026-07-19,linkedin,organic
+CM-51306,CMP-116,L-5621,Watched On-Demand,True,2026-06-21,hubspot,webinar
+CM-51307,CMP-127,L-5621,Attended,True,2026-09-22,sardinecon,event
+CM-51308,CMP-105,L-5622,Downloaded,True,2026-03-03,linkedin,organic
+CM-51309,CMP-113,L-5623,Met at Booth,True,2026-04-22,sardinecon,event
+CM-51311,CMP-113,L-5623,No Show,False,2026-04-25,sardinecon,event
+CM-51310,CMP-126,L-5623,Attended,True,2026-07-23,sardinecon,event
+CM-51312,CMP-106,L-5624,Converted,True,2026-03-24,linkedin,paid_social
+CM-51313,CMP-103,L-5625,Attended,True,2026-03-28,hubspot,webinar
+CM-51314,CMP-132,L-5625,Converted,True,2026-07-29,linkedin,paid_social
+CM-51315,CMP-108,L-5626,Replied,True,2026-01-08,hubspot,email
+CM-51317,CMP-101,L-5626,Met at Booth,True,2026-01-15,sardinecon,event
+CM-51318,CMP-126,L-5626,Met at Booth,True,2026-07-02,sardinecon,event
+CM-51316,CMP-131,L-5626,Downloaded,True,2026-08-21,linkedin,organic
+CM-51319,CMP-132,L-5627,Converted,True,2026-07-21,linkedin,paid_social
+CM-51320,CMP-126,L-5627,Attended,True,2026-08-16,sardinecon,event
+CM-51321,CMP-135,L-5627,Meeting Booked,True,2026-09-14,hubspot,email
+CM-51322,CMP-116,L-5628,Watched On-Demand,True,2026-05-16,hubspot,webinar
+CM-51323,CMP-135,L-5629,Meeting Booked,True,2026-08-08,Hubspot,email
+CM-51324,CMP-135,L-5630,Replied,True,2026-07-10,hubspot,email
+CM-51325,CMP-131,L-5630,Downloaded,True,2026-08-13,linkedin,organic
+CM-51326,CMP-117,L-5631,Downloaded,True,2026-04-17,linkedin,organic
+CM-51327,CMP-109,L-5632,Replied,True,2026-03-23,hubspot,email
+CM-51329,CMP-115,L-5632,Registered,False,2026-05-10,hubspot,webinar
+CM-51328,CMP-133,L-5632,Clicked,False,2026-07-15,linkedin,paid_social
+CM-51330,CMP-113,L-5633,Attended,True,2026-06-14,sardinecon,event
+CM-51332,CMP-116,L-5633,Attended,True,2026-06-27,hubspot,webinar
+CM-51331,CMP-118,L-5633,Downloaded,True,2026-06-30,linkedin,organic
+CM-51333,CMP-110,L-5634,Referred,True,2026-03-27,partner,referral
+CM-51335,CMP-117,L-5634,Downloaded,True,2026-05-17,linkedin,organic
+CM-51334,CMP-132,L-5634,Converted,True,2026-07-04,linkedin,paid_social
+CM-51336,CMP-138,L-5635,Chat Engaged,True,2026-08-22,google,cpc
+CM-51337,CMP-132,L-5635,Converted,True,2026-08-25,linkedin,paid_social
+CM-51338,CMP-127,L-5635,Met at Booth,True,2026-09-10,sardinecon,event
+CM-51339,CMP-128,L-5636,Attended,True,2026-08-06,hubspot,webinar
+CM-51340,CMP-129,L-5636,Watched On-Demand,True,2026-08-12,hubspot,webinar
+CM-51341,CMP-106,L-5637,Converted,True,2026-01-25,linkedin,paid_social
+CM-51342,CMP-134,L-5638,Meeting Booked,True,2026-09-02,hubspot,email
+CM-51343,CMP-132,L-5638,Converted,True,2026-09-16,linkedin,paid_social
+CM-51344,CMP-124,L-5639,Chat Engaged,True,2026-05-21,google,cpc
+CM-51345,CMP-115,L-5639,Attended,True,2026-06-06,Hubspot,webinar
+CM-51346,CMP-124,L-5640,Chat Engaged,True,2026-06-28,google.com,cpc
+CM-51347,CMP-123,L-5641,Referred,True,2026-06-18,partner,referral
+CM-51349,CMP-133,L-5641,Converted,True,2026-07-18,linkedin,paid_social
+CM-51348,CMP-129,L-5641,Watched On-Demand,True,2026-09-15,hubspot,webinar
+CM-51350,CMP-128,L-5641,No Show,False,2026-09-22,hubspot,webinar
+CM-51351,CMP-120,L-5642,Converted,True,2026-04-16,linkedin,paid_social
+CM-51352,CMP-109,L-5643,Meeting Booked,True,2026-03-29,hubspot,email
+CM-51353,CMP-126,L-5643,Registered,False,2026-08-04,sardinecon,event
+CM-51354,CMP-112,L-5644,Chat Engaged,True,2026-03-28,google,cpc
+CM-51355,CMP-121,L-5645,Replied,True,2026-06-17,hubspot,email
+CM-51356,CMP-135,L-5646,Meeting Booked,True,2026-08-30,hubspot,email
+CM-51357,CMP-132,L-5646,Converted,True,2026-09-18,linkedin,paid_social
+CM-51358,CMP-116,L-5647,Watched On-Demand,True,2026-04-03,hubspot,webinar
+CM-51359,CMP-116,L-5647,Watched On-Demand,True,2026-04-22,hubspot,webinar
+CM-51360,CMP-128,L-5648,Watched On-Demand,True,2026-08-15,hubspot,webinar
+CM-51361,CMP-126,L-5648,Attended,True,2026-08-17,sardinecon,event
+CM-51362,CMP-129,L-5648,No Show,False,2026-08-28,hubspot,webinar
+CM-51363,CMP-134,L-5648,Meeting Booked,True,2026-08-31,hubspot,email
+CM-51364,CMP-134,L-5649,Meeting Booked,True,2026-08-06,hubspot,email
+CM-51365,CMP-126,L-5649,Met at Booth,True,2026-09-06,sardinecon,event
+CM-51366,CMP-101,L-5650,Attended,True,2026-03-11,sardinecon,event
+CM-51367,CMP-128,L-5650,Attended,True,2026-09-09,hubspot,webinar
+CM-51368,CMP-113,L-5651,Attended,True,2026-06-28,sardinecon,event
+CM-51369,CMP-109,L-5652,Meeting Booked,True,2026-02-22,hubspot,email
+CM-51370,CMP-120,L-5652,Converted,True,2026-06-02,linkedin,paid_social
+CM-51371,CMP-100,L-5653,Attended,True,2026-01-06,sardinecon,event
+CM-51374,CMP-103,L-5653,Watched On-Demand,True,2026-01-08,hubspot,webinar
+CM-51373,CMP-101,L-5653,Attended,True,2026-01-14,sardinecon,event
+CM-51372,CMP-106,L-5653,Converted,True,2026-03-06,linkedin,paid_social
+CM-51375,CMP-107,L-5654,Converted,True,2026-03-07,linkedin,paid_social
+CM-51376,CMP-113,L-5654,Attended,True,2026-05-31,sardinecon,event
+CM-51377,CMP-126,L-5654,Attended,True,2026-08-17,sardinecon,event
+CM-51378,CMP-108,L-5655,Replied,True,2026-03-21,hubspot,email
+CM-51379,CMP-104,L-5655,Downloaded,True,2026-03-28,linkedin,organic
+CM-51380,CMP-101,L-5656,Met at Booth,True,2026-03-18,sardinecon,event
+CM-51383,CMP-109,L-5656,Meeting Booked,True,2026-03-25,hubspot,email
+CM-51382,CMP-115,L-5656,Attended,True,2026-06-14,hubspot,webinar
+CM-51381,CMP-131,L-5656,Downloaded,True,2026-07-30,linkedin,organic
+CM-51384,CMP-108,L-5657,Replied,True,2026-03-13,hubspot,email
+CM-51385,CMP-122,L-5657,Replied,True,2026-05-17,hubspot,email
+CM-51386,CMP-116,L-5657,Watched On-Demand,True,2026-05-28,hubspot,webinar
+CM-51387,CMP-132,L-5657,Converted,True,2026-08-25,linkedin,paid_social
+CM-51388,CMP-126,L-5658,Attended,True,2026-08-04,sardinecon,event
+CM-51389,CMP-135,L-5658,Meeting Booked,True,2026-08-21,hubspot,email
+CM-51390,CMP-111,L-5659,Demo Requested,True,2026-01-17,google,cpc
+CM-51391,CMP-111,L-5660,Demo Requested,True,2026-02-08,google,cpc
+CM-51392,CMP-114,L-5660,Met at Booth,True,2026-06-09,sardinecon,event
+CM-51393,CMP-110,L-5661,Referred,True,2026-03-23,partner,referral
+CM-51394,CMP-121,L-5662,Replied,True,2026-05-31,hubspot,email
+CM-51395,CMP-115,L-5662,No Show,False,2026-06-03,hubspot,webinar
+CM-51396,CMP-135,L-5663,Meeting Booked,True,2026-07-08,hubspot,email
+CM-51399,CMP-128,L-5663,Registered,False,2026-07-12,hubspot,webinar
+CM-51398,CMP-135,L-5663,Sent,False,2026-08-27,hubspot,email
+CM-51397,CMP-134,L-5663,Meeting Booked,True,2026-09-15,hubspot,email
+CM-51400,CMP-134,L-5664,Replied,True,2026-08-27,hubspot,email
+CM-51402,CMP-133,L-5664,Converted,True,2026-09-01,linkedin,paid_social
+CM-51401,CMP-133,L-5664,Converted,True,2026-09-08,linkedin,paid_social
+CM-51403,CMP-134,L-5665,Replied,True,2026-08-20,hubspot,email
+CM-51405,CMP-134,L-5665,Meeting Booked,True,2026-09-20,hubspot,email
+CM-51406,CMP-128,L-5665,Attended,True,2026-09-25,hubspot,webinar
+CM-51404,CMP-135,L-5665,Replied,True,2026-09-26,hubspot,email
+CM-51407,CMP-122,L-5666,Meeting Booked,True,2026-05-19,hubspot,email
+CM-51408,CMP-134,L-5667,Replied,True,2026-08-31,hubspot,email
+CM-51409,CMP-133,L-5667,Clicked,False,2026-09-26,LinkedIn,paid_social
+CM-51410,CMP-106,L-5668,Converted,True,2026-01-17,linkedin,paid_social
+CM-51411,CMP-103,L-5668,Attended,True,2026-02-02,hubspot,webinar
+CM-51412,CMP-136,L-5669,Referred,True,2026-09-03,partner,referral
+CM-51414,CMP-128,L-5669,Registered,False,2026-09-28,hubspot,webinar
+CM-51413,CMP-133,L-5669,Clicked,False,2026-09-29,linkedin,paid_social
+CM-51415,CMP-115,L-5670,Watched On-Demand,True,2026-06-03,hubspot,webinar
+CM-51416,CMP-118,L-5670,Downloaded,True,2026-06-21,linkedin,organic
+CM-51417,CMP-135,L-5670,Meeting Booked,True,2026-07-17,hubspot,email
+CM-51418,CMP-123,L-5671,Referred,True,2026-06-29,partner,referral
+CM-51419,CMP-127,L-5671,No Show,False,2026-09-10,sardinecon_,event
+CM-51420,CMP-110,L-5672,Referred,True,2026-01-26,partner,referral
+CM-51421,CMP-101,L-5672,Met at Booth,True,2026-02-16,sardinecon,event
+CM-51422,CMP-134,L-5673,Meeting Booked,True,2026-07-03,hubspot,email
+CM-51425,CMP-132,L-5673,Clicked,False,2026-07-06,linkedin,paid_social
+CM-51423,CMP-135,L-5673,Meeting Booked,True,2026-09-02,hubspot,email
+CM-51424,CMP-129,L-5673,Watched On-Demand,True,2026-09-27,hubspot,webinar
+CM-51426,CMP-118,L-5674,Downloaded,True,2026-06-09,linkedin,organic
+CM-51427,CMP-114,L-5674,Attended,True,2026-06-11,sardinecon,event
+CM-51428,CMP-122,L-5675,Meeting Booked,True,2026-06-29,hubspot,email
+CM-51429,CMP-136,L-5676,Referred,True,2026-07-20,partner,referral
+CM-51430,CMP-109,L-5677,Replied,True,2026-02-22,hubspot,email
+CM-51431,CMP-107,L-5677,Converted,True,2026-02-24,linkedin,paid_social
+CM-51432,CMP-129,L-5678,Watched On-Demand,True,2026-09-19,hubspot,webinar
+CM-51434,CMP-128,L-5678,No Show,False,2026-09-23,hubspot,webinar
+CM-51433,CMP-131,L-5678,Downloaded,True,2026-09-24,linkedin,organic
+CM-51435,CMP-135,L-5678,Meeting Booked,True,2026-09-27,hubspot,email
+CM-51436,CMP-106,L-5679,Converted,True,2026-01-25,linkedin,paid_social
+CM-51437,CMP-122,L-5679,Meeting Booked,True,2026-04-09,hubspot,email
+CM-51438,CMP-113,L-5680,Attended,True,2026-04-29,sardinecon,event
+CM-51439,CMP-121,L-5680,Meeting Booked,True,2026-05-25,hubspot,email
+CM-51440,CMP-106,L-5681,Converted,True,2026-01-22,linkedin,paid_social
+CM-51441,CMP-113,L-5681,Met at Booth,True,2026-04-02,sardinecon,event
+CM-51442,CMP-112,L-5682,Demo Requested,True,2026-03-07,google,cpc
+CM-51443,CMP-135,L-5682,Meeting Booked,True,2026-08-03,hubspot,email
+CM-51444,CMP-110,L-5683,Referred,True,2026-03-05,partner,referral
+CM-51445,CMP-115,L-5683,Watched On-Demand,True,2026-04-24,hubspot,webinar
+CM-51446,CMP-134,L-5683,Replied,True,2026-08-28,hubspot,email
+CM-51447,CMP-121,L-5684,Replied,True,2026-04-11,hubspot,email
+CM-51448,CMP-121,L-5684,Meeting Booked,True,2026-04-13,hubspot,email
+CM-51449,CMP-127,L-5685,Attended,True,2026-08-04,sardinecon,event
+CM-51451,CMP-127,L-5685,Met at Booth,True,2026-08-15,sardinecon,event
+CM-51450,CMP-135,L-5685,Sent,False,2026-08-19,hubspot,email
+CM-51452,CMP-132,L-5686,Converted,True,2026-09-28,linkedin,paid_social
+CM-51453,CMP-122,L-5687,Replied,True,2026-05-27,Hubspot,email
+CM-51454,CMP-128,L-5687,Watched On-Demand,True,2026-08-31,hubspot,webinar
+CM-51455,CMP-108,L-5688,Replied,True,2026-03-16,hubspot,email
+CM-51456,CMP-104,L-5688,Downloaded,True,2026-03-21,linkedin,organic
+CM-51457,CMP-126,L-5688,Met at Booth,True,2026-07-02,sardinecon,event
+CM-51458,CMP-129,L-5688,Watched On-Demand,True,2026-07-27,hubspot,webinar
+CM-51459,CMP-113,L-5689,Attended,True,2026-05-01,sardinecon,event
+CM-51460,CMP-136,L-5690,Referred,True,2026-07-09,partner,referral
+CM-51461,CMP-132,L-5691,Converted,True,2026-09-09,linkedin,paid_social
+CM-51462,CMP-133,L-5691,Converted,True,2026-09-19,linkedin,paid_social
+CM-51463,CMP-134,L-5692,Meeting Booked,True,2026-09-23,hubspot,email
+CM-51464,CMP-128,L-5692,No Show,False,2026-09-25,hubspot,webinar
+CM-51465,CMP-133,L-5692,Converted,True,2026-09-26,linkedin,paid_social
+CM-51466,CMP-112,L-5693,Demo Requested,True,2026-01-26,google,cpc
+CM-51469,CMP-102,L-5693,Watched On-Demand,True,2026-03-05,hubspot,webinar
+CM-51468,CMP-114,L-5693,Met at Booth,True,2026-05-31,sardinecon,event
+CM-51467,CMP-126,L-5693,Met at Booth,True,2026-08-30,sardinecon,event
+CM-51470,CMP-123,L-5694,Referred,True,2026-05-21,partner,referral
+CM-51471,CMP-131,L-5694,Downloaded,True,2026-07-03,linkedin,organic
+CM-51472,CMP-111,L-5695,Demo Requested,True,2026-03-09,google.com,cpc
+CM-51473,CMP-133,L-5695,Converted,True,2026-09-23,linkedin,paid_social
+CM-51474,CMP-111,L-5696,Demo Requested,True,2026-02-25,google,cpc
+CM-51475,CMP-122,L-5696,Meeting Booked,True,2026-05-22,Hubspot,email
+CM-51476,CMP-134,L-5697,Replied,True,2026-09-21,hubspot,email
+CM-51477,CMP-104,L-5698,Downloaded,True,2026-01-17,linkedin,organic
+CM-51478,CMP-100,L-5698,Met at Booth,True,2026-01-26,sardinecon,event
+CM-51479,CMP-123,L-5699,Referred,True,2026-04-27,partner,referral
+CM-51480,CMP-129,L-5699,Watched On-Demand,True,2026-07-31,hubspot,webinar
+CM-51481,CMP-129,L-5699,Attended,True,2026-08-17,hubspot,webinar
+CM-51482,CMP-110,L-5700,Referred,True,2026-03-31,partner,referral
+CM-51483,CMP-111,L-5701,Chat Engaged,True,2026-02-08,google,cpc
+CM-51484,CMP-117,L-5701,Downloaded,True,2026-04-18,linkedin,organic
+CM-51485,CMP-135,L-5701,Meeting Booked,True,2026-08-27,hubspot,email
+CM-51486,CMP-131,L-5701,Downloaded,True,2026-09-25,linkedin,organic
+CM-51487,CMP-123,L-5702,Referred,True,2026-05-24,partner,referral
+CM-51488,CMP-129,L-5703,Watched On-Demand,True,2026-08-25,hubspot,webinar
+CM-51490,CMP-134,L-5703,Meeting Booked,True,2026-08-26,hubspot,email
+CM-51489,CMP-135,L-5703,Sent,False,2026-09-21,hubspot,email
+CM-51491,CMP-135,L-5704,Replied,True,2026-09-30,hubspot,email
+CM-51492,CMP-133,L-5705,Converted,True,2026-07-12,LinkedIn,paid_social
+CM-51493,CMP-108,L-5706,Meeting Booked,True,2026-03-21,hubspot,email
+CM-51494,CMP-116,L-5706,Watched On-Demand,True,2026-04-25,hubspot,webinar
+CM-51495,CMP-137,L-5707,Chat Engaged,True,2026-08-05,google,cpc
+CM-51496,CMP-108,L-5708,Replied,True,2026-01-25,hubspot,email
+CM-51497,CMP-126,L-5708,Attended,True,2026-08-02,sardinecon,event
+CM-51498,CMP-131,L-5709,Downloaded,True,2026-09-22,linkedin,organic
+CM-51499,CMP-136,L-5710,Referred,True,2026-08-14,partner,referral
+CM-51500,CMP-130,L-5710,Downloaded,True,2026-08-20,linkedin,organic
+CM-51501,CMP-122,L-5711,Meeting Booked,True,2026-05-26,hubspot,email
+CM-51502,CMP-102,L-5712,Watched On-Demand,True,2026-02-07,hubspot,webinar
+CM-51503,CMP-121,L-5712,Replied,True,2026-04-23,hubspot,email
+CM-51504,CMP-123,L-5713,Referred,True,2026-06-21,partner,referral
+CM-51505,CMP-102,L-5714,Attended,True,2026-02-28,hubspot,webinar
+CM-51506,CMP-120,L-5714,Converted,True,2026-05-25,linkedin,paid_social
+CM-51507,CMP-115,L-5715,Attended,True,2026-05-09,hubspot,webinar
+CM-51508,CMP-134,L-5715,Replied,True,2026-07-11,hubspot,email
+CM-51509,CMP-129,L-5715,Attended,True,2026-08-17,hubspot,webinar
+CM-51510,CMP-134,L-5716,Replied,True,2026-07-31,hubspot,email
+CM-51511,CMP-108,L-5717,Replied,True,2026-01-06,hubspot,email
+CM-51512,CMP-111,L-5718,Chat Engaged,True,2026-01-24,google,cpc
+CM-51513,CMP-106,L-5718,Converted,True,2026-01-26,linkedin,paid_social
+CM-51514,CMP-106,L-5718,Converted,True,2026-01-31,linkedin,paid_social
+CM-51515,CMP-104,L-5718,Downloaded,True,2026-01-31,linkedin,organic
+CM-51516,CMP-127,L-5719,Met at Booth,True,2026-07-25,sardinecon,event
+CM-51517,CMP-128,L-5719,Watched On-Demand,True,2026-08-15,hubspot,webinar
+CM-51518,CMP-112,L-5720,Chat Engaged,True,2026-02-14,google,cpc
+CM-51519,CMP-127,L-5720,Met at Booth,True,2026-07-06,sardinecon,event
+CM-51520,CMP-122,L-5721,Meeting Booked,True,2026-04-22,hubspot,email
+CM-51521,CMP-118,L-5721,Downloaded,True,2026-06-14,linkedin,organic
+CM-51522,CMP-127,L-5722,Attended,True,2026-08-09,sardinecon,event
+CM-51523,CMP-137,L-5723,Chat Engaged,True,2026-08-06,google,cpc
+CM-51524,CMP-132,L-5723,Converted,True,2026-08-30,linkedin,paid_social
+CM-51525,CMP-109,L-5724,Replied,True,2026-01-25,hubspot,email
+CM-51527,CMP-130,L-5724,Downloaded,True,2026-07-29,linkedin,organic
+CM-51526,CMP-126,L-5724,Met at Booth,True,2026-09-08,sardinecon,event
+CM-51528,CMP-124,L-5725,Chat Engaged,True,2026-06-07,google,cpc
+CM-51529,CMP-116,L-5725,Attended,True,2026-06-29,hubspot,webinar
+CM-51530,CMP-108,L-5726,Replied,True,2026-01-31,hubspot,email
+CM-51531,CMP-119,L-5726,Clicked,False,2026-04-13,linkedin,paid_social
+CM-51532,CMP-116,L-5727,Attended,True,2026-05-17,hubspot,webinar
+CM-51533,CMP-133,L-5727,Clicked,False,2026-08-02,linkedin,paid_social
+CM-51534,CMP-111,L-5728,Demo Requested,True,2026-03-08,google,cpc
+CM-51535,CMP-117,L-5728,Downloaded,True,2026-05-01,linkedin,organic
+CM-51536,CMP-102,L-5729,Watched On-Demand,True,2026-02-06,hubspot,webinar
+CM-51537,CMP-137,L-5730,Demo Requested,True,2026-08-14,google,cpc
+CM-51539,CMP-130,L-5730,Downloaded,True,2026-09-14,linkedin,organic
+CM-51538,CMP-135,L-5730,Meeting Booked,True,2026-09-27,hubspot,email
+CM-51540,CMP-127,L-5731,Met at Booth,True,2026-07-22,sardinecon,event
+CM-51541,CMP-135,L-5731,Sent,False,2026-08-09,hubspot,email
+CM-51543,CMP-128,L-5731,Attended,True,2026-08-19,hubspot,webinar
+CM-51542,CMP-127,L-5731,Attended,True,2026-09-12,sardinecon,event
+CM-51544,CMP-102,L-5732,Attended,True,2026-02-17,hubspot,webinar
+CM-51545,CMP-118,L-5732,Downloaded,True,2026-05-07,linkedin,organic
+CM-51546,CMP-125,L-5733,Chat Engaged,True,2026-06-04,google,cpc
+CM-51547,CMP-137,L-5734,Chat Engaged,True,2026-08-01,google,cpc
+CM-51548,CMP-132,L-5734,Converted,True,2026-08-14,linkedin,paid_social
+CM-51549,CMP-124,L-5735,Chat Engaged,True,2026-05-03,google,cpc
+CM-51550,CMP-100,L-5736,Met at Booth,True,2026-02-21,sardinecon,event
+CM-51551,CMP-117,L-5736,Downloaded,True,2026-04-07,linkedin,organic
+CM-51552,CMP-115,L-5737,Watched On-Demand,True,2026-05-20,hubspot,webinar
+CM-51553,CMP-113,L-5737,Met at Booth,True,2026-05-22,sardinecon,event
+CM-51554,CMP-110,L-5738,Referred,True,2026-01-07,partner,referral
+CM-51555,CMP-133,L-5739,Converted,True,2026-08-08,linkedin,paid_social
+CM-51556,CMP-117,L-5740,Downloaded,True,2026-05-03,linkedin,organic
+CM-51557,CMP-128,L-5741,Watched On-Demand,True,2026-08-21,hubspot,webinar
+CM-51558,CMP-127,L-5741,Attended,True,2026-09-21,sardinecon,event
+CM-51559,CMP-127,L-5742,Attended,True,2026-07-23,sardinecon,event
+CM-51560,CMP-128,L-5742,Watched On-Demand,True,2026-08-06,hubspot,webinar
+CM-51561,CMP-129,L-5742,Watched On-Demand,True,2026-08-22,hubspot,webinar
+CM-51562,CMP-137,L-5743,Chat Engaged,True,2026-08-04,google,cpc
+CM-51563,CMP-128,L-5743,Attended,True,2026-08-10,hubspot,webinar
+CM-51564,CMP-129,L-5744,Watched On-Demand,True,2026-08-17,hubspot,webinar
+CM-51565,CMP-126,L-5744,Met at Booth,True,2026-08-19,sardinecon,event
+CM-51566,CMP-130,L-5744,Downloaded,True,2026-08-23,linkedin,organic
+CM-51567,CMP-112,L-5745,Demo Requested,True,2026-02-06,google,cpc
+CM-51568,CMP-128,L-5745,No Show,False,2026-07-02,hubspot,webinar
+CM-51569,CMP-126,L-5745,Attended,True,2026-07-25,sardinecon,event
+CM-51570,CMP-108,L-5746,Replied,True,2026-01-05,hubspot,email
+CM-51571,CMP-102,L-5746,Attended,True,2026-03-18,hubspot,webinar
+CM-51572,CMP-108,L-5747,Meeting Booked,True,2026-02-23,hubspot,email
+CM-51573,CMP-103,L-5748,Attended,True,2026-02-26,hubspot,webinar
+CM-51574,CMP-109,L-5748,Meeting Booked,True,2026-02-27,hubspot,email
+CM-51575,CMP-121,L-5749,Replied,True,2026-05-28,hubspot,email
+CM-51578,CMP-116,L-5749,Watched On-Demand,True,2026-06-06,hubspot,webinar
+CM-51577,CMP-127,L-5749,Met at Booth,True,2026-08-21,sardinecon,event
+CM-51576,CMP-129,L-5749,No Show,False,2026-09-04,hubspot,webinar
+CM-51579,CMP-124,L-5750,Chat Engaged,True,2026-06-23,google,cpc
+CM-51580,CMP-117,L-5751,Downloaded,True,2026-05-25,linkedin,organic
+CM-51582,CMP-122,L-5751,Replied,True,2026-05-30,hubspot,email
+CM-51581,CMP-116,L-5751,Watched On-Demand,True,2026-06-04,hubspot,webinar
+CM-51583,CMP-114,L-5752,Met at Booth,True,2026-04-19,sardinecon,event
+CM-51584,CMP-124,L-5753,Demo Requested,True,2026-04-23,google,cpc
+CM-51585,CMP-119,L-5753,Clicked,False,2026-05-15,linkedin,paid_social
+CM-51586,CMP-122,L-5754,Replied,True,2026-04-25,hubspot,email
+CM-51587,CMP-111,L-5755,Demo Requested,True,2026-02-20,google,cpc
+CM-51588,CMP-122,L-5755,Replied,True,2026-05-24,hubspot,email
+CM-51589,CMP-104,L-5756,Downloaded,True,2026-02-11,linkedin,organic
+CM-51591,CMP-127,L-5756,Met at Booth,True,2026-07-05,sardinecon_,event
+CM-51590,CMP-127,L-5756,Met at Booth,True,2026-09-01,sardinecon,event
+CM-51592,CMP-110,L-5757,Referred,True,2026-02-19,partner,referral
+CM-51593,CMP-122,L-5757,Sent,False,2026-05-18,hubspot,email
+CM-51594,CMP-112,L-5758,Chat Engaged,True,2026-01-17,google,cpc
+CM-51595,CMP-121,L-5758,Replied,True,2026-06-12,hubspot,email
+CM-51596,CMP-132,L-5759,Converted,True,2026-09-20,linkedin,paid_social
+CM-51597,CMP-110,L-5760,Referred,True,2026-01-25,partner,referral
+CM-51598,CMP-104,L-5760,Downloaded,True,2026-01-28,linkedin,organic
+CM-51599,CMP-107,L-5761,Converted,True,2026-03-22,linkedin,paid_social
+CM-51600,CMP-117,L-5762,Downloaded,True,2026-04-21,linkedin,organic
+CM-51602,CMP-120,L-5762,Clicked,False,2026-06-24,linkedin,paid_social
+CM-51601,CMP-117,L-5762,Downloaded,True,2026-06-28,linkedin,organic
+CM-51603,CMP-111,L-5763,Demo Requested,True,2026-01-29,google,cpc
+CM-51604,CMP-112,L-5764,Demo Requested,True,2026-03-25,google,cpc
+CM-51605,CMP-122,L-5764,Meeting Booked,True,2026-04-07,hubspot,email
+CM-51606,CMP-125,L-5765,Demo Requested,True,2026-04-24,google,cpc
+CM-51607,CMP-116,L-5765,Watched On-Demand,True,2026-04-28,hubspot,webinar
+CM-51608,CMP-126,L-5766,Met at Booth,True,2026-07-12,sardinecon,event
+CM-51609,CMP-131,L-5766,Downloaded,True,2026-08-06,linkedin,organic
+CM-51610,CMP-136,L-5767,Referred,True,2026-09-18,partner,referral
+CM-51611,CMP-134,L-5767,Replied,True,2026-09-26,hubspot,email
+CM-51612,CMP-133,L-5767,Converted,True,2026-09-29,linkedin,paid_social
+CM-51613,CMP-125,L-5768,Chat Engaged,True,2026-06-15,google.com,cpc
+CM-51614,CMP-128,L-5768,Registered,False,2026-08-18,hubspot,webinar
+CM-51615,CMP-105,L-5769,Downloaded,True,2026-02-20,linkedin,organic
+CM-51616,CMP-119,L-5769,Converted,True,2026-05-21,linkedin,paid_social
+CM-51617,CMP-138,L-5770,Chat Engaged,True,2026-09-30,google,cpc
+CM-51618,CMP-121,L-5771,Meeting Booked,True,2026-05-10,hubspot,email
+CM-51619,CMP-127,L-5771,Registered,False,2026-08-07,sardinecon,event
+CM-51620,CMP-111,L-5772,Chat Engaged,True,2026-03-14,google,cpc
+CM-51622,CMP-101,L-5772,Attended,True,2026-03-20,sardinecon,event
+CM-51621,CMP-108,L-5772,Sent,False,2026-03-21,hubspot,email
+CM-51623,CMP-123,L-5773,Referred,True,2026-04-25,partner,referral
+CM-51624,CMP-121,L-5774,Meeting Booked,True,2026-05-06,hubspot,email
+CM-51625,CMP-113,L-5774,Attended,True,2026-05-21,sardinecon,event
+CM-51626,CMP-103,L-5775,Attended,True,2026-02-25,hubspot,webinar
+CM-51628,CMP-118,L-5775,Downloaded,True,2026-05-29,linkedin,organic
+CM-51627,CMP-113,L-5775,No Show,False,2026-05-31,sardinecon,event
+CM-51629,CMP-127,L-5775,Attended,True,2026-09-06,sardinecon,event
+CM-51630,CMP-133,L-5776,Converted,True,2026-09-30,linkedin,paid_social
+CM-51631,CMP-120,L-5777,Converted,True,2026-06-29,linkedin,paid_social
+CM-51632,CMP-135,L-5777,Replied,True,2026-07-26,hubspot,email
+CM-51633,CMP-110,L-5778,Referred,True,2026-01-29,partner,referral
+CM-51634,CMP-127,L-5778,Attended,True,2026-07-11,sardinecon,event
+CM-51635,CMP-132,L-5779,Converted,True,2026-07-16,linkedin,paid_social
+CM-51637,CMP-129,L-5779,No Show,False,2026-08-27,hubspot,webinar
+CM-51636,CMP-134,L-5779,Replied,True,2026-09-16,hubspot,email
+CM-51638,CMP-106,L-5780,Converted,True,2026-02-26,linkedin,paid_social
+CM-51639,CMP-116,L-5780,Attended,True,2026-04-12,hubspot,webinar
+CM-51640,CMP-135,L-5781,Meeting Booked,True,2026-08-13,hubspot,email
+CM-51641,CMP-130,L-5781,Downloaded,True,2026-08-31,linkedin,organic
+CM-51642,CMP-130,L-5781,Downloaded,True,2026-09-21,linkedin,organic
+CM-51643,CMP-123,L-5782,Referred,True,2026-06-12,partner,referral
+CM-51645,CMP-132,L-5782,Converted,True,2026-07-20,linkedin,paid_social
+CM-51646,CMP-132,L-5782,Converted,True,2026-08-24,linkedin,paid_social
+CM-51644,CMP-131,L-5782,Downloaded,True,2026-09-17,linkedin,organic
+CM-51647,CMP-101,L-5783,Met at Booth,True,2026-01-06,sardinecon,event
+CM-51648,CMP-110,L-5784,Referred,True,2026-01-12,partner,referral
+CM-51649,CMP-108,L-5785,Meeting Booked,True,2026-03-30,hubspot,email
+CM-51650,CMP-112,L-5786,Chat Engaged,True,2026-02-12,google,cpc
+CM-51651,CMP-120,L-5786,Clicked,False,2026-05-09,linkedin,paid_social
+CM-51652,CMP-134,L-5787,Replied,True,2026-08-19,hubspot,email
+CM-51653,CMP-131,L-5787,Downloaded,True,2026-09-05,linkedin,organic
+CM-51654,CMP-128,L-5788,Attended,True,2026-08-03,hubspot,webinar
+CM-51656,CMP-130,L-5788,Downloaded,True,2026-08-23,LinkedIn,organic
+CM-51655,CMP-130,L-5788,Downloaded,True,2026-09-30,linkedin,organic
+CM-51657,CMP-136,L-5789,Referred,True,2026-09-30,partner,referral
+CM-51658,CMP-118,L-5790,Downloaded,True,2026-04-02,linkedin,organic
+CM-51659,CMP-116,L-5791,Attended,True,2026-06-16,hubspot,webinar
+CM-51660,CMP-114,L-5792,Attended,True,2026-04-01,sardinecon,event
+CM-51662,CMP-118,L-5792,Downloaded,True,2026-05-28,linkedin,organic
+CM-51661,CMP-133,L-5792,Clicked,False,2026-08-08,linkedin,paid_social
+CM-51663,CMP-108,L-5793,Meeting Booked,True,2026-02-26,hubspot,email
+CM-51665,CMP-108,L-5793,Replied,True,2026-03-28,hubspot,email
+CM-51664,CMP-121,L-5793,Replied,True,2026-06-05,hubspot,email
+CM-51666,CMP-126,L-5793,Attended,True,2026-09-26,sardinecon,event
+CM-51667,CMP-123,L-5794,Referred,True,2026-04-02,partner,referral
+CM-51668,CMP-118,L-5795,Downloaded,True,2026-06-27,linkedin,organic
+CM-51669,CMP-101,L-5796,Attended,True,2026-01-12,sardinecon,event
+CM-51670,CMP-111,L-5797,Chat Engaged,True,2026-03-22,google,cpc
+CM-51671,CMP-114,L-5797,Attended,True,2026-06-19,sardinecon,event
+CM-51672,CMP-117,L-5798,Downloaded,True,2026-05-22,linkedin,organic
+CM-51673,CMP-134,L-5798,Sent,False,2026-07-30,hubspot,email
+CM-51674,CMP-132,L-5798,Converted,True,2026-08-27,linkedin,paid_social
+CM-51675,CMP-131,L-5798,Downloaded,True,2026-08-28,linkedin,organic
+CM-51676,CMP-123,L-5799,Referred,True,2026-05-02,partner,referral
+CM-51677,CMP-131,L-5799,Downloaded,True,2026-07-02,linkedin,organic
+CM-51678,CMP-137,L-5800,Chat Engaged,True,2026-08-27,google,cpc
+CM-51679,CMP-135,L-5801,Meeting Booked,True,2026-08-29,hubspot,email
+CM-51680,CMP-123,L-5802,Referred,True,2026-06-16,partner,referral
+CM-51681,CMP-123,L-5803,Referred,True,2026-05-28,partner,referral
+CM-51683,CMP-117,L-5803,Downloaded,True,2026-06-07,linkedin,organic
+CM-51682,CMP-126,L-5803,Registered,False,2026-09-12,sardinecon,event
+CM-51684,CMP-110,L-5804,Referred,True,2026-03-14,partner,referral
+CM-51685,CMP-109,L-5804,Replied,True,2026-03-26,hubspot,email
+CM-51686,CMP-123,L-5805,Referred,True,2026-06-29,partner,referral
+CM-51689,CMP-130,L-5805,Downloaded,True,2026-08-17,linkedin,organic
+CM-51688,CMP-133,L-5805,Converted,True,2026-08-25,linkedin,paid_social
+CM-51687,CMP-130,L-5805,Downloaded,True,2026-09-28,LinkedIn,organic
+CM-51690,CMP-125,L-5806,Chat Engaged,True,2026-06-20,google,cpc
+CM-51691,CMP-129,L-5807,Watched On-Demand,True,2026-09-09,hubspot,webinar
+CM-51693,CMP-132,L-5807,Converted,True,2026-09-12,linkedin,paid_social
+CM-51692,CMP-132,L-5807,Converted,True,2026-09-20,LinkedIn,paid_social
+CM-51694,CMP-128,L-5807,Watched On-Demand,True,2026-09-24,hubspot,webinar
+CM-51695,CMP-118,L-5808,Downloaded,True,2026-06-21,linkedin,organic
+CM-51696,CMP-114,L-5808,Attended,True,2026-06-30,sardinecon,event
+CM-51697,CMP-112,L-5809,Demo Requested,True,2026-01-28,google,cpc
+CM-51698,CMP-114,L-5810,Met at Booth,True,2026-05-24,sardinecon,event
+CM-51699,CMP-134,L-5811,Replied,True,2026-09-21,hubspot,email
+CM-51700,CMP-133,L-5811,Converted,True,2026-09-26,linkedin,paid_social
+CM-51701,CMP-127,L-5812,Attended,True,2026-08-09,sardinecon,event
+CM-51702,CMP-112,L-5813,Demo Requested,True,2026-01-25,google,cpc
+CM-51703,CMP-115,L-5813,Attended,True,2026-04-11,hubspot,webinar
+CM-51704,CMP-130,L-5813,Downloaded,True,2026-08-31,linkedin,organic
+CM-51705,CMP-125,L-5814,Demo Requested,True,2026-06-16,google,cpc
+CM-51706,CMP-127,L-5814,Attended,True,2026-07-07,sardinecon,event
+CM-51707,CMP-134,L-5814,Replied,True,2026-09-15,hubspot,email
+CM-51708,CMP-108,L-5815,Replied,True,2026-03-19,hubspot,email
+CM-51709,CMP-113,L-5815,Attended,True,2026-04-06,sardinecon,event
+CM-51710,CMP-123,L-5816,Referred,True,2026-04-03,partner,referral
+CM-51711,CMP-116,L-5816,Attended,True,2026-06-14,hubspot,webinar
+CM-51712,CMP-133,L-5817,Converted,True,2026-08-05,linkedin,paid_social
+CM-51714,CMP-135,L-5817,Meeting Booked,True,2026-08-18,hubspot,email
+CM-51713,CMP-126,L-5817,Registered,False,2026-08-30,sardinecon,event
+CM-51715,CMP-132,L-5817,Converted,True,2026-08-30,LinkedIn,paid_social
+CM-51716,CMP-134,L-5818,Meeting Booked,True,2026-07-03,hubspot,email
+CM-51717,CMP-132,L-5818,Converted,True,2026-08-06,linkedin,paid_social
+CM-51718,CMP-126,L-5818,Attended,True,2026-08-23,sardinecon,event
+CM-51719,CMP-127,L-5818,Attended,True,2026-08-24,sardinecon,event
+CM-51720,CMP-124,L-5819,Demo Requested,True,2026-05-08,google,cpc
+CM-51721,CMP-127,L-5819,Attended,True,2026-07-05,sardinecon,event
+CM-51722,CMP-124,L-5820,Demo Requested,True,2026-04-10,google,cpc
+CM-51723,CMP-106,L-5821,Converted,True,2026-02-12,linkedin,paid_social
+CM-51724,CMP-138,L-5822,Demo Requested,True,2026-08-06,google,cpc
+CM-51725,CMP-129,L-5822,Watched On-Demand,True,2026-09-26,hubspot,webinar
+CM-51726,CMP-102,L-5823,Attended,True,2026-03-05,hubspot,webinar
+CM-51727,CMP-122,L-5824,Replied,True,2026-04-24,hubspot,email
+CM-51728,CMP-134,L-5824,Meeting Booked,True,2026-09-06,hubspot,email
+CM-51729,CMP-110,L-5825,Referred,True,2026-02-01,partner,referral
+CM-51730,CMP-104,L-5825,Downloaded,True,2026-03-16,linkedin,organic
+CM-51731,CMP-126,L-5826,Met at Booth,True,2026-08-17,sardinecon,event
+CM-51732,CMP-137,L-5827,Demo Requested,True,2026-07-22,google,cpc
+CM-51734,CMP-130,L-5827,Downloaded,True,2026-09-08,linkedin,organic
+CM-51733,CMP-132,L-5827,Converted,True,2026-09-10,linkedin,paid_social
+CM-51735,CMP-130,L-5828,Downloaded,True,2026-09-23,linkedin,organic
+CM-51736,CMP-135,L-5828,Replied,True,2026-09-28,hubspot,email
+CM-51737,CMP-111,L-5829,Chat Engaged,True,2026-03-23,google,cpc
+CM-51738,CMP-101,L-5829,No Show,False,2026-03-30,sardinecon,event
+CM-51739,CMP-101,L-5830,Met at Booth,True,2026-03-15,sardinecon,event
+CM-51740,CMP-124,L-5831,Demo Requested,True,2026-04-05,google,cpc
+CM-51742,CMP-117,L-5831,Downloaded,True,2026-04-30,LinkedIn,organic
+CM-51741,CMP-114,L-5831,Attended,True,2026-06-04,sardinecon,event
+CM-51743,CMP-111,L-5832,Chat Engaged,True,2026-03-11,google,cpc
+CM-51744,CMP-126,L-5833,Met at Booth,True,2026-08-10,sardinecon,event
+CM-51745,CMP-134,L-5833,Meeting Booked,True,2026-08-11,hubspot,email
+CM-51746,CMP-123,L-5834,Referred,True,2026-05-03,partner,referral
+CM-51749,CMP-131,L-5834,Downloaded,True,2026-07-04,linkedin,organic
+CM-51747,CMP-131,L-5834,Downloaded,True,2026-07-27,linkedin,organic
+CM-51748,CMP-133,L-5834,Clicked,False,2026-08-05,linkedin,paid_social
+CM-51750,CMP-114,L-5835,Met at Booth,True,2026-06-29,sardinecon,event
+CM-51751,CMP-124,L-5836,Chat Engaged,True,2026-06-11,google,cpc
+CM-51752,CMP-138,L-5837,Chat Engaged,True,2026-09-25,google,cpc
+CM-51753,CMP-137,L-5838,Demo Requested,True,2026-08-22,google,cpc
+CM-51754,CMP-128,L-5838,Watched On-Demand,True,2026-08-31,hubspot,webinar
+CM-51755,CMP-132,L-5839,Converted,True,2026-09-13,linkedin,paid_social
+CM-51756,CMP-133,L-5840,Converted,True,2026-08-12,linkedin,paid_social
+CM-51758,CMP-132,L-5840,Converted,True,2026-08-16,linkedin,paid_social
+CM-51759,CMP-134,L-5840,Sent,False,2026-08-19,hubspot,email
+CM-51757,CMP-127,L-5840,Attended,True,2026-09-10,sardinecon,event
+CM-51760,CMP-134,L-5841,Replied,True,2026-07-25,hubspot,email
+CM-51761,CMP-126,L-5841,Attended,True,2026-08-22,sardinecon,event
+CM-51762,CMP-130,L-5841,Downloaded,True,2026-09-09,linkedin,organic
+CM-51763,CMP-134,L-5842,Meeting Booked,True,2026-08-21,hubspot,email
+CM-51765,CMP-127,L-5842,Attended,True,2026-08-24,sardinecon,event
+CM-51764,CMP-126,L-5842,Attended,True,2026-09-02,sardinecon,event
+CM-51766,CMP-128,L-5842,Watched On-Demand,True,2026-09-04,hubspot,webinar
+CM-51767,CMP-137,L-5843,Chat Engaged,True,2026-09-18,google,cpc
+CM-51769,CMP-127,L-5843,Registered,False,2026-09-24,sardinecon,event
+CM-51768,CMP-133,L-5843,Converted,True,2026-09-28,linkedin,paid_social
+CM-51770,CMP-136,L-5844,Referred,True,2026-07-19,partner,referral
+CM-51771,CMP-133,L-5844,Converted,True,2026-08-27,linkedin,paid_social
+CM-51773,CMP-134,L-5844,Meeting Booked,True,2026-08-31,hubspot,email
+CM-51772,CMP-127,L-5844,Met at Booth,True,2026-09-11,sardinecon,event
+CM-51774,CMP-129,L-5845,Attended,True,2026-08-16,hubspot,webinar
+CM-51775,CMP-130,L-5845,Downloaded,True,2026-08-21,linkedin,organic
+CM-51776,CMP-129,L-5845,Registered,False,2026-09-09,hubspot,webinar
+CM-51777,CMP-108,L-5846,Replied,True,2026-03-30,hubspot,email
+CM-51778,CMP-125,L-5847,Demo Requested,True,2026-05-17,google,cpc
+CM-51779,CMP-113,L-5847,Met at Booth,True,2026-06-10,sardinecon,event
+CM-51780,CMP-122,L-5847,Replied,True,2026-06-28,hubspot,email
+CM-51781,CMP-110,L-5848,Referred,True,2026-01-16,partner,referral
+CM-51782,CMP-101,L-5848,Attended,True,2026-01-20,sardinecon,event
+CM-51783,CMP-122,L-5848,Sent,False,2026-05-17,hubspot,email
+CM-51784,CMP-126,L-5849,Met at Booth,True,2026-09-21,sardinecon,event
+CM-51787,CMP-133,L-5849,Converted,True,2026-09-24,linkedin,paid_social
+CM-51785,CMP-135,L-5849,Meeting Booked,True,2026-09-25,hubspot,email
+CM-51786,CMP-126,L-5849,Registered,False,2026-09-29,sardinecon,event
+CM-51788,CMP-106,L-5850,Converted,True,2026-02-17,linkedin,paid_social
+CM-51789,CMP-134,L-5851,Replied,True,2026-07-24,hubspot,email
+CM-51790,CMP-131,L-5851,Downloaded,True,2026-07-25,linkedin,organic
+CM-51791,CMP-132,L-5851,Converted,True,2026-08-03,linkedin,paid_social
+CM-51792,CMP-116,L-5852,Watched On-Demand,True,2026-05-12,hubspot,webinar
+CM-51793,CMP-129,L-5852,Attended,True,2026-08-08,hubspot,webinar
+CM-51794,CMP-128,L-5853,Attended,True,2026-07-27,hubspot,webinar
+CM-51795,CMP-112,L-5854,Demo Requested,True,2026-03-23,google,cpc
+CM-51796,CMP-128,L-5854,Watched On-Demand,True,2026-08-07,hubspot,webinar
+CM-51797,CMP-112,L-5855,Demo Requested,True,2026-03-10,google,cpc
+CM-51798,CMP-126,L-5855,Met at Booth,True,2026-09-25,sardinecon,event
+CM-51799,CMP-109,L-5856,Meeting Booked,True,2026-02-08,hubspot,email
+CM-51800,CMP-104,L-5857,Downloaded,True,2026-03-29,linkedin,organic
+CM-51801,CMP-122,L-5857,Meeting Booked,True,2026-04-06,hubspot,email
+CM-51802,CMP-125,L-5858,Demo Requested,True,2026-06-24,google,cpc
+CM-51803,CMP-135,L-5859,Replied,True,2026-08-06,hubspot,email
+CM-51804,CMP-111,L-5860,Chat Engaged,True,2026-03-20,google,cpc
+CM-51805,CMP-121,L-5861,Replied,True,2026-05-12,hubspot,email
+CM-51806,CMP-131,L-5861,Downloaded,True,2026-08-08,linkedin,organic
+CM-51807,CMP-125,L-5862,Demo Requested,True,2026-04-07,google,cpc
+CM-51808,CMP-122,L-5862,Replied,True,2026-05-25,hubspot,email
+CM-51809,CMP-131,L-5863,Downloaded,True,2026-07-26,linkedin,organic
+CM-51810,CMP-126,L-5863,Attended,True,2026-09-17,sardinecon,event
+CM-51811,CMP-115,L-5864,Watched On-Demand,True,2026-06-08,hubspot,webinar
+CM-51812,CMP-119,L-5864,Converted,True,2026-06-22,linkedin,paid_social
+CM-51813,CMP-132,L-5864,Converted,True,2026-09-21,linkedin,paid_social
+CM-51814,CMP-135,L-5865,Replied,True,2026-09-16,hubspot,email
+CM-51815,CMP-117,L-5866,Downloaded,True,2026-06-17,linkedin,organic
+CM-51816,CMP-128,L-5866,Attended,True,2026-09-30,hubspot,webinar
+CM-51817,CMP-109,L-5867,Replied,True,2026-03-01,hubspot,email
+CM-51818,CMP-121,L-5868,Meeting Booked,True,2026-06-13,hubspot,email
+CM-51819,CMP-110,L-5869,Referred,True,2026-01-08,partner,referral
+CM-51820,CMP-134,L-5870,Replied,True,2026-07-07,hubspot,email
+CM-51821,CMP-134,L-5870,Meeting Booked,True,2026-07-23,hubspot,email
+CM-51823,CMP-128,L-5870,Watched On-Demand,True,2026-08-24,hubspot,webinar
+CM-51822,CMP-135,L-5870,Replied,True,2026-09-19,hubspot,email
+CM-51824,CMP-118,L-5871,Downloaded,True,2026-06-29,linkedin,organic
+CM-51825,CMP-112,L-5872,Demo Requested,True,2026-03-11,google,cpc
+CM-51827,CMP-114,L-5872,Attended,True,2026-04-06,sardinecon_,event
+CM-51826,CMP-129,L-5872,Attended,True,2026-07-09,hubspot,webinar
+CM-51828,CMP-133,L-5873,Converted,True,2026-07-12,linkedin,paid_social
+CM-51829,CMP-126,L-5873,Attended,True,2026-09-12,sardinecon,event
+CM-51830,CMP-128,L-5874,Attended,True,2026-09-12,hubspot,webinar
+CM-51831,CMP-130,L-5874,Downloaded,True,2026-09-26,linkedin,organic
+CM-51832,CMP-109,L-5875,Meeting Booked,True,2026-02-08,hubspot,email
+CM-51833,CMP-122,L-5875,Meeting Booked,True,2026-04-25,hubspot,email
+CM-51834,CMP-118,L-5875,Downloaded,True,2026-06-17,linkedin,organic
+CM-51835,CMP-137,L-5876,Demo Requested,True,2026-09-25,google,cpc
+CM-51836,CMP-135,L-5876,Meeting Booked,True,2026-09-26,Hubspot,email
+CM-51837,CMP-134,L-5876,Meeting Booked,True,2026-09-30,hubspot,email
+CM-51838,CMP-120,L-5877,Converted,True,2026-05-18,linkedin,paid_social
+CM-51839,CMP-120,L-5877,Clicked,False,2026-05-20,linkedin,paid_social
+CM-51840,CMP-116,L-5877,Attended,True,2026-06-08,hubspot,webinar
+CM-51841,CMP-118,L-5878,Downloaded,True,2026-06-18,linkedin,organic
+CM-51842,CMP-131,L-5878,Downloaded,True,2026-09-22,linkedin,organic
+CM-51843,CMP-112,L-5879,Chat Engaged,True,2026-03-25,google,cpc
+CM-51844,CMP-133,L-5880,Converted,True,2026-07-19,linkedin,paid_social
+CM-51845,CMP-135,L-5880,Replied,True,2026-09-21,hubspot,email
+CM-51846,CMP-112,L-5881,Demo Requested,True,2026-03-23,google,cpc
+CM-51847,CMP-134,L-5882,Replied,True,2026-09-29,hubspot,email
+CM-51848,CMP-137,L-5883,Demo Requested,True,2026-07-21,google,cpc
+CM-51849,CMP-126,L-5883,Attended,True,2026-07-23,sardinecon,event
+CM-51850,CMP-110,L-5884,Referred,True,2026-02-17,partner,referral
+CM-51851,CMP-134,L-5885,Replied,True,2026-08-27,hubspot,email
+CM-51852,CMP-125,L-5886,Demo Requested,True,2026-06-07,google.com,cpc
+CM-51853,CMP-132,L-5886,Converted,True,2026-07-29,linkedin,paid_social
+CM-51854,CMP-126,L-5886,Met at Booth,True,2026-08-07,sardinecon,event
+CM-51855,CMP-121,L-5887,Replied,True,2026-04-14,hubspot,email
+CM-51856,CMP-133,L-5887,Converted,True,2026-08-17,linkedin,paid_social
+CM-51857,CMP-123,L-5888,Referred,True,2026-05-04,partner,referral
+CM-51858,CMP-130,L-5888,Downloaded,True,2026-07-26,linkedin,organic
+CM-51859,CMP-135,L-5889,Replied,True,2026-07-09,hubspot,email
+CM-51860,CMP-130,L-5889,Downloaded,True,2026-07-31,linkedin,organic
+CM-51861,CMP-121,L-5890,Replied,True,2026-04-10,hubspot,email
+CM-51863,CMP-121,L-5890,Sent,False,2026-05-08,hubspot,email
+CM-51862,CMP-121,L-5890,Replied,True,2026-05-23,hubspot,email
+CM-51864,CMP-127,L-5891,Met at Booth,True,2026-07-08,sardinecon,event
+CM-51865,CMP-131,L-5891,Downloaded,True,2026-09-13,linkedin,organic
+CM-51866,CMP-125,L-5892,Demo Requested,True,2026-05-28,google,cpc
+CM-51867,CMP-115,L-5893,Watched On-Demand,True,2026-05-21,hubspot,webinar
+CM-51868,CMP-111,L-5894,Demo Requested,True,2026-01-14,google,cpc
+CM-51871,CMP-122,L-5894,Sent,False,2026-04-15,hubspot,email
+CM-51870,CMP-132,L-5894,Converted,True,2026-07-27,linkedin,paid_social
+CM-51869,CMP-132,L-5894,Converted,True,2026-09-06,linkedin,paid_social
+CM-51872,CMP-112,L-5895,Demo Requested,True,2026-01-07,google,cpc
+CM-51873,CMP-114,L-5895,No Show,False,2026-04-20,sardinecon,event
+CM-51874,CMP-138,L-5896,Chat Engaged,True,2026-07-15,google,cpc
+CM-51875,CMP-131,L-5896,Downloaded,True,2026-08-25,linkedin,organic
+CM-51876,CMP-100,L-5897,Attended,True,2026-02-18,sardinecon,event
+CM-51878,CMP-131,L-5897,Downloaded,True,2026-07-24,linkedin,organic
+CM-51877,CMP-129,L-5897,Watched On-Demand,True,2026-09-05,hubspot,webinar
+CM-51879,CMP-138,L-5898,Demo Requested,True,2026-08-29,google.com,cpc
+CM-51880,CMP-121,L-5899,Replied,True,2026-04-24,hubspot,email
+CM-51881,CMP-120,L-5899,Converted,True,2026-05-16,linkedin,paid_social
+CM-51882,CMP-133,L-5899,Clicked,False,2026-07-22,linkedin,paid_social
+CM-51883,CMP-121,L-9900,Replied,True,2026-06-05,hubspot,email
+CM-51884,CMP-122,L-9901,Meeting Booked,True,2026-04-24,hubspot,email
+CM-51885,CMP-100,L-9902,Attended,True,2026-02-12,sardinecon,event
+CM-51886,CMP-101,L-9902,Attended,True,2026-03-21,sardinecon,event
+CM-51887,CMP-100,L-9903,Attended,True,2026-03-15,sardinecon,event
+CM-51889,CMP-116,L-9903,Watched On-Demand,True,2026-04-15,hubspot,webinar
+CM-51888,CMP-128,L-9903,Watched On-Demand,True,2026-09-29,hubspot,webinar
+CM-51890,CMP-138,L-9904,Chat Engaged,True,2026-07-13,google,cpc
+CM-51892,CMP-126,L-9904,Registered,False,2026-07-31,sardinecon,event
+CM-51891,CMP-134,L-9904,Replied,True,2026-09-26,hubspot,email
+CM-51893,CMP-128,L-9905,Watched On-Demand,True,2026-07-06,hubspot,webinar
+CM-51895,CMP-129,L-9905,Attended,True,2026-07-25,Hubspot,webinar
+CM-51894,CMP-134,L-9905,Replied,True,2026-09-05,hubspot,email

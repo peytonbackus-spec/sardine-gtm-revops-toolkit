@@ -53,3 +53,41 @@ SELECT
     CAST(contacts_engaged AS INT)                        AS contacts_engaged,
     NULLIF(originating_lead_id, '')                      AS originating_lead_id
 FROM opportunities;
+
+-- Stage history: one row per stage an opportunity entered, from OpportunityFieldHistory (StageName).
+-- Every opp starts in the first stage on its created date, and each StageName change starts the next row.
+-- Stage order within a day uses the leading stage number ("3 - Technical Validation" -> 3), Closed last.
+-- Same logic as gtm_strategy_ops/sales_leadership/history.py stage_timelines().
+DROP VIEW IF EXISTS v_stage_history;
+CREATE VIEW v_stage_history AS
+WITH entries AS (
+    SELECT opportunity_id, '1 - Qualify' AS stage, DATE(created_date) AS entered_date
+    FROM opportunities
+    UNION ALL
+    SELECT opportunity_id, new_value, DATE(changed_date)
+    FROM opportunity_field_history
+    WHERE field = 'StageName'
+),
+ordered AS (
+    SELECT *, CASE WHEN stage LIKE 'Closed%' THEN 99
+                   ELSE CAST(SUBSTR(stage, 1, INSTR(stage, ' ') - 1) AS INT) END AS stage_rank
+    FROM entries
+),
+sequenced AS (
+    SELECT opportunity_id, stage, entered_date,
+           LEAD(entered_date) OVER (PARTITION BY opportunity_id ORDER BY entered_date, stage_rank) AS exited_date,
+           LEAD(stage)        OVER (PARTITION BY opportunity_id ORDER BY entered_date, stage_rank) AS next_stage
+    FROM ordered
+)
+SELECT opportunity_id, stage, entered_date, exited_date, next_stage,
+       CAST(julianday(COALESCE(exited_date, '{{AS_OF}}')) - julianday(entered_date) AS INT) AS days_in_stage
+FROM sequenced
+WHERE stage NOT LIKE 'Closed%';
+
+-- Close-date pushes: CloseDate changes that moved the date later.
+DROP VIEW IF EXISTS v_close_date_pushes;
+CREATE VIEW v_close_date_pushes AS
+SELECT opportunity_id, DATE(changed_date) AS changed_date, DATE(old_value) AS old_close, DATE(new_value) AS new_close,
+       CAST(julianday(new_value) - julianday(old_value) AS INT) AS days_pushed
+FROM opportunity_field_history
+WHERE field = 'CloseDate' AND julianday(new_value) > julianday(old_value);

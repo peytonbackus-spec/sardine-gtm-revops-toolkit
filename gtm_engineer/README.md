@@ -37,6 +37,8 @@ flowchart LR
 | AI account research with prompts, evals and human review | [`ai_research/`](ai_research/account_research.py) + [🟪 governance](../shared_core/ai_governance/README.md) | ▶️ tested in CI |
 | Data-quality monitoring | [🟪 `dq_monitor.py`](../shared_core/data_quality/dq_monitor.py) | ▶️ shared |
 | SDR capacity planning | [`capacity_model.py`](sdr_capacity/capacity_model.py) | ▶️ runnable |
+| Marketing Ops partnership: campaign taxonomy, UTMs, consent, attribution, channel ROI, RACI | [`marketing_ops/`](marketing_ops/README.md), [campaign ops spec](marketing_ops/campaign-operations-spec.md) | ▶️ + 📐 |
+| Demand plan: leads and MQLs needed by channel to hit the bookings plan | [`demand_plan.py`](marketing_ops/demand_plan.py) | ▶️ tested |
 | ICP segmentation and personas | [🟪 ICP & personas](../shared_core/context/icp-and-personas.md), [`config/company.yaml`](../config/company.yaml) | 📐 + config |
 | First 90 days | [plan](../FIRST_90_DAYS.md) | 📐 plan |
 

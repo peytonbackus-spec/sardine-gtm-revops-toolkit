@@ -27,6 +27,10 @@ Stages are defined by **verifiable buyer outcomes**, not by seller activity. Eve
 
 The [DQ monitor](../../shared_core/data_quality/dq_monitor.py) (rules O01–O06) and the [deal-risk model](../ai_deal_risk/deal_risk.py) both read these definitions from the company config (`opportunity.stages`), so changing a stage limit updates the rules, the risk model and the aging report together.
 
+## Stage velocity
+
+"Intro call" is stage 1 (Qualify) and "discovery" is stage 2. Time between them is measured from field history on StageName, and the [stage velocity report](../sales_leadership/stage_velocity.py) splits it by owner, source, segment and economic-buyer access, so "intro to discovery is slow" comes with the reason. Close-date changes are tracked the same way (field history on CloseDate) and feed the Slipping bucket on the [deal board](../sales_leadership/deal_board.py).
+
 ## Opportunity types
 
 | Type | Created by | Notes |

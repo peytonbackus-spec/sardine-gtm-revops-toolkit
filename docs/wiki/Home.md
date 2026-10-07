@@ -18,6 +18,7 @@ Sardine's Revenue Operations Manager role sits "at the intersection of Revenue O
 - [[Stack Evaluation]]: how I'd evaluate the GTM stack for an AI-first world
 - [[Architecture]]: how data moves from signal to renewal
 - [[AI Governance]]: the six parts every AI workflow has
+- [[Sales Leadership and Planning]]: the VP of Sales brief, all-hands inputs, capacity, quota, territory, pipeline distribution, CRM requests, Marketing Ops
 - [[Running the Toolkit]]: setup, every command, what each report shows
 - [[First 90 Days]] · [[Decision Log]] · [[Glossary]] · [[Roadmap]]
 

@@ -31,6 +31,25 @@ Both roles build dashboards. If the GTM Engineer's "conversion rate" and the Str
 | **Commit conversion** | Commit $ at week N that closed won ÷ commit $ at week N | Quarter |
 | **Gross revenue retention** | (Renewing ARR − churn − downgrade) ÷ renewing ARR | Period |
 | **Net revenue retention** | GRR + expansion ARR ÷ renewing ARR | Period |
+| **Stage days** | Days from entering a stage to entering the next, from field history on StageName; reported as the **median** | Cohort by stage |
+| **Stage pressure** | Median stage days ÷ the stage's time limit (`opportunity.stages.max_days`) | Snapshot |
+| **Close-date push** | A CloseDate change that moves the date later; count and total days per deal | Event |
+| **Sales velocity** | (opportunities × win rate × average won deal) ÷ cycle days, per rep or segment | Trailing 365 days |
+| **Win-rate range** | 80% Wilson interval on win rate; below `min_sample` closed deals, "too early" | Trailing 365 days |
+| **Rep quota** | Region quota split across that region's AEs by ramped rep equivalents | Quarter |
+| **Capacity** | Ramped rep equivalents (net of attrition) × steady-state productivity | Quarter |
+| **Implied over-assignment** | Quota ÷ capacity − 1 | Quarter × region |
+| **Coverage Gini** | Gini coefficient of pipeline coverage across reps (0 = even) | Snapshot |
+
+## Marketing metrics (🟦 with Marketing Ops)
+
+| Metric | Definition | Grain |
+|---|---|---|
+| **Sourced pipeline** | Opp amount by the originating lead's first campaign type | Cohort |
+| **Influenced pipeline (W-shaped)** | 30% first touch, 30% MQL touch, 30% opp-creation touch, 10% the rest; 180-day lookback | Cohort |
+| **Cost per MQL / per opp** | Campaign spend ÷ MQLs or opps from leads first touched by that channel | Period |
+| **Pipeline per $** | W-shaped attributed pipeline ÷ spend | Period |
+| **Demand-plan gap** | (leads last 90 days − leads needed) ÷ leads needed, by channel | Quarter |
 
 ## Shared dimensions
 
@@ -40,4 +59,4 @@ Every metric can be cut by: `segment`, `region`, `product_line`, `source`, `owne
 
 1. **Cohort vs period:** conversion rates are cohort-based, so this month's leads are measured on what *they* eventually did. Activity counts are period-based. Never mix the two in one chart.
 2. **Dates are stamped, not inferred.** Funnel dates come from Flow-stamped fields, not `LastModifiedDate`.
-3. **Fiscal calendar:** Sardine's FY ends Sep 30, so quarters in every report are fiscal.
+3. **Fiscal calendar:** quarters in every report are fiscal, from `fiscal.year_start_month` in the config. Sardine doesn't publish its fiscal year, so the config assumes calendar year `[ASSUME]`.
