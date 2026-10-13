@@ -17,3 +17,5 @@ __pycache__/
 .pytest_cache/
 .venv/
 config/company.yaml.local
+node_modules/
+.next/
