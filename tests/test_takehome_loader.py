@@ -75,6 +75,32 @@ def test_pricing_model_per_line(workbook):
     assert lines.loc[("C4", "Product A"), "pricing_model"] == "flat"
 
 
+def test_default_is_product_based_and_both_columns_are_always_present(workbook):
+    lines = load_all(workbook).lines.set_index(["company_id", "product"])
+    row = lines.loc[("C3", "Product A")]                       # varying units on a flat-rate product
+    assert row.pricing_model_product == "flat" and row.pricing_model_usage == "consumption"
+    assert row.pricing_model == "flat"                         # default method is "product"
+    usage = load_all(workbook, method="usage").lines.set_index(["company_id", "product"])
+    assert usage.loc[("C3", "Product A"), "pricing_model"] == "consumption"
+    assert (usage.pricing_model_product == lines.pricing_model_product).all()   # same columns either way
+
+
+def test_monthly_carries_both_classifications(workbook):
+    m = load_all(workbook).monthly
+    assert {"pricing_model", "pricing_model_product", "pricing_model_usage"} <= set(m.columns)
+
+
+def test_flat_products_are_configurable(workbook):
+    lines = load_all(workbook, flat_products=("Product B",)).lines.set_index(["company_id", "product"])
+    assert lines.loc[("C1", "Product A"), "pricing_model"] == "consumption"
+    assert lines.loc[("C1", "Product B"), "pricing_model"] == "flat"
+
+
+def test_unknown_method_is_rejected(workbook):
+    with pytest.raises(ValueError, match="method"):
+        load_all(workbook, method="contract")
+
+
 def test_zero_price_lines_are_flagged_with_zero_revenue(workbook):
     t = load_all(workbook)
     assert t.quality["zero_price_lines"] == 1

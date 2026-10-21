@@ -51,7 +51,7 @@ Sardine groups its platform into five areas ([sardine.ai](https://www.sardine.ai
 | **Positioning** | One platform for fraud and compliance instead of vendor sprawl; real-time for instant payments; AI-written rules "within a minute" | Same |
 | **Sales org shape** | Open roles for a crypto AE, a federal strategic AE (Washington, DC), strategic account managers in NA and Dubai, a GM for Mexico, an MENA sales engineer, and forward-deployed integration engineers in the US and UK | [a16z job board](https://jobs.a16z.com/jobs/sardine) |
 | **Working assumptions in this repo** | Sales-led; 12 AEs, ~80% in the US and the rest in EMEA and APAC; one RevOps employee; a mix of flat-rate and consumption contracts (see `go_to_market` and `pricing` in `config/company.yaml`) | `[ASSUME]` |
-| **Pricing model** | Consumption-based with a minimum monthly commit drawn down by usage; platform access fee plus per-product consumption rates; overages billed monthly. Third-party median contract about $95K/yr (range about $15K–$255K) | `[VERIFY]` [Vendr](https://vendr.com/marketplace/sardine) |
+| **Pricing model** | Not published. This repo assumes a mix of flat-rate and consumption contracts, with consumption drawn down against a monthly minimum commit and overages billed monthly. All contract values in `sample_data/` are synthetic | `[ASSUME]` |
 | **Competitors named in comparisons** | Socure, SEON, Sift, Feedzai, Unit21, BioCatch, Fingerprint, Bureau | [Bureau comparison](https://bureau.id/resources/blog/sardine-competitors), G2 |
 
 **Implications for RevOps.** These shape the design choices in this repo:
@@ -60,4 +60,4 @@ Sardine groups its platform into five areas ([sardine.ai](https://www.sardine.ai
 2. **Two budgets, one platform.** Fraud and compliance usually have different economic buyers. Cross-sell between the two lines is the main expansion motion, and the CEO's "one platform" pitch depends on it.
 3. **Bank sales cycles have extra gates.** Third-party risk management, model risk management and InfoSec reviews add a stage-4 gate that fintech deals often skip. Stage time limits and the deal-risk model account for this.
 4. **Regulatory triggers are the strongest intent signal for compliance.** A consent order or enforcement action against a prospect outranks a demo request. It is modelled as the `regulatory_action` signal.
-5. **A global, vertical sales org needs routing by segment and region.** The vertical AEs (crypto, federal) and regional teams (EU/UK, MENA, Mexico, Australia) are the routing pods in config.
+5. **A global, vertical sales org needs routing by segment and region.** Config routes by segment within three regions (NA, EMEA, APAC) to match the 12-AE team: MENA sits in EMEA, and LATAM has no dedicated reps and sits with NA.

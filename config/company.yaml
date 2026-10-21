@@ -16,7 +16,7 @@
 company:
   name: Sardine
   tagline: "The agentic risk platform for fighting financial crime"            # [PUBLIC]
-  segment_note: "Fraud + AML compliance platform sold to banks, fintechs, payments companies and digital businesses; consumption pricing with a monthly minimum commit"  # [PUBLIC] + [VERIFY] pricing
+  segment_note: "Fraud + AML compliance platform sold to banks, fintechs, payments companies and digital businesses"  # [PUBLIC]; pricing is [ASSUME], see `pricing`
 
 # Fiscal calendar. [ASSUME] calendar year; Sardine does not publish its fiscal year.
 fiscal:
@@ -67,7 +67,7 @@ personas:
   unknown:                  {label: "Unknown / Non-buyer",                         role: none,           points: 0,  angle: "Confirm role and whether they own fraud or compliance outcomes"}
 
 # Regions. Sales org: entirely sales-led, 12 AEs, ~80% in the US with the rest in EMEA and APAC. [ASSUME]
-# MENA is covered inside EMEA and LATAM inside NA (the Americas team); no separate pods. [ASSUME]
+# MENA is covered inside EMEA. There are no dedicated LATAM reps: LATAM sits with the NA (Americas) team. No separate pods. [ASSUME]
 regions: [NA, EMEA, APAC]
 
 # Go-to-market motion and RevOps staffing. [ASSUME]
@@ -102,6 +102,8 @@ stack:
   conversational_marketing: HubSpot Chat           # [ASSUME]
   social_selling: LinkedIn Sales Navigator         # [ASSUME]
   cpq_billing: Salesforce CPQ + usage billing      # [ASSUME] GTM Engineer posting names CPQ; consumption billing implied by pricing model
+  reverse_etl: Hightouch                           # [ASSUME] syncs billing usage from the warehouse into Salesforce Account fields
+  analytics_notebooks: Hex                         # [ASSUME] monthly attach and retention cohort refresh on warehouse data
 
 # Partners. Helix by Q2 and Modulr are announced partnerships [PUBLIC]; types and the referral
 # motion are [ASSUME]. The consortium is Sardine's Sonar network [PUBLIC].

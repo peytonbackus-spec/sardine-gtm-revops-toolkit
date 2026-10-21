@@ -94,8 +94,8 @@ SIZE = {  # employees range by segment
     "marketplace_commerce": (100, 15000), "b2b_saas_payroll": (200, 12000), "gaming_prediction": (50, 2000),
     "public_sector": (1000, 50000), "other": (5, 500),
 }
-ACV = {  # (min, max) new-logo ACV by segment. [ASSUME] illustrative, bracketing a third-party
-         # estimate of ~$95K median contract value (range ~$15K-$255K) [VERIFY]
+ACV = {  # (min, max) new-logo ACV by segment. [ASSUME] illustrative only, sized to the synthetic data;
+         # not Sardine figures
     "tier1_bank": (250_000, 900_000), "regional_bank_cu": (40_000, 150_000), "sponsor_bank_baas": (60_000, 250_000),
     "fintech_neobank": (30_000, 200_000), "payments_issuing": (80_000, 400_000), "crypto": (40_000, 250_000),
     "marketplace_commerce": (30_000, 180_000), "b2b_saas_payroll": (40_000, 220_000),

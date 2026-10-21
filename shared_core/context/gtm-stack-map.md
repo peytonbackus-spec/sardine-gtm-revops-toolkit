@@ -38,13 +38,15 @@ flowchart LR
     SF <--> FC
     SF --> WH
     BILL --> WH
+    WH -->|usage fields| HT[Hightouch<br/>reverse ETL] --> SF
+    WH --> HX[Hex<br/>cohort notebooks]
     PROD --> WH
     classDef eng fill:#1F6FEB22,stroke:#1F6FEB;
     classDef ops fill:#2DA44E22,stroke:#2DA44E;
     classDef sh fill:#7B61FF22,stroke:#7B61FF;
     class HS,UN,CL,ZI,IN eng;
     class FC,GG,CPQ,BILL ops;
-    class N8 sh;
+    class N8,HT,HX sh;
 ```
 
 | Tool | Status | System of record for | Owner |
@@ -62,6 +64,8 @@ flowchart LR
 | **Usage billing** | [ASSUME] | Monthly draw-down against commit, overage invoices | Finance, with RevOps owning the CRM link |
 | **Forecasting** | [ASSUME] Salesforce Forecasts | Forecast submissions and snapshots | RevOps |
 | **Gong** | [ASSUME] | Call recordings, deal signals | Sales / RevOps |
+| **Hightouch** | [ASSUME] | Reverse ETL: billing usage from the warehouse into Salesforce Account fields | RevOps |
+| **Hex** | [ASSUME] | Analysis notebooks: monthly attach and retention cohorts on warehouse data | RevOps |
 | **Cursor, Claude, v0** | [POSTING] | Internal tool building ("vibe coding") | RevOps |
 
 ## Integration rules

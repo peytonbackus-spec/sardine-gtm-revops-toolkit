@@ -1,6 +1,9 @@
 # Changelog
 
 ## Unreleased
+- Loader: computes both pricing classifications on every line (`pricing_model_product`, `pricing_model_usage`); `pricing_model` follows `method`, now `"product"` by default. Flat-rate products are configurable. Docstring made generic. Tests cover both methods.
+- Docs: README gains an "Operating assumptions" table (sales-led, 12 AEs, one RevOps owner, flat + consumption, Hightouch / n8n / Hex). PLG/PQL specs moved to `docs/reference/not-applicable/`.
+- Config and brief: LATAM wording aligned (no dedicated reps; sits with NA); unverified third-party pricing figures removed; Hightouch and Hex added to the stack and stack map.
 - Config: sales org now matches a sales-led company of 12 AEs (10 NA, 1 EMEA, 1 APAC, ~80% US) with one RevOps employee. Regions are NA, EMEA and APAC (MENA folds into EMEA, LATAM into NA); pods, quotas, productivity, region points and the campaign-name pattern updated. New `go_to_market` block.
 - Config: new `pricing` block. Contracts are a mix of flat-rate and consumption; `commit_burndown` excludes flat-rate contracts from overage and shelfware alerts and reports the flat vs consumption revenue split.
 - Sample data regenerated: `consumption.csv` gains a `pricing_model` column; the AE roster is read from the config so data and config cannot drift.

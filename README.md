@@ -10,15 +10,27 @@
 
 > All accounts, people and numbers in `sample_data/` are synthetic. Sardine facts come from public sources and are cited in the [company brief](shared_core/context/sardine-company-brief.md). Working assumptions are tagged `[ASSUME]` in [`config/company.yaml`](config/company.yaml).
 
+## Operating assumptions
+
+| Assumption | Where it lives |
+|---|---|
+| Entirely **sales-led**: every deal runs through an AE, no self-serve funnel | `go_to_market.motion` in [`config/company.yaml`](config/company.yaml); PLG specs moved to [not applicable](docs/reference/not-applicable/) |
+| **12 AEs**: 10 NA, 1 EMEA, 1 APAC (~80% US); no dedicated LATAM reps (LATAM sits with NA) | `go_to_market`, `regions` |
+| **One RevOps owner**, so everything recurring is automated | `go_to_market.revops_headcount` |
+| **Flat-rate plus consumption** contracts | `pricing` block; [commit burn-down](gtm_strategy_ops/consumption/commit_burndown.py) |
+| Added tools: **Hightouch** (billing usage into Salesforce), **n8n** (alerts and AI briefs), **Hex** (monthly attach and retention cohorts) | `stack` block; [stack map](shared_core/context/gtm-stack-map.md) |
+
+**Open first:** [`gtm_strategy_ops/consumption/commit_burndown.py`](gtm_strategy_ops/consumption/commit_burndown.py), the consumption-vs-flat-rate view of every account. Private analysis data never enters this repo: the workbook loader reads a gitignored `_private/` copy, and its tests use a synthetic workbook.
+
 ---
 
 ## Why this shape for Sardine
 
-Four things about Sardine's business decide what RevOps has to build. Each is sourced in the [brief](shared_core/context/sardine-company-brief.md).
+Four things about Sardine's business decide what RevOps has to build. Each is sourced, or marked as an assumption, in the [brief](shared_core/context/sardine-company-brief.md).
 
-| Sardine reality | What it means for RevOps | Built here |
+| Sardine context | What it means for RevOps | Built here |
 |---|---|---|
-| **A mix of flat-rate and consumption pricing** (consumption contracts carry a minimum monthly commit that usage draws down; overages bill monthly) | Billed revenue diverges from bookings every month on the consumption contracts: overage is an expansion signal and under-use is a churn signal, both visible long before renewal. Flat-rate contracts have no usage signal, so they run on the renewal motion. | [Commit burn-down](gtm_strategy_ops/consumption/commit_burndown.py) · [lead-to-cash map](gtm_strategy_ops/consumption/lead-to-cash.md) |
+| **A mix of flat-rate and consumption pricing** (assumed: consumption contracts carry a minimum monthly commit that usage draws down, with overages billed monthly) | Billed revenue diverges from bookings every month on the consumption contracts: overage is an expansion signal and under-use is a churn signal, both visible long before renewal. Flat-rate contracts have no usage signal, so they run on the renewal motion. | [Commit burn-down](gtm_strategy_ops/consumption/commit_burndown.py) · [lead-to-cash map](gtm_strategy_ops/consumption/lead-to-cash.md) |
 | **Two budgets, one platform**: fraud and AML compliance | Different economic buyers. Cross-sell between the two lines is the main expansion motion. | Two product lines in config; [cross-sell routing](gtm_engineer/ai_research/account_research.py) and [renewal expansion signals](gtm_strategy_ops/renewals/renewal_signals.py) |
 | **Banks, fintechs, payments, crypto, commerce, federal** | Bank deals add third-party-risk and model-risk gates. Regulatory actions are the strongest compliance trigger. | 11 [segments](shared_core/context/icp-and-personas.md); `regulatory_action` intent signal; stage-4 security and model-risk gate |
 | **A sales-led org of 12 AEs, ~80% in the US and the rest in EMEA and APAC** (crypto and federal AEs), with one RevOps employee | Routing by segment and region; coverage and forecast bias by region; everything automated because there is no second RevOps person to run it by hand | [Routing pods](config/company.yaml) · [coverage](gtm_strategy_ops/pipeline_analytics/pipeline_report.py) · [forecast bias](gtm_strategy_ops/forecasting/forecast_accuracy.py) |

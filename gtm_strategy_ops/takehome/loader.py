@@ -1,25 +1,23 @@
-"""Loader for the Sardine Rev Ops take-home workbook.
+"""Workbook loader for a customer-usage and win/loss analysis.
 
-The workbook is Sardine's data: it lives in `_private/takehome/data.xlsx` (gitignored) and must
-never be committed. This module turns its two tabs into clean tables and reports what is wrong
-with the data, so every later number can be traced back to a stated rule.
+The source workbook is private and lives in `_private/` (gitignored); it is never committed. This
+module turns it into clean tables and a data-quality report, so every later number traces back to a
+stated rule. Tests run on a synthetic workbook.
 
-Tabs
-  Invoiced Units  one row per customer x product, units charged per month, plus a unit price
-  Firmographic    one row per company: region, vertical, segment, closed-won / closed-lost counts
-
-Rules (each one is a documented assumption, change them here, not in the analysis):
-  revenue          monthly revenue = units x unit price. ASSUMPTION: unit price is per unit per month;
-                   confirm with Sardine before quoting ARR.
-  pricing model    a line whose units never change (after ignoring a prorated first or last month)
-                   is flat; one step change (a plan change) is still flat; two or more changes means
-                   usage-driven, so consumption. Heuristic, tunable via `max_flat_changes`.
-  zero price       lines with a unit price of 0 get revenue 0 and are flagged; revenue is understated
-                   if those are priced somewhere else.
-  company id       Company IDs are NOT unique in the Firmographic tab: some IDs belong to different
-                   companies (different names, regions, segments). They are kept as separate rows and
-                   flagged `id_collision`, never merged. Joins to invoiced customers use ID and name.
-  unknown values   "Unknown" region or segment is kept and flagged, never dropped.
+Rules (each is a documented assumption; change them here, not in the analysis):
+  revenue        monthly revenue = units x unit price. ASSUMPTION: the price is per unit per month.
+  pricing model  two classifications are always computed, and `pricing_model` is whichever one
+                 `method` selects:
+                   pricing_model_product  products in `flat_products` are flat-rate, all others
+                                          consumption. The default ("product").
+                   pricing_model_usage    inferred from usage: a line whose units never change (after
+                                          ignoring a prorated first or last month) is flat, one step
+                                          change is still flat, two or more changes is consumption.
+                                          Tunable via `max_flat_changes` ("usage").
+  zero price     lines with a unit price of 0 get revenue 0 and are flagged.
+  company id     IDs that repeat across different companies are kept apart and flagged, never
+                 merged; joins use ID and name.
+  unknown values "Unknown" region or segment is kept and flagged, never dropped.
 
     python -m gtm_strategy_ops.takehome.loader            # prints the data-quality report
 """
@@ -38,6 +36,8 @@ UNITS_COLS = ["Company ID", "Company Name", "Product", "Unit price"]
 FIRMO_COLS = ["Company ID", "Company name", "Region", "Vertical", "Sub-Vertical", "Industry", "Segment",
               "Customer Creation date", "Closed Won", "Closed Lost"]
 TOL = 1e-9
+DEFAULT_FLAT_PRODUCTS = ("Product A", "Product B", "Product BB", "Product K", "Product S")
+METHODS = ("product", "usage")
 
 
 @dataclass
@@ -75,8 +75,15 @@ def _require(df: pd.DataFrame, cols: list[str], sheet: str) -> None:
         raise ValueError(f"Sheet '{sheet}' is missing expected columns: {missing}")
 
 
-def load_lines(path: Path | str = DEFAULT_PATH, max_flat_changes: int = 1) -> tuple[pd.DataFrame, list]:
-    """Read 'Invoiced Units' (a title row sits above the header). Returns (lines, month_columns)."""
+def load_lines(path: Path | str = DEFAULT_PATH, max_flat_changes: int = 1, method: str = "product",
+               flat_products=DEFAULT_FLAT_PRODUCTS) -> tuple[pd.DataFrame, list]:
+    """Read the units sheet (a title row sits above the header). Returns (lines, month_columns).
+
+    Both `pricing_model_product` and `pricing_model_usage` are always present; `pricing_model`
+    copies the one named by `method`.
+    """
+    if method not in METHODS:
+        raise ValueError(f"method must be one of {METHODS}, got {method!r}")
     raw = pd.read_excel(path, sheet_name=UNITS_SHEET, header=1)
     _require(raw, UNITS_COLS, UNITS_SHEET)
     months = [c for c in raw.columns if not isinstance(c, str)]
@@ -87,14 +94,18 @@ def load_lines(path: Path | str = DEFAULT_PATH, max_flat_changes: int = 1) -> tu
     lines = lines.rename(columns={"Company ID": "company_id", "Company Name": "company_name",
                                   "Product": "product", "Unit price": "unit_price"})
     cls = [classify_pricing(row, max_flat_changes) for row in lines[months].itertuples(index=False)]
-    lines["pricing_model"], lines["pattern"], lines["n_changes"] = zip(*cls) if cls else ([], [], [])
+    lines["pricing_model_usage"], lines["pattern"], lines["n_changes"] = zip(*cls) if cls else ([], [], [])
+    flat_set = set(flat_products)
+    lines["pricing_model_product"] = ["flat" if p in flat_set else "consumption" for p in lines["product"]]
+    lines["pricing_model"] = lines[f"pricing_model_{method}"]
     lines["zero_price"] = lines["unit_price"].fillna(0) <= 0
     return lines, months
 
 
 def to_monthly(lines: pd.DataFrame, months: list) -> pd.DataFrame:
     """Long table: one row per line per month, revenue = units x unit price."""
-    keep = ["company_id", "company_name", "product", "unit_price", "pricing_model", "zero_price"]
+    keep = ["company_id", "company_name", "product", "unit_price", "pricing_model",
+            "pricing_model_product", "pricing_model_usage", "zero_price"]
     long = lines.melt(id_vars=keep, value_vars=months, var_name="month", value_name="units")
     long["month"] = pd.to_datetime(long["month"])
     long["revenue"] = long["units"] * long["unit_price"].fillna(0.0)
@@ -144,6 +155,8 @@ def quality_report(lines, monthly, firmo, customers, months) -> dict:
         "invoiced_lines": len(lines), "invoiced_customers": int(lines["company_id"].nunique()),
         "products": int(lines["product"].nunique()), "months": [str(pd.Timestamp(m).date()) for m in (min(months), max(months))],
         "pricing_model_lines": lines["pricing_model"].value_counts().to_dict(),
+        "pricing_model_product_lines": lines["pricing_model_product"].value_counts().to_dict(),
+        "pricing_model_usage_lines": lines["pricing_model_usage"].value_counts().to_dict(),
         "pattern_lines": lines["pattern"].value_counts().to_dict(),
         "zero_price_lines": int(lines["zero_price"].sum()),
         "firmographic_rows": len(firmo),
@@ -154,16 +167,17 @@ def quality_report(lines, monthly, firmo, customers, months) -> dict:
         "customers_missing_firmographics": int(customers["region"].isna().sum()),
         "customers_without_closed_won": int(customers["no_closed_won"].sum()),
         "notes": ["revenue = units x unit price, assuming the price is per unit per month (confirm with Sardine)",
-                  "pricing model is inferred from usage patterns, not from a contract field",
+                  "pricing model is assumed (product-based by default, usage-inferred as the alternative), not read from a contract field",
                   "Company IDs repeat for different companies in Firmographic; they are not merged"],
     }
 
 
-def load_all(path: Path | str = DEFAULT_PATH, max_flat_changes: int = 1) -> Tables:
+def load_all(path: Path | str = DEFAULT_PATH, max_flat_changes: int = 1, method: str = "product",
+             flat_products=DEFAULT_FLAT_PRODUCTS) -> Tables:
     path = Path(path)
     if not path.exists():
-        raise FileNotFoundError(f"{path} not found. Copy the take-home workbook to _private/takehome/data.xlsx (gitignored).")
-    lines, months = load_lines(path, max_flat_changes)
+        raise FileNotFoundError(f"{path} not found. Copy the workbook to _private/takehome/data.xlsx (gitignored).")
+    lines, months = load_lines(path, max_flat_changes, method, flat_products)
     monthly = to_monthly(lines, months)
     firmo = load_firmographic(path)
     customers = build_customers(lines, monthly, firmo, months)
@@ -172,7 +186,7 @@ def load_all(path: Path | str = DEFAULT_PATH, max_flat_changes: int = 1) -> Tabl
 
 def main() -> None:
     q = load_all().quality
-    print("=== Take-home data quality ===")
+    print("=== Workbook data quality ===")
     for k, v in q.items():
         if k != "notes":
             print(f"{k:34} {v}")
