@@ -18,10 +18,10 @@ Four things about Sardine's business decide what RevOps has to build. Each is so
 
 | Sardine reality | What it means for RevOps | Built here |
 |---|---|---|
-| **Consumption pricing with a minimum monthly commit** (usage draws down the commit; overages bill monthly) | Bookings and billed revenue diverge every month. Overage is an expansion signal and under-use is a churn signal, both visible long before renewal. | [Commit burn-down](gtm_strategy_ops/consumption/commit_burndown.py) · [lead-to-cash map](gtm_strategy_ops/consumption/lead-to-cash.md) |
+| **A mix of flat-rate and consumption pricing** (consumption contracts carry a minimum monthly commit that usage draws down; overages bill monthly) | Billed revenue diverges from bookings every month on the consumption contracts: overage is an expansion signal and under-use is a churn signal, both visible long before renewal. Flat-rate contracts have no usage signal, so they run on the renewal motion. | [Commit burn-down](gtm_strategy_ops/consumption/commit_burndown.py) · [lead-to-cash map](gtm_strategy_ops/consumption/lead-to-cash.md) |
 | **Two budgets, one platform**: fraud and AML compliance | Different economic buyers. Cross-sell between the two lines is the main expansion motion. | Two product lines in config; [cross-sell routing](gtm_engineer/ai_research/account_research.py) and [renewal expansion signals](gtm_strategy_ops/renewals/renewal_signals.py) |
 | **Banks, fintechs, payments, crypto, commerce, federal** | Bank deals add third-party-risk and model-risk gates. Regulatory actions are the strongest compliance trigger. | 11 [segments](shared_core/context/icp-and-personas.md); `regulatory_action` intent signal; stage-4 security and model-risk gate |
-| **A global, vertical sales org** (NA, EU/UK, MENA, Mexico, Brazil, Australia; crypto and federal AEs) | Routing by segment and region; coverage and forecast bias by region | [Routing pods](config/company.yaml) · [coverage](gtm_strategy_ops/pipeline_analytics/pipeline_report.py) · [forecast bias](gtm_strategy_ops/forecasting/forecast_accuracy.py) |
+| **A sales-led org of 12 AEs, ~80% in the US and the rest in EMEA and APAC** (crypto and federal AEs), with one RevOps employee | Routing by segment and region; coverage and forecast bias by region; everything automated because there is no second RevOps person to run it by hand | [Routing pods](config/company.yaml) · [coverage](gtm_strategy_ops/pipeline_analytics/pipeline_report.py) · [forecast bias](gtm_strategy_ops/forecasting/forecast_accuracy.py) |
 
 ## How to read this repo
 

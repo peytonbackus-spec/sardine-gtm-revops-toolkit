@@ -1,3 +1,5 @@
+> **Not applicable to Sardine.** Sardine is sales-led: every deal runs through an AE and there is no self-serve product funnel. This spec comes from the toolkit template and is kept as a reference for product-led companies.
+
 ---
 type: area
 category: revops

@@ -2,7 +2,7 @@
 
 ![Strategy & Ops](https://img.shields.io/badge/track-🟩%20Strategy%20%26%20Ops-2DA44E) ![Engineer](https://img.shields.io/badge/automation-🟦%20GTM%20Engineering-1F6FEB)
 
-Both Sardine postings ask for automation "across the lead-to-cash lifecycle". With consumption pricing (a minimum monthly commit drawn down by usage, overages billed monthly `[VERIFY]`), the cash half is where most of the manual work and missed signals hide. This page maps each step, its system, the handoff that breaks, and the automation that fixes it.
+Both Sardine postings ask for automation "across the lead-to-cash lifecycle". Sardine's contracts are a mix of flat-rate and consumption (a minimum monthly commit drawn down by usage, overages billed monthly), and the consumption half is where most of the manual work and missed signals hide. This page maps each step, its system, the handoff that breaks, and the automation that fixes it.
 
 ```mermaid
 flowchart LR

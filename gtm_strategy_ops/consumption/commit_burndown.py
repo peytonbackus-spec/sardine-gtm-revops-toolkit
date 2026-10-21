@@ -1,8 +1,10 @@
 """Consumption vs minimum commit: overage, shelfware and the revenue it implies.
 
-Role scope (RevOps, lead-to-cash): Sardine sells on a consumption model with a minimum
-monthly commit; usage draws the commit down and overages bill monthly [VERIFY]. That
-makes two things RevOps has to see every month, not at renewal:
+Role scope (RevOps, lead-to-cash): Sardine's contracts are a mix of flat-rate and consumption.
+Consumption contracts carry a minimum monthly commit; usage draws the commit down and overages
+bill monthly. Flat-rate contracts bill a fixed fee, so they are excluded from the alerts below
+(their motion is the renewal, see renewals/). For consumption contracts RevOps has to see two
+things every month, not at renewal:
 
   1. Overage    usage above commit -> the customer has outgrown the contract.
                 Expansion conversation now (re-commit at a better rate), not at renewal.
@@ -44,11 +46,14 @@ def account_view(rows: list[dict], cfg: dict) -> list[dict]:
         usage = sum(to_float(r["usage_billed"]) for r in last3)
         util = round(100 * usage / commit, 1) if commit else 0.0
         latest = hist[-1]
+        model = latest.get("pricing_model") or "consumption"   # older files have no column: all consumption
         months_live = months_between(date.fromisoformat(latest["contract_start"]), latest["month"]) + 1
         ramping = months_live <= c["ramp_months"]
         first_util = to_float(hist[0]["usage_billed"]) / max(1.0, to_float(hist[0]["monthly_commit"]))
         trend = round(100 * (util / 100 - first_util), 1) if len(hist) >= 4 else 0.0
-        if util >= c["overage_alert_pct"]:
+        if model == "flat":
+            flag = ""        # fixed fee: no draw-down, so no overage or shelfware alert
+        elif util >= c["overage_alert_pct"]:
             flag = "Overage: expansion"
         elif util < c["shelfware_alert_pct"] and not ramping:
             flag = "Shelfware: adoption plan"
@@ -60,7 +65,7 @@ def account_view(rows: list[dict], cfg: dict) -> list[dict]:
             "account_name": latest["account_name"], "segment": latest["segment"], "region": latest["region"],
             "product_line": pl, "owner": latest["owner"], "monthly_commit": int(to_float(latest["monthly_commit"])),
             "util_3mo_%": util, "util_change_pts": trend, "overage_3mo_$": int(sum(to_float(r["overage"]) for r in last3)),
-            "months_live": months_live, "flag": flag,
+            "months_live": months_live, "flag": flag, "pricing_model": model,
         })
     return out
 
@@ -84,11 +89,28 @@ def summary(rows: list[dict], key: str) -> list[dict]:
             for k, v in sorted(agg.items(), key=lambda kv: -kv[1]["commit_$"])]
 
 
+def pricing_mix(rows: list[dict]) -> list[dict]:
+    """Latest-month billed revenue split by pricing model (flat vs consumption)."""
+    latest_month = max(r["month"] for r in rows)
+    agg: dict[str, dict] = defaultdict(lambda: {"account_lines": 0, "billed_$": 0.0})
+    for r in rows:
+        if r["month"] != latest_month:
+            continue
+        a = agg[r.get("pricing_model") or "consumption"]
+        a["account_lines"] += 1
+        a["billed_$"] += max(to_float(r["monthly_commit"]), to_float(r["usage_billed"]))
+    total = sum(v["billed_$"] for v in agg.values()) or 1.0
+    return [{"pricing_model": k, "account_lines": v["account_lines"], "billed_$": int(v["billed_$"]),
+             "share_%": round(100 * v["billed_$"] / total, 1)} for k, v in sorted(agg.items())]
+
+
 def main() -> None:
     cfg = load_config()
     rows = read_csv("consumption.csv")
     month = max(r["month"] for r in rows)
     print(f"=== Commit vs usage, {month} (as of {AS_OF}) ===\n")
+    print(table(pricing_mix(rows)))
+    print()
     print(table(summary(rows, "product_line")))
     print()
     print(table(summary(rows, "region")))
@@ -103,13 +125,13 @@ def main() -> None:
           f"(excl. first {cfg['consumption']['ramp_months']} months) -> adoption plan before renewal ===")
     print(table([{k: v[k] for k in cols} for v in shelf[:10]]))
 
-    commit_total = sum(v["monthly_commit"] for v in view)
+    commit_total = sum(v["monthly_commit"] for v in view if v["pricing_model"] == "consumption")
     shelf_commit = sum(v["monthly_commit"] for v in shelf)
     over_total = sum(v["overage_3mo_$"] for v in over)
     print("\n=== Narrative ===")
     print(f"{len(over)} account lines billed ${over_total:,} of overage in the last three months: each is a re-commit "
           f"opportunity. {len(shelf)} lines carry ${shelf_commit * 12:,} of annualized commit "
-          f"({round(100 * shelf_commit / max(1, commit_total))}% of total) on under-used contracts; that is the downsell "
+          f"({round(100 * shelf_commit / max(1, commit_total))}% of consumption commit) on under-used contracts; that is the downsell "
           "exposure at renewal if no one runs an adoption plan.")
     out = DATA_DIR.parent / "outputs"
     out.mkdir(exist_ok=True)

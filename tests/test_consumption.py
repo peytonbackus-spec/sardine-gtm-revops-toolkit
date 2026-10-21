@@ -1,5 +1,5 @@
 """🟩 Consumption vs minimum commit."""
-from gtm_strategy_ops.consumption.commit_burndown import account_view, summary
+from gtm_strategy_ops.consumption.commit_burndown import account_view, pricing_mix, summary
 from shared_core.config import load_config, read_csv
 
 CFG = load_config()
@@ -35,3 +35,24 @@ def test_summary_billed_revenue_is_commit_plus_overage():
 def test_sample_data_has_both_flags():
     flags = {v["flag"].split(":")[0] for v in account_view(read_csv("consumption.csv"), CFG)}
     assert {"Overage", "Shelfware"} <= flags
+
+
+def test_flat_rate_contracts_never_raise_usage_alerts():
+    rows = [{**r, "pricing_model": "flat"} for r in months([4000] * 6)]           # would be shelfware if consumption
+    over = [{**r, "pricing_model": "flat"} for r in months([15000] * 6, acct="A2")]  # would be overage if consumption
+    assert all(v["flag"] == "" and v["pricing_model"] == "flat" for v in account_view(rows + over, CFG))
+
+
+def test_sample_data_mixes_flat_and_consumption():
+    mix = {m["pricing_model"]: m for m in pricing_mix(read_csv("consumption.csv"))}
+    assert set(mix) == {"flat", "consumption"}
+    assert abs(sum(m["share_%"] for m in mix.values()) - 100) < 0.2
+
+
+def test_roster_matches_the_sales_org_shape():
+    roster = CFG["sales_team"]["ae_roster"]
+    na = sum(1 for r in roster.values() if r["region"] == "NA")
+    assert len(roster) == CFG["go_to_market"]["ae_count"] == 12
+    assert 0.75 <= na / len(roster) <= 0.85            # ~80% US, the rest EMEA and APAC
+    assert set(CFG["regions"]) == {"NA", "EMEA", "APAC"}
+    assert CFG["go_to_market"]["motion"] == "sales_led"

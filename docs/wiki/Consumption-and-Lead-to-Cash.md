@@ -2,7 +2,7 @@
 
 ![RevOps](https://img.shields.io/badge/track-🟩%20RevOps-2DA44E)
 
-At a usage-priced company, bookings (the minimum commit) and billed revenue (commit plus overage) drift apart every month. Both expansion and churn show up in the usage data months before renewal, but only if someone puts that data in front of the account owner.
+On the consumption contracts (flat-rate contracts have no usage signal), bookings (the minimum commit) and billed revenue (commit plus overage) drift apart every month. Both expansion and churn show up in the usage data months before renewal, but only if someone puts that data in front of the account owner.
 
 | Flag | Rule (config: `consumption`) | Action |
 |---|---|---|

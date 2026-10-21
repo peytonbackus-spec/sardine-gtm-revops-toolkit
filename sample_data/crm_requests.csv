@@ -18,12 +18,12 @@ REQ-1015,2026-07-28,Marketing Ops,Salesforce,Automation / Flow,Alert AE when ove
 REQ-1016,2026-07-15,Sales Leadership,Both,Routing / Assignment,Round-robin inbound demo requests,Improves efficiency,8,XL,2026-07-18,Done,2026-07-17,2026-08-15
 REQ-1017,2026-07-22,Finance,Salesforce,Routing / Assignment,Fix routing for sponsor banks,Improves efficiency,8,S,,Done,2026-07-24,2026-07-27
 REQ-1018,2026-07-13,Marketing Ops,Salesforce,Report / Dashboard,Pipeline by segment for QBR,Improves efficiency,8,XL,2026-07-20,Done,2026-07-14,2026-08-09
-REQ-1019,2026-08-01,Marketing Ops,Salesforce,Routing / Assignment,Route MENA leads to new AE,Nice to have,40,XL,,Done,2026-08-01,2026-08-24
+REQ-1019,2026-08-01,Marketing Ops,Salesforce,Routing / Assignment,Route APAC leads to new AE,Nice to have,40,XL,,Done,2026-08-01,2026-08-24
 REQ-1020,2026-08-29,Sales,Salesforce,Routing / Assignment,Fix routing for sponsor banks,Blocks team,2,S,2026-09-01,Done,2026-08-30,2026-09-01
 REQ-1021,2026-08-09,Finance,HubSpot,Field / Picklist,Add competitor value,Blocks team,25,L,2026-08-12,Done,2026-08-10,2026-08-30
 REQ-1022,2026-09-26,Marketing,Salesforce,Automation / Flow,Auto-create renewal opp at T-180,Blocks team,1,L,2026-09-29,Backlog,2026-09-26,
 REQ-1023,2026-08-13,Customer Success,HubSpot,Field / Picklist,Add 'Agentic AML Ops' to product picklist,Improves efficiency,12,M,,Done,2026-08-14,2026-08-24
-REQ-1024,2026-08-15,Marketing,HubSpot,Routing / Assignment,Route MENA leads to new AE,Nice to have,2,M,,Done,2026-08-17,2026-08-25
+REQ-1024,2026-08-15,Marketing,HubSpot,Routing / Assignment,Route APAC leads to new AE,Nice to have,2,M,,Done,2026-08-17,2026-08-25
 REQ-1025,2026-09-21,Customer Success,HubSpot,Report / Dashboard,Webinar attendee report,Blocks team,25,M,2026-10-21,Done,2026-09-21,2026-09-27
 REQ-1026,2026-08-05,Sales,HubSpot,Data Fix,Fix wrong owner on renewal opps,Improves efficiency,8,M,,Done,2026-08-09,2026-08-17
 REQ-1027,2026-09-30,Sales,Salesforce,Automation / Flow,Alert AE when overage >100%,Improves efficiency,8,S,,In Progress,,

@@ -4,7 +4,7 @@ All accounts, people and numbers are FICTIONAL. Distributions are shaped to look
 like Sardine's business: two product lines (Onboarding & AML Compliance; Fraud,
 Device & Cyber), banks/fintechs/payments/digital-commerce segments, a partner
 channel, bank-style security and model-risk reviews, and consumption pricing
-with a minimum monthly commit. Seeded, so output is reproducible.
+with a minimum monthly commit (alongside flat-rate contracts). Seeded, so output is reproducible.
 
 The lookup tables below are keyed by the segment and persona names in
 config/company.yaml. When you change segments or personas in your company
@@ -18,6 +18,7 @@ from __future__ import annotations
 import csv
 import random
 import sys
+import zlib
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -61,10 +62,10 @@ TITLES = {
     "unknown": ["Marketing Coordinator", "Student", "Consultant", "Office Manager"],
 }
 SDRS = ["SDR - Alex Rivera", "SDR - Bri Okafor", "SDR - Chen Wu", "SDR - Dana Lopes", "SDR - Eli Novak",
-        "SDR - Fran Moretti", "SDR - Gabi Souza"]
-AES = {"NA": ["AE - Grace Tan", "AE - Hugo Park", "AE - Iris Bell", "AE - Jon Reyes"],
-       "EMEA": ["AE - Klara Weiss", "AE - Liam Byrne"], "LATAM": ["AE - Nico Duarte"],
-       "APAC": ["AE - Mei Lin"], "MENA": ["AE - Omar Haddad"]}
+        "SDR - Fran Moretti"]
+AES = {}   # region -> AE names, read from the config roster so the data and the config cannot drift
+for _ae, _info in cfg["sales_team"]["ae_roster"].items():
+    AES.setdefault(_info["region"], []).append(_ae)
 PARTNER_MGR = "Partner Mgr - Olu Adeyemi"
 LEAD_SOURCES = ["Website Chat", "Demo Request", "Webinar", "Content Download", "Paid Social", "Event",
                 "Outbound - Unify Signals", "Outbound - Clay Enrichment", "Partner Referral"]
@@ -124,7 +125,7 @@ def pick_weighted(weights: dict) -> str:
 def region_for(seg: str) -> str:
     if seg in ("regional_bank_cu", "public_sector"):
         return "NA"
-    return rng.choices(["NA", "EMEA", "LATAM", "APAC", "MENA"], weights=[62, 20, 9, 4, 5])[0]
+    return rng.choices(["NA", "EMEA", "APAC"], weights=[80, 12, 8])[0]   # ~80% US/Americas, ~20% EMEA + APAC
 
 
 # ----------------------------------------------------------------------------- accounts
@@ -347,7 +348,9 @@ for acct in [a for a in accounts if a["is_customer"]]:
         renewals.append(r)
 
 # ----------------------------------------------------------------------------- consumption (usage vs minimum commit)
-# Sardine-style pricing: a minimum monthly commit drawn down by usage, overages billed monthly. [VERIFY]
+# Pricing is a mix of flat-rate and consumption contracts. [ASSUME] split (config `pricing`).
+#   consumption: a minimum monthly commit drawn down by usage, overages billed monthly
+#   flat:        a fixed monthly fee; usage_billed equals the fee and overage is always 0
 # One row per customer product line per month for the last six full months.
 MONTHS = []
 _m = date(AS_OF.year, AS_OF.month, 1)
@@ -355,7 +358,14 @@ for _ in range(6):
     _m = (_m - timedelta(days=1)).replace(day=1)
     MONTHS.insert(0, _m)
 consumption = []
+def pricing_model_for(account_id: str, product_line: str) -> str:
+    """Deterministic flat/consumption assignment (hash, not the RNG, so no other data shifts)."""
+    share = cfg["pricing"]["flat_share_of_contracts_pct"]
+    return "flat" if zlib.crc32(f"{account_id}|{product_line}".encode()) % 100 < share else "consumption"
+
+
 for r in renewals:
+    model = pricing_model_for(r["account_id"], r["product_line"])
     commit = round(r["arr"] / 12, -2)
     # contract start: renewal date minus a 12-month term; some contracts started inside the window (ramping)
     start_date = date.fromisoformat(r["renewal_date"]) - timedelta(days=365)
@@ -368,11 +378,13 @@ for r in renewals:
         ramp = min(1.0, (months_live + 1) / (cfg["consumption"]["ramp_months"] + 1))
         ratio = max(0.02, base * (1 + drift * (i - 5)) * ramp * rng.uniform(0.9, 1.1))
         usage = round(commit * ratio, -1)
+        if model == "flat":
+            usage = commit                               # fixed fee: nothing varies with usage
         consumption.append({
             "account_id": r["account_id"], "account_name": r["account_name"], "segment": r["segment"],
             "region": r["region"], "product_line": r["product_line"], "month": m.isoformat()[:7],
             "contract_start": start_date.isoformat(), "monthly_commit": int(commit), "usage_billed": int(usage),
-            "overage": int(max(0, usage - commit)), "owner": r["owner"],
+            "overage": int(max(0, usage - commit)), "owner": r["owner"], "pricing_model": model,
         })
 
 # ----------------------------------------------------------------------------- forecast snapshots
@@ -388,7 +400,7 @@ QUARTERS = {}
 for _k in (3, 2, 1):
     _qs = _add_months(_cur, -3 * _k)
     QUARTERS[fiscal_quarter(_qs, _sm)] = (_qs, _add_months(_qs, 3) - timedelta(days=1))
-BIAS = {"NA": 0.92, "EMEA": 1.12, "LATAM": 1.0, "APAC": 1.05, "MENA": 1.08}  # NA sandbags commit, EMEA over-calls
+BIAS = {"NA": 0.92, "EMEA": 1.12, "APAC": 1.05}  # NA sandbags commit, EMEA over-calls
 snapshots = []
 for q, (qs, qe) in QUARTERS.items():
     for region in cfg["regions"]:
@@ -574,7 +586,7 @@ REQ_TEMPLATES = {
     "Email Template": ["Renewal notice template", "Event follow-up template"],
     "Automation / Flow": ["Auto-create renewal opp at T-180", "Alert AE when overage >100%", "Stamp stage entry dates"],
     "Object / Data Model": ["Track POC / backtest results as an object", "Partner object for referral payouts"],
-    "Routing / Assignment": ["Route MENA leads to new AE", "Round-robin inbound demo requests", "Fix routing for sponsor banks"],
+    "Routing / Assignment": ["Route APAC leads to new AE", "Round-robin inbound demo requests", "Fix routing for sponsor banks"],
     "Integration": ["Sync Unify signals to Salesforce", "Push usage data from billing to Salesforce"],
 }
 TEAMS = ["Sales", "Sales Leadership", "Marketing", "Marketing Ops", "Customer Success", "Finance"]

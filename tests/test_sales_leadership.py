@@ -91,8 +91,8 @@ def test_rep_quotas_sum_to_region_quota_and_ramping_reps_carry_less():
     q = CFG["current_fiscal_quarter"]
     for region, quota in CFG["quota"][q].items():
         assert abs(sum(r["quota_$"] for r in rows if r["region"] == region) - quota) <= 1000 * len(rows)
-    emea = {r["owner"]: r for r in rows if r["region"] == "EMEA"}
-    assert emea["AE - Liam Byrne"]["quota_$"] < emea["AE - Klara Weiss"]["quota_$"]
+    na = {r["owner"]: r for r in rows if r["region"] == "NA"}
+    assert na["AE - Ben Ortiz"]["quota_$"] < na["AE - Grace Tan"]["quota_$"]
 
 
 def test_snapshot_fits_a_phone_screen_and_full_has_definitions():

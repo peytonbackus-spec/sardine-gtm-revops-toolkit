@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+- Config: sales org now matches a sales-led company of 12 AEs (10 NA, 1 EMEA, 1 APAC, ~80% US) with one RevOps employee. Regions are NA, EMEA and APAC (MENA folds into EMEA, LATAM into NA); pods, quotas, productivity, region points and the campaign-name pattern updated. New `go_to_market` block.
+- Config: new `pricing` block. Contracts are a mix of flat-rate and consumption; `commit_burndown` excludes flat-rate contracts from overage and shelfware alerts and reports the flat vs consumption revenue split.
+- Sample data regenerated: `consumption.csv` gains a `pricing_model` column; the AE roster is read from the config so data and config cannot drift.
+- Docs: PLG/PQL specs and prototype marked not applicable (sales-led); README, wiki, first-90-days and company brief updated.
+- Tests: roster-shape, flat-rate and pricing-mix tests added; region-specific tests updated.
+
 ## 0.2.0 (2026-10-07)
 - New `gtm_strategy_ops/sales_leadership/`: VP of Sales brief (snapshot or full), rep scorecard (result, setup, weakest velocity lever, coaching focus), industry win/loss with 80% confidence ranges, stage velocity with drivers and fixes, deal board (Past due / Slipping / At risk / Stalled / Hot / On track), sales all-hands inputs (`--days 1` for "today"), VP intake questions, SQL.
 - New `gtm_strategy_ops/sales_planning/`: AE capacity and hiring plan, quota vs capacity and next year's proposal, territory carve and balance, pipeline distribution with region-aware routing priority, CRM request intake process and triage (SLA, duplicates, priority inversions).

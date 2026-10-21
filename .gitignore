@@ -19,3 +19,6 @@ __pycache__/
 config/company.yaml.local
 node_modules/
 .next/
+
+# Take-home and any other private working files (never commit)
+_private/

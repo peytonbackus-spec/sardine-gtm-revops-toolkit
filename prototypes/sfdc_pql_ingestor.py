@@ -1,3 +1,4 @@
+# NOT APPLICABLE TO SARDINE: Sardine is sales-led (no self-serve product funnel). Kept as a template reference.
 
 def process_pql_payload(payload, dry_run=True):
     account_domain = payload.get("domain")

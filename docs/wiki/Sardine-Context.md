@@ -10,7 +10,7 @@ Full sourced brief: [sardine-company-brief.md](https://github.com/peytonbackus-s
 
 | Fact | So RevOps must… |
 |---|---|
-| **Consumption pricing with a minimum monthly commit** `[VERIFY]` | Track usage vs commit monthly: overage → re-commit, under-use → adoption plan. See [[Consumption and Lead to Cash]]. |
+| **A mix of flat-rate and consumption pricing** (consumption = minimum monthly commit) | Track usage vs commit monthly on consumption contracts: overage → re-commit, under-use → adoption plan. Flat-rate contracts skip those alerts and run on the renewal motion. See [[Consumption and Lead to Cash]]. |
 | **Two budgets: fraud and compliance** | Model them as two product lines with different economic buyers; cross-sell is the main expansion motion |
 | **Bank buyers** | Add third-party-risk and model-risk review gates; treat regulatory actions as the strongest compliance trigger |
-| **A global, vertical sales org** | Route by segment × region (NA, EU/UK, MENA, LATAM, APAC; crypto and federal); measure coverage and forecast bias by region |
+| **A sales-led org: 12 AEs, ~80% US, the rest EMEA and APAC; one RevOps employee** | Route by segment × region (NA, EMEA, APAC; crypto and federal); measure coverage and forecast bias by region; automate first, because there is no second RevOps person |

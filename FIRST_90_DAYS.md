@@ -24,7 +24,7 @@ gantt
 
 | Goal | Concrete output |
 |---|---|
-| Understand how revenue actually flows | 1:1s with the Global Head of Revenue, sales leaders (NA, EU/UK, MENA, LATAM, crypto, federal), Marketing, Post-Sales/CS, Finance and Solutions. Each gets one question: what do you do by hand every week that you hate? |
+| Understand how revenue actually flows | 1:1s with the Global Head of Revenue, sales leaders (NA, EMEA, APAC, crypto, federal), Marketing, Post-Sales/CS, Finance and Solutions. Each gets one question: what do you do by hand every week that you hate? |
 | Audit the stack | Fill in the [stack evaluation](shared_core/context/gtm-stack-evaluation.md) scorecard: cost, adoption, API surface and overlap for Salesforce, HubSpot, Unify, Clay, n8n and ZoomInfo |
 | Baseline data quality | Run the [data-quality rules](shared_core/data_quality/dq_monitor.py) against the real org; publish the pass rate per rule with an owner for each |
 | Agree definitions | One page of definitions (MQL, SQL, pipeline, commit, NRR on billed revenue), signed off by Sales, Marketing and Finance. Start from [metric definitions](shared_core/metrics/metric-definitions.md) |

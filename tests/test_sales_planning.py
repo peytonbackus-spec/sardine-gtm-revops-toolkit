@@ -40,7 +40,7 @@ def test_capacity_survival_shrinks_with_attrition():
 
 def test_quota_check_flags_a_region_with_no_ramped_rep():
     rows = {r["region"]: r for r in quota_plan.check_current(CFG)}
-    assert "no fully ramped AE" in rows["MENA"]["flag"]
+    assert "no fully ramped AE" in rows["APAC"]["flag"]
 
 
 def test_territory_keeps_customers_with_their_owner_and_balances_within_tolerance():
