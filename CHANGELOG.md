@@ -1,6 +1,9 @@
 # Changelog
 
 ## Unreleased
+- Docs: README "Open first" now points to the workbook loader and a new [take-home method note](docs/takehome-method.md) (pipeline, definitions, sensitivities, how to reproduce). Three template-only specs (`GTM_OS_Architecture_Spec`, `HubSpot_SFDC_Architecture_Framework`, `Lifecycle_Stage_MQL_SQL_Spec`) and `prototypes/sfdc_pql_ingestor.py` moved to `docs/reference/not-applicable/` and tagged; private vault paths removed from the tech-debt dashboard doc, the architecture spec and `prototypes/gtm_researcher.py` (now writes to `GTM_RESEARCH_DIR` or `outputs/research`).
+- Wiki: Decision Log S6 no longer claims every pod has more than one rep (EMEA and APAC each run on one AE).
+- Tests: the loader's duplicate-ID fixture uses invented companies and attributes.
 - Loader: computes both pricing classifications on every line (`pricing_model_product`, `pricing_model_usage`); `pricing_model` follows `method`, now `"product"` by default. Flat-rate products are configurable. Docstring made generic. Tests cover both methods.
 - Docs: README gains an "Operating assumptions" table (sales-led, 12 AEs, one RevOps owner, flat + consumption, Hightouch / n8n / Hex). PLG/PQL specs moved to `docs/reference/not-applicable/`.
 - Config and brief: LATAM wording aligned (no dedicated reps; sits with NA); unverified third-party pricing figures removed; Hightouch and Hex added to the stack and stack map.

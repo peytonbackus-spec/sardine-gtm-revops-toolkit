@@ -9,5 +9,5 @@ Template decisions: [docs/overview/decision-log.md](https://github.com/peytonbac
 | S3 | **`regulatory_action` as an intent signal with a long half-life** | An enforcement action is the strongest compliance buying trigger, and it stays relevant for months |
 | S4 | **Model-risk review inside stage 4** | Bank buyers review how ML and agents decide; bringing that package early shortens the cycle |
 | S5 | **11 segments from named customers and open sales roles** | Grounded in evidence rather than firmographic bands alone; weights are `[ASSUME]` until calibrated |
-| S6 | **Three regions: NA, EMEA, APAC** | A sales-led org of 12 AEs, ~80% in the US; MENA rolls into EMEA and LATAM into NA, so no pod has a lone rep |
+| S6 | **Three regions: NA, EMEA, APAC** | A sales-led org of 12 AEs: 10 in NA (~80% US), 1 in EMEA, 1 in APAC. MENA rolls into EMEA and LATAM into NA. EMEA and APAC each run on a single AE, so their alerts and reviews run in local time and each needs a named backup for leave and coverage gaps |
 | S7 | **Calendar fiscal year** | `[ASSUME]`: Sardine doesn't publish its fiscal calendar; one config line changes it |

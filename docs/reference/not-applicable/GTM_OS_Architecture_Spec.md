@@ -1,5 +1,7 @@
 # Enterprise GTM Operating System Architecture Spec
 
+> **Not applicable to Sardine.** Template reference only; Sardine is assumed to be sales-led. See [README](README.md).
+
 ## 1. System Topology & Data Flow
 The GTM Operating System acts as a unified revenue orchestration framework linking Product-Qualified Leads (PQLs), CRM record enrichment, MEDDPICC deal qualification, and churn risk intelligence.
 
@@ -34,9 +36,11 @@ The GTM Operating System acts as a unified revenue orchestration framework linki
 
 ## 3. Automation Modules
 
-- **PQL Ingestion**: `30_Resources/Code/sfdc_pql_ingestor.py`
-- **Lead-to-Account Matching**: `30_Resources/Code/orchestrators/l2a_matching_engine.py`
-- **MEDDPICC Risk Scoring**: `30_Resources/Code/scoring/meddpicc_health_engine.py`
-- **Churn Prediction**: `30_Resources/Code/scoring/churn_prediction_pipeline.py`
-- **Tech Debt Audit**: `30_Resources/Code/revops_tech_debt_tracker.py`
-- **Attribution Engine**: `30_Resources/Code/attribution/w_shaped_attribution.sql`
+Paths are relative to the repository root.
+
+- **PQL Ingestion**: [`docs/reference/not-applicable/sfdc_pql_ingestor.py`](sfdc_pql_ingestor.py) (not applicable)
+- **Lead-to-Account Matching**: [`gtm_engineer/enrichment/l2a_matcher.py`](../../../gtm_engineer/enrichment/l2a_matcher.py)
+- **MEDDPICC Risk Scoring**: [`prototypes/meddpicc_health_engine.py`](../../../prototypes/meddpicc_health_engine.py)
+- **Churn Prediction**: [`prototypes/churn_prediction_pipeline.py`](../../../prototypes/churn_prediction_pipeline.py)
+- **Tech Debt Audit**: [`prototypes/revops_tech_debt_tracker.py`](../../../prototypes/revops_tech_debt_tracker.py)
+- **Attribution Engine**: [`shared_core/metrics/sql/attribution/w_shaped_attribution.sql`](../../../shared_core/metrics/sql/attribution/w_shaped_attribution.sql)

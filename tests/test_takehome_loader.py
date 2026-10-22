@@ -24,8 +24,8 @@ FIRMO = [  # id, name, region, vertical, sub, industry, segment, created, won, l
     ("C2", "Beta", "EMEA", "Payments", "Issuing", "Financial Services", "Unknown", "2023-02-05", 2, 1),
     ("C3", "Gamma", "Unknown", "Crypto", "Exchanges", "Software", "SMB", "2023-03-05", 0, 0),     # customer, no closed-won
     ("C4", "Delta", "NAMER", "Gaming", "Casinos", "Gambling", "SMB", "2023-04-05", 1, 0),
-    ("X9", "Onward", "NAMER", "Banks", "Regional", "Banking", "Mid-Market", "2024-12-18", 0, 1),   # same ID, different company
-    ("X9", "Greenfield", "EMEA", "Banks", "Regional", "Banking", "Unknown", "2024-03-11", 0, 2),
+    ("X9", "Tidewell", "APAC", "Payments", "Acquiring", "Financial Services", "SMB", "2022-07-19", 0, 1),   # same ID, different company
+    ("X9", "Larchmont", "NAMER", "Crypto", "Exchanges", "Software", "Unknown", "2021-11-02", 0, 2),
 ]
 
 
@@ -110,7 +110,7 @@ def test_zero_price_lines_are_flagged_with_zero_revenue(workbook):
 def test_colliding_company_ids_are_kept_apart_and_flagged(workbook):
     t = load_all(workbook)
     x9 = t.firmographic[t.firmographic.company_id == "X9"]
-    assert len(x9) == 2 and set(x9.company_name) == {"Onward", "Greenfield"} and x9.id_collision.all()
+    assert len(x9) == 2 and set(x9.company_name) == {"Tidewell", "Larchmont"} and x9.id_collision.all()
     assert t.quality["id_collision_rows"] == 2 and t.quality["id_collision_ids"] == 1
     assert t.quality["collision_ids_that_are_customers"] == 0
     assert len(t.firmographic) == len(FIRMO)                          # nothing merged or dropped

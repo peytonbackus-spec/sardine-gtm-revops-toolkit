@@ -14,13 +14,13 @@
 
 | Assumption | Where it lives |
 |---|---|
-| Entirely **sales-led**: every deal runs through an AE, no self-serve funnel | `go_to_market.motion` in [`config/company.yaml`](config/company.yaml); PLG specs moved to [not applicable](docs/reference/not-applicable/) |
+| Entirely **sales-led**: every deal runs through an AE, no self-serve funnel | `go_to_market.motion` in [`config/company.yaml`](config/company.yaml); PLG and template-only specs moved to [not applicable](docs/reference/not-applicable/) |
 | **12 AEs**: 10 NA, 1 EMEA, 1 APAC (~80% US); no dedicated LATAM reps (LATAM sits with NA) | `go_to_market`, `regions` |
 | **One RevOps owner**, so everything recurring is automated | `go_to_market.revops_headcount` |
 | **Flat-rate plus consumption** contracts | `pricing` block; [commit burn-down](gtm_strategy_ops/consumption/commit_burndown.py) |
 | Added tools: **Hightouch** (billing usage into Salesforce), **n8n** (alerts and AI briefs), **Hex** (monthly attach and retention cohorts) | `stack` block; [stack map](shared_core/context/gtm-stack-map.md) |
 
-**Open first:** [`gtm_strategy_ops/consumption/commit_burndown.py`](gtm_strategy_ops/consumption/commit_burndown.py), the consumption-vs-flat-rate view of every account. Private analysis data never enters this repo: the workbook loader reads a gitignored `_private/` copy, and its tests use a synthetic workbook.
+**Open first:** the [workbook loader](gtm_strategy_ops/takehome/loader.py) and the [take-home method note](docs/takehome-method.md), which explains how every figure in the take-home is produced and checked. Private analysis data never enters this repo: the loader reads a gitignored `_private/` copy, and its tests use a synthetic workbook.
 
 ---
 
@@ -134,8 +134,8 @@ gtm_strategy_ops/            🟩 REVOPS
   renewals/ partner_ops/        renewal health, closed-lost & churn; partner-sourced workflow
   sales_leadership/             VP of Sales brief, rep scorecard, industries, stage velocity, deal board, all-hands inputs
   sales_planning/               capacity, quota, territory, pipeline distribution, CRM request intake
-prototypes/                     earlier standalone engines (MEDDPICC health, churn, PQL ingestion, tech debt)
-docs/                           overview, specs, playbooks, examples
+prototypes/                     earlier standalone engines (MEDDPICC health, churn, tech debt, research digest)
+docs/                           overview, specs, playbooks, examples, take-home method note, not-applicable reference
 sample_data/ scripts/ tests/    synthetic data + generator, unit tests + prompt evals
 ```
 

@@ -25,8 +25,12 @@ status: active
 ---
 
 ## Usage Guide
-To register a new piece of RevOps technical debt, add `#tech-debt` followed by an explanation anywhere in your Obsidian notes, then run:
+To register a new piece of RevOps technical debt, add a row to the backlog above with the source doc, the line and the remedy.
+
+For the Salesforce field audit (fill rate and days since last change, with a deprecate / review / retain call per field), run from the repository root:
 
 ```bash
-python3 "$HOME/GTM 2nd Brain/30_Resources/Code/revops_tech_debt_tracker.py"
+python3 prototypes/revops_tech_debt_tracker.py
 ```
+
+It runs on sample schema telemetry; point it at a real field-usage export before acting on the report.

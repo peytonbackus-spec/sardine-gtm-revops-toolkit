@@ -14,6 +14,8 @@ status: active
 
 # HubSpot to SFDC Lifecycle Stage & Lead Status Mapping Spec
 
+> **Not applicable to Sardine.** Template reference only; Sardine is assumed to be sales-led. See [README](README.md).
+
 ## 1. Universal Stage Definitions
 
 | Stage | Owner | System Master | Definition | Primary Trigger |

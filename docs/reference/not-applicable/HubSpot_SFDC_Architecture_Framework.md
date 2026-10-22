@@ -13,6 +13,8 @@ status: active
 
 # HubSpot vs. Salesforce (SFDC) RevOps Architecture Framework
 
+> **Not applicable to Sardine.** Template reference only; Sardine is assumed to be sales-led. See [README](README.md).
+
 ## 1. Paradigm Comparison
 
 | Dimension | HubSpot Paradigm | Salesforce Paradigm |

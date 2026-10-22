@@ -3,8 +3,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-vault = os.path.expanduser("~/GTM 2nd Brain")
-research_dir = os.path.join(vault, "30_Resources/Research")
+# Where the digest is written: set GTM_RESEARCH_DIR to point it at a notes folder; defaults to outputs/research in this repo.
+research_dir = os.environ.get("GTM_RESEARCH_DIR") or os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "outputs", "research")
 os.makedirs(research_dir, exist_ok=True)
 
 date_str = datetime.now().strftime("%Y-%m-%d")
