@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Docs: take-home method note gains a version table (what each review round found and changed).
 - Docs: README "Open first" now points to the workbook loader and a new [take-home method note](docs/takehome-method.md) (pipeline, definitions, sensitivities, how to reproduce). Three template-only specs (`GTM_OS_Architecture_Spec`, `HubSpot_SFDC_Architecture_Framework`, `Lifecycle_Stage_MQL_SQL_Spec`) and `prototypes/sfdc_pql_ingestor.py` moved to `docs/reference/not-applicable/` and tagged; private vault paths removed from the tech-debt dashboard doc, the architecture spec and `prototypes/gtm_researcher.py` (now writes to `GTM_RESEARCH_DIR` or `outputs/research`).
 - Wiki: Decision Log S6 no longer claims every pod has more than one rep (EMEA and APAC each run on one AE).
 - Tests: the loader's duplicate-ID fixture uses invented companies and attributes.

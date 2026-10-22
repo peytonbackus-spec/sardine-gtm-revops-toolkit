@@ -31,6 +31,19 @@ How the figures in the Rev Ops Manager take-home (the PDF and the dashboard) are
 - With and without the one-off charge.
 - Attach thresholds of $0.01, $100, $500 and 10% of the account's MRR.
 
+## What changed between versions, and why
+
+Five builds were needed because these checks came late. Doing them first is the main saving next time.
+
+| Version | Finding | Effect |
+|---|---|---|
+| v1 to v2 | Pricing model inferred from full-year usage favours customers who survived, so the "3x churn" gap was an artifact. | Product-based labels became the primary definition; Insight 1 now leads on growth, churn is directional. |
+| v2 to v3 | Independent review (79, then 84 of 100): stale wiki, test fixtures that mirrored real names, PLG files outside the not-applicable folder, personal paths in scripts. | Repo cleanup; invented fixtures; env-var paths. |
+| v3 to v4 | One line billed in a single month at $500K inflated flat-rate growth and retention. | One-off rule (exactly one qualifying line, asserted in both builds), sensitivity, dashboard toggle; headline shares re-based. |
+| v4 to v5 | Final consistency pass: every quoted figure traced to `review_fixes.md`. | Submitted. |
+
+The reusable version of this order of work is the toolkit playbook `Take_Home_Analysis_Method`.
+
 ## Tests
 
 [`tests/test_takehome_loader.py`](../tests/test_takehome_loader.py) runs the loader on a synthetic workbook with invented companies; the real workbook is never used in tests or CI.
